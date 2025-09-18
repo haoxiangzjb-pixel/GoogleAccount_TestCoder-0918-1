@@ -1,17 +1,22 @@
-#Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
+# Compiled and build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
 
-#Dependencies
-.venv/
-venv/
-node_modules/
+# LaTeX temporary files
+*~
+.KbwMDocvEy.tex.swp
 
-#Environment
+# Environment
 .env
 .env.local
+.env.*
 
-#Editors
+# Editors
 .vscode/
+.idea/
