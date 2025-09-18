@@ -1,8 +1,10 @@
 # Compiled and build artifacts
 *.pyc
-__pycache__/
+pycache/
 dist/
 build/
+*.o
+*.obj
 
 # Dependencies
 .venv/
