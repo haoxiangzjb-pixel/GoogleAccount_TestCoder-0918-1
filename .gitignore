@@ -1,15 +1,17 @@
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-dist/
-build/
+*.pdf
+Rplots.pdf
+
+# R project files
+.rdb
+.rds
+.Rhistory
+.RData
+.Rproj.user/
 
 # Dependencies
-.venv/
-venv/
-node_modules/
+renv/
+packrat/
 
 # Logs and temp files
 *.log
@@ -24,3 +26,9 @@ node_modules/
 # Editors
 .vscode/
 .idea/
+*.swo
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
