@@ -1,4 +1,8 @@
 # Compiled and build artifacts
+*.dart.js
+*.dart.js.map
+*.dart.tools
+*.dart.atom
 *.pyc
 pycache/
 *.o
@@ -10,11 +14,16 @@ build/
 .venv/
 venv/
 node_modules/
+julia-*/
+zig-*/
+target/
+.gradle/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
@@ -24,3 +33,17 @@ node_modules/
 # Editors
 .vscode/
 .idea/
+*.code-workspace
+
+# System/Environment files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# MyPy and PyTest caches
+.mypy_cache/
+.pytest_cache/
