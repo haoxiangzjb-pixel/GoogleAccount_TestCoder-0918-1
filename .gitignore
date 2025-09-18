@@ -1,13 +1,32 @@
-# Environment
+# Temp files and backups
+*.backup_*
+
+# Environment files
 .env
 .env.local
 .env.*
 
+# IDE and editor files
+.vscode/
+
 # Compiled and build artifacts
 *.pyc
 __pycache__/
+*.o
+*.obj
 dist/
 build/
 
-# Editors
-.vscode/
+# Dependency directories
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
