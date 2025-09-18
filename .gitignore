@@ -1,20 +1,18 @@
-# Compiled and build artifacts
-*.o
-*.obj
-*.pyc
-__pycache__/
-dist/
-build/
+# Swift build artifacts
+*.swiftmodule
+*.swiftdoc
+*.swiftinterface
+*.swiftsourceinfo
 
-# Dependencies
-.venv/
-venv/
-node_modules/
+# Xcode
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcworkspace/
+*.playground/
 
-# Logs and temp files
-*.log
+# Temporary files
 *.tmp
-*.swp
+*.log
 
 # Environment
 .env
