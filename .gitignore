@@ -1,10 +1,6 @@
 # Compiled and build artifacts
-*.ts
-dist/
-build/
-
-# Dependencies
-node_modules/
+*.cr
+*.sh
 
 # Logs and temp files
 *.log
@@ -19,3 +15,7 @@ node_modules/
 # Editors
 .vscode/
 .idea/
+
+# System/Environment files
+.DS_Store
+Thumbs.db
