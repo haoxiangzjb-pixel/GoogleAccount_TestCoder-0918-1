@@ -1,50 +1,27 @@
 # Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
 *.o
 *.obj
-*.dll
-*.exe
-*.so
-*.a
-*.out
-*.class
-*.jar
-*.war
-*.ear
-*.pyc
-__pycache__/
 dist/
 build/
-target/
-.gradle/
 
 # Dependencies
-node_modules/
-venv/
 .venv/
-julia-*/
-zig-cache/
-zig-out/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Environment
 .env
 .env.local
 .env.*
 
-# Editors and IDEs
+# Editors
 .vscode/
 .idea/
-*.sublime-project
-*.sublime-workspace
 
-# System
-.DS_Store
-Thumbs.db
-desktop.ini
+# Original rules preserved
+*.log
