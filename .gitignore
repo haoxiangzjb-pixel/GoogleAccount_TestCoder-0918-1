@@ -1,6 +1,5 @@
 #Compiled and build artifacts
 *.pyc
-__pycache__/
 dist/
 build/
 
@@ -12,14 +11,17 @@ node_modules/
 #Environment
 .env
 .env.local
+.env.*
 
 #Editors
 .vscode/
 .idea/
 
 #System/Temp files
-*.log
 *.tmp
 *.swp
 .DS_Store
 Thumbs.db
+
+#Original rules preserved
+*.log
