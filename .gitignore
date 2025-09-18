@@ -1,32 +1,18 @@
 # Compiled and build artifacts
 *.pyc
 __pycache__/
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
 dist/
 build/
-*.tar.gz
 
 # Dependencies
 .venv/
 venv/
 node_modules/
-julia-*/
-zig-*/
-target/
-.gradle/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Environment
 .env
@@ -36,10 +22,3 @@ target/
 # Editors
 .vscode/
 .idea/
-
-# System
-.DS_Store
-Thumbs.db
-
-# Generated files
-generated/
