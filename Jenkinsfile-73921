@@ -1,0 +1,37 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building the application...'
+                // Add your build commands here
+                // For example: sh 'mvn clean package'
+                // or: sh 'npm run build'
+            }
+        }
+        
+        stage('Test') {
+            steps {
+                echo 'Running tests...'
+                // Add your test commands here
+                // For example: sh 'mvn test'
+                // or: sh 'npm run test'
+            }
+            post {
+                always {
+                    echo 'Test stage completed'
+                }
+            }
+        }
+    }
+    
+    post {
+        success {
+            echo 'Pipeline completed successfully!'
+        }
+        failure {
+            echo 'Pipeline failed!'
+        }
+    }
+}
