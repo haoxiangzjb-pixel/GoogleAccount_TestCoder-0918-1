@@ -1,20 +1,15 @@
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-dist/
+*.dart-tool/
+.dart_tool/
 build/
+dist/
 
 # Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+.dart/
+.packages
+.pub-cache/
+.pub/
+flutter_*
 
 # Environment
 .env
@@ -24,3 +19,9 @@ node_modules/
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
