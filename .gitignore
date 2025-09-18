@@ -1,18 +1,35 @@
 # Compiled and build artifacts
 *.o
 *.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+*.class
+*.jar
+*.war
+*.ear
 dist/
 build/
+target/
+.zig-cache/
+zig-out/
 
 # Dependencies
-.venv/
-venv/
 node_modules/
+venv/
+.venv/
+julia-*/
+.mypy_cache/
+.pytest_cache/
+__pycache__/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
@@ -22,6 +39,8 @@ node_modules/
 # Editors
 .vscode/
 .idea/
+*.code-workspace
 
-# Original rules preserved
-*.log
+# System
+.DS_Store
+Thumbs.db
