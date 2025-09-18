@@ -1,18 +1,19 @@
-# Compiled and build artifacts
-*.class
-*.jar
-*.war
-*.ear
-target/
+# Go project
+*.exe
+*.dll
+*.so
+*.a
+*.o
+*.out
+*.obj
 
 # Dependencies
-.m2/
-.gradle/
+go.mod
+go.sum
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+# Build artifacts
+dist/
+build/
 
 # Environment
 .env
@@ -22,6 +23,9 @@ target/
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Original rules preserved
+# Logs and temp files
 *.log
+*.tmp
