@@ -1,34 +1,33 @@
-# Compiled and build artifacts
-*.php
-*.pyc
-__pycache__/
-dist/
-build/
+# Go project
+*.exe
+*.dll
+*.so
+*.a
+*.o
+*.obj
+*.out
 
 # Dependencies
-vendor/
-node_modules/
-.venv/
-venv/
+go.mod
+go.sum
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
+# Build artifacts
+dist/
+build/
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
-*.sublime-project
-*.sublime-workspace
+*.swp
+*.swo
 
-# System files
+# Logs and temp files
+*.log
+*.tmp
 .DS_Store
 Thumbs.db
-desktop.ini
