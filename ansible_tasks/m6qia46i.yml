@@ -1,0 +1,11 @@
+---
+- name: Скопировать файл на удаленные хосты
+  hosts: all
+  tasks:
+    - name: Копирование файла
+      copy:
+        src: /path/to/local/file.txt
+        dest: /path/to/remote/file.txt
+        owner: root
+        group: root
+        mode: '0644'
