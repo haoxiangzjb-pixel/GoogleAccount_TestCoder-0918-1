@@ -1,0 +1,6 @@
+This is a sample text file for testing word frequency counting.
+This file contains several words, and some words are repeated.
+We want to count how many times each word appears in this file.
+The script should be case-insensitive and count words properly.
+Word frequency analysis is useful for text processing applications.
+This is the end of the sample text file for testing.
