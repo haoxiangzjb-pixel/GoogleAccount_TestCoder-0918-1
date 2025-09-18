@@ -1,8 +1,13 @@
 # Compiled and build artifacts
-*.pyc
-pycache/
+*.swiftmodule
+*.swiftdoc
 *.o
 *.obj
+*.dll
+*.exe
+*.so
+*.a
+*.out
 dist/
 build/
 
@@ -10,11 +15,14 @@ build/
 .venv/
 venv/
 node_modules/
+target/
+.gradle/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
@@ -24,3 +32,19 @@ node_modules/
 # Editors
 .vscode/
 .idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python-specific
+__pycache__/
+*.pyc
+.mypy_cache/
+.pytest_cache/
+coverage/
+htmlcov/
+.coverage
+
+# Original rules preserved
+*.log
