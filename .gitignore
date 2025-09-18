@@ -1,6 +1,6 @@
 # Compiled and build artifacts
 *.pyc
-pycache/
+__pycache__/
 dist/
 build/
 
@@ -23,5 +23,6 @@ node_modules/
 .vscode/
 .idea/
 
-# Original rules preserved
-*.log
+# System files
+.DS_Store
+Thumbs.db
