@@ -1,12 +1,6 @@
-# R project artifacts
-*.rds
-*.RData
-*.Rhistory
-*.Rproj.user/
-
 # Compiled and build artifacts
 *.pyc
-pycache/
+__pycache__/
 *.o
 *.obj
 dist/
@@ -30,10 +24,3 @@ node_modules/
 # Editors
 .vscode/
 .idea/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Original rules preserved
-*.log
