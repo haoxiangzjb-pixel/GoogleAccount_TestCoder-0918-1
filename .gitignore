@@ -1,22 +1,46 @@
-# Compiled and build artifacts
-*.pyc
-pycache/
-dist/
-build/
+# Android project
+*.apk
+*.aab
+*.ap_
+*.class
+*.dex
+*.jar
+*.war
+*.ear
+*.so
+*.dll
+*.dylib
+*.lib
+*.a
+*.o
+*.obj
+*.out
 
-# Dependencies
-node_modules/
+# Build artifacts
+build/
+.gradle/
+captures/
+output-metadata.json
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.gradle/
+.local.properties
+
+# Environment files
+.env
+.env.local
+.env.*.local
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+.DS_Store
+Thumbs.db
 
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
+# Kotlin
+*.kt~
