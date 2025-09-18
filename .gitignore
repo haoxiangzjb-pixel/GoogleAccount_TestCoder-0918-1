@@ -1,29 +1,33 @@
-#Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
+# Puppet-specific ignores
+*.pp
 
-#Dependencies
-.venv/
-venv/
-node_modules/
-
-#Environment
+# General ignores
+*.txt
 .env
 .env.local
 .env.*
 
-#Editors
+# IDE/editor files
 .vscode/
-.idea/
 
-#System files
-.DS_Store
-Thumbs.db
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
 
-#Logs and temp files
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
+
+# System files
+.DS_Store
+Thumbs.db
