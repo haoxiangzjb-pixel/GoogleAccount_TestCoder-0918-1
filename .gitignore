@@ -1,6 +1,9 @@
 # Compiled and build artifacts
+*.groovy
 *.pyc
 __pycache__/
+*.o
+*.obj
 dist/
 build/
 
