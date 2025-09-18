@@ -1,13 +1,11 @@
 # Compiled and build artifacts
-*.class
-*.jar
-*.war
-*.ear
-target/
+*.pyc
+pycache/
+dist/
+build/
 
 # Dependencies
-.gradle/
-.m2/
+node_modules/
 
 # Logs and temp files
 *.log
