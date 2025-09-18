@@ -1,0 +1,26 @@
+# Конфигурация приложения
+
+title = "Мое Приложение"
+version = "1.0.0"
+debug = true
+
+[server]
+host = "0.0.0.0"
+port = 8080
+timeout = 30
+
+[database]
+host = "localhost"
+port = 5432
+name = "myapp_db"
+user = "admin"
+password = "secretpassword"
+ssl = false
+
+[features]
+enabled = ["feature_a", "feature_c"]
+disabled = ["feature_b"]
+
+[features.settings]
+feature_a_value = 100
+feature_c_value = true
