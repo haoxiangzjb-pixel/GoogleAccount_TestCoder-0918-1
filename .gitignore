@@ -1,51 +1,33 @@
-# Compiled and build artifacts
-*.class
-*.jar
-*.war
-*.ear
-*.so
-*.dll
-*.exe
-*.out
-*.a
-*.o
-*.obj
-
-# Dependencies and virtual environments
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
-
-# Logs and temporary files
-*.log
-*.tmp
+# Prolog and SWI-Prolog specific
+*.pl~*
 *.swp
 *.swo
 
-# Environment files
+# Compiled and build artifacts
+*.o
+*.obj
+dist/
+build/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
 .env.*
 
-# IDE and editor files
+# Editors
 .vscode/
 .idea/
-*.iml
-*.iws
-*.ipr
 
-# System files
+# System/Environment files
 .DS_Store
 Thumbs.db
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage*
