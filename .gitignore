@@ -1,20 +1,11 @@
-# Images and plots
-*.png
-
-# R files
-*.R
-
 # Compiled and build artifacts
+*.js
 *.pyc
 __pycache__/
-*.o
-*.obj
 dist/
 build/
 
 # Dependencies
-.venv/
-venv/
 node_modules/
 
 # Logs and temp files
