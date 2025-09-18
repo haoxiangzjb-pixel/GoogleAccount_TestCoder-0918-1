@@ -1,17 +1,21 @@
 # Compiled and build artifacts
-*.class
-*.jar
-target/
-build/
+*.o
+*.asm
 
 # Dependencies
-.m2/
+node_modules/
+venv/
+.venv/
+julia-*/
+zig-*/
+target/
 .gradle/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
@@ -22,6 +26,19 @@ build/
 .vscode/
 .idea/
 
-# OS generated files
+# System/Environment files
 .DS_Store
 Thumbs.db
+
+# Python specific
+__pycache__/
+*.pyc
+.mypy_cache/
+.pytest_cache/
+coverage/
+htmlcov/
+.coverage
+
+# Other common ignores
+dist/
+build/
