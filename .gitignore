@@ -1,23 +1,40 @@
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
+*.o
+*.obj
+*.mod
+*.so
+*.dll
+*.exe
+*.out
+
+# Fortran specific
+*.smod
+*.f90~
 
 # Dependencies
-.venv/
 venv/
+.venv/
 node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
 .env.local
+.env.*
 
 # Editors
 .vscode/
 .idea/
+*.code-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Original rules preserved
+*.log
