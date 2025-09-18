@@ -1,25 +1,50 @@
 # Compiled and build artifacts
-*.ts
+*.swiftmodule
+*.swiftdoc
+*.o
+*.obj
+*.dll
+*.exe
+*.so
+*.a
+*.out
+*.class
+*.jar
+*.war
+*.ear
+*.pyc
+__pycache__/
 dist/
 build/
+target/
+.gradle/
 
 # Dependencies
 node_modules/
+venv/
+.venv/
+julia-*/
+zig-cache/
+zig-out/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
 
 # Environment
 .env
 .env.local
 .env.*
 
-# Editors
+# Editors and IDEs
 .vscode/
 .idea/
+*.sublime-project
+*.sublime-workspace
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# System files
+# System
 .DS_Store
 Thumbs.db
+desktop.ini
