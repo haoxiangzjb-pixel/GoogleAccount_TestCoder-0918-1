@@ -1,12 +1,13 @@
 # Compiled and build artifacts
-*.class
-*.jar
-target/
+*.pyc
+pycache/
+dist/
 build/
 
 # Dependencies
-.m2/
-.gradle/
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -21,7 +22,3 @@ build/
 # Editors
 .vscode/
 .idea/
-
-# OS generated files
-.DS_Store
-Thumbs.db
