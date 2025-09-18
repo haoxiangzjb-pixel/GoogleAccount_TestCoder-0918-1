@@ -1,50 +1,15 @@
 # Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
-*.o
-*.obj
-*.dll
-*.exe
-*.so
-*.a
-*.out
+*.pyc
+__pycache__/
 dist/
 build/
 
 # Dependencies
-.venv/
-venv/
 node_modules/
-target/
-.gradle/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
 
 # Environment
 .env
 .env.local
-.env.*
 
 # Editors
 .vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Python-specific
-__pycache__/
-*.pyc
-.mypy_cache/
-.pytest_cache/
-coverage/
-htmlcov/
-.coverage
-
-# Original rules preserved
-*.log
