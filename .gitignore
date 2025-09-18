@@ -1,22 +1,10 @@
-# Compiled and build artifacts
-*.thrift
-dist/
-build/
-
-# Dependencies
-node_modules/
-.venv/
-venv/
-julia-*/
-zig-*/
-target/
-.gradle/
+# System/Environment files
+*.xml
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Environment
 .env
@@ -27,6 +15,5 @@ target/
 .vscode/
 .idea/
 
-# System/Environment files
-.DS_Store
-Thumbs.db
+# Original rules preserved
+*.log
