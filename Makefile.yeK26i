@@ -1,0 +1,12 @@
+# Simple Makefile for compiling a C program
+
+# Compiler
+CC = gcc
+
+# Compilation rule
+program: main.c
+	$(CC) main.c -o program
+
+# Clean rule
+clean:
+	rm -f program
