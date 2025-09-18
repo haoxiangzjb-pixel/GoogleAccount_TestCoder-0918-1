@@ -1,0 +1,5 @@
+This is a sample text file.
+This file is for testing the word frequency counter.
+The word "is" appears multiple times in this file.
+We can also test for punctuation removal, like commas, periods, and exclamation marks!
+This is the end of the sample file.
