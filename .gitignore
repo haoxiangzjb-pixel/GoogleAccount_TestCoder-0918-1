@@ -1,20 +1,27 @@
-#Dependencies
-node_modules/
+# Compiled and build artifacts
+*.class
+*.jar
+*.war
+*.ear
+target/
 
-#Environment
-.env
-.env.local
-.env.*
+# Dependencies
+.m2/
+.gradle/
 
-#Compiled and build artifacts
-dist/
-build/
-
-#Logs and temp files
+# Logs and temp files
 *.log
 *.tmp
 *.swp
 
-#Editors
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
 .vscode/
 .idea/
+
+# Original rules preserved
+*.log
