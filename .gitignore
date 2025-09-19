@@ -1,8 +1,6 @@
 # Compiled and build artifacts
-*.vcd
-*.vvp
-*.obj
 *.o
+*.obj
 dist/
 build/
 
@@ -28,3 +26,6 @@ node_modules/
 # System files
 .DS_Store
 Thumbs.db
+
+# Original rules preserved
+*.log
