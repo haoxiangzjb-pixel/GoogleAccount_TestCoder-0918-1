@@ -1,42 +1,29 @@
+# PowerShell script
+*.ps1
+
 # Compiled and build artifacts
-*.class
+*.pyc
+pycache/
 *.o
 *.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
 dist/
 build/
-target/
-.gradle/
 
 # Dependencies
-node_modules/
-venv/
 .venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-julia-*/
-zig*/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Environment
 .env
 .env.local
 .env.*
 
-# System/Environment files
-.DS_Store
-Thumbs.db
-
-# IDE/Editor files
+# Editors
 .vscode/
 .idea/
