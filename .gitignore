@@ -1,19 +1,10 @@
-#Temp files
-*.pp
-
-#Logs and temp files
-*.log
-*.tmp
-*.swp
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
 
 #Environment
-.env
 .env.local
-.env.*
 
 #Editors
 .vscode/
-.idea/
-
-#Original rules preserved
-*.log
