@@ -21,3 +21,6 @@ node_modules/
 # Editors
 .vscode/
 .idea/
+
+# Images and media
+*.jpg
