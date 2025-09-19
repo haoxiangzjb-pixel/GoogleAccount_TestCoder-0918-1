@@ -1,14 +1,16 @@
-#Compiled and build artifacts
+# Compiled and build artifacts
+*.o
+*.obj
 *.pyc
-__pycache__/
+
+# Dependencies
+pycache/
 dist/
 build/
 
-#Dependencies
-node_modules/
-
-#Environment
+# Environment
+.env
 .env.local
 
-#Editors
+# Editors
 .vscode/
