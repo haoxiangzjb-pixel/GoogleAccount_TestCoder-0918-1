@@ -1,16 +1,23 @@
+# Environment
+.env
+.env.local
+*.env.*
+
 # Compiled and build artifacts
-*.asm
+*.pyc
+__pycache__/
+dist/
+build/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Editors
+.vscode/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
