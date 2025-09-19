@@ -1,5 +1,6 @@
 # Compiled and build artifacts
-*.pl
+*.o
+*.obj
 dist/
 build/
 
@@ -25,3 +26,30 @@ node_modules/
 # System/Environment files
 .DS_Store
 Thumbs.db
+
+# Common compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Original rules preserved
+*.log
