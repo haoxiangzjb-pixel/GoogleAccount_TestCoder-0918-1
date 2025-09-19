@@ -1,0 +1,21 @@
+[app]
+name = "MyApplication"
+version = "1.0.0"
+debug = false
+
+[server]
+host = "localhost"
+port = 8080
+ssl_enabled = true
+
+[database]
+host = "db.example.com"
+port = 5432
+name = "myapp_db"
+username = "dbuser"
+password = "dbpassword"
+
+[logging]
+level = "INFO"
+file = "/var/log/myapp.log"
+max_size = "10MB"
