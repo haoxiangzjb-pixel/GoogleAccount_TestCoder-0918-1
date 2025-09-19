@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+// Опционально: указываем пакет
+package profileservice;
+
+// Сообщение для запроса профиля (может содержать ID пользователя)
+message ProfileRequest {
+  int32 user_id = 1;
+}
+
+// Сообщение для ответа с данными профиля
+message ProfileResponse {
+  int32 user_id = 1;
+  string username = 2;
+  string email = 3;
+  string first_name = 4;
+  string last_name = 5;
+  int32 age = 6;
+  string bio = 7;
+}
+
+// Сервис для работы с профилем
+service ProfileService {
+  // Метод для получения профиля по ID
+  rpc GetProfile (ProfileRequest) returns (ProfileResponse);
+}
