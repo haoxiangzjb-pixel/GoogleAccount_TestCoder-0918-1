@@ -1,2 +1,11 @@
-# Compiled and build artifacts
-*.php~
+#Compiled and build artifacts
+*.exe
+
+#Environment
+.env.local
+
+#Editors
+.vscode/
+
+#Original rules preserved
+*.log
