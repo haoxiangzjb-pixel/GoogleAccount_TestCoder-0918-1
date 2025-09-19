@@ -1,8 +1,8 @@
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
+# Solidity and Ethereum development artifacts
+*.solc
+*.abi
+*.bin
+*.metadata.json
 
 # Dependencies
 node_modules/
@@ -10,6 +10,17 @@ node_modules/
 # Environment
 .env
 .env.local
+.env.*
 
 # Editors
 .vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
