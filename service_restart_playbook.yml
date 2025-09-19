@@ -1,0 +1,34 @@
+---
+# Ansible Playbook to Restart a Service
+# This playbook demonstrates how to restart a service using Ansible
+
+- name: Restart Service Playbook
+  hosts: all
+  become: yes  # Required to manage services
+  
+  # Define variables
+  vars:
+    service_to_restart: apache2  # Change this to your desired service
+  
+  # List of tasks to execute
+  tasks:
+    # Task to restart the specified service
+    - name: Restarting {{ service_to_restart }} service
+      ansible.builtin.service:
+        name: "{{ service_to_restart }}"
+        state: restarted
+      register: restart_result
+    
+    # Task to verify the service is running
+    - name: Ensure {{ service_to_restart }} is running
+      ansible.builtin.service:
+        name: "{{ service_to_restart }}"
+        state: started
+      when: restart_result is failed
+    
+    # Task to display the result
+    - name: Show restart status
+      ansible.builtin.debug:
+        msg: 
+          - "Service restart: {{ 'SUCCESS' if restart_result is success else 'FAILED' }}"
+          - "Service name: {{ service_to_restart }}"

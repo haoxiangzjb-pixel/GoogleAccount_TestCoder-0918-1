@@ -1,0 +1,24 @@
+---
+- name: Restart a service
+  hosts: all
+  become: yes
+  vars:
+    service_name: nginx
+  tasks:
+    - name: Restart the specified service
+      ansible.builtin.service:
+        name: "{{ service_name }}"
+        state: restarted
+      register: service_result
+      ignore_errors: yes
+
+    - name: Check service status
+      ansible.builtin.service:
+        name: "{{ service_name }}"
+        state: started
+      register: service_status
+      when: service_result is failed
+
+    - name: Display service restart result
+      ansible.builtin.debug:
+        msg: "Service {{ service_name }} restart {{ 'succeeded' if service_result is success else 'failed' }}"
