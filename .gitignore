@@ -1,2 +1,10 @@
 # Compiled and build artifacts
-*.php~
+*.pyc
+pycache/
+dist/
+
+# Environment
+.env.local
+
+# Editors
+.vscode/
