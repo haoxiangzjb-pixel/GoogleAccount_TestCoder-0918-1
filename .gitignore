@@ -1,22 +1,15 @@
-# Compiled and build artifacts
-*.pyc
-dist/
-build/
+#Server config files
+server_config_*
 
-# Dependencies
-.venv/
-venv/
-node_modules/
+#Environment
+.env
+.env.local
+*.env.*
 
-# Logs and temp files
+#Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-
-# Editors
+#Editors
 .vscode/
-.idea/
