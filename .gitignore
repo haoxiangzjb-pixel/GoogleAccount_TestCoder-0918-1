@@ -1,26 +1,9 @@
-# PowerShell scripts and environment
-*.ps1
-*.psm1
-*.psd1
-*.ps1xml
-
 # Compiled and build artifacts
-*.pyc
-pycache/
-*.o
-*.obj
-dist/
-build/
-
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+*.mex*
+*.asv
+*.mat
+*.fig
+*.m~
 
 # Environment
 .env
@@ -30,3 +13,12 @@ node_modules/
 # Editors
 .vscode/
 .idea/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
