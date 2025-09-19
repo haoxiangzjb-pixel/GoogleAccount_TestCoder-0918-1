@@ -1,27 +1,23 @@
-#Dependencies
-node_modules/
+# Xcode
+*.xcworkspace
+*.xcodeproj
+*.xcuserstate
+*.xcuserdata
 
-#Environment
-.env
-.env.local
-.env.*
+# Swift build artifacts
+.build/
+.swift-version
 
-#IDE/Editor
+# Editors
 .vscode/
+.idea/
 
-#Logs and temp files
+# Logs and temp files
 *.log
 *.tmp
 *.swp
 
-#Compiled and build artifacts
-dist/
-build/
-*.pyc
-__pycache__/
-*.o
-*.obj
-
-#System files
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+.env.*
