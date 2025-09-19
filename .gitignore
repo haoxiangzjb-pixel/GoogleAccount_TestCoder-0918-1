@@ -1,15 +1,10 @@
 # Compiled and build artifacts
-*.pyc
-pycache/
-*.o
-*.obj
-dist/
-build/
+*.class
+target/
 
 # Dependencies
-.venv/
-venv/
-node_modules/
+.m2/
+.gradle/
 
 # Logs and temp files
 *.log
