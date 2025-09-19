@@ -1,27 +1,27 @@
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
+#Compiled and build artifacts
+*.dart.js
+*.dart.js.map
+*.dart.tools
+
+#Dependencies
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
 build/
+flutter_*
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Environment
+#Environment
 .env
 .env.local
+.env.*
 
-# Editors
+#Editors
 .vscode/
 .idea/
-
-# Logs and temp files
-*.log
-*.tmp
 *.swp
+*.swo
 
-# System files
+#OS generated files
 .DS_Store
 Thumbs.db
