@@ -1,27 +1,23 @@
-# Compiled and build artifacts
-*.pl
-dist/
-build/
+#Compiled and build artifacts
+*.tsbuildinfo
 
-# Dependencies
-.venv/
-venv/
+#Dependencies
 node_modules/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
+#Environment
 .env
 .env.local
 .env.*
 
-# Editors
+#Editors
 .vscode/
 .idea/
 
-# System/Environment files
+#Logs and temp files
+*.log
+*.tmp
+*.swp
+
+#System files
 .DS_Store
 Thumbs.db
