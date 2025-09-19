@@ -1,52 +1,26 @@
-# Xcode
-*.pbxuser
-*.mode1v3
-*.mode2v3
-*.moved-aside
-*.perspectivev3
-*.xcuserstate
-*.xcworkspace
-*.xccheckout
-*.xcscmblueprint
-*.xcscheme
-*.xcodeproj/xcuserdata
-*.xcodeproj/project.xcworkspace
-*.xcodeproj/xcshareddata
-*.swiftmodule
-*.swiftinterface
-*.swiftdoc
-*.dSYM
-*.dSYM.zip
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
 
-# Swift Package Manager
-/.build/
-/Packages/
-/.swiftpm/
-/Package.resolved
+# Dependencies
+.venv/
+venv/
+node_modules/
 
-# CocoaPods
-/Pods/
-/*.xcworkspace
-Podfile.lock
-
-# Carthage
-/Carthage/Build/
-/Cartfile.resolved
-
-# Temporary files
-*.tmp
+# Logs and temp files
 *.log
+*.tmp
 *.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
 
 # Environment
 .env
 .env.local
 .env.*
 
-# Original rules preserved
-*.log
+# Editors
+.vscode/
+.idea/
