@@ -1,12 +1,20 @@
 # Compiled and build artifacts
-*.dart.js
-*.dart.js.map
-*.dart.tools.json
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
 
 # Dependencies
-.dart_tool/
-.packages
-pubspec.lock
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Environment
 .env
@@ -16,9 +24,3 @@ pubspec.lock
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# Logs and temp files
-*.log
-*.tmp
