@@ -1,5 +1,13 @@
 # Compiled and build artifacts
-*.html
+*.pyc
+__pycache__/
+dist/
+build/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -15,5 +23,6 @@
 .vscode/
 .idea/
 
-# Original rules preserved
-*.log
+# System files
+.DS_Store
+Thumbs.db
