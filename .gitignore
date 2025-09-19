@@ -1,19 +1,26 @@
-# System/Environment files
-*.deb
-*.ps1
+# Compiled and build artifacts
+*.pl
+*.pyc
+pycache/
 
-# Dependency directories
-packages-microsoft-prod.deb/
+# Dependencies
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment files
+# Environment
 .env
 .env.local
 .env.*
 
-# IDE/Editor files
+# Editors
 .vscode/
+.idea/
+
+# Original rules preserved
+*.log
