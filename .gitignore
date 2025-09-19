@@ -1,10 +1,18 @@
+# Ansible
+*.yml
+
 # Compiled and build artifacts
-*.class
-target/
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
 
 # Dependencies
-.m2/
-.gradle/
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
