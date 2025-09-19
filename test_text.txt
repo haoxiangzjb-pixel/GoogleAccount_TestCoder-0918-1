@@ -1,0 +1,5 @@
+This is a test file.
+This file is for testing the Perl word frequency counter.
+The counter should count each word and display the frequency.
+Words are separated by spaces and punctuation.
+This is the end of the test file.
