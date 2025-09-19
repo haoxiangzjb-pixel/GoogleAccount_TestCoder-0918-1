@@ -1,13 +1,10 @@
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
+*.pb
+*.data-00000-of-00001
+*.index
 
-# Dependencies
-.venv/
-venv/
-node_modules/
+# Dependencies and environments
+.linear_regression_saved_model/
 
 # Logs and temp files
 *.log
@@ -17,7 +14,7 @@ node_modules/
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
