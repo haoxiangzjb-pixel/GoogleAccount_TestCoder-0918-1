@@ -1,0 +1,82 @@
+# Makefile for C++ project
+
+# Compiler and flags
+CXX = g++
+CXXFLAGS = -std=c++17 -Wall -Wextra -g
+LDLIBS = 
+
+# Directories
+SRCDIR = src
+TESTDIR = tests
+BUILDDIR = build
+BINDIR = bin
+
+# Source files
+SOURCES = $(wildcard $(SRCDIR)/*.cpp)
+OBJECTS = $(SOURCES:$(SRCDIR)/%.cpp=$(BUILDDIR)/%.o)
+
+# Test files
+TEST_SOURCES = $(wildcard $(TESTDIR)/*.cpp)
+TEST_OBJECTS = $(TEST_SOURCES:$(TESTDIR)/%.cpp=$(BUILDDIR)/%.o)
+TEST_EXECUTABLES = $(TEST_SOURCES:$(TESTDIR)/%.cpp=$(BINDIR)/%)
+
+# Main executable
+TARGET = $(BINDIR)/main
+
+# Default target
+.PHONY: all
+all: build
+
+# Build target - creates the main executable
+.PHONY: build
+build: $(TARGET)
+
+# Link the main executable
+$(TARGET): $(OBJECTS) | $(BINDIR)
+	$(CXX) $(CXXFLAGS) -o $@ $^ $(LDLIBS)
+
+# Compile source files
+$(BUILDDIR)/%.o: $(SRCDIR)/%.cpp | $(BUILDDIR)
+	$(CXX) $(CXXFLAGS) -c -o $@ $<
+
+# Test target - builds and runs tests
+.PHONY: test
+test: $(TEST_EXECUTABLES)
+	@echo "Running tests..."
+	@failed=0; \
+	for test_exe in $(TEST_EXECUTABLES); do \
+		if [ -f "$$test_exe" ]; then \
+			echo "Running $$test_exe..."; \
+			./$$test_exe || failed=1; \
+		fi; \
+	done; \
+	if [ $$failed -eq 0 ]; then \
+		echo "All tests passed!"; \
+	else \
+		echo "Some tests failed!"; \
+		exit 1; \
+	fi
+
+# Compile test files
+$(BINDIR)/%: $(TESTDIR)/%.cpp $(OBJECTS) | $(BINDIR)
+	$(CXX) $(CXXFLAGS) -o $@ $^ $(LDLIBS)
+
+# Create necessary directories
+$(BUILDDIR) $(BINDIR):
+	mkdir -p $@
+
+# Clean target - removes build artifacts
+.PHONY: clean
+clean:
+	rm -rf $(BUILDDIR) $(BINDIR)
+	@echo "Cleaned build artifacts."
+
+# Help target
+.PHONY: help
+help:
+	@echo "Available targets:"
+	@echo "  all   - Build the main executable (default)"
+	@echo "  build - Build the main executable"
+	@echo "  test  - Build and run tests"
+	@echo "  clean - Remove build artifacts"
+	@echo "  help  - Show this help message"
