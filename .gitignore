@@ -1,6 +1,10 @@
 # Compiled and build artifacts
-*.pp
-puppet/
+*.pyc
+pycache/
+*.o
+*.obj
+dist/
+build/
 
 # Dependencies
 .venv/
