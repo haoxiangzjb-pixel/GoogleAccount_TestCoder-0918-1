@@ -1,26 +1,52 @@
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.perspectivev3
+*.xcuserstate
+*.xcworkspace
+*.xccheckout
+*.xcscmblueprint
+*.xcscheme
+*.xcodeproj/xcuserdata
+*.xcodeproj/project.xcworkspace
+*.xcodeproj/xcshareddata
+*.swiftmodule
+*.swiftinterface
+*.swiftdoc
+*.dSYM
+*.dSYM.zip
 
-# Dependencies
-vendor/
-node_modules/
+# Swift Package Manager
+/.build/
+/Packages/
+/.swiftpm/
+/Package.resolved
 
-# Logs and temp files
-*.log
+# CocoaPods
+/Pods/
+/*.xcworkspace
+Podfile.lock
+
+# Carthage
+/Carthage/Build/
+/Cartfile.resolved
+
+# Temporary files
 *.tmp
+*.log
 *.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
 
 # Environment
 .env
 .env.local
+.env.*
 
-# Editors
-.vscode/
-.idea/
-
-# System/Environment files
-.DS_Store
-Thumbs.db
+# Original rules preserved
+*.log
