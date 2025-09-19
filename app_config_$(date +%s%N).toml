@@ -1,0 +1,25 @@
+[app]
+name = "MyAwesomeApp"
+version = "1.0.0"
+debug = false
+
+[server]
+host = "0.0.0.0"
+port = 8080
+timeout = 30
+
+[database]
+host = "localhost"
+port = 5432
+name = "myapp_db"
+username = "admin"
+password = "secret123"
+
+[features]
+enable_logging = true
+enable_caching = true
+max_connections = 100
+
+[logging]
+level = "INFO"
+file = "/var/log/myapp.log"
