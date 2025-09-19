@@ -1,0 +1,4 @@
+This is a sample text file.
+This file is for testing the Perl word frequency counter.
+The quick brown fox jumps over the lazy dog.
+The dog was really lazy, but the fox was quick.
