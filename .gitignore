@@ -1,15 +1,1 @@
-#Server config files
-server_config_*
-
-#Environment
-.env
-.env.local
-*.env.*
-
-#Logs and temp files
-*.log
-*.tmp
-*.swp
-
-#Editors
-.vscode/
+(empty — output nothing)
