@@ -5,6 +5,8 @@ dist/
 build/
 
 #Dependencies
+.venv/
+venv/
 node_modules/
 
 #Environment
@@ -14,12 +16,3 @@ node_modules/
 #Editors
 .vscode/
 .idea/
-
-#Logs and temp files
-*.log
-*.tmp
-*.swp
-
-#System files
-.DS_Store
-Thumbs.db
