@@ -1,21 +1,14 @@
 # Compiled and build artifacts
-*.pb
-*.data-00000-of-00001
-*.index
+*.pyc
+__pycache__/
+dist/
+build/
 
-# Dependencies and environments
-.linear_regression_saved_model/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+# Dependencies
+node_modules/
 
 # Environment
-.env
 .env.local
-.env.*
 
 # Editors
 .vscode/
-.idea/
