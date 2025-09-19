@@ -1,17 +1,17 @@
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
+#MATLAB compiled files
+*.m~
 
-# Dependencies
-node_modules/
-.venv/
-venv/
-
-# Environment
+#Environment
 .env
-.env.local
 
-# Editors
+#Logs and temp files
+*.log
+*.tmp
+*.swp
+
+#System files
+.DS_Store
+Thumbs.db
+
+#IDE
 .vscode/
