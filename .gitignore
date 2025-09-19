@@ -1,8 +1,25 @@
 # Compiled and build artifacts
-*.o
+*.rb
+*.pyc
+__pycache__/
+dist/
+build/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Environment
 .env
+.env.local
+.env.*
 
-# Temporary files
-e34afbd6ce0b3704
+# Editors
+.vscode/
+.idea/
