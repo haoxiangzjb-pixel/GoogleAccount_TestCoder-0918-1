@@ -1,10 +1,19 @@
-#Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
+# Puppet manifests and related files
+*.pp
 
-#Environment
+# General ignores for Puppet projects
+*.swp
+*.swo
+*.tmp
+*.log
+
+# Environment files
+.env
 .env.local
+.env.*
 
-#Editors
+# IDE/Editor files
 .vscode/
+.idea/
+.DS_Store
+Thumbs.db
