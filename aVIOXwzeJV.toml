@@ -1,0 +1,22 @@
+# App Configuration Settings
+
+[server]
+host = "localhost"
+port = 8080
+debug = true
+
+[database]
+host = "db.example.com"
+port = 5432
+name = "myapp_db"
+user = "db_user"
+password = "secure_password"
+
+[logging]
+level = "INFO"
+file = "/var/log/myapp.log"
+
+[features]
+enable_api = true
+enable_ui = true
+max_connections = 100
