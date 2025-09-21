@@ -1,11 +1,6 @@
-# Ansible temporary files
-*.yml~
-
 # Compiled and build artifacts
 *.pyc
 __pycache__/
-*.o
-*.obj
 dist/
 build/
 
@@ -22,7 +17,6 @@ node_modules/
 # Environment
 .env
 .env.local
-.env.*
 
 # Editors
 .vscode/
