@@ -1,15 +1,31 @@
-# Gradle
-.gradle/
-build/
+# Compiled and build artifacts
+*.dart_tool/
+.dart_tool/
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
 
-# Kotlin
-*.kt
-*.kts
+# Dependencies
+.dart_tool/
+pubspec.lock
 
-# IDE
-.idea/
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
 .vscode/
+.idea/
 
-# System
+# OS generated files
 .DS_Store
 Thumbs.db
