@@ -1,10 +1,15 @@
 # Compiled and build artifacts
-*.pb
-*.data-00000-of-00001
-*.index
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
 
-# Dependencies and environments
-.linear_regression_saved_model/
+# Dependencies
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
