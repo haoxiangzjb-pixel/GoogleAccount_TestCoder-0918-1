@@ -1,0 +1,43 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+
+# Check if filename is provided as command line argument
+if (@ARGV != 1) {
+    die "Usage: $0 <filename>\n";
+}
+
+my $filename = $ARGV[0];
+
+# Check if file exists
+unless (-e $filename) {
+    die "File '$filename' not found.\n";
+}
+
+# Open the file for reading
+open(my $fh, '<', $filename) or die "Cannot open file '$filename': $!\n";
+
+# Hash to store word frequencies
+my %word_count;
+
+# Read file line by line
+while (my $line = <$fh>) {
+    # Convert to lowercase
+    $line = lc($line);
+    # Remove punctuation and split into words
+    my @words = $line =~ /\b\w+\b/g;
+    
+    # Count each word
+    foreach my $word (@words) {
+        $word_count{$word}++;
+    }
+}
+
+# Close the file
+close($fh);
+
+# Print the word frequencies sorted by frequency (descending)
+print "Word frequencies:\n";
+for my $word (sort { $word_count{$b} <=> $word_count{$a} } keys %word_count) {
+    print "$word: $word_count{$word}\n";
+}

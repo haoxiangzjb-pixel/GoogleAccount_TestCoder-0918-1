@@ -1,0 +1,6 @@
+This is a sample text file for testing the word frequency counter.
+The quick brown fox jumps over the lazy dog.
+The dog was sleeping under the tree.
+The quick brown fox was very quick and very brown.
+A sample text should contain enough words for testing.
+Words, words, words! The more words we have, the better our test.
