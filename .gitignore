@@ -1,16 +1,47 @@
-#Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
+#Temporary and build artifacts
+*.ts
+user-profile-component-kx7m3.ts
 
-#Dependencies
-.venv/
-venv/
-node_modules/
+#Logs and temp files
+*.log
+*.tmp
+*.swp
 
 #Environment
 .env
 .env.local
+.env.*
 
 #Editors
 .vscode/
+.idea/
+
+#Dependencies
+node_modules/
+venv/
+.venv/
+julia-*/
+zig-*/
+target/
+.gradle/
+
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
+*.class
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+#Coverage and cache
+coverage/
+htmlcov/
+.coverage
+.mypy_cache/
+.pytest_cache/
