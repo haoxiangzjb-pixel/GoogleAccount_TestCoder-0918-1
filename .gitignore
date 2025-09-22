@@ -1,29 +1,27 @@
-#Scripts and executables
-*.sh
-
-#Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
+# Compiled and build artifacts
+*.class
 dist/
 build/
 
-#Dependencies
-.venv/
-venv/
-node_modules/
+# Dependencies
+target/
+.gradle/
 
-#Logs and temp files
+# Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
-#Environment
+# Environment
 .env
 .env.local
-.env.*
+*.env.*
 
-#Editors
+# Editors
 .vscode/
 .idea/
+
+# System files
+.DS_Store
+Thumbs.db
