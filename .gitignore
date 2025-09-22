@@ -1,18 +1,30 @@
-# R project artifacts
-*.png
+#Temp files and scripts
+*$(date*
+*.sh
 
-# Environment and logs
-.env
-.env.local
+#Logs and temp files
 *.log
 *.tmp
+*.swp
 
-# IDE and editor files
+#Environment
+.env
+.env.local
+.env.*
+
+#Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# System files
-.DS_Store
-Thumbs.db
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
+
+#Dependencies
+.venv/
+venv/
+node_modules/
