@@ -1,29 +1,31 @@
-#Puppet artifacts
-*.pp
+# Erlang project artifacts
+*.beam
+*.app
+*.rel
+*.script
+*.boot
+*.tar.gz
+*.zip
+*.tgz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 
-#Compiled and build artifacts
-*.pyc
-pycache/
-*.o
-*.obj
-dist/
-build/
+# Build and release directories
+_build/
+rebar3/
+rel/
+log/
 
-#Dependencies
-.venv/
-venv/
-node_modules/
-
-#Logs and temp files
-*.log
-*.tmp
+# Editor and OS files
 *.swp
-
-#Environment
-.env
-.env.local
-.env.*
-
-#Editors
+*.swo
+.DS_Store
+Thumbs.db
 .vscode/
 .idea/
+
+# Environment files
+.env
+.env.local
+*.env.*
