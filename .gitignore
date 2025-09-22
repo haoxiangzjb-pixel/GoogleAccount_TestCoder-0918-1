@@ -1,24 +1,23 @@
 # Compiled and build artifacts
-*.beam
-*.erl~
+*.pyc
+__pycache__/
+dist/
+build/
 
-# Dependencies and build outputs
-deps/
-_build/
-ebin/
-log/
-
-# Environment and local config
-.env
-.env.local
-.env.*
-
-# Editors and tools
-.vscode/
-.idea/
-*.swp
-*.swo
+# Dependencies
+node_modules/
+.venv/
+venv/
 
 # Logs and temp files
 *.log
 *.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+
+# Editors
+.vscode/
+.idea/
