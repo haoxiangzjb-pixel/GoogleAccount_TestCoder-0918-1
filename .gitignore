@@ -1,2 +1,27 @@
-#Compiled and build artifacts
-*.sql
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+
+# Editors
+.vscode/
+.idea/
+
+# Images (if they are outputs, otherwise remove if source files)
+gray_image_ekmwwt8v.png
+processed_image_ekmwwt8v.png
