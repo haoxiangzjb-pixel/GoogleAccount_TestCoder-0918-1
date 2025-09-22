@@ -1,55 +1,25 @@
-# Julia-specific compiled files and caches
-*.ji
-*.so
-*.dylib
-*.dll
-*.a
-*.lib
+# Compiled and build artifacts
+*.cr
 *.o
 *.obj
-*.exe
-*.out
+dist/
+build/
 
-# Julia package and build directories
-julia-*/
-base.cache
-compiled/
-
-# Dependency and environment directories
+# Dependencies
 .venv/
 venv/
 node_modules/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
 
-# Logs, temp files, and system files
+# Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
-.DS_Store
-Thumbs.db
 
-# Compressed archives
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
-*.zip
-*.gz
-*.bz2
-*.xz
-*.tgz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
