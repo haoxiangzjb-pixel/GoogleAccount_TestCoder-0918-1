@@ -1,23 +1,16 @@
 # Compiled and build artifacts
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-*.class
-*.pyc
-__pycache__/
-dist/
-build/
-target/
-.gradle/
+*.ml.d
+*.ml.o
+*.ml.cmx
+*.ml.cmi
+*.ml.cmxa
+*.ml.cma
+*.ml.annot
+*.ml.exe
+*.ml.bc
+*.ml.s
 
 # Dependencies
-node_modules/
-venv/
-.venv/
 julia-*/
 zig-*/
 
@@ -25,17 +18,15 @@ zig-*/
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Editors and IDEs
+# Editors
 .vscode/
 .idea/
-*.code-workspace
 
 # System files
 .DS_Store
@@ -64,10 +55,3 @@ Thumbs.db
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# Coverage and cache
-coverage/
-htmlcov/
-.coverage
-.mypy_cache/
-.pytest_cache/
