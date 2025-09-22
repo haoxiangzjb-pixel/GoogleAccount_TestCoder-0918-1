@@ -1,25 +1,9 @@
-# Compiled and build artifacts
-*.jsx
-dist/
-build/
-
-# Dependencies
-node_modules/
+# Logs and temp files
+error_log.txt
+tmp/
 
 # Environment
-.env
 .env.local
-.env.*
 
 # Editors
 .vscode/
-.idea/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# System files
-.DS_Store
-Thumbs.db
