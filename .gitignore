@@ -1,19 +1,26 @@
-# Serverless config files with embedded commands
-serverless-config-*
+#Compiled and build artifacts
+*.pyc
+pycache/
+*.o
+*.obj
+dist/
+build/
 
-# Environment variables
-.env
-.env.local
-.env.*
+#Dependencies
+.venv/
+venv/
+node_modules/
 
-# IDE and editor files
-.vscode/
-
-# Logs and temporary files
+#Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# OS generated files
-.DS_Store
-Thumbs.db
+#Environment
+.env
+.env.local
+.env.*
+
+#Editors
+.vscode/
+.idea/
