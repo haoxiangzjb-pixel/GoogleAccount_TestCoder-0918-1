@@ -1,22 +1,17 @@
-# Compiled and build artifacts
-*.pb
-*.proto
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-
-# Logs and temp files
-*.log
+# Temp files and system files
 *.tmp
-*.swp
 
-# Environment
-.env
+# System files
+.DS_Store
+
+# Log files
+*.log
+
+# Environment files
 .env.local
-.env.*
 
-# Editors
+# IDE files
 .vscode/
-.idea/
+
+# Original rules preserved
+*.log
