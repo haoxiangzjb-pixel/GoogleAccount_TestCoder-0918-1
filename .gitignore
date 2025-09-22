@@ -1,25 +1,11 @@
 # Compiled and build artifacts
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-*.pyc
-__pycache__/
-dist/
-build/
-target/
-.gradle/
+*.m
 
 # Dependencies
-node_modules/
-venv/
-.venv/
 julia-*/
-zig-cache/
-zig-out/
+zig-*/
+target/
+.gradle/
 
 # Logs and temp files
 *.log
@@ -30,14 +16,13 @@ zig-out/
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
 .idea/
-*.code-workspace
 
-# System
+# System/Environment files
 .DS_Store
 Thumbs.db
 
@@ -64,6 +49,3 @@ Thumbs.db
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# Original rules preserved
-*.log
