@@ -1,0 +1,30 @@
+{
+  "status": "success",
+  "data": {
+    "user": {
+      "id": 12345,
+      "name": "张三",
+      "email": "zhangsan@example.com",
+      "profile": {
+        "age": 28,
+        "country": "中国",
+        "language": "zh-CN"
+      }
+    },
+    "posts": [
+      {
+        "id": 101,
+        "title": "我的第一篇博客",
+        "content": "这是博客的内容...",
+        "created_at": "2023-05-15T10:30:00Z"
+      },
+      {
+        "id": 102,
+        "title": "学习JSON格式",
+        "content": "JSON是一种轻量级的数据交换格式...",
+        "created_at": "2023-05-16T14:45:00Z"
+      }
+    ]
+  },
+  "message": "数据获取成功"
+}
