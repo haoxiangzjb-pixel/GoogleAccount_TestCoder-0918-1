@@ -1,8 +1,2 @@
-# Temp files and scripts
-script_*
-
-# Environment
-.env.local
-
-# Editors
-.vscode/
+# Compiled and build artifacts
+*.kt~
