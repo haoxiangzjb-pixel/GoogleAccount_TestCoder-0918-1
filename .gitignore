@@ -1,17 +1,28 @@
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.idx
+*.ilg
+*.ind
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.pdf
 
-# Dependencies
-.venv/
-venv/
-node_modules/
+# LaTeX temporary files
+*-converted-to.pdf
+*.run.xml
 
 # Environment
 .env
 .env.local
+.env.*
 
 # Editors
 .vscode/
