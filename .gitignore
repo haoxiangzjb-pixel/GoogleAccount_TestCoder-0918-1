@@ -1,27 +1,26 @@
-# Compiled and build artifacts
-*.r
-*.pyc
-__pycache__/
-*.o
-*.obj
-dist/
-build/
-
-# Dependencies
-.venv/
-venv/
+#Dependencies
 node_modules/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
+#Environment
 .env
 .env.local
 .env.*
 
-# Editors
+#Logs and temp files
+*.log
+*.tmp
+*.swp
+
+#Editors
 .vscode/
 .idea/
+
+#Compiled and build artifacts
+dist/
+build/
+*.pyc
+__pycache__/
+
+#System/Environment files
+.DS_Store
+Thumbs.db
