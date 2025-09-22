@@ -1,13 +1,12 @@
-#Compiled and build artifacts
-*.pyc
-pycache/
-dist/
+# Temp files and build artifacts
+*.tmp
 
-#Dependencies
-node_modules/
-
-#Environment
+# Environment files
 .env.local
 
-#Editors
+# IDE and editor files
 .vscode/
+
+# TypeScript build output (inferred from the added file)
+*.ts
+dist/
