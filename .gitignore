@@ -1,8 +1,23 @@
-# Temp files and scripts
-script_*
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
 
-# Environment
+#Dependencies
+.venv/
+venv/
+node_modules/
+
+#Environment
+.env
 .env.local
 
-# Editors
+#Editors
 .vscode/
+.idea/
+
+#Logs and temp files
+*.log
+*.tmp
+*.swp
