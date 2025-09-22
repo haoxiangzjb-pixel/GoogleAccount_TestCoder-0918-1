@@ -1,9 +1,27 @@
-# Temporary and log files
-*.tmp
+# Compiled and build artifacts
+*.pyc
+pycache/
+dist/
+build/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
-# Environment files
+# Environment
+.env
 .env.local
+.env.*
 
-# IDE and editor files
+# Editors
 .vscode/
+.idea/
+
+# Original rules preserved
+*.log
