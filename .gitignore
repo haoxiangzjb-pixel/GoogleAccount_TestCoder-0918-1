@@ -1,1 +1,9 @@
-(empty — output nothing)
+# Temporary and log files
+*.tmp
+*.log
+
+# Environment files
+.env.local
+
+# IDE and editor files
+.vscode/
