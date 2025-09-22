@@ -1,8 +1,30 @@
-#Scripts and temp files
-script_*.ps1
+# Compiled and build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.run.xml
+*.bbl
+*.blg
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.toc
 
-#Environment
-.env.local
+# LaTeX specific
+*.latexmain
+*.latexmkrc
 
-#Editors
+# Editors
 .vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+.env.*
