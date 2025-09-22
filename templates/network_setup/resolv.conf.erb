@@ -1,0 +1,4 @@
+# Файл конфигурации DNS
+<% @dns_servers.each do |server| -%>
+nameserver <%= server %>
+<% end -%>

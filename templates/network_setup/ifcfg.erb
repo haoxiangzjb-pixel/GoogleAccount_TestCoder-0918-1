@@ -1,0 +1,9 @@
+# Файл конфигурации сетевого интерфейса <%= @interface %>
+DEVICE=<%= @interface %>
+BOOTPROTO=static
+IPADDR=<%= @ip_address %>
+NETMASK=<%= @netmask %>
+GATEWAY=<%= @gateway %>
+ONBOOT=yes
+TYPE=Ethernet
+USERCTL=no
