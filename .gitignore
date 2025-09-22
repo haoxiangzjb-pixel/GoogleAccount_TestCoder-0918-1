@@ -1,13 +1,16 @@
 # Compiled and build artifacts
-*.mex*
-*.asv
-*.mat
-*.fig
-*.m~
+*.r
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
 
 # Dependencies
-.DS_Store
-Thumbs.db
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
