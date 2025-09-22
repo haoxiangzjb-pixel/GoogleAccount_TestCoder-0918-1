@@ -1,66 +1,28 @@
-# Ignore patterns for build artifacts, dependencies, and temp files
-
-# Compiled/Binary files
+#Compiled and build artifacts
 *.pyc
-*.class
-*.o
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
-
-# Dependency directories
-node_modules/
-venv/
-.venv/
 __pycache__/
 dist/
 build/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
 
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-*.log
-*.tmp
+#Dependencies
+.venv/
+venv/
+node_modules/
 
-# System/Environment files
-.DS_Store
-Thumbs.db
+#Environment
 .env
 .env.local
-*.env.*
 
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+#Editors
+.vscode/
+.idea/
 
-# Custom patterns based on detected files
-Makefile_random12345
+#System
+.DS_Store
+Thumbs.db
+
+#Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
