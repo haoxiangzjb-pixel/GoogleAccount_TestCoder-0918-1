@@ -1,17 +1,20 @@
-#Temporary and system files
-*.r
-*.tmp
-*.log
-*.swp
-*.swo
+# Compiled and build artifacts
+*.pp.md5
+*.pp.sha1
+*.pp.sha256
+*.pp.sig
+puppet_manifests/*.pp~
 
-#Environment
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-#IDE/Editor
+# Editors
 .vscode/
 .idea/
-.DS_Store
-Thumbs.db
