@@ -1,10 +1,5 @@
-#Compiled and build artifacts
-*.pyc
-pycache/
-dist/
-
-#Dependencies
-node_modules/
+#Scripts and temp files
+script_*.ps1
 
 #Environment
 .env.local
