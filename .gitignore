@@ -1,25 +1,16 @@
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-dist/
-build/
+# HCL task files
+hcl_task/*.hcl
+"hcl_task/variable_config_$(date*
 
-# Dependencies
-.venv/
-venv/
-node_modules/
+# System/Environment files
+.env
+.env.local
+.env.*
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-
-# Environment
-.env
-.env.local
-.env.*
 
 # Editors
 .vscode/
