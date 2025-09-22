@@ -1,0 +1,6 @@
+This is a sample text file.
+This file is for testing the word count script.
+The script should count how many times each word appears.
+Words are separated by spaces.
+Some words may appear more than once.
+This is useful for text analysis.
