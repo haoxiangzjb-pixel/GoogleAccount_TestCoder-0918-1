@@ -1,21 +1,19 @@
-#Compiled and build artifacts
-*.asm
+# Serverless config files with embedded commands
+serverless-config-*
 
-#Dependencies
-.venv/
-venv/
-node_modules/
-
-#Logs and temp files
-*.log
-*.tmp
-*.swp
-
-#Environment
+# Environment variables
 .env
 .env.local
 .env.*
 
-#Editors
+# IDE and editor files
 .vscode/
-.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
