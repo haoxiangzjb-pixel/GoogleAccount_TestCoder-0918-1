@@ -1,7 +1,6 @@
 # Compiled and build artifacts
-*.cr
-*.o
-*.obj
+*.pyc
+pycache/
 dist/
 build/
 
@@ -9,11 +8,6 @@ build/
 .venv/
 venv/
 node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
 
 # Environment
 .env
@@ -23,3 +17,12 @@ node_modules/
 # Editors
 .vscode/
 .idea/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
