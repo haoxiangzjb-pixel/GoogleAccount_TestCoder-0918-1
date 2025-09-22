@@ -1,0 +1,23 @@
+/* 文件名: spinner.css */
+
+/* 定义旋转动画关键帧 */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* 应用动画到一个类 */
+.rotating-element {
+  /* 元素的初始样式 */
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  margin: 50px auto;
+  
+  /* 应用动画 */
+  animation: spin 2s linear infinite;
+}
