@@ -1,9 +1,12 @@
 # Compiled and build artifacts
-*.js
+*.pyc
+__pycache__/
 dist/
 build/
 
 # Dependencies
+.venv/
+venv/
 node_modules/
 
 # Logs and temp files
@@ -20,7 +23,7 @@ node_modules/
 .vscode/
 .idea/
 
-# System/Environment files
+# System files
 .DS_Store
 Thumbs.db
 
