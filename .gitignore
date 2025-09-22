@@ -1,25 +1,34 @@
-#Compiled and build artifacts
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+crash.log
+
+# Compiled and build artifacts
 *.pyc
-__pycache__/
+pycache/
+*.o
+*.obj
 dist/
 build/
 
-#Dependencies
+# Dependencies
+.venv/
+venv/
 node_modules/
 
-#Environment
-.env
-.env.local
-
-#Editors
-.vscode/
-*.swp
-*.swo
-
-#System/Environment files
-.DS_Store
-Thumbs.db
-
-#Logs and temp files
+# Logs and temp files
 *.log
 *.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
