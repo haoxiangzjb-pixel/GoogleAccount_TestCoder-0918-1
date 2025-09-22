@@ -1,26 +1,17 @@
-# Compiled and build artifacts
-*.pyc
-pycache/
-*.o
-*.obj
-dist/
-build/
+# R project artifacts
+*.RData
+*.Rhistory
+*.Rproj.user/
+.r_plots/  # assuming this is a local output directory
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
-*.log
+# General temp/build files
 *.tmp
-*.swp
+*.log
 
-# Environment
-.env
-.env.local
-.env.*
+# OS files
+.DS_Store
+Thumbs.db
 
-# Editors
+# IDEs
 .vscode/
 .idea/
