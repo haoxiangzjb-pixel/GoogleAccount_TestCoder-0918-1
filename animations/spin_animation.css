@@ -1,0 +1,15 @@
+/* 定义一个名为 'spin' 的关键帧动画 */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 定义一个使用该动画的CSS类 */
+.rotating-element {
+  /* 应用 'spin' 动画，持续时间为2秒，无限循环，线性速度 */
+  animation: spin 2s linear infinite;
+}
