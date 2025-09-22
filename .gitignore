@@ -1,27 +1,32 @@
+# Backup files
+backup_*/
+
+# Shell scripts (if not part of source)
+*.sh
+
 # Compiled and build artifacts
-*.class
-*.jar
-*.war
-*.ear
-target/
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
 
 # Dependencies
-.scala_dependencies
-lib_managed/
-project/target/
-project/project/target/
-
-# IDEs and editors
-.idea/
-.vscode/
-*.swp
-*.swo
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
+*.swp
 
 # Environment
 .env
 .env.local
 .env.*
+
+# Editors
+.vscode/
+.idea/
