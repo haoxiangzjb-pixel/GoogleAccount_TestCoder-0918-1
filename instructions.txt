@@ -1,0 +1,25 @@
+Инструкция по использованию VBA-функции SumCells в Excel:
+
+1. Откройте Microsoft Excel.
+2. Нажмите Alt + F11, чтобы открыть редактор VBA.
+3. В меню выберите Insert → Module, чтобы вставить новый модуль.
+4. Скопируйте и вставьте следующий код в окно модуля:
+
+Function SumCells(rng As Range) As Double
+    ' Функция для вычисления суммы ячеек в диапазоне
+    Dim cell As Range
+    Dim total As Double
+    
+    total = 0
+    For Each cell In rng
+        If IsNumeric(cell.Value) Then
+            total = total + cell.Value
+        End If
+    Next cell
+    
+    SumCells = total
+End Function
+
+5. Сохраните файл Excel как книгу с поддержкой макросов (формат .xlsm).
+6. Вернитесь в Excel. Теперь вы можете использовать функцию SumCells как обычную формулу.
+   Например: =SumCells(A1:A10)
