@@ -8,6 +8,3 @@ dist/
 
 #Editors
 .vscode/
-
-#Original rules preserved
-*.log
