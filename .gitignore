@@ -1,15 +1,25 @@
 # Compiled and build artifacts
-*.php
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+*.class
 *.pyc
 __pycache__/
 dist/
 build/
+target/
+.gradle/
 
 # Dependencies
-vendor/
 node_modules/
-.venv/
 venv/
+.venv/
+julia-*/
+zig*/
 
 # Logs and temp files
 *.log
@@ -20,13 +30,12 @@ venv/
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
-# Editors
+# Editors and IDEs
 .vscode/
 .idea/
-*.sublime-project
-*.sublime-workspace
+*.code-workspace
 
 # System files
 .DS_Store
