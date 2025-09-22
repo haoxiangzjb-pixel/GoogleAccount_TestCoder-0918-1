@@ -1,23 +1,10 @@
 # Compiled and build artifacts
-*.aux
-*.log
-*.out
-*.toc
-*.lof
-*.lot
-*.bbl
-*.blg
-*.idx
-*.ilg
-*.ind
-*.fdb_latexmk
-*.fls
-*.synctex.gz
-*.pdf
+*.pp
 
-# LaTeX temporary files
-*-converted-to.pdf
-*.run.xml
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Environment
 .env
@@ -26,3 +13,8 @@
 
 # Editors
 .vscode/
+.idea/
+
+# System/Environment files
+.DS_Store
+Thumbs.db
