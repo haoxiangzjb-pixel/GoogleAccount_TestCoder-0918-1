@@ -1,1 +1,21 @@
-Nothing needs to be ignored since only a source code file (MyViewController.swift) was added without any build artifacts, dependencies, or temporary files.
+```
+# Zig build artifacts
+.zig-cache/
+build/
+*.bin
+
+# Dependencies
+deps/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
