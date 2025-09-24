@@ -1,1 +1,21 @@
-(matrix_mult_A3F6b9.py is a source file, and there are no build artifacts, dependencies, or temporary files in the changes)
+```
+# Image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.webp
+
+# Python compiled files
+*.pyc
+__pycache__/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
+```
