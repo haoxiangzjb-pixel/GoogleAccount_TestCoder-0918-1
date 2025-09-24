@@ -1,34 +1,20 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+# VBA specific ignores
+*.frx
+*.vbw
+*.cache
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
+*.swp
+*.swo
+*.tmp
 
-# Coverage
-.coverage
-coverage/
-htmlcov/
+# System files
+.DS_Store
+Thumbs.db
 
-# Distribution / packaging
-dist/
-build/
-*.egg-info/
+# Logs
+*.log
 ```
