@@ -1,48 +1,60 @@
-```
-# Assembly files
-*.asm
-
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-
-# Dependencies
-node_modules/
+```python
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
 venv/
 .venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
+.venv*/
+.ENV
 .env
 .env.local
+.env.
 *.env.*
+.venv.bak/
+.venv-*/
+venv.bak/
+venv-*/
 
-# Editors
+# Build artifacts
+build/
+dist/
+*.egg
+*.egg-info/
+.eggs/
+eggs/
+parts/
+develop-eggs/
+.installed.cfg
+*.egg-info/
+*.dist-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing
+.coverage
+coverage/
+htmlcov/
+.noserc
+.tox/
+.coverage*/
+
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*.tmp
 
-# System
+# OS
 .DS_Store
 Thumbs.db
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# Logs
+*.log
 
 # Compressed files
 *.zip
