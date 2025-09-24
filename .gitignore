@@ -1,40 +1,24 @@
 ```
-# Build system
-*.mk
-Makefile
-make/
-
 # Compiled and build artifacts
-*.o
-*.obj
-*.out
-*.exe
-*.dll
-*.so
-*.a
+*.swiftmodule
+*.swiftdoc
+*.swo
+*.swp
 
 # Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
+Pods/
+Carthage/
 build/
-target/
-.gradle/
+DerivedData/
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
-*.swo
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
@@ -42,7 +26,6 @@ target/
 *.swp
 *.swo
 
-# System
+# macOS
 .DS_Store
-Thumbs.db
 ```
