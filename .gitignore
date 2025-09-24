@@ -1,13 +1,1 @@
-```
-# R-specific ignores
-*.RData
-*.Rhistory
-.Rproj.user/
-.Rprofile
-```
-
-Wait, I need to reconsider. The only file added is `scatter_plot.R`, which is a source code file. There are no build artifacts, dependencies, or temporary files in the change list that would require ignoring.
-
-```
-
-```
+(random_script_name_12345.py is a source file, and there are no build artifacts, dependencies, or temp files in the changes)
