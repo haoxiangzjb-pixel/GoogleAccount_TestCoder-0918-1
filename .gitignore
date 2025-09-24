@@ -1,10 +1,1 @@
-```
-# Temporary files
-*.tmp
-
-# Generated data files
-user_data_*.txt
-
-# Executable files
-user_program
-```
+Nothing should be ignored since the added files are source code files (.jl files) and no build artifacts, dependencies, or temporary files are present in the changes.
