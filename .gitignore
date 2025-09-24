@@ -1,17 +1,37 @@
 ```
-# Compiled Python files
-*.pyc
-__pycache__/
+# Build system
+*.mk
+Makefile
+make/
 
-# Virtual environments
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
+
+# Dependencies
+node_modules/
 venv/
 .venv/
-env/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
 
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
+*.swo
 
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
@@ -22,15 +42,7 @@ env/
 *.swp
 *.swo
 
-# Dependencies
-node_modules/
-.mypy_cache/
-.pytest_cache/
-.coverage
-coverage/
-htmlcov/
-
-# System files
+# System
 .DS_Store
 Thumbs.db
 ```
