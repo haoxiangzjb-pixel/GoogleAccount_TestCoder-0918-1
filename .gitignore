@@ -1,1 +1,9 @@
-Nothing to ignore - the changes only include a README file which is a source/config file.
+```
+# Image files
+*.png
+
+# R-specific
+.Rhistory
+.RData
+.Rproj.user/
+```
