@@ -1,18 +1,1 @@
-```
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Configuration backup/temp files
-*.ini~
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# System files
-.DS_Store
-Thumbs.db
-```
+(empty)
