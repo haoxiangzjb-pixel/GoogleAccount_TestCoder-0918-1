@@ -1,1 +1,3 @@
-Nothing should be ignored since the added files are source code files (.jl files) and no build artifacts, dependencies, or temporary files are present in the changes.
+(ts is a source file, no build artifacts or dependencies detected in the changes)
+
+(empty)
