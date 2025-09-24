@@ -1,32 +1,39 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
+# OCaml build artifacts
+*.cmi
+*.cmo
+*.cmx
+*.cma
+*.cmxa
+*.cmxs
 *.exe
-*.dll
-*.so
-*.a
 *.out
+*.o
+*.a
+*.so
 
-# Dependencies
-target/
-Cargo.lock
+# Dune build directory
+_build/
+_dune/
+
+# OPAM local switch
+.opam/
+
+# Merlin configuration
+.merlin
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
 
 # Environment
 .env
 .env.local
 *.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Rust-specific
-**/*.rs.bk
-```
 ```
