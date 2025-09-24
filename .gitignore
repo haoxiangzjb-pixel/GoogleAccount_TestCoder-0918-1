@@ -1,3 +1,38 @@
-(nodejs-app-deployment.yaml is a deployment configuration file, which appears to be a source/config file rather than a build artifact, dependency, or temp file)
+```
+# Kubernetes/OpenShift deployment files
+*.yaml
+*.yml
 
-(empty — output nothing)
+# If this is a Node.js project
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Build artifacts (if any Node.js build process)
+dist/
+build/
+coverage/
+.nyc_output/
+```
