@@ -1,1 +1,1 @@
-Nothing needs to be ignored in this case. The change list contains only a source code file (ViewController_2.swift) without any build artifacts, dependencies, or temporary files that would require ignoring.
+(service_config_12345.yaml is a config file, not a build artifact or dependency, so no ignores needed)
