@@ -1,1 +1,39 @@
-Nothing should be ignored since only a Kotlin source file was added without any build artifacts, dependencies, or temporary files.
+```
+# Thrift generated files
+*.thrift~
+*.thrift.java
+*.thrift.py
+*.thrift.js
+*.thrift.go
+*.thrift.php
+*.thrift.rb
+*.thrift.perl
+*.thrift.cpp
+*.thrift.cocoa
+*.thrift.csharp
+*.thrift.d
+*.thrift.delphi
+*.thrift.erl
+*.thrift.haxe
+*.thrift.html
+*.thrift.lua
+*.thrift.ocaml
+*.thrift.php
+*.thrift.pike
+*.thrift.pl
+*.thrift.ps
+*.thrift.rb
+*.thrift.st
+*.thrift.ts
+*.thrift.vb
+*.thrift.xml
+*.thrift.yaml
+*.thrift.yml
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*~
+```
