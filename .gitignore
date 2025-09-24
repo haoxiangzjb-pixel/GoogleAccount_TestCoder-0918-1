@@ -1,41 +1,46 @@
 ```
-# Terraform files
-*.tfstate
-*.tfstate.*
-*.tfvars
-.terraform/
-.terraform.lock.hcl
+# Protocol buffers
+*.pb.go
+*.py
+*.js
+*.ts
+*_grpc*
+*_pb*
 
 # Compiled and build artifacts
 *.pyc
 __pycache__/
 *.o
 *.obj
-*.out
-*.exe
-*.dll
-*.so
-*.a
+dist/
+build/
+target/
 
 # Dependencies
-node_modules/
-venv/
 .venv/
-.env
-.env.local
-.env.*
+venv/
+node_modules/
+.pip/
+.mypy_cache/
+.pytest_cache/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
+
+# Environment
+.env
+.env.local
+.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# System files
+# OS
 .DS_Store
 Thumbs.db
 
@@ -43,26 +48,6 @@ Thumbs.db
 coverage/
 htmlcov/
 .coverage
-
-# Distribution / packaging
-dist/
-build/
-target/
-.gradle/
-
-# Python specific
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-.Python
-*.so
-.Python
-*.egg-info/
-.eggs/
-.mypy_cache/
-.pytest_cache/
-.tox/
 
 # Compressed files
 *.zip
