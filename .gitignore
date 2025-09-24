@@ -4,10 +4,11 @@
 __pycache__/
 *.o
 *.obj
+*.class
 *.exe
 *.dll
 *.so
-*.class
+*.a
 *.out
 
 # Dependencies
@@ -44,13 +45,8 @@ target/
 .gradle/
 
 # Python specific
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-.Python
-*.so
-*.egg-info/
+.mypy_cache/
+.pytest_cache/
 
 # Compressed files
 *.zip
