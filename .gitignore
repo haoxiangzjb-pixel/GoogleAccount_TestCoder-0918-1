@@ -1,37 +1,4 @@
-```
-# Compiled and build artifacts
-*.mex*
-*.obj
-*.o
-*.a
-*.so
-*.dll
-*.exe
-*.out
-
-# Dependencies
-*.m
-*.mat
-*.fig
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# MATLAB specific
-*.fig
-*.mat
-*.mex*
+```toml
+# Configuration
+app_settings.toml
 ```
