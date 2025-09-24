@@ -1,14 +1,17 @@
 ```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+
 # Dependencies
-node_modules/
+.venv/
+venv/
+pip-tools/
 
-# Build artifacts
-dist/
-build/
-coverage/
-
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
 # Environment
 .env
@@ -18,20 +21,19 @@ coverage/
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# Python
-__pycache__/
-*.pyc
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Python specific
 *.pyo
 *.pyd
 .Python
-venv/
-.venv/
-.env
+*.so
 
-# System
+# System files
 .DS_Store
 Thumbs.db
 ```
