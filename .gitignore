@@ -1,48 +1,28 @@
 ```
-# Vue.js build artifacts and dependencies
-dist/
-build/
-node_modules/
+# Configuration and deployment files
+*.yaml
+*.yml
 
-# IDE and editor files
-.vscode/
-.idea/
-*.swp
-*.swo
+# Kubernetes/Deployment artifacts
+*.yaml
+!*.yaml  # Keep yaml files unless they are build artifacts
+
+# Logs and temp files
+*.log
 *.tmp
 
-# Environment and config
+# Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Logs
-*.log
-
-# Coverage reports
-coverage/
-htmlcov/
-*.coverage
+# Editors
+.vscode/
+.idea/
 
 # System files
 .DS_Store
 Thumbs.db
-
-# Python artifacts (if any Python files exist)
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-
-# Compiled files
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
 
 # Compressed files
 *.zip
