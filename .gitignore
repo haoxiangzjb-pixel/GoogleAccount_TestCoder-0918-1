@@ -1,37 +1,3 @@
-```
-# Compiled and build artifacts
-*.mex*
-*.obj
-*.o
-*.a
-*.so
-*.dll
-*.exe
-*.out
+(database_config.ini is a config file, not a build artifact or temp file, so no ignores needed)
 
-# Dependencies
-*.m
-*.mat
-*.fig
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# MATLAB specific
-*.fig
-*.mat
-*.mex*
-```
+(empty output)
