@@ -1,13 +1,17 @@
 ```
-# Compiled and build artifacts
+# Zig build artifacts
+zig-cache/
+zig-out/
 *.o
 *.obj
-*.out
-*.adb~
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
 
 # Dependencies
-*.adp
-*.ads
+.zig-cache/
 
 # Logs and temp files
 *.log
@@ -18,7 +22,8 @@
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+*.env.*
 ```
