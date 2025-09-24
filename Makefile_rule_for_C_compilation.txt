@@ -1,0 +1,24 @@
+# This is a Makefile rule for compiling a C program.
+# It assumes the source file is named 'main.c' and the output executable is named 'program'.
+
+CC = gcc
+CFLAGS = -Wall -g # Include warnings and debug info by default
+
+# The target executable name
+TARGET = program
+
+# The source file(s), you can add more here
+SRCS = main.c
+
+# The rule to build the target
+$(TARGET): $(SRCS)
+	$(CC) $(CFLAGS) -o $(TARGET) $(SRCS)
+
+# A common 'clean' rule to remove the compiled executable
+clean:
+	rm -f $(TARGET)
+
+# A common 'all' rule, often used as the default
+all: $(TARGET)
+
+.PHONY: all clean
