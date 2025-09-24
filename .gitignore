@@ -1,1 +1,32 @@
-Nothing should be ignored since the added files are source code files (.jl files) and no build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.hi
+*.chi
+*.chs
+*.dyn_o
+*.dyn_hi
+
+# Dependencies
+.stack-work/
+.cabal-sandbox/
+dist/
+dist-newstyle/
+cabal/
+cabal.project.local
+cabal.project.freeze
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
