@@ -1,1 +1,17 @@
-(empty)
+```
+# VBA specific ignores
+*.vba.bak
+*.vba~
+
+# Backup files
+*.bak
+*.~*
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
+```
