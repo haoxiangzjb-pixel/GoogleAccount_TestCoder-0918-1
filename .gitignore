@@ -1,1 +1,6 @@
-(empty)
+(server_config_937284.json appears to be a configuration file, which should not be ignored unless it contains sensitive data - but since it's explicitly a server config file, it may contain environment-specific or sensitive information, so we should ignore it)
+
+```
+# Configuration files
+server_config_*.json
+```
