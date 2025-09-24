@@ -1,15 +1,1 @@
-```
-# VBA specific ignores
-*.frx
-*.vbw
-*.cache
-
-# Office files
-*.tmp
-*.log
-
-# Backup files
-*~
-*.bak
-*.old
-```
+Nothing to ignore - the change list contains only a source code file (.erl) and no build artifacts, dependencies, or temporary files.
