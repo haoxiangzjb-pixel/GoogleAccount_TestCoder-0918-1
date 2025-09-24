@@ -1,1 +1,35 @@
-Nothing needs to be ignored in this case. The change list contains only a source code file (ViewController_2.swift) without any build artifacts, dependencies, or temporary files that would require ignoring.
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+
+# System files
+.DS_Store
+Thumbs.db
+```
