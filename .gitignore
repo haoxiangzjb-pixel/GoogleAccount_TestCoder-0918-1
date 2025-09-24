@@ -1,48 +1,40 @@
 ```
-# Build system
-*.mk
-Makefile
-make/
-
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-*.exe
-*.dll
-*.so
-*.a
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+*.backup/
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
+# Logs
+*.log
 
-# System
+# Temporary files
+*.tmp
+*~
+.swp
+.swo
+
+# OS generated files
 .DS_Store
 Thumbs.db
+
+# Dependencies and build artifacts (if any)
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+dist/
+build/
+target/
+.venv/
+venv/
+.envrc
 ```
