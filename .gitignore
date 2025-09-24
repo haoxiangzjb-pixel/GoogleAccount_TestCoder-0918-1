@@ -1,1 +1,24 @@
-Nothing should be ignored since only a PHP source file was added without any build artifacts, dependencies, or temporary files.
+```
+# VBA/Office files
+*.tmp
+*.log
+*.bak
+*.~*
+Thumbs.db
+Desktop.ini
+
+# Environment and temporary files
+.env
+.env.local
+*.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+```
