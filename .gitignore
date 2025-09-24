@@ -1,1 +1,42 @@
-Nothing to ignore - only a Python source file was added.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
+
+# Build directories
+build/
+dist/
+target/
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env.*
+```
