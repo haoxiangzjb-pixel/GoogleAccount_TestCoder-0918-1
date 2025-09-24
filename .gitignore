@@ -1,15 +1,10 @@
 ```
-# Executable files
-swap_program
-
-# Temporary/swap files
-*.tmp
-*.swp
-swap_*.txt
-
-# Build artifacts
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 *.o
 *.obj
+*.class
 *.exe
 *.dll
 *.so
@@ -20,27 +15,32 @@ swap_*.txt
 node_modules/
 venv/
 .venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
+.env
+.env.local
+*.env.*
+
+# Build directories
 dist/
 build/
 target/
-.gradle/
+*.min.js
+*.bundle.js
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # System files
 .DS_Store
 Thumbs.db
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
 
 # Coverage
 coverage/
@@ -66,4 +66,8 @@ htmlcov/
 *.Z
 *.lz
 *.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
