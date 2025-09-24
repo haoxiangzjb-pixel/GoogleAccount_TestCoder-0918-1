@@ -1,43 +1,27 @@
 ```
-# Python
-__pycache__/
+# Compiled and build artifacts
 *.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.pytest_cache/
-.mypy_cache/
-.hypothesis/
+__pycache__/
 
-# Distribution / packaging
-.Python
-env/
-venv/
+# Dependencies
 .venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
+venv/
+
+# Logs and temp files
 *.log
-.pytest_cache/
-.mypy_cache/
-.hypothesis/
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Selenium specific
+*.log
+*.tmp
 ```
