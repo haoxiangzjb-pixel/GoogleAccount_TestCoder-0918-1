@@ -1,35 +1,10 @@
 ```
-# Build system
-*.mk
-Makefile
-make/
-
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-*.exe
-*.dll
-*.so
-*.a
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
+# Temporary shell script files
+*.sh~
 
 # Logs and temp files
-*.log
 *.tmp
-*.swp
-*.swo
+*.log
 
 # Environment
 .env
@@ -42,7 +17,7 @@ target/
 *.swp
 *.swo
 
-# System
+# System files
 .DS_Store
 Thumbs.db
 ```
