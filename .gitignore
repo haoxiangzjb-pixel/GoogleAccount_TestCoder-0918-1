@@ -1,1 +1,1 @@
-Nothing should be ignored based on the provided file changes. The added file `list_files_abc123.sh` is a shell script source file, which should be tracked in version control.
+Nothing should be ignored since the added files are just Julia source files (.jl) which are source code files.
