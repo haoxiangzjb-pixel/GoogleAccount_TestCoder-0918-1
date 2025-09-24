@@ -1,26 +1,5 @@
-```
-# Compiled and build artifacts
-*.o
-*.obj
-*.mod
-*.smod
-*.out
+(book_data.json is a data file, not a build artifact, dependency, or temp file - it appears to be source data for the project, so no ignores are needed)
 
-# Dependencies
-build/
-dist/
+```json
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
 ```
