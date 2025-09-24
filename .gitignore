@@ -1,57 +1,13 @@
 ```
-# API data files
-api_data_*.json
+# R-specific ignores
+*.RData
+*.Rhistory
+.Rproj.user/
+.Rprofile
+```
 
-# Python
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
+Wait, I need to reconsider. The only file added is `scatter_plot.R`, which is a source code file. There are no build artifacts, dependencies, or temporary files in the change list that would require ignoring.
 
-# Environment
-.env
-.env.local
-*.env.*
+```
 
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
-*.swo
-
-# Editors
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# Build artifacts
-dist/
-build/
-*.out
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
 ```
