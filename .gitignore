@@ -1,1 +1,32 @@
-Nothing should be ignored based on the provided changes. The only added file is `greeting_widget.dart`, which appears to be source code that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.class
+*.dex
+*.so
+*.aar
+
+# Dependencies
+build/
+.gradle/
+local.properties
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env.*
+```
