@@ -1,48 +1,13 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.mod
-*.out
-*.exe
-*.dll
-*.so
-*.a
+# Julia-specific compiled files
+*.ji
+*.cache
 
-# Dependencies
-venv/
-.venv/
-__pycache__/
-*.egg-info/
-build/
-dist/
-*.egg
+# Julia installation directory
+julia-*/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# Julia test files
+*.jl
 
 # Compressed files
 *.zip
