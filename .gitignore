@@ -1,1 +1,39 @@
-(empty)
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.hi
+*.chi
+*.chs.h
+*.dyn_o
+*.p_o
+
+# Dependencies
+.cabal-sandbox/
+cabal-dev/
+dist/
+dist-newstyle/
+.stack-work/
+*.cabal.project.local
+cabal.project.local~
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
