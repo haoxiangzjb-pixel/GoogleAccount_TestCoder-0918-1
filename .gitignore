@@ -1,1 +1,1 @@
-Nothing should be ignored based on the provided changes. The added file `script_5.ps1` is a PowerShell script source file, which should be tracked in version control.
+Nothing to ignore - the change list contains only a source code file (.groovy) and no build artifacts, dependencies, or temporary files.
