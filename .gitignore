@@ -1,5 +1,1 @@
-(postgres_connect_12345.py is a source file, so no ignores needed)
-
-```python
-
-```
+Nothing to ignore - the added file 'get_user_info.ps1' is a PowerShell script source file, which should be tracked in version control. No build artifacts, dependencies, or temporary files are present in the changes.
