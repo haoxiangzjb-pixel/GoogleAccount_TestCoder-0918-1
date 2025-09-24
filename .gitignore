@@ -1,33 +1,5 @@
-```
-# LaTeX build artifacts
-*.aux
-*.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.pdf
+(binary_classifier_model_4567.py is a source file, so no ignores needed)
 
-# Temp files
-*.tmp
-*.swp
-*.swo
+```python
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# OS
-.DS_Store
-Thumbs.db
 ```
