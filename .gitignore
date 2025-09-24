@@ -1,24 +1,10 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-*.asm
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
+# Build artifacts
+*.json
 
 # Logs and temp files
-*.log
 *.tmp
-*.swp
+*.log
 
 # Environment
 .env
@@ -28,8 +14,4 @@ target/
 # Editors
 .vscode/
 .idea/
-
-# System files
-.DS_Store
-Thumbs.db
 ```
