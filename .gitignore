@@ -1,48 +1,136 @@
 ```
-# Assembly files
-*.asm
-
 # Compiled and build artifacts
+*.class
 *.o
 *.obj
-*.out
 
 # Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
 target/
-.gradle/
+build/
+dist/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-*.env.*
-
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# System
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+.env.*
 
 # Coverage
 coverage/
 htmlcov/
 .coverage
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage*
+.nox/
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+dist/
+build/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# C/C++
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.out
+*.obj
+*.lib
+*.ilk
+*.pdb
+*.gch
+*.gtest
+*.idb
+*.iobj
+*.ipdb
+*.tlog
+*.VS.VC.db
+*.VC.VC.opendb
+
+# Go
+*.o
+*.a
+*.so
+*.exe
+*.test
+*.prof
+go.mod
+go.sum
+
+# Rust
+target/
+Cargo.lock
+
+# Ruby
+*.gem
+*.rbc
+extconf.rb
+.gem
+.bundle/
+vendor/bundle
+tmp/
+.ruby-version
+.rubocop.yml
+.rubocop_todo.yml
+
+# Julia
+julia-*/
+.JuliaProject.new
+.JuliaProject.new~
+
+# Zig
+zig*/
 
 # Compressed files
 *.zip
@@ -67,4 +155,26 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+*.nib
+*.lproj/
+*.app
+*.dmg
+*.pkg
+*.mpkg
+*.app/
+*.tmp
+*.temp
+*~
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 ```
