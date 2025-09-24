@@ -1,11 +1,9 @@
 ```
-# Backup files
-*.bak
-backup_*
+# Images and generated files
+*.png
 
-# Script files (if they are temporary)
-*.sh
-
-# Temp files
-*.tmp
+# R-specific ignores
+.Rproj.user/
+.Rhistory
+.Rdata
 ```
