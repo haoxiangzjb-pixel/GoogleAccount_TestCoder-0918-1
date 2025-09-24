@@ -1,1 +1,34 @@
-Nothing needs to be ignored in this case. The added file `list_files_1234.sh` is a shell script source file, which should be tracked in version control. There are no build artifacts, dependencies, or temporary files in the changes that would warrant adding ignore rules.
+```
+# Compiled and build artifacts
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.cmxs
+*.exe
+*.out
+*.o
+*.obj
+
+# Dependencies
+_dune/
+.opam/
+esy.lock/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# OCaml specific
+*.annot
+*.cmt
+*.cmti
+*.merlin
+```
