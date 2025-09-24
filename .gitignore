@@ -1,188 +1,43 @@
 ```
-#Julia installation
-julia-*/**
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 
-#Compressed files
-*.tar.gz
-*.gz
-
-#Compiled Julia files
-*.ji
-*.so
-
-#Julia-specific cache and build directories
-*.cache
-compiled/
-build/
-
-#Temp files
-*.tmp
-*.swp
-
-#Logs
-*.log
-
-#OS-specific files
-.DS_Store
-Thumbs.db
-
-#Editor/IDE files
-.vscode/
-.idea/
-
-#Dependencies and virtual environments
+# Dependencies
 .venv/
 venv/
 node_modules/
 
-#Coverage and testing
-coverage/
-htmlcov/
-.coverage
-
-#Python-specific
-__pycache__/
-*.pyc
-*.pyo
-
-#System files
+# Logs and temp files
+*.log
 *.tmp
-*~
-.DS_Store
-Thumbs.db
+*.swp
 
-#Environment files
+# Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-#Backup and swap files
-*.bak
-*.swp
-*.swo
-
-#Zig-specific (if applicable)
-zig-*/
-
-#MyPy cache
-.mypy_cache/
-
-#Pytest cache
-.pytest_cache/
-
-#Gradle
-.gradle/
-
-#Target directory (Maven, etc.)
-target/
-
-#Julia artifacts and packages
-.julia/
-artifacts/
-
-#Julia build files
-*.ji
-*.so
-*.cache
-
-#Julia stdlib compiled files
-share/julia/compiled/
-
-#Julia package manager files
-Manifest.toml
-
-#Julia temporary files
-*.tmp
-
-#Julia-specific temp files
-*.jl.tmp
-
-#Julia-specific log files
-*.log
-
-#Julia-specific cache files
-*.cache
-
-#Julia-specific compiled files
-*.ji
-*.so
-
-#Julia-specific build directories
-build/
-dist/
-
-#Julia-specific dependency directories
-.julia/
-artifacts/
-
-#Julia-specific environment files
-*.env
-.env
-
-#Julia-specific editor files
+# Editors
 .vscode/
 .idea/
 
-#Julia-specific temp files
-*.tmp
-*~
-
-#Julia-specific system files
-.DS_Store
-Thumbs.db
-
-#Julia-specific backup files
-*.bak
-
-#Julia-specific swap files
-*.swp
-*.swo
-
-#Julia-specific compressed files
-*.tar.gz
-*.gz
-*.zip
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-
-#Julia-specific cache directories
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-
-#Julia-specific dependency cache
-node_modules/
-.venv/
-venv/
-
-#Julia-specific coverage
+# Coverage
+.coverage
 coverage/
 htmlcov/
-.coverage
 
-#Julia-specific target/build
-target/
-.gradle/
-build/
+# Distribution / packaging
 dist/
+build/
+*.egg-info/
+*.egg
 
-#Julia-specific compressed archives
-*.tar
-*.tgz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
-
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
 ```
