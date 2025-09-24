@@ -1,1 +1,52 @@
-(random_view_12345.py is just a regular Python source file, no build artifacts, dependencies, or temp files in the changes)
+```
+# Unity specific
+*.cs.meta
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+*.unityproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.cache
+*.asmdef
+*.rsp
+*.pdb
+
+# Compiled and build artifacts
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.pidb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+```
