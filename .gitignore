@@ -1,34 +1,46 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+# Compressed files
+*.tar.gz
+
+# Julia specific
+julia-*/**
+
+# Build artifacts
+dist/
+build/
+target/
+*.out
+*.exe
+*.dll
+*.so
+*.a
+*.obj
 
 # Dependencies
-.venv/
-venv/
 node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.gradle/
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Coverage
-.coverage
-coverage/
-htmlcov/
+# System
+.DS_Store
+Thumbs.db
+*.tmp
 
-# Distribution / packaging
-dist/
-build/
-*.egg-info/
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
