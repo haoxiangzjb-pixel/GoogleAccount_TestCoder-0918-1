@@ -1,6 +1,25 @@
 ```
+# Compiled and build artifacts
+*.o
+*.obj
+*.mod
+*.smod
+*.exe
+
+# Dependencies
+*.mod/
+*.smod/
+
+# Logs and temp files
+*.log
 *.tmp
 *.swp
-*.log
-tmp.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
