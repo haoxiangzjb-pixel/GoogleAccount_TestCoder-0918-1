@@ -1,38 +1,31 @@
 ```
-# Compiled Python files
-*.pyc
-__pycache__/
+# Data files
+*.csv
 
-# Virtual environments
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
 venv/
 .venv/
-env/
+.venv*/
+.ENV/
+.env/
+.env.local
+.env.
+.env.*
+.env.local.*
+.ENV.*
+.ENV.local.*
 
-# Logs
+# PowerShell
+*.tmp
 *.log
 
-# Temporary files
-*.tmp
-*.swp
-*.swo
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Python cache
-.mypy_cache/
-.pytest_cache/
+# System files
+.DS_Store
+Thumbs.db
 ```
