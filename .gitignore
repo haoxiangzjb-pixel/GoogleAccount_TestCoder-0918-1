@@ -1,1 +1,39 @@
-(empty)
+```
+# Unity specific ignores
+Library/
+Temp/
+Obj/
+Build/
+*.unityproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.cache
+*.log
+
+# Compiled files
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.pidb
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+```
