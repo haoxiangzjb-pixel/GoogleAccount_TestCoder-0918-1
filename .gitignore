@@ -1,38 +1,36 @@
 ```
-# Executables
-sort_array_9j2k4
-
-# Compiled files
+# Zig build artifacts
+zig-cache/
+zig-out/
 *.o
 *.obj
-*.out
 *.exe
 *.dll
 *.so
 *.a
-
-# Build directories
-build/
-dist/
-target/
+*.lib
+*.dylib
+*.bin
 
 # Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
+.zig-cache/
+zig-cache/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
 
 # Editors
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# Logs and temp files
-*.log
-*.tmp
 
 # System files
 .DS_Store
