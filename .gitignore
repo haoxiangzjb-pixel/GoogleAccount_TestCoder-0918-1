@@ -1,31 +1,17 @@
 ```
-# Unity specific
-Library/
-Temp/
-Obj/
-Build/
-Builds/
-*.unitypackage
-*.userprefs
-*.pidb
-*.sln
-*.csproj
-*.user
-*.userosscache
-*.unity-test-report
-[OutputFile].xml
-[OutputFile].log
-
 # Compiled and build artifacts
-*.dll
-*.exe
-*.pdb
-*.mdb
-*.exe.config
-*.userprefs
+*.o
+*.obj
+*.out
+find_max
 
-# Logs
+# Dependencies
+# (no dependency directories detected)
+
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
 # Environment
 .env
@@ -35,11 +21,48 @@ Builds/
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# OS generated files
+# OS files
 .DS_Store
 Thumbs.db
-desktop.ini
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Compiled Python
+*.c
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
