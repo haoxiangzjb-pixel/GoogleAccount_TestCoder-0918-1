@@ -1,37 +1,12 @@
 ```
-# Dependencies
-node_modules/
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+terraform.tfplan
+terraform.tfstate.backup
 
-# Build artifacts
-dist/
-build/
-coverage/
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-venv/
-.venv/
-.env
-
-# System
-.DS_Store
-Thumbs.db
+# Variables file (if sensitive)
+variable.tf
 ```
