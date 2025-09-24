@@ -1,1 +1,33 @@
-Nothing needs to be ignored in this case. The added file `connect_postgres.py` is a source code file that should be tracked in version control. There are no build artifacts, dependencies, or temporary files in the changes that require ignoring.
+```
+# Compiled and build artifacts
+*.swiftmodule
+*.swiftdo
+*.o
+*.obj
+
+# Dependencies
+Pods/
+Carthage/
+.build/
+DerivedData/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+```
