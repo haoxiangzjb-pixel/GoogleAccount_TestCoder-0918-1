@@ -1,14 +1,17 @@
 ```
 # Compiled and build artifacts
+*.rs.bk
 *.o
 *.obj
-*.mod
-*.smod
 *.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
-*.mod/
-*.smod/
+target/
+Cargo.lock
 
 # Logs and temp files
 *.log
@@ -19,7 +22,8 @@
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+.env.*
 ```
