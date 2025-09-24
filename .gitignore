@@ -1,4 +1,32 @@
 ```
-# No build artifacts, dependencies, or temporary files detected in changes
-# Only backup_script.sh was added, which appears to be a source file
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+target/
+**/target/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Rust-specific
+Cargo.lock
+**/Cargo.lock
 ```
