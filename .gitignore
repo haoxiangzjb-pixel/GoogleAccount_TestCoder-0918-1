@@ -1,13 +1,56 @@
 ```
-# R-specific ignores
-*.RData
-*.Rhistory
-.Rproj.user/
-.Rprofile
-```
+# Compiled and build artifacts
+*.plc
+*.plx
+*.o
+*.obj
+*.out
 
-Wait, I need to reconsider. The only file added is `scatter_plot.R`, which is a source code file. There are no build artifacts, dependencies, or temporary files in the change list that would require ignoring.
+# Dependencies
+cpan/
+local/
 
-```
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
 
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
+*.prof
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
