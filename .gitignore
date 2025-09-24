@@ -1,41 +1,4 @@
 ```
-# VBA specific ignores
-*.frx
-*.ctl
-*.dob
-*.ctl.bak
-*.frx.bak
-
-# Compiled files
-*.dll
-*.exe
-*.ocx
-*.vbp
-*.vbw
-*.sdf
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# Temp files
-*.tmp
-*.temp
-*~
-Thumbs.db
-Desktop.ini
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Logs
-*.log
-
-# Backup files
-*.bak
-*.old
-*.orig
-*.backup
+# XML files
+*.xml
 ```
