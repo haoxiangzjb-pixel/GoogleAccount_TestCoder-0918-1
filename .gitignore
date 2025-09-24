@@ -1,40 +1,12 @@
 ```
-# Compressed files
-*.tar.gz
+# Shell script backup/compiled files
+*.sh.bak
+*.sh~
 
-# Julia specific
-julia-*/**
-
-# Build artifacts
-dist/
-build/
-target/
-*.out
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-.gradle/
-
-# Editors
-.vscode/
-.idea/
+# Temporary files
+*.tmp
 *.swp
 *.swo
-
-# System
-.DS_Store
-Thumbs.db
-*.tmp
 
 # Logs
 *.log
@@ -43,4 +15,30 @@ Thumbs.db
 .env
 .env.local
 *.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts
+dist/
+build/
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+
+# System files
+.DS_Store
+Thumbs.db
 ```
