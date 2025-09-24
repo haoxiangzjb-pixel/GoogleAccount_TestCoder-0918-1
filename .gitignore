@@ -1,35 +1,15 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-*.asm
+# VBA specific ignores
+*.frx
+*.vbw
+*.cache
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
-
-# Logs and temp files
-*.log
+# Office files
 *.tmp
-*.swp
+*.log
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
+# Backup files
+*~
+*.bak
+*.old
 ```
