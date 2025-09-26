@@ -1,1 +1,25 @@
-Nothing should be ignored since only a source code file (.f90) was added.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.ali
+*.o.d
+
+# Dependencies
+*.gpr
+*.gpr.
+*.ada
+
+# Editors
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+```
