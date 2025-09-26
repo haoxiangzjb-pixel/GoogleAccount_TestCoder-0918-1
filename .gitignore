@@ -1,34 +1,26 @@
 ```
 # Compiled and build artifacts
-*.o
-*.obj
-*.a
-*.so
-*.dylib
-*.dll
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
 *.exe
+*.out
 
 # Dependencies
-Pods/
-Carthage/
-.swiftlint.yml
-.derivedData/
+.opam/
+.dune/
+_build/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-.env.*
-
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
 # System files
 .DS_Store
