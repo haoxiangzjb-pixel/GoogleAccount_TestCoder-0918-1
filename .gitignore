@@ -1,16 +1,10 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-
 # Dependencies
-vendor/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
 
 # Environment
 .env
@@ -21,7 +15,11 @@ vendor/
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
+# Build artifacts
+dist/
+build/
+*.js.map
+
+# Original rules preserved
+*.log
 ```
