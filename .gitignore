@@ -1,38 +1,5 @@
-```
-# Julia-specific ignores
-*.ji
-*.jl.cov
-*.jl.mem
-*.so
-*.dylib
-*.dll
+(actual_content.kt is a source file, so no ignores needed)
 
-# Dependencies and packages
-.julia/
-*.julia/
-julia-*/
+```kotlin
 
-# Build artifacts
-build/
-dist/
-target/
-
-# Editor/IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs and temp files
-*.log
-*.tmp
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Environment
-.env
-.env.local
-*.env.*
 ```
