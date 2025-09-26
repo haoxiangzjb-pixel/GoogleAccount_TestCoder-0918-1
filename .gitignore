@@ -1,1 +1,11 @@
-Nothing to ignore - the added file 'greeting_widget_23.dart' is a source code file and should be tracked in version control.
+```
+# Logs and temp files
+*.log
+
+# Perl-specific
+*.pl~
+
+# System files
+.DS_Store
+Thumbs.db
+```
