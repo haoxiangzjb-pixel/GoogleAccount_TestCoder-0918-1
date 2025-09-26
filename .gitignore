@@ -1,6 +1,3 @@
 ```
-# Deployment files
-*.yaml
-!*.yaml
-nodejs-app-deployment-*.yaml
+# Configuration and deployment files only - no build artifacts or dependencies detected
 ```
