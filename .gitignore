@@ -1,4 +1,3 @@
 ```
-# PowerShell related
-*.ps1
+# Configuration and source files only - no build artifacts or dependencies detected
 ```
