@@ -1,41 +1,20 @@
-```rust
-# Compiled and build artifacts
-*.rs.bk
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+```
+# R-specific ignores
+.Rproj.user/
+.Rhistory
+.Rdata
+*.RData
+*.rds
+*.rda
+*.zip
 
 # Dependencies
-target/
-Cargo.lock
+renv/
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
 
 # Environment
-.env
-.env.local
-*.env.*
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Rust-specific
-**/*.rs.bk
-debug/
-release/
+.Renviron
 ```
