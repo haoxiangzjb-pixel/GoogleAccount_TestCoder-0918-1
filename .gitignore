@@ -1,1 +1,10 @@
-Nothing to ignore - only source code file (HelloWorld.java) was added.
+```
+# Web artifacts
+*.html
+
+# Temp files
+*.tmp
+
+# Logs
+*.log
+```
