@@ -1,36 +1,5 @@
-```
-# Compiled and build artifacts
-*.css.map
-*.min.css
+(my_django_app/views/view_70232.py is a source code file, and there are no build artifacts, dependencies, or temp files in the changes, so no .gitignore rules are needed)
 
-# Temp files
-*.tmp
-*.temp
+```python
 
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.egg-info/
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
 ```
