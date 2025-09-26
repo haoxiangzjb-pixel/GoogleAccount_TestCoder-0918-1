@@ -1,1 +1,5 @@
-Nothing to ignore - the added file 'sine_wave_script.m' is a source code file (.m extension typically indicates MATLAB/Octave source code) and no build artifacts, dependencies, or temporary files are present in the changes.
+(connect_to_postgres.py is a source file, no build artifacts, dependencies, or temp files detected in the changes, so no ignores needed)
+
+```python
+
+```
