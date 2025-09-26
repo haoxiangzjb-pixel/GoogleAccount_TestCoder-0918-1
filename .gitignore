@@ -1,0 +1,23 @@
+```
+# Compiled and build artifacts
+*.css.map
+*.min.css
+
+# Temp files
+*.tmp
+*.temp
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+```
