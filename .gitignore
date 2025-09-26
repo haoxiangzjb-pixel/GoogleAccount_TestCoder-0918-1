@@ -1,1 +1,35 @@
-(empty)
+```
+# Ada build artifacts
+*.ali
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+
+# Dependencies
+lib/
+obj/
+build/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+```
