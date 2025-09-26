@@ -1,0 +1,19 @@
+---
+- name: Restart Service Playbook
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Restart a service
+      systemd:
+        name: "{{ service_name | default('httpd') }}"
+        state: restarted
+      notify: "Service restarted"
+
+    - name: Reload daemon
+      systemd:
+        daemon_reload: yes
+
+  handlers:
+    - name: Service restarted
+      debug:
+        msg: "The service has been restarted."
