@@ -1,41 +1,5 @@
-```rust
-# Compiled and build artifacts
-*.rs.bk
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+(book.xml is a source/config file, no build artifacts, dependencies, or temp files detected in changes - output empty)
 
-# Dependencies
-target/
-Cargo.lock
+```python
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Rust-specific
-**/*.rs.bk
-debug/
-release/
 ```
