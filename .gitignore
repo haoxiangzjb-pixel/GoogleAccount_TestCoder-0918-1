@@ -1,33 +1,38 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
+# Julia-specific ignores
+*.ji
+*.jl.cov
+*.jl.mem
+*.so
+*.dylib
+*.dll
 
-# Dependencies
-vendor/
+# Dependencies and packages
+.julia/
+*.julia/
+julia-*/
+
+# Build artifacts
+build/
+dist/
+target/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
+
+# System files
+.DS_Store
+Thumbs.db
 
 # Environment
 .env
 .env.local
-.env.
-
-# Editors
-.vscode/
-.idea/
-
-# Go-specific
-*.exe
-*.dll
-*.so
-*.a
-*.dylib
-*.test
-*.prof
-cover.out
+*.env.*
 ```
