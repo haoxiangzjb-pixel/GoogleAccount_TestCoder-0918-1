@@ -1,1 +1,55 @@
-Nothing to output - the added file 'word_freq_counter.pl' is a Perl source code file and no build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Compiled files
+*.plc
+*.plx
+*.pmc
+
+# Editor/IDE files
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Dependency directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Build directories
+dist/
+build/
+target/
+node_modules/
+venv/
+.venv/
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage/
+htmlcov/
+*.egg-info/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# System files
+.DS_Store
+Thumbs.db
+```
