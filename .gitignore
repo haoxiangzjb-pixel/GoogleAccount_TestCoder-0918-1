@@ -1,1 +1,1 @@
-Nothing to output - the added file 'hello_12345.py' is a source code file and should not be ignored.
+Nothing to output - the change list contains only a source/config file (test_workflow.yml) and no build artifacts, dependencies, or temp files that need to be ignored.
