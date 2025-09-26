@@ -1,44 +1,23 @@
 ```
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Dependencies
+*.deps
+*.ali
+
+# Logs and temp files
 *.log
-.pytest_cache/
-.mypy_cache/
-.hypothesis/
+*.tmp
+*.swp
 
-# FastAPI specific
-*.db
-*.db-journal
-
-# Environment
-.env
-.env.local
-.env.*
-!.env.example
-
-# Editor
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# OS
+# System files
 .DS_Store
 Thumbs.db
 ```
