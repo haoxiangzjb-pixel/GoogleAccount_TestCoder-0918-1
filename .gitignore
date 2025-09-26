@@ -1,23 +1,15 @@
-```
-# R-specific ignores
-*.RData
-*.Rhistory
-.Rproj.user/
-.Rapp.history
-.Rbuildignore
-
+```bash
 # Compiled and build artifacts
+*.pyc
+__pycache__/
 *.o
-*.so
-*.dll
-*.dylib
-*.a
+*.obj
+*.out
 
 # Dependencies
-renv/
-packrat/
-lib/
-library/
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -32,10 +24,8 @@ library/
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# System
+# System files
 .DS_Store
 Thumbs.db
 ```
