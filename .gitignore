@@ -1,16 +1,32 @@
 ```
 # Compiled and build artifacts
+*.class
+*.pyc
 *.o
 *.obj
+*.exe
+*.dll
+*.so
+*.a
 *.out
 
 # Dependencies
-vendor/
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
@@ -21,7 +37,16 @@ vendor/
 .vscode/
 .idea/
 
-# Archives
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Compressed files
 *.zip
 *.gz
 *.tar
