@@ -1,17 +1,14 @@
-```rust
+```
 # Compiled and build artifacts
-*.rs.bk
 *.o
 *.obj
+*.mod
+*.smod
 *.exe
-*.dll
-*.so
-*.a
-*.out
 
 # Dependencies
-target/
-Cargo.lock
+build/
+dist/
 
 # Logs and temp files
 *.log
@@ -21,21 +18,9 @@ Cargo.lock
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
 # Environment
 .env
 .env.local
 *.env.*
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Rust-specific
-**/*.rs.bk
-debug/
-release/
 ```
