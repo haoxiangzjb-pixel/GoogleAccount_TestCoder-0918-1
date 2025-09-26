@@ -1,1 +1,11 @@
-Nothing should be ignored based on the provided file changes. The added files (`create_backup.sh` and `test_file.txt`) are regular script and text files that should typically be tracked in version control.
+```
+# PHP compiled files
+*.php~
+
+# Temporary files
+*.tmp
+*.swp
+
+# Logs
+*.log
+```
