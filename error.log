@@ -1,0 +1,7 @@
+[INFO] 2023-10-27T10:00:00Z Application started
+[ERROR] 2023-10-27T10:01:00Z Failed to connect to database
+[WARNING] 2023-10-27T10:02:00Z Low disk space
+[ERROR] 2023-10-27T10:03:00Z Permission denied for file access
+[INFO] 2023-10-27T10:04:00Z User login successful
+[ERROR] 2023-10-27T10:05:00Z Failed to connect to database
+[ERROR] 2023-10-27T10:06:00Z Invalid user input
