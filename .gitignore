@@ -1,23 +1,5 @@
-```
-# Compiled and build artifacts
-*.css.map
-*.min.css
+(book_data.xml is a source data file, not a build artifact, dependency, or temp file - so no ignores needed)
 
-# Temp files
-*.tmp
-*.temp
+```xml
 
-# Editor files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
 ```
