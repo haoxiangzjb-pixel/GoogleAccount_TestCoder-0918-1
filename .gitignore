@@ -1,8 +1,30 @@
 ```
-# PowerShell and Windows artifacts
-*.ps1
-*.tmp
+# Package files
+*.deb
+*.rpm
+*.tar
+*.gz
+*.zip
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
 
-# Text files that might be temporary
-*.txt
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
 ```
