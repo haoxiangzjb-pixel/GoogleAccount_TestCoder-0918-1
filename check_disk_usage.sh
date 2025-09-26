@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Script to check disk usage and alert if over 80%
+
+THRESHOLD=80
+USAGE=$(df / | grep -v Filesystem | awk "{print \$5}" | sed "s/%//g")
+
+if [ $USAGE -gt $THRESHOLD ]; then
+  echo "ALERT: Disk usage is at ${USAGE}%"
+else
+  echo "Disk usage is at ${USAGE}%, which is OK."
+fi
+
