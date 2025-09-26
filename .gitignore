@@ -1,23 +1,32 @@
 ```
 # Compiled and build artifacts
-*.css.map
-*.min.css
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.exe
+*.out
+*.o
+*.obj
 
-# Temp files
-*.tmp
-*.temp
+# Dependencies
+.opam/
+_dbuild/
+_build/
+esy.lock/
 
-# Editor files
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Logs
+# Logs and temp files
 *.log
+*.tmp
 
-# Environment
-.env
-.env.local
-*.env.*
+# System files
+.DS_Store
+Thumbs.db
 ```
