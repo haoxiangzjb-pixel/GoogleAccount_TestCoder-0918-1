@@ -1,36 +1,30 @@
 ```
-# Package files
-*.deb
+# R environment and build artifacts
+.Rproj.user/
+.Rhistory
+.RData
+*.RData
+*.rds
+*.Rds
+*.Rproj
 
-# Temporary and build artifacts
-*.tmp
+# Compiled files
 *.o
-*.obj
-*.out
+*.so
+*.dll
+*.a
 
-# Logs
+# Dependencies and packages
+library/
+lib/
+libs/
+
+# Data and output
+*.csv.bak
+*.tmp
 *.log
 
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Dependencies and build directories
-node_modules/
-venv/
-.venv/
-__pycache__/
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
+# System files
+.DS_Store
+Thumbs.db
 ```
