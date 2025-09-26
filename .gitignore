@@ -1,1 +1,41 @@
-Nothing to ignore - only source code file (HelloWorld.java) was added.
+```
+# R-specific ignores
+*.RData
+*.Rhistory
+.Rproj.user/
+.Rapp.history
+.Rbuildignore
+
+# Compiled and build artifacts
+*.o
+*.so
+*.dll
+*.dylib
+*.a
+
+# Dependencies
+renv/
+packrat/
+lib/
+library/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+```
