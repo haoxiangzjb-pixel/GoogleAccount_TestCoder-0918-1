@@ -1,1 +1,3 @@
-Nothing should be ignored based on the provided changes. The only added file is `list_iteration.groovy`, which is a source code file and should not be ignored.
+(index.html is a source file, no build artifacts, dependencies, or temp files detected in the changes)
+
+(empty - output nothing)
