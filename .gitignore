@@ -1,5 +1,1 @@
-(person_class_abc123.rb is a source code file, so no ignores needed)
-
-```ruby
-
-```
+Nothing should be ignored based on the provided changes. The added file `keras_model_dense_layer.py` is a source code file that should be tracked in version control.
