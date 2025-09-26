@@ -1,1 +1,30 @@
-Nothing should be ignored based on the provided file changes. The added file `list_files_12345.sh` appears to be a shell script source file, which should not be ignored.
+```
+# Compiled and build artifacts
+*.plc
+*.plx
+*.pmc
+*.p6c
+*.nqp
+
+# Dependencies
+local/lib/perl5/
+blib/
+pm_to_blib
+*.o
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+```
