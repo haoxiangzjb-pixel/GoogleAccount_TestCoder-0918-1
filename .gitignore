@@ -1,11 +1,14 @@
 ```
 # Compiled and build artifacts
+*.pyc
+__pycache__/
 *.o
 *.obj
-*.out
 
 # Dependencies
-vendor/
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -21,7 +24,26 @@ vendor/
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Distribution / packaging
+dist/
+build/
+*.egg
+*.egg-info/
+*.so
+*.dylib
+
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+.venv/
+venv/
+ENV/
 ```
