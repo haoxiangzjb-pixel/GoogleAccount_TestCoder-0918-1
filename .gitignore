@@ -1,17 +1,1 @@
-```
-# Process list files
-process_list_*.txt
-
-# Environment and temp files
-*.env
-*.tmp
-*.log
-
-# Editors
-.vscode/
-.idea/
-
-# OS specific
-.DS_Store
-Thumbs.db
-```
+Nothing needs to be ignored in this case. The added file 'random_script_2715.pl' is a Perl source file, which should be tracked in version control. There are no build artifacts, dependency directories, or temporary files that need to be ignored.
