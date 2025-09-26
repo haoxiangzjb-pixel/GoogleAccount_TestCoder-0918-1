@@ -1,3 +1,12 @@
-(copy_task_20250314.yml is a source/config file, not a build artifact or temporary file)
-
-(empty — output nothing)
+```
+# R-specific ignores
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+*.RData
+*.Rds
+*.rds
+*.Rout
+*.Rcheck/
+```
