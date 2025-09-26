@@ -1,5 +1,78 @@
-(crystal_queue_2025.py is a source file, so no ignores needed)
+```
+# Dependencies
+node_modules/
 
-```python
+# Build artifacts
+dist/
+build/
+coverage/
+htmlcov/
 
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Coverage
+.coverage
+.coverage.*
+.cache
+
+# MyPy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
+
+# Git
+.git/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
