@@ -1,1 +1,62 @@
-(empty)
+```
+# Jenkins artifacts
+*.jpi
+*.hpi
+*.war
+**/jenkins/jobs/*/builds/*/archive/
+**/workspace/
+**/builds/
+**/htmlreports/
+**/target/
+
+# Environment variables
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+**/logs/
+
+# Temporary files
+*.tmp
+*~
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies and build artifacts
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+env.bak/
+venv.bak/
+dist/
+build/
+*.egg-info/
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.o
+*.obj
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
+coverage/
+htmlcov/
+.coverage
+```
