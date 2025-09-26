@@ -1,1 +1,26 @@
-Nothing to output - the change list contains only a workflow configuration file (test_workflow.yml) which is a source/config file and should not be ignored.
+```
+# Compiled and build artifacts
+*.nimble
+nimcache/
+*.o
+*.obj
+*.out
+
+# Dependencies
+.nimble/
+nimblecache/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+```
