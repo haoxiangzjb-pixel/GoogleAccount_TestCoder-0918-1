@@ -1,41 +1,31 @@
 ```
 # Compiled and build artifacts
-*.rs.bk
+*.pyc
+__pycache__/
 *.o
 *.obj
-*.a
-*.lib
-*.dll
-*.so
-*.dylib
-target/
 
 # Dependencies
-Cargo.lock
-vendor/
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
 # Environment
 .env
 .env.local
 *.env.*
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# Editors
+.vscode/
+.idea/
 
-# System files
-.DS_Store
-Thumbs.db
+# Distribution and build directories
+dist/
+build/
+target/
 ```
