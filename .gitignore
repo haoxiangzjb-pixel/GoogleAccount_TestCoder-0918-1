@@ -1,5 +1,30 @@
-(book.xml is a source/config file, so no ignores needed)
+```
+# Compiled Python files
+*.pyc
+__pycache__/
 
-```gitignore
+# Logs
+*.log
 
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Build artifacts
+dist/
+build/
+target/
 ```
