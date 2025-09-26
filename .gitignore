@@ -1,43 +1,36 @@
 ```
-# Image files
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.bmp
-*.tiff
-*.webp
-
 # Compiled and build artifacts
 *.pyc
 __pycache__/
 *.o
 *.obj
-*.out
 
 # Dependencies
 .venv/
 venv/
-env/
-dist/
-build/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
+
+# Environment
+.env
+.env.local
+.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# System files
+# Django specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+db.sqlite3
+media/
+staticfiles/
 .DS_Store
-Thumbs.db
-
-# Environment
-.env
-.env.local
-*.env.*
 ```
