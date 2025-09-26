@@ -1,31 +1,5 @@
-```
-# Compiled and build artifacts
-*.plc
-*.plx
-*.pmc
-*.p6c
-*.nqp
+(config_abc123.toml is a config file, so no ignores needed)
 
-# Dependencies
-lib/
+```toml
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
 ```
