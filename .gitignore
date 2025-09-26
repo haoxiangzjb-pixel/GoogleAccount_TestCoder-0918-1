@@ -1,5 +1,1 @@
-```
-# Configuration and deployment files only - no build artifacts, dependencies, or temp files detected
-# Current changes: nginx-deployment.yaml (Kubernetes configuration file)
-# No ignores needed for this project
-```
+Nothing needs to be ignored since only a source code file (add_function.lua) was added without any build artifacts, dependencies, or temporary files.
