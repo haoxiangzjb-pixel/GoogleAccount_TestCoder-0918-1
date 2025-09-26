@@ -1,3 +1,25 @@
-(graphql_user_mutation.graphql is a source file, no build artifacts, dependencies, or temp files detected in changes)
+```
+# Compiled Scala files
+*.class
 
-(empty - output nothing)
+# Dependencies
+target/
+lib/
+project/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+```
