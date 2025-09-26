@@ -1,1 +1,12 @@
-Nothing should be ignored since only a source code file (.f90) was added.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Executables
+find_max
+
+# Generated files
+max_result_*.txt
+```
