@@ -1,19 +1,13 @@
 ```
 # Compiled and build artifacts
-*.css.map
-*.min.css
+*.beam
+*.app
+*.appup
+*.rel
 
-# Temp files
-*.tmp
-*.temp
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-.env.*
+# Dependencies
+deps/
+_build/
 
 # Editors
 .vscode/
@@ -21,16 +15,12 @@
 *.swp
 *.swo
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.egg-info/
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
