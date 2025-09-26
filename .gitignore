@@ -1,5 +1,31 @@
-(config_abc123.toml is a config file, so no ignores needed)
+```
+# Compiled and build artifacts
+*.class
+*.jar
+*.war
+*.ear
+*.scala
+*.sbt
+target/
 
-```toml
+# Dependencies
+lib_managed/
+project/project/
+project/target/
 
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# System files
+.DS_Store
+Thumbs.db
 ```
