@@ -2,25 +2,18 @@
 # Dependencies
 node_modules/
 
-# Build outputs
-dist/
-build/
-coverage/
-
 # Environment
 .env
 .env.local
 .env.*
 
-# Editor/IDE
-.vscode/
-.idea/
-*.swp
-*.swo
+# Logs and temp files
+*.log
 *.tmp
 
-# Logs
-*.log
+# Editors
+.vscode/
+.idea/
 
 # Python
 __pycache__/
@@ -29,30 +22,23 @@ __pycache__/
 *.pyd
 .Python
 venv/
+env/
+ENV/
 .venv/
-.env
+env.bak/
+venv.bak/
 
-# Compiled files
-*.o
-*.obj
+# Build outputs
+dist/
+build/
+*.out
 *.exe
 *.dll
 *.so
 *.a
-*.out
+*.obj
 
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Testing
-.mypy_cache/
-.pytest_cache/
-coverage/
-htmlcov/
-.coverage
-
-# Compression
+# Compressed files
 *.zip
 *.gz
 *.tar
@@ -71,8 +57,37 @@ htmlcov/
 *.Z
 *.lz
 *.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+.nyc_output/
+coverage/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vs/
+*.swp
+*.swo
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
+
+# Temporary files
+*.tmp
+*~
+.#*
+.DS_Store?
 ```
