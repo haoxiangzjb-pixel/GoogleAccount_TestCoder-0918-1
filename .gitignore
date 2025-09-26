@@ -1,1 +1,13 @@
-(empty)
+```
+# Prolog compiled files
+*.pl~
+
+# Backup files
+*~
+
+# Swap files
+*.swp
+
+# Temporary files
+*.tmp
+```
