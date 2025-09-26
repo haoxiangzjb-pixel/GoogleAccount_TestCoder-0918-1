@@ -1,10 +1,28 @@
 ```
-# Puppet-related ignores
-**/modules/
-**/spec/fixtures/modules/
-**/pkg/
-**/.tmp/
-**/.bundle/
-**/Gemfile.lock
-**/vendor/
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Test files
+*.test.py
+test_*.py
 ```
