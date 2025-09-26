@@ -1,24 +1,9 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.mod
-*.exe
-
-# Dependencies
-build/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
+# Environment files
 .env
 .env.local
 *.env.*
+
+# Configuration files that might contain sensitive data
+*config*.ini
 ```
