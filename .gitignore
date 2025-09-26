@@ -1,9 +1,5 @@
-```
-# R-specific ignores
-.Rproj.user/
-.Rhistory
-.Rdata
-*.RData
-*.rds
-*.Rds
+(ruby_array_iteration.rb is a source code file, so no .gitignore rules needed)
+
+```ruby
+
 ```
