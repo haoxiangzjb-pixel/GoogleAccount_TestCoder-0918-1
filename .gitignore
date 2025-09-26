@@ -1,23 +1,22 @@
 ```
-# Compiled and build artifacts
-*.rs.bk
-*.o
-*.obj
-*.a
-*.lib
-*.dll
-*.so
-*.dylib
-target/
+# Excel/VBA related
+*.bas
+*.vba
+*.xlsm
+*.xlam
 
-# Dependencies
-Cargo.lock
-vendor/
-
-# Logs and temp files
-*.log
+# Backup files
+*.bak
 *.tmp
-*.swp
+*~
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.
 
 # Editors
 .vscode/
@@ -25,17 +24,7 @@ vendor/
 *.swp
 *.swo
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# System files
+# OS
 .DS_Store
 Thumbs.db
 ```
