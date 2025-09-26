@@ -1,29 +1,19 @@
 ```
-# Executables
-sort_array_12345
+# Compiled and build artifacts
+*.css.map
+*.min.css
 
-# Compiled files
-*.o
-*.obj
-*.out
-*.exe
-*.dll
-*.so
-*.a
+# Temp files
+*.tmp
+*.temp
 
-# Build directories
-build/
-dist/
-target/
+# Logs
+*.log
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-.gradle/
+# Environment
+.env
+.env.local
+.env.*
 
 # Editors
 .vscode/
@@ -31,16 +21,16 @@ __pycache__/
 *.swp
 *.swo
 
-# Logs and temp files
-*.log
-*.tmp
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Environment
-.env
-.env.local
-*.env.*
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
 ```
