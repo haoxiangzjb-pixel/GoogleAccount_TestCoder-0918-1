@@ -1,1 +1,21 @@
-(empty)
+```
+# VBA/Office files
+*.vba
+*.bas
+*.cls
+*.frm
+*.vbp
+*.dsr
+*.dob
+*.ctl
+
+# Backup files
+*.bak
+*.~*
+*~
+
+# Temporary files
+*.tmp
+*.temp
+Thumbs.db
+```
