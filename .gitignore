@@ -1,41 +1,12 @@
 ```
 # Compiled and build artifacts
-*.rs.bk
 *.o
 *.obj
-*.a
-*.lib
-*.dll
-*.so
-*.dylib
-target/
+*.out
 
-# Dependencies
-Cargo.lock
-vendor/
+# Executables
+find_max
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# System files
-.DS_Store
-Thumbs.db
+# Generated files
+max_result_*.txt
 ```
