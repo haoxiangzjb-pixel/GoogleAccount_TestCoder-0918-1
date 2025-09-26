@@ -1,4 +1,34 @@
 ```
-# Configuration files
-config_*.toml
+# Compiled and build artifacts
+*.mex*
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+*.dylib
+*.exe
+
+# Dependencies
+*.mat
+*.fig
+*.fig.bak
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MATLAB specific
+*.mat
+*.fig
+*.fig.bak
 ```
