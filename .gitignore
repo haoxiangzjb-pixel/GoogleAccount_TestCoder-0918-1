@@ -1,6 +1,11 @@
 ```
-# Workflow files
-test_workflow_*.yml
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Dependencies
+vendor/
 
 # Logs and temp files
 *.log
@@ -10,22 +15,9 @@ test_workflow_*.yml
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.egg-info/
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
 ```
