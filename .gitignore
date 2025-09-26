@@ -1,29 +1,43 @@
 ```
-# Executables
-find_max
-
-# Output files
-*.txt
-!*.txt
-output_*.txt
-
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-*.exe
+# Build artifacts and compiled files
 *.dll
+*.exe
+*.obj
+*.o
 *.so
 *.a
-
-# Logs and temp files
-*.log
-*.tmp
+*.class
+*.pyc
+__pycache__/
 *.swp
+*.swo
 
-# Editors
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+*.env.*
+
+# Editor/IDE files
 .vscode/
 .idea/
+*.tmp
+*.log
+
+# Unity specific
+Library/
+Temp/
+Obj/
+Build/
+*.unitypackage
+*.userprefs
+*.pidb
+*.sln
+*.csproj
+*.user
+*.unityproj
 
 # System files
 .DS_Store
