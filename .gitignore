@@ -1,4 +1,36 @@
-(book.xml is a source/config file, no build artifacts, dependencies, or temp files in the changes - no ignores needed)
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
 
-```(empty)
+# Dependencies
+Pods/
+Carthage/
+.swiftlint.yml
+.derivedData/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
 ```
