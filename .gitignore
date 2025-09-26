@@ -38,6 +38,12 @@ coverage/
 htmlcov/
 .coverage
 
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
 # Compressed files
 *.zip
 *.gz
