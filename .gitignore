@@ -1,5 +1,14 @@
-(book.xml is a source/config file, so no ignores needed)
+```
+# SQL related build artifacts (if any generated files exist)
+*.sql.log
+*.sql.tmp
 
-```gitignore
+# General temp files
+*.tmp
+*.log
 
+# Environment files
+.env
+.env.local
+*.env.*
 ```
