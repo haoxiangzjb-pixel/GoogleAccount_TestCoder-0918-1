@@ -1,50 +1,43 @@
 ```
-# Prolog related
-*.pl~
-
 # Compiled and build artifacts
-*.pyc
-__pycache__/
 *.o
 *.obj
-*.class
-*.exe
-*.dll
-*.so
-*.a
-*.out
+*.hi
+*.chi
+*.chs.h
+*.dyn_o
+*.p_o
 
 # Dependencies
-.venv/
-venv/
-node_modules/
+.stack-work/
+.cabal-sandbox/
+cabal-dev/
 dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
+dist-newstyle/
+*.cabal.project.local
+cabal.project.local~
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# System
+# System files
 .DS_Store
 Thumbs.db
 
-# Coverage
+# Coverage and testing
 coverage/
 htmlcov/
 .coverage
