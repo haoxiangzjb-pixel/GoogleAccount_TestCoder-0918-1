@@ -1,1 +1,27 @@
-Nothing should be ignored based on the provided changes. The only added file is `add_function.lua`, which is a source code file and should not be ignored.
+```
+# Compiled and build artifacts
+*.vcd
+*.vvp
+*.out
+*.bin
+*.obj
+
+# Dependencies
+build/
+dist/
+lib/
+target/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
