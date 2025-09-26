@@ -1,36 +1,11 @@
 ```
-# Generated from file changes
-# Backup/Archive files
-*.tar
-*.gz
-*.tgz
-*.bz2
-*.xz
-*.zip
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
+# XML files
+*.xml
 
 # Temp files
 *.tmp
+*.temp
+
+# Logs
+*.log
 ```
