@@ -1,0 +1,6 @@
+[INFO] 2023-10-27T10:00:00Z Application started
+[ERROR] 2023-10-27T10:05:23Z Failed to connect to database
+[WARNING] 2023-10-27T10:10:01Z High memory usage detected
+[ERROR] 2023-10-27T10:15:45Z Timeout reading from socket
+[ERROR] 2023-10-27T10:20:10Z Invalid user input received
+[INFO] 2023-10-27T10:25:00Z Application shutting down
