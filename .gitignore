@@ -1,3 +1,1 @@
-```
-# Configuration and deployment files only - no build artifacts or dependencies detected
-```
+Nothing needs to be added to .gitignore since the only change is adding a shell script file (`list_files_2525.sh`) which is a source file that should be tracked in version control.
