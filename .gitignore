@@ -1,5 +1,1 @@
-(person_class_abc123.rb is a source code file, so no ignores needed)
-
-```ruby
-
-```
+Nothing should be ignored based on the provided file changes. The added file `list_files_12345.sh` appears to be a shell script source file, which should not be ignored.
