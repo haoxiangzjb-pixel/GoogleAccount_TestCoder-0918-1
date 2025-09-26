@@ -1,1 +1,5 @@
-Nothing to output - the change list contains only a PowerShell script file (.ps1) which is a source code file, and there are no build artifacts, dependencies, or temporary files that need to be ignored.
+```
+# Configuration and deployment files only - no build artifacts, dependencies, or temp files detected
+# Current changes: nginx-deployment.yaml (Kubernetes configuration file)
+# No ignores needed for this project
+```
