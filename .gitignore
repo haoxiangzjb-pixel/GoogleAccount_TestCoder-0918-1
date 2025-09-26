@@ -1,1 +1,1 @@
-(book_data.json is a data file, not a build artifact, dependency, or temp file - it appears to be source data that should be tracked)
+Nothing to output - the change list contains only a source file (.vue) which should not be ignored.
