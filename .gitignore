@@ -1,1 +1,55 @@
-(empty)
+```
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# Python (in case Python files are added later)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Testing
+.nyc_output/
+coverage/
+htmlcov/
+.coverage
+
+# Vite specific
+!.vite/
+```
