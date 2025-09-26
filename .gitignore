@@ -1,3 +1,67 @@
-(log_parser.pl and stats_script_2658.pl are Perl source files, which are source code and should not be ignored)
+```
+# Configuration files
+*.yml
+*.yaml
 
-(empty - no build artifacts, dependencies, or temp files detected)
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+.ENV
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/refs/heads/coverage
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# Distribution / packaging
+.Python
+env/
+venv/
+.venv/
+ENV
+env.bak
+venv.bak
+.pybuild/
+.build/
+dist/
+build/
+*.egg
+*.egg-info/
+MANIFEST
+*.spec
+.installed.cfg
+*.ini
+
+# System files
+.DS_Store
+Thumbs.db
+```
