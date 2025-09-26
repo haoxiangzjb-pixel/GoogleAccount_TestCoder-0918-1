@@ -1,1 +1,35 @@
-Nothing to ignore - the added file 'php_form_handler_1.php' is a source code file that should be tracked in version control. No build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Assembly build artifacts
+*.o
+*.obj
+*.out
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+```
