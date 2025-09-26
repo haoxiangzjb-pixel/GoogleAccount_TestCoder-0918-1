@@ -1,24 +1,3 @@
-```
-# Compiled and build artifacts
-*.o
-*.obj
-*.mod
-*.exe
+(get_current_user_info.ps1 is a PowerShell script file, which is a source code file, so no files in the changes match the ignore patterns for build artifacts, dependencies, temp files, etc.)
 
-# Dependencies
-build/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
-```
+(empty - no output)
