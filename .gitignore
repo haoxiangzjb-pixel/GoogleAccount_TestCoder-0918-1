@@ -1,1 +1,17 @@
-Nothing to ignore - the added file 'sine_wave_script.m' is a source code file (.m extension typically indicates MATLAB/Octave source code) and no build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Process list files
+process_list_*.txt
+
+# Environment and temp files
+*.env
+*.tmp
+*.log
+
+# Editors
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
+```
