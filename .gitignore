@@ -1,10 +1,46 @@
 ```
-# Web artifacts
-*.html
-
-# Temp files
+# Unity specific ignores
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+*.unityproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.meta
+*.cache
+*.preset
+*.asset
+*.bat
+*.cmd
+*.sh
+*.log
 *.tmp
 
-# Logs
-*.log
+# Compiled and build artifacts
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.exe.config
+*.userprefs
+
+# Dependencies
+Packages/
+ProjectSettings/
+
+# Editor files
+.vs/
+.vscode/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
 ```
