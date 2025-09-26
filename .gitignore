@@ -1,13 +1,33 @@
 ```
-# Prolog compiled files
-*.pl~
+# Environment files
+.env
+.env.local
+.env.*
 
-# Backup files
-*~
-
-# Swap files
-*.swp
-
-# Temporary files
+# Logs and temporary files
+*.log
 *.tmp
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+
+# Build artifacts
+dist/
+build/
+target/
 ```
