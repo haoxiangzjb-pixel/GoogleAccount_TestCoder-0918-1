@@ -1,30 +1,29 @@
 ```
-# Compiled and build artifacts
-*.cmi
-*.cmo
-*.cma
-*.cmx
-*.cmxa
-*.exe
-*.out
+# Zig build artifacts
+zig-cache/
+zig-out/
+
+# Compiled files
 *.o
 *.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
-.opam/
-_dbuild/
-_build/
-esy.lock/
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
+.zig/
+zig-*/
 
 # Logs and temp files
 *.log
 *.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
 
 # System files
 .DS_Store
