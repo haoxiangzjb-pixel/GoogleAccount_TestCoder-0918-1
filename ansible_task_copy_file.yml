@@ -1,0 +1,11 @@
+---
+# Задача Ansible для копирования файла
+- name: Копирование файла
+  hosts: localhost
+  tasks:
+    - name: Копирование файла с указанием источника и назначения
+      copy:
+        src: /path/to/source/file.txt
+        dest: /path/to/destination/file.txt
+        mode: '0644' # Устанавливаем права на файл (опционально)
+        backup: yes # Создаем бекап, если файл существует (опционально)
