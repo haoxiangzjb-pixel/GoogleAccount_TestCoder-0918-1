@@ -1,10 +1,27 @@
 ```
-# Puppet-related ignores
-**/modules/
-**/spec/fixtures/modules/
-**/pkg/
-**/.tmp/
-**/.bundle/
-**/Gemfile.lock
-**/vendor/
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Dependencies
+vendor/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
