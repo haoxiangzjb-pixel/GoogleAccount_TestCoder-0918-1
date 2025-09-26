@@ -1,5 +1,24 @@
 ```
-# Configuration and deployment files only - no build artifacts, dependencies, or temp files detected
-# Current changes: nginx-deployment.yaml (Kubernetes configuration file)
-# No ignores needed for this project
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+
+# Dependencies
+lib/
+libs/
+jars/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
