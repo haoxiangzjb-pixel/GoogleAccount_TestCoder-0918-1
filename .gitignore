@@ -1,3 +1,29 @@
-(book.xml is a source/config file, and there are no build artifacts, dependencies, or temp files in the changes)
+```
+# Zig build artifacts
+zig-cache/
+zig-out/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-(empty — output nothing)
+# Dependencies
+zig-*/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+```
