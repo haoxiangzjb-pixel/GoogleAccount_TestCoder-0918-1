@@ -1,19 +1,26 @@
 ```
-# Dart/Flutter
-.dart_tool/
-.dart
-.packages
-build/
-coverage/
-*.log
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
-pubspec.lock
+lib/
+libs/
+target/
+build/
+dist/
+out/
 
-# Environment
-.env
-.env.local
-*.env.*
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Editors
 .vscode/
@@ -21,13 +28,26 @@ pubspec.lock
 *.swp
 *.swo
 
-# OS
+# Environment
+.env
+.env.local
+*.env.*
+
+# System files
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
-# Temp files
-*.tmp
+# Package managers
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.gradle/
 ```
