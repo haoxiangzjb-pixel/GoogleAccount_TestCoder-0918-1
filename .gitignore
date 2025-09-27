@@ -1,33 +1,6 @@
 ```
-# Dart/Flutter
-.dart_tool/
-.dart
-.packages
-build/
-coverage/
-*.log
-
-# Dependencies
-pubspec.lock
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Temp files
-*.tmp
+# Test files
+*.test.js
+*.test.template
+tmp.*
 ```
