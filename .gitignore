@@ -1,5 +1,4 @@
 ```
-# Configuration and deployment files only - no build artifacts or dependencies detected
-# Current changes: nginx-deployment.yaml (configuration file)
-# No ignores needed for this pure configuration file
+# Configuration files
+*.xml
 ```
