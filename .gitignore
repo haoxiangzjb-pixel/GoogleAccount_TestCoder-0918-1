@@ -1,1 +1,21 @@
-Nothing to ignore - only source files added.
+```
+# Compiled and build artifacts
+*.css.map
+*.min.css
+*.css.gz
+*.css.br
+
+# Temp files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.
+```
