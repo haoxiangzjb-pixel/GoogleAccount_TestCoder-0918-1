@@ -1,6 +1,6 @@
 ```
-# Jenkins related
-Jenkinsfile_*
+# Generated files
+*.json
 
 # Logs and temp files
 *.log
@@ -15,16 +15,23 @@ Jenkinsfile_*
 .vscode/
 .idea/
 
-# Dependencies
-node_modules/
-venv/
-.venv/
+# Python
 __pycache__/
-.mypy_cache/
-.pytest_cache/
+*.pyc
+*.pyo
+*.pyd
+
+# Dependencies
+.venv/
+venv/
+node_modules/
 
 # Build artifacts
 dist/
 build/
 target/
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
