@@ -1,1 +1,39 @@
-Nothing should be ignored since only a source file (form.html) was added without any build artifacts, dependencies, or temporary files.
+```powershell
+# PowerShell modules and profiles
+Modules/
+Profile.ps1
+Microsoft.Powershell_profile.ps1
+
+# Windows PowerShell specific
+AppData/Local/Microsoft/Windows/PowerShell/
+AppData/Roaming/Microsoft/Windows/PowerShell/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Environment variables files
+.env
+.env.local
+*.env.*
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Processed/compiled scripts (if any)
+*.psm1~
+*.psd1~
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+Thumbs.db
+.DS_Store
+```
