@@ -1,1 +1,34 @@
-Nothing to ignore - the added file 'hello_42.asm' is a source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.fs
+*.fsi
+*.fsx
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.o
+*.out
+
+# Dependencies
+.paket/
+.packages/
+bin/
+obj/
+out/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+*.userprefs
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
