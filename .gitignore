@@ -1,13 +1,11 @@
-```python
-# Compiled Python files
-*.pyc
-__pycache__/
+```
+# API output files
+api_output_*.json
 
-# Virtual environments
-venv/
-.venv/
-env/
-.ENV/
+# Environment files
+.env
+.env.local
+*.env.*
 
 # Logs
 *.log
@@ -17,34 +15,16 @@ env/
 *.swp
 *.swo
 
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Editor files
+# Editor/IDE files
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Python cache
-*.pyc
 __pycache__/
+*.pyc
 *.pyo
 *.pyd
 
-# Build directories
-dist/
-build/
-*.egg-info/
+# Dependencies
+node_modules/
+venv/
+.venv/
 ```
