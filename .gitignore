@@ -1,38 +1,22 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+# Build artifacts
+*.jsx.bak
+*.jsx~
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
-*.log
+# Temp files
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# Build directories
-dist/
-build/
-target/
+# Logs
+*.log
 ```
