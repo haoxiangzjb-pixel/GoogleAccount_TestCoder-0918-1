@@ -1,55 +1,7 @@
 ```
-# Compiled Python files
-*.pyc
-__pycache__/
+# SQL query files (if they contain sensitive data or are auto-generated)
+*.sql
 
-# Virtual environments
-venv/
-.venv/
-env/
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
-*.swo
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# IDE specific
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Build artifacts
-dist/
-build/
-*.out
-*.exe
-*.dll
-*.so
-*.a
-*.class
-
-# Dependency directories
-node_modules/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
+# If the SQL file is auto-generated or contains sensitive information
+query_*.sql
 ```
