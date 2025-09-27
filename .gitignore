@@ -1,15 +1,14 @@
 ```
 # Compiled and build artifacts
-*.nimble
-*.nims
-*.so
-*.dll
-*.exe
+*.class
+*.o
+*.obj
 *.out
 
 # Dependencies
-.nimble/
-nimcache/
+lib/
+target/
+build/
 
 # Logs and temp files
 *.log
@@ -24,4 +23,16 @@ nimcache/
 .env
 .env.local
 *.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Package manager
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 ```
