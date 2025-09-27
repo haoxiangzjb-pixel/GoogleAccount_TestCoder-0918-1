@@ -1,4 +1,1 @@
-```
-# PowerShell session files
-*.ps1
-```
+Nothing to ignore - the change list contains only a source file (.vue) without any build artifacts, dependencies, or temp files.
