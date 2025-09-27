@@ -1,21 +1,20 @@
 ```
-# Compiled files
-*.class
+# Compiled and build artifacts
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.cmxs
+*.exe
+*.out
+*.o
+*.obj
 
 # Dependencies
-lib/
-libs/
-jars/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
+_dune/
+.opam/
+esy.lock/
 
 # Editors
 .vscode/
@@ -23,9 +22,11 @@ jars/
 *.swp
 *.swo
 
-# Build artifacts
-build/
-dist/
-target/
-out/
+# Logs and temp files
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
 ```
