@@ -1,1 +1,34 @@
-Nothing to ignore - the change list contains only a source code file (.groovy) and no build artifacts, dependencies, or temp files.
+```
+# Compiled and build artifacts
+*.rs.bk
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+target/
+.cargo/
+Cargo.lock
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env.*
+```
