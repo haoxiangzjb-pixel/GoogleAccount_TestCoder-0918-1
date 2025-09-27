@@ -1,14 +1,15 @@
 ```
 # Compiled and build artifacts
-*.o
-*.obj
-*.mod
-*.smod
+*.nimble
+*.nims
+*.so
+*.dll
 *.exe
+*.out
 
 # Dependencies
-build/
-dist/
+.nimble/
+nimcache/
 
 # Logs and temp files
 *.log
