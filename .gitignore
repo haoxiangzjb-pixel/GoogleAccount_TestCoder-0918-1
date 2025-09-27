@@ -1,6 +1,5 @@
-```
-# Test files
-*.test.js
-test/
-tests/
+(book_data.xml is a source data file, not a build artifact, dependency, or temp file - no ignores needed)
+
+```text
+
 ```
