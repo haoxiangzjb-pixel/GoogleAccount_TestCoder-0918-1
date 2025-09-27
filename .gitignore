@@ -1,13 +1,32 @@
 ```
-# Temp files
-*.tmp
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+build/
+dist/
+*.egg
 
-# Backup files
-*~
-```
-Wait, let me reconsider this. The file `Makefile_20250927_123456` appears to be a timestamped backup/dump file, not a regular source file. This should be ignored.
+# Data files
+*.npy
+*.npz
+*.pkl
+*.pickle
 
-```
-# Backup and dump files
-Makefile_*
+# Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
