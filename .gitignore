@@ -1,31 +1,32 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.cmxs
+*.exe
+*.out
 *.o
 *.obj
 
 # Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
+_opam/
+.dune/
+esy.lock/
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# R-specific
-.Rhistory
-.RData
-.Rproj.user/
+# Logs and temp files
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
 ```
