@@ -1,4 +1,1 @@
-```
-# GraphQL schema
-schema.graphql
-```
+Nothing should be ignored based on the provided changes. The added file `array_ops_123.jl` is a source code file that should be tracked in version control.
