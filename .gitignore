@@ -1,29 +1,23 @@
 ```
-# Perl compilation artifacts
-*.plc
-*.plx
-*.pm
+# Compiled and build artifacts
+*.beam
+*.o
+*.obj
 
-# Temporary files
+# Dependencies
+ebin/
+_deps/
+_build/
+
+# Logs and temp files
+*.log
 *.tmp
 *.swp
-*.swo
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Erlang-specific
+.erlang.cookie
 ```
