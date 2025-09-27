@@ -1,0 +1,1 @@
+my $text = "Please contact us at support\@example.com or sales\@another-domain.org for more info."; my @emails = $text =~ /[\w\.\-]+@[\w\.\-]+\.\w+/g; print "Found emails: @emails\n";
