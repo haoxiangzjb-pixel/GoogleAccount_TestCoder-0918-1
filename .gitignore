@@ -1,28 +1,42 @@
 ```
-# Ada build artifacts
-*.ali
-*.o
-*.obj
-*.so
-*.dll
-*.exe
-
-# Dependencies
-lib/
-obj/
-build/
+# Data files with hash patterns (likely generated)
+data_*.json
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
+# Environment
+.env
+.env.local
+.env.*
+
 # Editors
 .vscode/
 .idea/
 
-# Environment
-.env
-.env.local
-*.env.*
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+
+# Build artifacts
+dist/
+build/
+target/
+*.pyc
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# System files
+.DS_Store
+Thumbs.db
 ```
