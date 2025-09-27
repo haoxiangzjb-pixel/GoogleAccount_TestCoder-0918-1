@@ -1,5 +1,5 @@
-(test_workflow_12345.yml is a workflow configuration file, which is a source/config file, so no ignores needed)
+(service-config-2839.yaml is a config file, not a build artifact or temp file, so no ignores needed)
 
-```text
+```yaml
 
 ```
