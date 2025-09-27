@@ -1,1 +1,29 @@
-Nothing needs to be ignored in this case. The added file `email_regex_script.pl` is a Perl source code file, which should be tracked in version control. There are no build artifacts, dependencies, or temporary files in the changes that require ignoring.
+```
+# Compiled files
+*.o
+*.obj
+*.hi
+*.dyn_o
+*.dyn_hi
+
+# Dependencies
+cabal/
+dist/
+dist-newstyle/
+.stack-work/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+```
