@@ -1,38 +1,37 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+# Docker related
+*.dockerignore
+.Dockerfile*
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
-*.log
+# Temporary and build files
 *.tmp
-*.swp
+*.temp
+build/
+dist/
+*.out
 
-# Environment
+# Logs
+*.log
+
+# Environment files
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# Build directories
-dist/
-build/
+# Dependencies (if any detected)
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
 target/
+.gradle/
 ```
