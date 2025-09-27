@@ -1,39 +1,41 @@
-```powershell
-# PowerShell modules and profiles
-Modules/
-Profile.ps1
-Microsoft.Powershell_profile.ps1
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.mod
+*.out
+*.exe
+*.dll
+*.so
+*.a
 
-# Windows PowerShell specific
-AppData/Local/Microsoft/Windows/PowerShell/
-AppData/Roaming/Microsoft/Windows/PowerShell/
+# Dependencies
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+build/
+dist/
+*.egg
 
-# Temporary files
-*.tmp
-*.temp
+# Logs and temp files
 *.log
+*.tmp
+*.swp
+*.swo
 
-# Environment variables files
-.env
-.env.local
-*.env.*
-
-# Backup files
-*.bak
-*.backup
-*.old
-
-# Processed/compiled scripts (if any)
-*.psm1~
-*.psd1~
-
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 
 # System files
-Thumbs.db
 .DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
