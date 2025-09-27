@@ -1,3 +1,1 @@
-(reverser.ex is a source file, no build artifacts, dependencies, or temp files detected)
-
-(empty — output nothing)
+Nothing should be ignored based on the provided changes. The only added file is `MoveForward.cs` which appears to be a source code file that should be tracked in version control.
