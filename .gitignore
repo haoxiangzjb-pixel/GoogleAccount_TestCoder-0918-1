@@ -1,12 +1,15 @@
 ```
 # Compiled and build artifacts
-*.class
+*.pyc
+__pycache__/
 *.o
 *.obj
 
 # Dependencies
-lib/
-target/
+.venv/
+venv/
+node_modules/
+dist/
 build/
 
 # Logs and temp files
@@ -14,18 +17,36 @@ build/
 *.tmp
 *.swp
 
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
+
+# Editors
+.vscode/
+.idea/
 
 # System files
 .DS_Store
 Thumbs.db
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Django specific
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
 ```
