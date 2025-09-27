@@ -1,17 +1,11 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.mod
-*.smod
-*.a
-*.so
-*.dll
-*.exe
+# Compiled files
+*.class
 
 # Dependencies
-build/
-dist/
+__pycache__/
+*.pyc
+*.pyo
 
 # Logs and temp files
 *.log
