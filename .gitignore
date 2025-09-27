@@ -1,3 +1,26 @@
-(reverser.ex is a source file, no build artifacts, dependencies, or temp files detected)
+```
+# Compiled and build artifacts
+*.ex
+*.beam
+_ebuild/
+ebin/
 
-(empty — output nothing)
+# Dependencies
+deps/
+_build/
+
+# Logs and temp files
+*.log
+erl_crash.dump
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+```
