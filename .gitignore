@@ -1,4 +1,1 @@
-```
-# Test files
-TestResult_*.java
-```
+Nothing should be ignored based on the provided file changes. The added file `flask_app_random.py` is a source code file that should be tracked in version control.
