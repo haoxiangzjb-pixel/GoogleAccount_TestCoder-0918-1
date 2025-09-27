@@ -1,1 +1,6 @@
-(filter_strings_bbb6dd84-4d3b-4ec8-adff-f14759af40df.kt)
+```
+# Test files
+*.test.js
+test/
+tests/
+```
