@@ -1,33 +1,29 @@
 ```
-# Temp files
-*.tmp
-temp_file.txt
-
-# Compiled files
-*.o
-*.obj
-*.class
-*.pyc
-__pycache__/
+# Vue.js/JavaScript build artifacts
+dist/
+build/
+*.js.map
+*.css.map
 
 # Dependencies
 node_modules/
-venv/
-.venv/
-.env
-.env.local
-*.env.*
 
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
 
 # Logs
 *.log
 
-# System
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+*.env.*
 ```
