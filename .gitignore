@@ -1,33 +1,27 @@
 ```
-# Temp files
-*.tmp
-temp_file.txt
-
-# Compiled files
-*.o
-*.obj
-*.class
-*.pyc
+# Python
 __pycache__/
-
-# Dependencies
-node_modules/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
 venv/
 .venv/
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
 *.log
+*.tmp
+*.swp
 
-# System
-.DS_Store
-Thumbs.db
+# Scripts
+scripts/__pycache__/
+scripts/*.pyc
 ```
