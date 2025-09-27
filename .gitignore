@@ -1,32 +1,16 @@
 ```
-# Compiled and build artifacts
-*.cmi
-*.cmo
-*.cma
-*.cmx
-*.cmxa
-*.cmxs
-*.exe
-*.out
+# Executables
+find_max
+
+# Output files
+*.txt
+
+# Compiled artifacts
 *.o
 *.obj
-
-# Dependencies
-_dune/
-.opam/
-esy.lock/
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs and temp files
-*.log
-*.tmp
-
-# System files
-.DS_Store
-Thumbs.db
+*.out
+*.exe
+*.dll
+*.so
+*.a
 ```
