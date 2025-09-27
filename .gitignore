@@ -1,5 +1,3 @@
-(test_workflow_12345.yml is a workflow configuration file, which is a source/config file, so no ignores needed)
+(copy_task_8924.yml and source_file.txt are source/config files, no build artifacts, dependencies, or temp files in the changes)
 
-```text
-
-```
+(empty - output nothing)
