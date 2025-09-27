@@ -1,76 +1,35 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.class
-*.exe
-*.dll
-*.so
-*.a
-*.out
+# Ruby related
+*.gem
+*.rbc
+.bundle/
+.coverage/
+InstalledFiles
+pkg/
+*.gemspec
+.rspec
+Guardfile
+.rake
+junit
+*.junit
+.rubocop.yml
+.rbenv-vars
+.rbenv-version
+.rbenv-gemsets
 
-# Dependencies
-node_modules/
-venv/
-.venv/
+# Environment
 .env
 .env.local
-.env.*
+.env.
 
-# Logs and temp files
+# Dependencies
+vendor/bundle/
+vendor/ruby/
+
+# Logs
 *.log
-*.tmp
-*.swp
-*.swo
 
-# Editors
-.vscode/
-.idea/
-
-# System files
+# System
 .DS_Store
 Thumbs.db
-
-# Build directories
-dist/
-build/
-target/
-.gradle/
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Python specific
-*.pyc
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
 ```
