@@ -1,31 +1,33 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
+# Compiled files
+*.nimble
+*.nims
+*.so
+*.dll
+*.exe
+*.out
+
+# Build artifacts
+nimcache/
+build/
+dist/
 
 # Dependencies
-.venv/
-venv/
-node_modules/
+.nimble/
+nimbledeps/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
 
 # Environment
 .env
 .env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# R-specific
-.Rhistory
-.RData
-.Rproj.user/
+*.env.*
 ```
