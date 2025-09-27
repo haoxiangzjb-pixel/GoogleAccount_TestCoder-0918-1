@@ -1,1 +1,5 @@
-Nothing to ignore - the added file `mysql_query_script_72946.py` is a source code file that should be tracked in version control.
+```
+# Configuration and deployment files only - no build artifacts or dependencies detected
+# Current changes: nginx-deployment.yaml (configuration file)
+# No ignores needed for this pure configuration file
+```
