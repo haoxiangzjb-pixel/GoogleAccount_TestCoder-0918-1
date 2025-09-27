@@ -1,38 +1,29 @@
 ```
 # Compiled and build artifacts
-*.class
-*.o
-*.obj
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.exe
 *.out
 
 # Dependencies
-lib/
-target/
-build/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+.opam/
+_dune/
+esy.lock/
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Environment
-.env
-.env.local
-*.env.*
+# Logs and temp files
+*.log
+*.tmp
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Package manager
-node_modules/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# System files
+.DS_Store
+Thumbs.db
 ```
