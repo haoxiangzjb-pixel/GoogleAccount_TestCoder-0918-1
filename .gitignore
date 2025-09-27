@@ -1,6 +1,7 @@
 ```
-# Data files with hash patterns (likely generated)
-data_*.json
+# Compiled files
+*.plc
+*.plx
 
 # Logs and temp files
 *.log
@@ -10,33 +11,23 @@ data_*.json
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# Dependencies
-node_modules/
-.venv/
-venv/
-__pycache__/
-
-# Build artifacts
-dist/
-build/
-target/
-*.pyc
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
 # System files
 .DS_Store
 Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Perl-specific
+blib/
+Makefile
+*.tar.gz
 ```
