@@ -1,40 +1,29 @@
 ```
-# Compiled Python files
-*.pyc
-__pycache__/
-
-# Virtual environments
-venv/
-.venv/
-env/
-
-# Logs
-*.log
+# Perl compilation artifacts
+*.plc
+*.plx
+*.pm
 
 # Temporary files
 *.tmp
 *.swp
+*.swo
 
-# Environment files
+# Logs
+*.log
+
+# Environment
 .env
 .env.local
 *.env.*
 
-# Editor files
+# Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Python cache
-.mypy_cache/
-.pytest_cache/
-
-# Distribution files
-dist/
-build/
-*.egg-info/
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
