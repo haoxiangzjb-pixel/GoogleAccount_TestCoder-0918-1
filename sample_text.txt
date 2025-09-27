@@ -1,0 +1,3 @@
+this is a sample text file
+this file contains some sample words
+the words are repeated to test the script
