@@ -1,16 +1,28 @@
 ```
-# Ada build artifacts
-*.ali
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+.terraform/
+.terraform.lock.hcl
+
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 *.o
 *.obj
-*.so
-*.dll
-*.exe
+dist/
+build/
+target/
 
 # Dependencies
-lib/
-obj/
-build/
+node_modules/
+.venv/
+venv/
+.env
+.env.local
+.env.*
 
 # Logs and temp files
 *.log
@@ -21,8 +33,7 @@ build/
 .vscode/
 .idea/
 
-# Environment
-.env
-.env.local
-*.env.*
+# System files
+.DS_Store
+Thumbs.db
 ```
