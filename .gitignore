@@ -1,1 +1,34 @@
-(todo_list_abc123.md is just a regular markdown file, no build artifacts, dependencies, or temp files in the changes, so output nothing)
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+target/
+Cargo.lock
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Rust-specific
+**/target/
+Cargo.lock
+```
