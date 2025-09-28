@@ -1,22 +1,24 @@
 ```
-# R build artifacts and outputs
-*.Rproj.user/
-.Rhistory
-.RData
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.pdf
-*.svg
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
 
-# Temporary files
+# Dependencies
+target/
+build/
+
+# Editors
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
 *.tmp
-*.temp
-*~
+*.swp
 
-# Environment and cache
-.Rproj.user/
-.Rapp.history
-.Rprofile
+# Environment
+.env
+.env.local
+*.env.*
 ```
