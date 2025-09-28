@@ -1,13 +1,1 @@
-```
-# Executables
-sort_array_12345
-*.exe
-*.out
-
-# Compiled files
-*.o
-*.obj
-*.a
-*.so
-*.dll
-```
+Nothing to ignore - only a Lua source file was added.
