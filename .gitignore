@@ -1,15 +1,38 @@
-```
-# LaTeX build artifacts
-*.aux
+```java
+# Compiled Java files
+*.class
+
+# Dependencies
+lib/
+libs/
+jars/
+
+# Build directories
+build/
+target/
+out/
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Logs
 *.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.pdf
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
 ```
