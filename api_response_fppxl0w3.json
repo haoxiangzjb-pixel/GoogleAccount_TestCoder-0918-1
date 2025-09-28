@@ -1,0 +1,10 @@
+{
+    "status": "success",
+    "data": {
+        "id": 707,
+        "name": "KPHhOpESEZ",
+        "email": "iacgl@example.com",
+        "active": true
+    },
+    "message": "User data retrieved successfully."
+}
