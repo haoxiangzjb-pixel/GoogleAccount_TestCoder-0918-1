@@ -1,48 +1,48 @@
 ```
-# Compiled and build artifacts
-*.pyc
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Compiled files
+*.class
 *.o
 *.obj
-*.class
 *.exe
 *.dll
 *.so
 *.a
 *.out
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-.env.*
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Build directories
-dist/
-build/
-target/
-.gradle/
 
 # Compressed files
 *.zip
@@ -67,4 +67,17 @@ target/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
+# Testing
+*.coverage
+htmlcov/
+.mypy_cache/
+.pytest_cache/
+
+# Java/Gradle
+target/
+.gradle/
+
+# Angular specific
+.angular/
 ```
