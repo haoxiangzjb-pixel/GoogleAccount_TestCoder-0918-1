@@ -1,0 +1,38 @@
+```
+# Build artifacts
+*.o
+*.obj
+*.out
+
+# Temp files
+*.tmp
+*.swp
+
+# Logs
+*.log
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
+
+# System files
+.DS_Store
+Thumbs.db
+```
