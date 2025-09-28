@@ -1,48 +1,64 @@
-```
+```matlab
 # Compiled and build artifacts
-*.pyc
-__pycache__/
+*.mex*
+*._mex.*
 *.o
 *.obj
-*.class
-*.exe
-*.dll
-*.so
 *.a
+*.so
+*.dll
+*.exe
 *.out
 
 # Dependencies
+libs/
+lib/
+build/
+dist/
+target/
 node_modules/
 venv/
 .venv/
-.env
-.env.local
-.env.*
+__pycache__/
+*.egg-info/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 *.swo
+*.bak
+*.~*
+
+# Environment
+.env
+.env.local
+.env.*
+*.env
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # System files
 .DS_Store
 Thumbs.db
-
-# Build directories
-dist/
-build/
-target/
-.gradle/
+.Spotlight-V100
+.Trashes
 
 # Coverage
 coverage/
 htmlcov/
 .coverage
+
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
 
 # Compressed files
 *.zip
