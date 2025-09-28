@@ -1,8 +1,29 @@
 ```
-# R-specific ignores
-*.rds
-*.RData
-*.rdata
-.Rhistory
-.Rproj.user/
+# Compiled and build artifacts
+*.beam
+*.ez
+ebin/
+_build/
+
+# Dependencies
+deps/
+node_modules/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Elixir specific
+mix/
 ```
