@@ -1,3 +1,8 @@
-(greeting_widget_8921.dart is a source file, no build artifacts, dependencies, or temp files detected in the changes)
+```
+# Workflow files
+*.yml
+*.yaml
 
-(empty — output nothing)
+# If this is a specific workflow file type that should be ignored
+workflow_*.yml
+```
