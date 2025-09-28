@@ -1,1 +1,33 @@
-Nothing to output - the change list contains only a source code file (ViewController_123.swift) and no build artifacts, dependencies, or temp files that need to be ignored.
+```
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+*.min.js
+*.min.css
+*.bundle.js
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+```
