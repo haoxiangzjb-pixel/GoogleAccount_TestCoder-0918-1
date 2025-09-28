@@ -1,16 +1,66 @@
-```
-# Compiled files
-*.o
-*.obj
-*.hi
-*.dyn_o
-*.dyn_hi
+```gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
 
-# Dependencies
-cabal/
-dist/
-dist-newstyle/
-.stack-work/
+# Generated files
+*.so
+*.o
+*.a
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Environment
+.env
+.env.local
+.env.*
 
 # Editors
 .vscode/
@@ -18,12 +68,11 @@ dist-newstyle/
 *.swp
 *.swo
 
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment
-.env
-.env.local
-*.env.*
+# System
+.DS_Store
+Thumbs.db
 ```
+
+Wait, let me reconsider the input. The added files are only `api_script_template.py` and `plwkormt.py` - these are just Python source files. There are no build artifacts, dependency directories, or temporary files in the change list.
+
+(empty)
