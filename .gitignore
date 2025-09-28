@@ -1,1 +1,31 @@
-Nothing should be ignored since only a Swift source file was added and no build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Logs
+*.log
+
+# Java/Scala compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Scala specific
+*.tasty
+*.scala_dependencies
+
+# Build directories
+target/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Process/heap dump files
+hs_err_pid*.log
+```
