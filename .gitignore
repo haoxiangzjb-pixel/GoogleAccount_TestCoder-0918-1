@@ -1,9 +1,1 @@
-```
-# Image files
-*.png
-
-# R-specific
-.Rhistory
-.RData
-.Rproj.user/
-```
+Nothing to ignore - the change list contains only a source code file (.ex) without any build artifacts, dependencies, or temporary files.
