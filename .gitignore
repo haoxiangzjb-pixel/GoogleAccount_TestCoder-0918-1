@@ -1,20 +1,36 @@
 ```
-# Environment and config files
-.env*
-*.env*
-db_config_*.ini
-
-# Logs and temp files
-*.log
+# VBA/Office files
+*.bas
+*.frm
+*.cls
+*.vba
+*.vbs
+*.db
+*.accdb
+*.mdb
 *.tmp
+*.~*
+*.bak
+*.old
+*.cache
+*.log
 
-# Editors
+# General temp and backup files
+*.tmp
+*.temp
+*.~*
+*.bak
+*.old
+*.cache
+*.log
+
+# Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# OS files
+# System files
 .DS_Store
 Thumbs.db
 ```
