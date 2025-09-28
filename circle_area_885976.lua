@@ -1,0 +1,9 @@
+function calculateCircleArea(radius)
+    if radius < 0 then
+        error("Radius cannot be negative")
+    end
+    return math.pi * radius * radius
+end
+
+-- Example usage:
+-- print(calculateCircleArea(5))
