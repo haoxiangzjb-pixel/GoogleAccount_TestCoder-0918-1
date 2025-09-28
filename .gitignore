@@ -1,10 +1,33 @@
 ```
-# Web artifacts
-*.html
+# Kubernetes/Docker related
+*.yaml
+*.yml
 
-# Temp files
-*.tmp
+# If this is a Kubernetes project with potential build artifacts
+build/
+dist/
+target/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # Logs
 *.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Dependency directories (if any language-specific)
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.gradle/
 ```
