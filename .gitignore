@@ -1,1 +1,45 @@
-Nothing should be ignored based on the provided changes. The added file `CounterComponent.vue` is a source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Python specific
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Distribution / packaging
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+*.tar.gz
+*.whl
+```
