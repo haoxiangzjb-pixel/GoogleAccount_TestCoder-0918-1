@@ -1,24 +1,30 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+# Ruby build artifacts
+*.gem
+*.rbc
+.bundle/
+Gemfile.lock
 
 # Environment
 .env
 .env.local
-.env.*
+.env.
 
-# Editors
-.vscode/
-.idea/
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Coverage
+coverage/
+*.gcov
+*.lcov
+*.profdata
+
+# System files
+.DS_Store
+Thumbs.db
 ```
