@@ -1,1 +1,25 @@
-Nothing to ignore - the change list contains only a source file (.rb) without any build artifacts, dependencies, or temporary files.
+```
+# Compiled and build artifacts
+*.ex
+*.beam
+*.o
+*.obj
+
+# Dependencies
+deps/
+_build/
+ebin/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
