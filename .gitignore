@@ -1,12 +1,14 @@
 ```
-# Build artifacts
-*.jsx.bak
-*.jsx~
+# Compiled and build artifacts
+*.css.map
+*.min.css
 
 # Temp files
 *.tmp
-*.swp
-*.swo
+*.temp
+
+# Logs
+*.log
 
 # Environment
 .env
@@ -16,7 +18,27 @@
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Logs
-*.log
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Dependency directories
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
 ```
