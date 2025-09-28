@@ -1,5 +1,1 @@
-```
-# Configuration and deployment files only - no build artifacts or dependencies detected
-# Current changes: nginx-deployment.yaml (configuration file)
-# No ignores needed for this pure configuration file
-```
+Nothing should be ignored based on the provided changes. The added file `mongo_insert_script.py` is a source code file that should be tracked in version control.
