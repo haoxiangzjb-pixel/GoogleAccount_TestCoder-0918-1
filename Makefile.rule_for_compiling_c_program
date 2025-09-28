@@ -1,0 +1,8 @@
+# Пример правила для компиляции программы на C с именем my_program из исходного файла main.c
+# Используйте 'make my_program' для компиляции
+
+CC = gcc
+CFLAGS = -Wall -g
+
+my_program: main.c
+	$(CC) $(CFLAGS) -o $@ $<
