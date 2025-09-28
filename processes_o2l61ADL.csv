@@ -1,0 +1,6 @@
+Name,Id,CPU
+System Idle Process,0,0.0
+System,4,0.1
+explorer,1234,2.5
+chrome,5678,15.2
+pwsh,9101,0.5

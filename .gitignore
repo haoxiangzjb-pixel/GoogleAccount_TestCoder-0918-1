@@ -1,32 +1,17 @@
 ```
-# Data files
-*.csv
-
-# Python
-__pycache__/
+# Compiled and build artifacts
 *.pyc
-*.pyo
-*.pyd
-.Python
-venv/
-.venv/
+__pycache__/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
-.env.
-
-# Logs
-*.log
-
-# Temp files
-*.tmp
-*.temp
-*~
-.swp
-.swo
-
-# OS
-.DS_Store
-Thumbs.db
+*.env.*
 
 # Editors
 .vscode/
