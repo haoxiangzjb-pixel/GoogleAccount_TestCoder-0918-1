@@ -1,5 +1,55 @@
-(config.toml is a source/config file, not a build artifact, dependency, or temp file - no ignores needed)
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.class
+*.jar
+*.war
+*.zip
+*.tar.gz
+*.tar
+*.gz
+*.bz2
+*.xz
+*.7z
+*.rar
 
-```toml
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
 
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build directories
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
+coverage/
+htmlcov/
 ```
