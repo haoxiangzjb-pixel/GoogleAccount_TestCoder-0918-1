@@ -1,4 +1,4 @@
 ```
-# Configuration files
-*.xml
+# GraphQL schema
+schema.graphql
 ```
