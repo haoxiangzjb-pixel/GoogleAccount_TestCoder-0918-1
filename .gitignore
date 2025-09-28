@@ -1,16 +1,60 @@
 ```
-# Executables
-find_max
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.h5
+*.model
+*.pb
+*.tflite
 
-# Output files
-*.txt
+# Dependencies
+.venv/
+venv/
+env/
+pipenv/
+poetry/
+node_modules/
 
-# Compiled artifacts
-*.o
-*.obj
-*.out
-*.exe
-*.dll
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
 *.so
-*.a
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Model specific
+*.h5
+*.pb
+*.tflite
+*.onnx
+*.pth
+*.ckpt
+*.index
 ```
