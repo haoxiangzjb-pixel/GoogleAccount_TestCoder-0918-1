@@ -1,30 +1,50 @@
 ```
-# Compiled and build artifacts
-*.mex*
-*.o
-*.obj
-*.dll
-*.so
-*.a
-*.lib
-*.dylib
-*.exe
-
-# Dependencies
-matlab/
-matlab_scripts/
-
-# Logs and temp files
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
 *.log
-*.tmp
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# Django
+*.pot
+*.py[co]
+*$py.class
+*~ 
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
 *.swp
 *.swo
 
-# Editors
-.vscode/
-.idea/
-
-# System files
+# OS
 .DS_Store
 Thumbs.db
 ```
