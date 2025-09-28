@@ -1,10 +1,4 @@
 ```
-# Web artifacts
-*.html
-
-# Temp files
-*.tmp
-
-# Logs
-*.log
+# Configuration files
+*.xml
 ```
