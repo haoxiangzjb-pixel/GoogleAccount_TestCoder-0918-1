@@ -1,1 +1,36 @@
-Nothing should be ignored since only a Python source file (.py) was added and no build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Database files
+*.db
+*.sql
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies (if any)
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
+```
