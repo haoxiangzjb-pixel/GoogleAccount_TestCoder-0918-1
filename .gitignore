@@ -1,27 +1,33 @@
 ```
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
+# Docker
+docker-compose_*.yml
+
+# Temporary files
 *.tmp
 *.swp
+*.swo
 
-# Scripts
-scripts/__pycache__/
-scripts/*.pyc
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
 ```
