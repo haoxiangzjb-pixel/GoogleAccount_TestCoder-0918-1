@@ -1,49 +1,20 @@
 ```
-# Dependencies
-node_modules/
-
-# Build outputs
-dist/
-build/
-coverage/
-htmlcov/
+# Temporary and backup files
+*.tmp
+*.swp
+*.swo
 
 # Logs
 *.log
 
-# Environment
+# Environment files
 .env
 .env.local
-.env.*
+*.env.*
 
-# Editor/IDE
+# Editor/IDE files
 .vscode/
 .idea/
-*.swp
-*.swo
-*.tmp
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-venv/
-.venv/
-.env
-
-# System
-.DS_Store
-Thumbs.db
-
-# Coverage
-.coverage
-coverage.xml
-
-# MyPy
-.mypy_cache/
-.pytest_cache/
 
 # Compressed files
 *.zip
@@ -64,4 +35,8 @@ coverage.xml
 *.Z
 *.lz
 *.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
