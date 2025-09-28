@@ -1,22 +1,5 @@
-```
-# Build artifacts
-*.jsx.bak
-*.jsx~
+(dot_product.f is a source file, no build artifacts, dependencies, or temp files detected - output empty)
 
-# Temp files
-*.tmp
-*.swp
-*.swo
+```f90
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Logs
-*.log
 ```
