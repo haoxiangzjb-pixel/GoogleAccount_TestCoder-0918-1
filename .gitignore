@@ -1,1 +1,25 @@
-Nothing should be ignored since only a C# source file was added without any build artifacts, dependencies, or temporary files.
+```
+# Compiled and build artifacts
+*.mex*
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+*.exe
+
+# Dependencies
+matlab_scripts/
+*.mat
+*.fig
+*.log
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
