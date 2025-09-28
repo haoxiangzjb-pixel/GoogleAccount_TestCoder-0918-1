@@ -1,31 +1,35 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
+# Data files
+data/*.json
 
-# Dependencies
-.Packages/
-.build/
-DerivedData/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.ENV/
+.ENV.local
 
-# Logs and temp files
-*.log
+# Generated files
 *.tmp
-*.swp
+*.log
 
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
+# Editor/IDE
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# macOS
+# OS
 .DS_Store
-
-# Windows
 Thumbs.db
+
+# Coverage
+.coverage
+htmlcov/
+coverage/
 ```
