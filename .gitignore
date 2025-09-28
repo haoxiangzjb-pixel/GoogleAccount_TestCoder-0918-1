@@ -1,3 +1,38 @@
-(reverser.ex is a source file, no build artifacts, dependencies, or temp files detected)
+```
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
 
-(empty — output nothing)
+# Generated files
+lambda_function_*.py
+
+# Environment
+.env
+.env.local
+.env.*
+.venv
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+```
