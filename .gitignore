@@ -1,32 +1,27 @@
 ```
-# Python
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-.Python
+# Compiled and build artifacts
+*.mex*
+*.o
+*.obj
+*.dll
 *.so
-*.egg-info/
-build/
-dist/
-*.egg
+*.dylib
 
-# Data files
-*.npy
-*.npz
-*.pkl
-*.pickle
+# Dependencies
+matlab/
+octave/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
 
 # Environment
-.venv/
-venv/
-env/
-ENV/
-
-# Logs
-*.log
-
-# OS generated files
-.DS_Store
-Thumbs.db
+.env
+.env.local
+*.env.*
 ```
