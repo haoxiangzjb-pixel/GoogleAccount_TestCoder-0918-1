@@ -1,15 +1,13 @@
 ```
 # Compiled and build artifacts
-*.rs.bk
-*.rlib
-*.so
-*.dylib
-*.dll
-*.exe
-*.out
+*.beam
+*.o
+*.obj
 
 # Dependencies
-target/
+ebin/
+deps/
+_build/
 
 # Logs and temp files
 *.log
@@ -23,5 +21,5 @@ target/
 # Environment
 .env
 .env.local
-*.env.*
+.env.
 ```
