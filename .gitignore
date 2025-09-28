@@ -1,5 +1,4 @@
-(book_info.xml is a source/config file, no build artifacts, dependencies, or temp files detected in changes - output empty)
-
-```python
-
+```
+# GraphQL schema
+schema.graphql
 ```
