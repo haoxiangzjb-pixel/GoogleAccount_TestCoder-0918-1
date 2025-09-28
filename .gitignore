@@ -1,1 +1,9 @@
-Nothing should be ignored since the added file 'adder_4bit.v' is a source code file (Verilog/VHDL file) and there are no build artifacts, dependencies, or temporary files in the changes.
+```
+# Image files
+*.png
+
+# R-specific
+.Rhistory
+.RData
+.Rproj.user/
+```
