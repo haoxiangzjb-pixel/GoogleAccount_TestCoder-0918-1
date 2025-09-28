@@ -1,40 +1,30 @@
 ```
-#PHP-specific
-*.php~
-*.php.bak
-*.php.swp
-
-#Compiled and build artifacts
-*.o
-*.obj
-*.exe
-*.dll
+# Compiled and build artifacts
+*.class
+*.dex
 *.so
-*.a
-*.out
+*.aar
+*.apk
 
-#Dependencies
-vendor/
-composer.lock
+# Dependencies
+.libs/
+.externalNativeBuild/
 
-#Logs and temp files
+# Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
-#Environment
+# Environment
 .env
 .env.local
 .env.*
 
-#Editors
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-#System
+# System files
 .DS_Store
 Thumbs.db
 ```
