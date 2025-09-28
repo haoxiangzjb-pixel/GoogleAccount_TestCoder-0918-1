@@ -1,10 +1,71 @@
 ```
-# Web artifacts
-*.html
+# Compiled and build artifacts
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar
+*.gz
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 
-# Temp files
-*.tmp
+# Dependencies
+.gradle/
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+target/
 
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
 ```
