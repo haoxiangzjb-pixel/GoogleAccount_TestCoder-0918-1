@@ -1,4 +1,31 @@
 ```
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
 # Python
 __pycache__/
 *.pyc
@@ -8,7 +35,6 @@ __pycache__/
 env/
 venv/
 .venv/
-.venv*/
 pip-log.txt
 pip-delete-this-directory.txt
 .tox/
@@ -19,26 +45,908 @@ nosetests.xml
 coverage.xml
 *.cover
 *.log
-*.tmp
-*.swp
+.git/
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+build/
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# C/C++
+*.o
+*.a
+*.obj
+*.exe
+*.pdb
+*.dll
+*.so
+*.dylib
+*.nib
+*.class
+
+# Ruby
+*.gem
+*.rbc
+*.sassc
+.sass-cache
+capybara-*.html
+.rspec
+vendor/bundle/
+.bundle/
+.rbenv-vars
+spec/reports/
+test/tmp/
+test/version_tmp/
+
+# Node
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Angular
+.angular/
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage
+coverage/
+*.lcov
+
+# Temporary folders
+tmp/
+temp/
+
+# Backup files
 *~
-
-# Generated files
-filtered_data_*.py
-
-# Environment
-.env
-.env.local
-.env.*
-!.env.example
-
-# Editors
-.vscode/
-.idea/
+*.bak
 *.swp
-*.swo
 
-# System
+# Local configuration
+local.properties
+.settings/
+*.local
+
+# IDE specific
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# Database
+*.db
+*.db-journal
+
+# Lock files
+package-lock.json
+yarn.lock
+
+# Secrets
+secrets/
+.secret*
+
+# Bower
+bower_components/
+
+# Webpack
+webpack.config.js
+
+# ESLint
+.eslintcache
+
+# Prettier
+.prettierignore
+
+# Docker
+.dockerignore
+
+# Git
+.git/
+
+# GitHub
+.github/
+
+# GitLab
+.gitlab/
+
+# Heroku
+.heroku/
+
+# Vagrant
+.vagrant/
+
+# VirtualEnv
+.venv/
+
+# Jupyter
+.ipynb_checkpoints
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.idx
+*.lof
+*.lot
+*.out
+*.toc
+*.log
+
+# C#
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+bin/
+obj/
+.csproj.user
+*.pidb
+*.metadata
+*.builds
+
+# Unity
+Library/
+Temp/
+Obj/
+Logs/
+.vs/
+
+# Unreal Engine
+Intermediate/
+Binaries/
+Saved/
+
+# Android
+*.iml
+.gradle/
+local.properties
+.pro
+.cxx/
+.externalNativeBuild/
+captures/
+
+# iOS
+*.xcodeproj/
+*.xcworkspace/
+*.swiftpm/
+build/
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+ios/.symlinks/
+flutter/ephemeral/
+.test_coverage
+coverage/
+
+# Vue
+dist/
+node_modules/
+*.log
+
+# React
+dist/
+node_modules/
+*.log
+
+# Web
+dist/
+node_modules/
+*.log
+
+# Python virtual environment
+.env/
+
+# Rust
+target/
+Cargo.lock
+
+# PHP
+vendor/
+
+# Composer
+vendor/
+composer.lock
+
+# Laravel
+storage/
+bootstrap/cache/
+
+# Symfony
+var/
+vendor/
+
+# Magento
+var/
+generated/
+pub/static/_cache/
+app/etc/config.php
+app/etc/env.php
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Ruby on Rails
+log/
+tmp/
+.rvmrc
+.bundle/
+vendor/bundle/
+
+# Elixir
+*.beam
+*.ez
+.eex.swp
+.elixir_ls/
+cover/
+erl_crash.dump
+mix.lock
+
+# Phoenix
+.coverage
+.erlang.cookie
+.idea/
+.phoenix/
+
+# Elm
+elm-stuff/
+*.elmi
+*.elmo
+
+# Haskell
+dist/
+dist-newstyle/
+cabal-dev/
+*.o
+*.hi
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+.cabal-sandbox/
+cabal.sandbox.config
+*.prof
+*.aux
+*.hp
+*.eventlog
+
+# Nim
+*.nim.cache/
+nimcache/
+
+# Julia
+.julia/
+*.ji
+
+# Nimble
+.nimble/
+
+# Nimrod
+nimrod/
+nimbase.h
+
+# Nix
+result/
+.result/
+
+# Perl
+*.o
+*.ph
+blib/
+Makefile
+Makefile.old
+pm_to_blib/
+*.tar.gz
+.lwpcookies
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata/
+packrat/lib-R/
+packrat/src/
+
+# Scala
+.classpath
+.project
+.settings/
+target/
+tmp/
+*.dump
+
+# SBT
+lib_managed/
+project/boot/
+project/target/
+target/
+
+# Erlang
+.eunit
+*.beam
+*.plt
+.erlang.cookie
+.rebar/
+.rebar3/
+ebin/
+
+# Clojure
+pom.xml
+target/
+lib/
+.clj-kondo/
+
+# Puppet
+pkg/
+spec/fixtures/
+.git
+.svn
+
+# Chef
+cookbooks/
+site-cookbooks/
+
+# Ansible
+.retry/
+.ansible/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tmp
+
+# Vagrant
+.vagrant/
+.vagrant.d/
+
+# Docker
+.docker/
+docker-compose*.yml
+Dockerfile*
+
+# Kubernetes
+*.kubeconfig
+
+# Helm
+charts/
+*.tgz
+*.lock
+
+# Mesos
+mesos/
+
+# Marathon
+marathon/
+
+# Consul
+consul/
+
+# Vault
+vault/
+
+# Nomad
+nomad/
+
+# Packer
+packer/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Ansible
+.retry/
+.ansible/
+
+# Salt
+.salt/
+salt/
+
+# Puppet
+pkg/
+spec/fixtures/
+
+# Chef
+cookbooks/
+site-cookbooks/
+
+# CFEngine
+cfengine/
+.cfagent/
+
+# BOSH
+.bosh/
+bosh/
+
+# Cloud Foundry
+.cf/
+cf/
+
+# OpenShift
+.openshift/
+openshift/
+
+# Heroku
+.heroku/
+heroku/
+
+# AWS
+.aws/
+.aws-sam/
+.sam/
+
+# Azure
+.azure/
+.azure-pipelines/
+
+# Google Cloud
+.gcloud/
+.gcloudignore
+
+# Firebase
+.firebase/
+.firebase-adminsdk/
+.firebase-debug.log
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+.now/
+
+# Surge
+.surge/
+.surgeignore
+
+# GitHub
+.github/
 .DS_Store
-Thumbs.db
+
+# GitLab
+.gitlab/
+.DS_Store
+
+# Bitbucket
+.bitbucket/
+.DS_Store
+
+# Azure DevOps
+.azuredevops/
+.DS_Store
+
+# Jenkins
+.jenkins/
+.DS_Store
+
+# Travis CI
+.travis/
+.DS_Store
+
+# CircleCI
+.circleci/
+.DS_Store
+
+# GitHub Actions
+.github/
+.DS_Store
+
+# Git
+.git/
+!.gitignore
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Directory for instrumented libs generated by jscoverage/JSCover
+lib-cov/
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output/
+
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt/
+
+# Bower dependency directory (https://bower.io/)
+bower_components/
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# TypeScript v1 declaration files
+typings/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+# next.js build output
+.next/
+
+# nuxt.js build output
+.nuxt/
+dist/
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# yarn v2
+.yarn/
+.pnp.*
+
+# Leiningen
+target/
+test/resources/public/js/test/
+
+# Boot
+target/
+boot/
+build.boot
+
+# Gradle
+.gradle/
+build/
+
+# SBT
+lib_managed/
+project/boot/
+project/target/
+target/
+
+# Lein
+target/
+test/resources/public/js/test/
+
+# Boot
+target/
+boot/
+build.boot
+
+# Metals
+.metals/
+.bloop/
+
+# Mill
+out/
+project/
+.mill/
+
+# sbt
+lib_managed/
+project/boot/
+project/target/
+target/
+
+# Scala
+.classpath
+.project
+.settings/
+target/
+tmp/
+*.dump
+
+# sbt
+lib_managed/
+project/boot/
+project/target/
+target/
+
+# Scala
+.classpath
+.project
+.settings/
+target/
+tmp/
+*.dump
+
+# sbt
+lib_managed/
+project/boot/
+project/target/
+target/
+
+# Scala
+.classpath
+.project
+.settings/
+target/
+tmp/
+*.dump
+
+# sbt
+lib_managed/
+project/boot/
+project/target/
+target/
+
+# Scala
+.classpath
+.project
+.settings/
+target/
+tmp/
+*.dump
+
+# sbt
+lib_managed/
+project/boot/
+project/target/
+target/
+
+# Scala
+.classpath
+.project
+.settings/
+target/
+tmp/
+*.dump
+
+# sbt
+lib_managed/
+project/boot/
+project/target/
+target/
+
+# Scala
+.classpath
+.project
+.settings/
+target/
+tmp/
+*.dump
+
+# sbt
+lib_managed/
+project/boot/
+project/target/
+target/
+
+# Scala
+.classpath
+.project
+.settings/
+target/
+tmp/
+*.dump
+
+# sbt
+lib_managed/
+project/boot/
+project/target/
+target/
+
+# Scala
+.classpath
+.project
+.settings/
+target/
+tmp/
+*.dump
+
+# sbt
+lib_managed/
+project/boot/
+project/target/
+target/
+
+# Scala
+.classpath
+.project
+.settings/
+target/
+tmp/
+*.dump
+
+# sbt
+lib_managed/
+project/boot/
+project/target/
+target/
+
+# Scala
+.classpath
+.project
+.settings/
+target/
+tmp/
+*.dump
+
+# sbt
+lib_managed/
+project/boot/
+project/target/
+target/
+
+# Scala
+.classpath
+.project
+.settings/
+target/
+tmp/
+*.dump
+
+# sbt
+lib_managed/
+project/boot/
+project/target/
+target/
+
+# Scala
+.classpath
+.project
+.settings/
+target/
+tmp/
+*.dump
+
+# sbt
+lib_managed/
+project/boot/
+project/target/
+target/
+
+# Scala
+.classpath
+.project
+.settings/
+target/
+tmp/
+*.dump
+
+# sbt
+lib_managed/
+project/boot/
+project/target/
+target/
+
+# Scala
+.classpath
+.project
+.settings/
+target/
+tmp/
+*.dump
+
+# sbt
+lib_managed/
+project/boot/
+project/target/
+target/
+
+# Scala
+.classpath
+.project
+.settings/
+target/
+tmp/
+*.dump
+
+# sbt
+lib_managed/
+project/boot/
+project/target/
+target/
+
+# Scala
+.classpath
+.project
+.settings/
+target/
+tmp/
+*.dump
+
+# sbt
+lib_managed/
+project/boot/
+project/target/
+target/
+
+# Scala......
 ```
