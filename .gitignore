@@ -1,6 +1,36 @@
 ```
-# Test files
-*.test.js
-*.test.template
-tmp.*
+# Compiled and build artifacts
+*.beam
+*.ez
+*.plt
+*.dump
+ebin/
+_build/
+
+# Dependencies
+deps/
+node_modules/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+cover/
+.coverage
+
+# System files
+.DS_Store
+Thumbs.db
 ```
