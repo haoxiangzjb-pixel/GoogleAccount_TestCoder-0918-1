@@ -1,17 +1,12 @@
 ```
-# Compiled files
-*.plc
-*.plx
+# Environment files
+.env
+.env.local
+*.env.*
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
 
 # Editors
 .vscode/
@@ -20,14 +15,4 @@
 # System files
 .DS_Store
 Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Perl-specific
-blib/
-Makefile
-*.tar.gz
 ```
