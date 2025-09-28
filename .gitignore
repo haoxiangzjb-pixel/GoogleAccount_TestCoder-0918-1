@@ -1,55 +1,51 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.class
-*.jar
-*.war
-*.zip
-*.tar.gz
-*.tar
-*.gz
-*.bz2
-*.xz
-*.7z
-*.rar
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+*.lock.hcl
 
-# Dependencies
-node_modules/
-venv/
-.venv/
+# Environment
 .env
 .env.local
-.env.*
+.env.
 
-# Logs and temp files
+# Logs
 *.log
+
+# Temporary files
 *.tmp
-*.swp
-*.swo
+*~
+.swp
+.swo
 
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
+# OS generated files
 .DS_Store
 Thumbs.db
 
-# Build directories
-dist/
-build/
-target/
-.gradle/
+# Python (if applicable)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/
 .mypy_cache/
 .pytest_cache/
-coverage/
-htmlcov/
+.hypothesis/
 ```
