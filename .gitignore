@@ -1,11 +1,13 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-
-# Dependencies
-vendor/
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.lock.hcl
+*.backup
+terraform.tfvars
+terraform.tfvars.json
+*.tf.json
 
 # Logs and temp files
 *.log
@@ -15,13 +17,15 @@ vendor/
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# System files
+# OS
 .DS_Store
 Thumbs.db
 ```
