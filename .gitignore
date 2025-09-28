@@ -1,73 +1,70 @@
 ```
-# SQL query files (if they are temporary/intermediate)
-*.sql
+# Prolog compiled files
+*.pl~
+*.pro~
+*~
 
-# Compiled and build artifacts
-*.pyc
-*.class
-*.o
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
+# SWI-Prolog specific
+.swipl_history
+.swiplrc
+*.qlf
+*.lq4
+*.lq5
+*.lq6
+*.lq7
+*.lq8
+*.lq9
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-dist/
-build/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
+# Log files
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
 
 # Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
-*.tmp
 
 # System files
 .DS_Store
 Thumbs.db
-.env
-.env.local
-*.env.*
 
-# Logs
-*.log
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Compressed files
-*.zip
-*.gz
+# Build/dependency directories
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.lib
+*.jar
+*.war
+*.class
+*.jar
+target/
+dist/
+build/
 *.tar
-*.tgz
-*.bz2
-*.xz
+*.gz
+*.zip
 *.7z
 *.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
+*.bz2
+*.xz
+*.tgz
 *.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+*.rpm
 ```
