@@ -1,3 +1,10 @@
-(api_script_11pue6w2.py and generate_api_script.py are source files, no build artifacts, dependencies, or temp files detected)
+```
+# Web artifacts
+*.html
 
-(empty — output nothing)
+# Temp files
+*.tmp
+
+# Logs
+*.log
+```
