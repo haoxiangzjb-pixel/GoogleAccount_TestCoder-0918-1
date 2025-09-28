@@ -4,7 +4,6 @@
 __pycache__/
 *.o
 *.obj
-*.out
 
 # Dependencies
 .venv/
@@ -25,23 +24,15 @@ node_modules/
 .vscode/
 .idea/
 
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# Python specific
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
+# Database files
+*.db
+*.sqlite
+*.sqlite3
 
 # Backup files
 *~
 *.bak
-*.swp
-*.swo
+*.backup
 
 # OS generated files
 .DS_Store
