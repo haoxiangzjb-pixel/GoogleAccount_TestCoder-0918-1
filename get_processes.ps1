@@ -1,0 +1,1 @@
+Get-Process | Out-File -FilePath "1759047988702084506_processes.txt"

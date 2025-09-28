@@ -1,28 +1,19 @@
 ```
-# Generated from file changes
-*.vcd
-*.vvp
-*.fst
-*.ghw
-*.vcd~
+# Process output files
+*_processes.txt
+*_processes.txt.ps1
+
+# Log and temp files
 *.log
 *.tmp
+*.swp
 
-# Simulation and synthesis artifacts
-sim/
-sim_*/
-work/
-work-*/
-*.out
-*.bin
-*.bit
-*.hex
-*.mif
-*.mem
+# Environment
+.env
+.env.local
+*.env.*
 
-# Tools
-.ModelSim/
-.ModelSim-*/
-*.run/
-*.settings
+# Editors
+.vscode/
+.idea/
 ```
