@@ -1,32 +1,85 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+# Julia installation
+julia-*/**
 
-# Dependencies
-target/
-Cargo.lock
+# Compressed files
+*.tar.gz
+*.gz
+*.zip
+*.rar
+*.7z
+*.bz2
+*.xz
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar
+*.tgz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 
-# Logs and temp files
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
 *.log
+
+# Temporary files
 *.tmp
 *.swp
+*.swo
 
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
 
-# Environment
+# Environment files
 .env
 .env.local
 *.env.*
 
-# Rust-specific
-**/target/
-Cargo.lock
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts
+dist/
+build/
+target/
+.mypy_cache/
+.pytest_cache/
+
+# Dependency directories
+node_modules/
+venv/
+.venv/
+
+# Gradle
+.gradle/
+
+# Compiled files
+*.class
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+
 ```
