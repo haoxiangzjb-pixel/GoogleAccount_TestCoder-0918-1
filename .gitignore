@@ -1,11 +1,50 @@
 ```
-# Docker build artifacts
-*.tar
-*.tar.gz
-*.tar.bz2
-*.tar.xz
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+build/
+*.js
+*.css
+*.map
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Compressed files
 *.zip
 *.gz
+*.tar
+*.tgz
 *.bz2
 *.xz
 *.7z
@@ -20,13 +59,4 @@
 *.Z
 *.lz
 *.lzo
-
-# Temp files
-*.tmp
-*.temp
-*.log
-
-# Docker specific
-.dockerenv
-Dockerfile.goapp
 ```
