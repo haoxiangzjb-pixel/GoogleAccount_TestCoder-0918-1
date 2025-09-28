@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appSettings>
+        <setting name="AppName" value="MySampleApp" />
+        <setting name="Version" value="1.0.0" />
+        <setting name="DebugMode" value="true" />
+    </appSettings>
+    <database>
+        <host>localhost</host>
+        <port>5432</port>
+        <username>admin</username>
+        <password>secret123</password>
+    </database>
+    <logging>
+        <level>INFO</level>
+        <path>/var/log/myapp/app.log</path>
+    </logging>
+</configuration>

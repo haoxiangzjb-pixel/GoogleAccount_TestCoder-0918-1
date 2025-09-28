@@ -1,6 +1,5 @@
 ```
-# Test files
-*.test.js
-test/
-tests/
+# Configuration and source files only - no build artifacts, dependencies, or temp files detected
+# Current changes: app_config.xml (configuration file)
+# No ignores needed based on the file changes provided
 ```
