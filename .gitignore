@@ -1,19 +1,29 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+# Elixir/Mix specific ignores
+*.beam
+*.ez
+ebin/
+_build/
+deps/
+*.lock
+
+# Environment
+.env
+.env.local
+.env.
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-*.env.*
-
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
