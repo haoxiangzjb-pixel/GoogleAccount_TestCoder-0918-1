@@ -1,31 +1,58 @@
 ```
-# Logs
+# Compiled files
+*.o
+*.obj
+*.out
+
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
-# Java/Scala compiled files
-*.class
-*.jar
-*.war
-*.ear
-
-# Scala specific
-*.tasty
-*.scala_dependencies
-
-# Build directories
-target/
-
-# IDE files
-.idea/
+# Editors
 .vscode/
-*.iml
-*.ipr
-*.iws
+.idea/
 
 # System files
 .DS_Store
 Thumbs.db
 
-# Process/heap dump files
-hs_err_pid*.log
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
