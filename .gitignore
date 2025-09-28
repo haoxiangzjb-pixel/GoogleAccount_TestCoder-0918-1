@@ -1,1 +1,6 @@
-Nothing should be ignored since only a Dart source file was added without any build artifacts, dependencies, or temporary files.
+```
+# Thrift generated files
+*.thrift.g.py
+*.thrift.py
+gen-*/
+```
