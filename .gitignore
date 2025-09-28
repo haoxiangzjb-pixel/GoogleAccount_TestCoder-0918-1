@@ -1,24 +1,32 @@
 ```
-# Dependencies
-node_modules/
+# Docker build artifacts
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.zip
+*.gz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
 
-# Package lock file
-package-lock.json
-
-# Logs and temp files
-*.log
+# Temp files
 *.tmp
+*.temp
+*.log
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# OS generated files
-.DS_Store
-Thumbs.db
+# Docker specific
+.dockerenv
+Dockerfile.goapp
 ```
