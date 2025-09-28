@@ -1,47 +1,45 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.out
+# Serverless framework
+.serverless/
+.sls/
+.serverless_plugins/
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-dist/
-build/
-*.egg-info/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Environment
+# Environment variables
 .env
 .env.local
 *.env.*
 
-# Editors
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# Editor/IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
 
 # Coverage
-.coverage
 coverage/
 htmlcov/
-
-# Python specific
-*.py[cod]
-*$py.class
-*.so
-.Python
-*.pyc
-*.pyo
-*.pyd
+.coverage
 ```
