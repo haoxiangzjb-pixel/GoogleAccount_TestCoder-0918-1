@@ -1,3 +1,41 @@
-(greeting_widget_8921.dart is a source file, no build artifacts, dependencies, or temp files detected in the changes)
+```
+# Compiled files
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.cmxs
+*.exe
+*.out
 
-(empty — output nothing)
+# Build artifacts
+_build/
+_dbuild/
+*.native
+*.byte
+
+# Dependencies
+.opam/
+.dune/
+esy.lock/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env.*
+```
