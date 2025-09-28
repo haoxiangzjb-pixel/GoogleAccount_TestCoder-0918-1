@@ -1,44 +1,9 @@
 ```
-# LaTeX build artifacts
-*.aux
-*.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.idx
-*.ind
-*.ilg
-*.pdf
-*.dvi
-*.ps
-*.synctex.gz
-*.fls
-*.fdb_latexmk
-*.auxlock
-*.xdv
-*.run.xml
-*.bcf
-*.synctex(busy)
+# Image files
+*.png
 
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
+# R-specific
+.Rhistory
+.RData
+.Rproj.user/
 ```
