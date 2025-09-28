@@ -1,4 +1,27 @@
 ```
-# Configuration files
-*.xml
+# Compiled and build artifacts
+*.plc
+*.plx
+*.pmc
+*.p6c
+*.nqp
+
+# Dependencies
+lib/
+blib/
+pm-to-blib/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
