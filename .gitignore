@@ -1,1 +1,60 @@
-Nothing to ignore - the change list contains only a Dart source file (.dart) which should not be ignored.
+```
+# Unity specific ignores
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+*.sln
+*.user
+*.userprefs
+*.unityproj
+*.unitypackage
+*.meta
+*.pidb
+*.pdb
+*.mdb
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
