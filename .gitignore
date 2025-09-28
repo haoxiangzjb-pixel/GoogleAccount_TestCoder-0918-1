@@ -1,1 +1,28 @@
-(server_abc123.js is a source file, and there are no build artifacts, dependencies, or temp files in the changes)
+```
+# Serverless framework
+.serverless/
+.sls/
+.sls-local/
+serverless-state.json
+
+# Environment variables
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Local configuration
+.vscode/
+.idea/
+```
