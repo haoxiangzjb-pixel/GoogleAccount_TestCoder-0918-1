@@ -1,33 +1,34 @@
 ```
-# Compiled files
-*.plc
-*.plx
+# Data files
+*.csv
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
 .env
 .env.local
-*.env.*
+.env.
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.temp
+*~
+.swp
+.swo
+
+# OS
+.DS_Store
+Thumbs.db
 
 # Editors
 .vscode/
 .idea/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Perl-specific
-blib/
-Makefile
-*.tar.gz
 ```
