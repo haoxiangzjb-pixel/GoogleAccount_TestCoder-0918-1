@@ -1,1 +1,32 @@
-Nothing should be ignored based on the provided changes. The added file 'connect_to_postgres_2345.py' is a source code file that should be tracked in version control.
+```
+# Compiled Java classes
+*.class
+
+# JAR files
+*.jar
+
+# Dependencies
+lib/
+libs/
+jars/
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Build directories
+build/
+target/
+out/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*~
+```
