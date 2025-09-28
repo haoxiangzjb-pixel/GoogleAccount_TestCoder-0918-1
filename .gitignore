@@ -1,24 +1,25 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
+# VBA specific ignores
+*.frx
+*.bas
+*.cls
+*.frm
+*.vba
 
-# Dependencies
-.Packages/
-.build/
-DerivedData/
+# Compiled VBA files
+*.exe
+*.dll
+*.ocx
 
-# Logs and temp files
-*.log
+# Backup files
+*.bak
+*~
+*.~*
+.BAK
+
+# Temporary files
 *.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
+*.temp
 Thumbs.db
+~$*
 ```
