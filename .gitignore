@@ -1,44 +1,38 @@
 ```
 # Dependencies
-node_modules/
-
-# Build artifacts
-dist/
-build/
-*.js
-*.js.map
-*.min.js
-*.css
-*.css.map
-*.min.css
-
-# Angular specific
-.angular/
-coverage/
-.aot/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Editors
+# Logs
+*.log
+
+# Editor/IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*.tmp
 
-# OS generated files
+# OS
 .DS_Store
 Thumbs.db
 
 # Coverage
+.coverage
 coverage/
 htmlcov/
-.coverage
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
 ```
