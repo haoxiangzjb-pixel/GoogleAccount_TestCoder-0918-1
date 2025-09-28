@@ -1,1 +1,3 @@
-Nothing to ignore - only source code file (.adb) was added.
+(check_disk.sh is a shell script, which is source code - no build artifacts, dependencies, or temp files detected)
+
+(empty - no output)
