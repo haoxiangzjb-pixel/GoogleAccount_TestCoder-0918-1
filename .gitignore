@@ -1,40 +1,104 @@
 ```
-#PHP-specific
-*.php~
-*.php.bak
-*.php.swp
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+*.lock.hcl
 
-#Compiled and build artifacts
+# Environment
+.env
+.env.local
+*.env.*
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.egg-info/
+dist/
+build/
+target/
+.gradle/
+.cargo/
+zig-cache/
+zig-out/
+
+# Compiled/Build artifacts
+*.pyc
+*.class
 *.o
-*.obj
 *.exe
 *.dll
 *.so
 *.a
+*.obj
 *.out
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
 
-#Dependencies
-vendor/
-composer.lock
-
-#Logs and temp files
+# Logs and temp files
 *.log
 *.tmp
 *.swp
 *.swo
 
-#Environment
-.env
-.env.local
-.env.*
-
-#Editors
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 
-#System
+# System
 .DS_Store
 Thumbs.db
+
+# Testing and coverage
+.coverage
+coverage/
+htmlcov/
+.mypy_cache/
+.pytest_cache/
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
