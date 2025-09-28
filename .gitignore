@@ -1,32 +1,27 @@
 ```
-# R-specific ignores
-.Rproj.user/
-.Rhistory
-.RData
-*.RData
-*.rds
-*.Rds
-.Rapp.history
-.Rbuildignore
+# Compiled and build artifacts
+*.rs.bk
+*.rlib
 *.so
-*.dll
 *.dylib
+*.dll
+*.exe
+*.out
 
 # Dependencies
-renv/
-packrat/
+target/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-.env.
-
 # Editors
 .vscode/
 .idea/
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
