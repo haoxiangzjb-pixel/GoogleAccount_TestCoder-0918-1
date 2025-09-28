@@ -1,27 +1,44 @@
 ```
-# Compiled and build artifacts
-*.rs.bk
-*.rlib
-*.so
-*.dylib
-*.dll
-*.exe
-*.out
-
-# Dependencies
-target/
-
-# Logs and temp files
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.venv*/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
 *.log
 *.tmp
 *.swp
+*~
 
-# Editors
-.vscode/
-.idea/
+# Generated files
+filtered_data_*.py
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
+!.env.example
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
 ```
