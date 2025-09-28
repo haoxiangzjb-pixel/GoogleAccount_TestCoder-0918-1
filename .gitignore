@@ -1,17 +1,19 @@
 ```
-# Docker related
-*.dockerignore
-.dockerenv
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+
+# Logs and temp files
+*.log
+*.tmp
 
 # Environment
 .env
 .env.local
 .env.*
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
 
 # Editors
 .vscode/
