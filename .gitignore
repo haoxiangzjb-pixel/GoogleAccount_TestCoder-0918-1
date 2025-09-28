@@ -1,24 +1,35 @@
 ```
-# Docker
-docker-compose_*.yml
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Logs and temp files
+# LaTeX build artifacts
+*.aux
 *.log
-*.tmp
-*.swp
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.idx
+*.ind
+*.ilg
+*.pdf
+*.dvi
+*.ps
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.auxlock
 
-# Editors
-.vscode/
-.idea/
+# Editor/IDE files
 *.swp
 *.swo
+*.tmp
+.vscode/
+.idea/
 
-# OS
+# System files
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
 ```
