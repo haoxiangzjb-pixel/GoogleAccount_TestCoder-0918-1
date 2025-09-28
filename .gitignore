@@ -1,37 +1,29 @@
 ```
-# Docker related
-*.dockerignore
-.Dockerfile*
-
-# Temporary and build files
-*.tmp
-*.temp
-build/
-dist/
+# Build artifacts
+*.o
+*.obj
 *.out
-
-# Logs
-*.log
 
 # Environment files
 .env
 .env.local
 *.env.*
 
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
+*.tmp
 
-# Dependencies (if any detected)
+# Logs
+*.log
+
+# Dependencies
 node_modules/
-.venv/
 venv/
+.venv/
 __pycache__/
-*.egg-info/
-.pytest_cache/
 .mypy_cache/
-target/
-.gradle/
+.pytest_cache/
 ```
