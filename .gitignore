@@ -1,43 +1,31 @@
 ```
+# Compiled and build artifacts
+*.rs.bk
+*.exe
+*.dll
+*.so
+*.a
+*.o
+*.obj
+*.out
+
 # Dependencies
-node_modules/
-
-# Build outputs
-dist/
-build/
 target/
+Cargo.lock
 
-# Logs
+# Logs and temp files
 *.log
-
-# Environment
-.env
-.env.local
-*.env.*
+*.tmp
+*.swp
 
 # Editors
 .vscode/
 .idea/
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-.python-version
-
-# Compiled files
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+# Environment
+.env
+.env.local
+*.env.*
 
 # System files
 .DS_Store
@@ -48,32 +36,12 @@ coverage/
 htmlcov/
 .coverage
 
-# Temporary files
-*.tmp
-*.swp
-*.swo
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# Python (if mixed project)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.mypy_cache/
+.pytest_cache/
+.coverage
 ```
