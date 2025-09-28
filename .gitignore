@@ -1,8 +1,1 @@
-```
-# R-specific ignores
-*.rds
-*.RData
-*.rdata
-.Rhistory
-.Rproj.user/
-```
+(ts)
