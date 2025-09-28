@@ -1,20 +1,25 @@
 ```
 # Compiled and build artifacts
-*.class
-*.groovy.class
+*.beam
+*.app
+*.appup
+*.rel
+ebin/
+_build/
 
 # Dependencies
-.gradle/
-build/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+rebar3/
+.erlang.cookie
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
 
 # Environment
 .env
