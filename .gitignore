@@ -1,42 +1,33 @@
 ```
-# Data files with hash patterns (likely generated)
-data_*.json
+# Compiled files
+*.class
 
-# Logs and temp files
+# Dependencies
+lib/
+libs/
+jars/
+
+# Logs
 *.log
+
+# Temp files
 *.tmp
-*.swp
+*.temp
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
-
-# Dependencies
-node_modules/
-.venv/
-venv/
-__pycache__/
+*.swp
+*.swo
 
 # Build artifacts
-dist/
 build/
+dist/
 target/
-*.pyc
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# System files
-.DS_Store
-Thumbs.db
+out/
 ```
