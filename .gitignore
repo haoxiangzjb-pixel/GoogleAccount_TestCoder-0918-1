@@ -1,1 +1,6 @@
-Nothing to ignore - the change list contains only a source file (.rb) without any build artifacts, dependencies, or temporary files.
+```
+# R plots and temporary files
+Rplots.pdf
+*.r
+*.R
+```
