@@ -1,34 +1,5 @@
-```
-# Compiled and build artifacts
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+(config.toml is a source/config file, not a build artifact, dependency, or temp file - no ignores needed)
 
-# Dependencies
-target/
-Cargo.lock
+```toml
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Rust-specific
-**/target/
-Cargo.lock
 ```
