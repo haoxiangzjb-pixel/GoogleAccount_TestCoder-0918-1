@@ -1,33 +1,5 @@
-```
-# Compiled files
-*.class
+(time_output.cr is a source code file, so no ignores needed)
 
-# Dependencies
-lib/
-libs/
-jars/
+```crystal
 
-# Logs
-*.log
-
-# Temp files
-*.tmp
-*.temp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Build artifacts
-build/
-dist/
-target/
-out/
 ```
