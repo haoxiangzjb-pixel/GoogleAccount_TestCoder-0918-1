@@ -1,0 +1,12 @@
+name: dart_async_app
+description: A simple Dart application to fetch data asynchronously and save it to a file.
+version: 1.0.0
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  http: ^1.1.0
+
+dev_dependencies:
+  lints: ^3.0.0
