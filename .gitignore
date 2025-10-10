@@ -1,11 +1,1 @@
-```
-# Terraform files
-*.tfstate
-*.tfstate.*
-*.tfvars
-.terraform/
-terraform.tfstate
-terraform.tfstate.backup
-*.backup
-*.lock.hcl
-```
+Nothing should be ignored based on the provided file changes. The added file 'network_config.pp' appears to be a source/configuration file that should be tracked in version control.
