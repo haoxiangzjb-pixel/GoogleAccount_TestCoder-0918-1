@@ -1,25 +1,11 @@
 ```
-# Compiled Python files
-*.pyc
-__pycache__/
+# Compiled files
+*.class
 
 # Dependencies
-.venv/
-venv/
-pip-log.txt
-pipenv/
-.Python
-*.egg-info/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
+__pycache__/
+*.pyc
+*.pyo
 
 # Editors
 .vscode/
@@ -27,52 +13,21 @@ pipenv/
 *.swp
 *.swo
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Logs
+*.log
 
-# Testing
-.coverage
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
 htmlcov/
-.coverage.*
-.nyc_output/
-istanbul/
-mochawesome-report/
+.coverage
 
-# Build and distribution
+# Build directories
 dist/
 build/
-*.egg
-*.whl
-*.pyc
-*.pyo
-*.pyd
-.Python
-.pytest_cache/
-.mypy_cache/
-.tox/
-
-# Compression
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+target/
 ```
