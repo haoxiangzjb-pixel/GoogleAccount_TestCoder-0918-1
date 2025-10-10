@@ -1,44 +1,13 @@
 ```
-# Python
-__pycache__/
+# Compiled Python files
 *.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
+__pycache__/
 
-# Django
+# Logs
 *.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Environment
+# Environment files
 .env
 .env.local
 *.env.*
-
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# Build
-dist/
-build/
-*.egg-info/
 ```
