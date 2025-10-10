@@ -1,1 +1,30 @@
-(empty)
+```
+# R plots and generated images
+Rplots.pdf
+*.png
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Dependencies (if any R packages are installed locally)
+renv/
+packrat/
+
+# R-specific build artifacts
+.Rhistory
+.RData
+```
