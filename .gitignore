@@ -1,25 +1,14 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
 *.o
 *.obj
+*.out
+find_max
 
-# Dependencies
-.venv/
-venv/
-
-# Logs and temp files
-*.log
+# Temp files
 *.tmp
-*.swp
+*.temp
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
+# Logs
+*.log
 ```
