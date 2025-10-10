@@ -1,9 +1,5 @@
-```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
+(square.fs is a source file, not a build artifact or dependency, so no .gitignore rules needed)
 
-# Executables
-sort_program
+```gitignore
+
 ```
