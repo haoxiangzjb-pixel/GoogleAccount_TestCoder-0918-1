@@ -1,4 +1,4 @@
 ```
-# Compiled and build artifacts
-*.fs
+# Generated from file changes
+*.thrift
 ```
