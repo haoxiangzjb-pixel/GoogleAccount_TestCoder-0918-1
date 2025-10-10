@@ -1,5 +1,22 @@
-(postgres_connect_12345.py is a source file, so no ignores needed)
+```
+# Temporary and generated files
+*.tmp
+*.temp
 
-```python
+# Log files
+*.log
 
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Backup files
+*~
+*.bak
+*.backup
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
