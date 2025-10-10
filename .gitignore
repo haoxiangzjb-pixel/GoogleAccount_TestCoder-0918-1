@@ -1,11 +1,4 @@
 ```
-# Compiled and build artifacts
-*.fs
-
-# Dependencies
-julia-*/
-zig*/
-
 # Logs and temp files
 *.log
 *.tmp
@@ -19,4 +12,28 @@ zig*/
 # Editors
 .vscode/
 .idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/
+*.git/
+.DS_Store
+Thumbs.db
 ```
