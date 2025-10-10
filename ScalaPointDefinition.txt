@@ -1,0 +1,11 @@
+// This file contains the definition for the Scala case class Point.
+// To use it, save it with a .scala extension and compile it with scalac.
+case class Point(x: Double, y: Double)
+
+// Example usage within an object for compilation:
+/*
+object Point extends App {
+  val p = Point(1.0, 2.5)
+  println(s"Created point: $p")
+}
+*/
