@@ -1,51 +1,33 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
+*.beam
+*.exs
+*.eex
+*.leex
+*.heex
 
 # Dependencies
-.venv/
-venv/
-pip-tools/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+deps/
+_build/
+ebin/
+priv/
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
+
+# Logs and temp files
+*.log
+*.tmp
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Coverage reports
-.coverage
-coverage/
-htmlcov/
-
-# Python specific
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+# OS
+.DS_Store
+Thumbs.db
 ```
