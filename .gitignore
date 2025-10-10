@@ -1,14 +1,17 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.mod
-*.smod
-*.out
+# Puppet related
+**/modules/
+**/spec/fixtures/modules/
+**/.tmp/
+**/pkg/
+
+# Common build artifacts
+*.pp_compiled
+*.rb_compiled
 
 # Dependencies
-build/
-dist/
+**/vendor/
+**/bundle/
 
 # Logs and temp files
 *.log
@@ -18,9 +21,15 @@ dist/
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 ```
