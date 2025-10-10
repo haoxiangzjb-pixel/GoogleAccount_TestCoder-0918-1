@@ -1,39 +1,25 @@
 ```
 # Compiled and build artifacts
-*.css.map
-*.min.css
-*.bundle.css
-
-# Temp files
-*.tmp
-*.temp
-
-# Logs
-*.log
-
-# Editor/IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-*.env.*
+*.ji
+*.o
+*.obj
+*.out
 
 # Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.egg-info/
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
+.julia/
+*.jl.cov
+*.jl.info
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage
 coverage/
-htmlcov/
+*.cov
 ```
