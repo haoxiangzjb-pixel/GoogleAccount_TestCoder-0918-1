@@ -1,0 +1,1 @@
+my $log_file = './error.log';\nmy $error_count = 0;\nopen(my $fh, '<', $log_file) or die "Could not open file '$log_file' $!";\nwhile (my $line = <$fh>) {\n    chomp $line;\n    if ($line =~ /\[ERROR\]/) {\n        $error_count++;\n    }\n}\nclose $fh;\nprint "Total errors found: $error_count\n";
