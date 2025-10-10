@@ -1,1 +1,1 @@
-Nothing should be ignored based on the provided changes. The added file `scrape_titles.py` is a source code file that should be tracked in version control.
+Nothing should be ignored based on the provided file changes, as only a Ruby source file (`factorial_method_2025.rb`) was added without any build artifacts, dependencies, or temporary files.
