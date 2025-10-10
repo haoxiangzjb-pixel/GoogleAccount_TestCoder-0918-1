@@ -1,1 +1,33 @@
-(empty)
+```
+# R-specific ignores
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+*.RData
+*.Rds
+*.rds
+*.Rda
+*.rda
+*.cache/
+
+# Dependencies
+renv/
+packrat/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*~
+```
+
+Wait, let me reconsider. The only file added is `summary_stats.R`, which is a source code file. There are no build artifacts, dependencies, or temporary files in the changes. Following rule #6, since the change list contains only source files and no build artifacts, dependencies, or temp files, the output should be empty.
+
+```(empty)
+```
