@@ -1,35 +1,32 @@
 ```
-# Compiled and build artifacts
-*.class
+# Compiled Python files
+*.pyc
+__pycache__/
 
 # Dependencies
-lib/
-libs/
-target/
-build/
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
+.venv/
+venv/
 
 # Logs and temp files
 *.log
 *.tmp
+*.swp
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# OS specific
-.DS_Store
-Thumbs.db
+# Editors
+.vscode/
+.idea/
 
-# Java specific
-*.jar
-*.war
-*.ear
-META-INF/
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Python cache
+.mypy_cache/
+.pytest_cache/
 ```
