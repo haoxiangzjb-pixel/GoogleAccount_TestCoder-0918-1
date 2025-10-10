@@ -1,28 +1,3 @@
-```
-# Compiled and build artifacts
-*.beam
-*.ez
-*.plt
-*.dump
+(database_config.ini is a config file, not a build artifact or temp file, so it should not be added to .gitignore)
 
-# Dependencies
-deps/
-_build/
-erl_crash.dump
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs and temp files
-*.log
-*.tmp
-erl_crash.dump
-```
+(empty — output nothing)
