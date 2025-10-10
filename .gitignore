@@ -1,32 +1,35 @@
 ```
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+*.lock.hcl
+
 # Compiled and build artifacts
 *.pyc
 __pycache__/
 *.o
 *.obj
-dist/
-build/
+*.exe
+*.dll
+*.so
+*.a
 *.out
 
 # Dependencies
-.venv/
-venv/
 node_modules/
-.julia/
-.zig/
-target/
-.gradle/
+venv/
+.venv/
+.env
+.env.local
+*.env.*
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
-
-# Environment
-.env
-.env.local
-.env.*
 
 # Editors
 .vscode/
@@ -40,10 +43,6 @@ Thumbs.db
 coverage/
 htmlcov/
 .coverage
-
-# Cache directories
-.mypy_cache/
-.pytest_cache/
 
 # Compressed files
 *.zip
