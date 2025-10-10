@@ -1,1 +1,4 @@
-Nothing should be ignored based on the provided file changes. The added file `find_emails.pl` is a Perl source code file, which should be tracked in version control.
+```
+# Configuration and source files only - no build artifacts or dependencies detected
+# The added files (.yml, source_file.txt) are source/config files that should not be ignored
+```

@@ -1,0 +1,1 @@
+---\n- name: Copy source file\n  hosts: localhost\n  tasks:\n    - name: Copy file\n      copy:\n        src: source_file.txt\n        dest: copied_file.txt\n        mode: \"u=rw,g=r,o=r\"\n
