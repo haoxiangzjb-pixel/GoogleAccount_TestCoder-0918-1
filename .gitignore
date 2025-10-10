@@ -1,1 +1,30 @@
-Nothing should be ignored since only a source code file (.java) was added.
+```
+# Puppet related ignores
+*.pp.bak
+*.rb.bak
+.rplesync.yaml
+
+# Dependencies
+modules/
+.sass-cache/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
