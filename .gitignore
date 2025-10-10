@@ -1,15 +1,20 @@
 ```
-# Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
-*.o
-*.obj
+# Ruby specific ignores
+*.gem
+*.rbc
+coverage/
+InstalledFiles
+pkg/
+*.lock
+Gemfile.lock
+.rspec
+spec/reports/
+*.so
+lib/bundler/man/
 
 # Dependencies
-Pods/
-Carthage/
-.swiftlint.yml
-DerivedData/
+.bundle/
+vendor/bundle/
 
 # Logs and temp files
 *.log
@@ -24,14 +29,8 @@ DerivedData/
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# iOS specific
-*.ipa
-*.app
-*.xcworkspace
-xcuserdata/
-*.xcodeproj/project.xcworkspace
-*.xcodeproj/xcuserdata/
+# System files
+.DS_Store
+Thumbs.db
 ```
