@@ -1,12 +1,32 @@
 ```
-# Temporary files
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
 *.tmp
-*.temp
+*.swp
 
-# Memory reports and logs
-*.txt
-memory_report_*.txt
+# Environment
+.env
+.env.local
+*.env.*
 
-# Shell scripts backup (if needed)
-*.sh.bak
+# Editors
+.vscode/
+.idea/
+
+# Docker
+Dockerfile.*
+
+# Build directories
+dist/
+build/
+target/
 ```
