@@ -1,1 +1,39 @@
-Nothing to ignore - the change list contains only a source code file (.groovy) without any build artifacts, dependencies, or temporary files.
+```
+# PHP specific
+*.php~
+
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+vendor/
+node_modules/
+bower_components/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
