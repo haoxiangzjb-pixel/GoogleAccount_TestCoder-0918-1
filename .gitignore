@@ -1,35 +1,27 @@
 ```
 # Compiled and build artifacts
-*.class
+*.nimble
+*.nims
+*.so
+*.dll
+*.exe
+*.out
 
 # Dependencies
-lib/
-libs/
-target/
-build/
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
+.nimble/
+nimcache/
 
 # Logs and temp files
 *.log
 *.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
 
 # Environment
 .env
 .env.local
-*.env.*
-
-# OS specific
-.DS_Store
-Thumbs.db
-
-# Java specific
-*.jar
-*.war
-*.ear
-META-INF/
+.env.*
 ```
