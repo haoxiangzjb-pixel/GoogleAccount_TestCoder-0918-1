@@ -1,1 +1,23 @@
-(random_selenium_test_4ef32dc4.py is a source file, not a build artifact or dependency, so no .gitignore rules needed)
+```
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Configuration backup/temp files
+*.ini.bak
+*.ini~
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
