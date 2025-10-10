@@ -1,33 +1,30 @@
 ```
-# Compiled files
-*.class
+# Compiled and build artifacts
+*.rs.bk
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
-__pycache__/
-*.pyc
-*.pyo
+target/
+.cargo/
+Cargo.lock
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# Logs
-*.log
 
 # Environment
 .env
 .env.local
 *.env.*
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Build directories
-dist/
-build/
-target/
 ```
