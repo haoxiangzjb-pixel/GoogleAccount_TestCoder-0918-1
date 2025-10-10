@@ -1,5 +1,12 @@
-(postgres_connect_12345.py is a source file, so no ignores needed)
+```
+# Temporary files
+*.tmp
+*.temp
 
-```python
+# Memory reports and logs
+*.txt
+memory_report_*.txt
 
+# Shell scripts backup (if needed)
+*.sh.bak
 ```
