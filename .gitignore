@@ -1,4 +1,28 @@
 ```
+# Compiled and build artifacts
+*.o
+*.obj
+*.hi
+*.chi
+*.chs
+
+# Dependencies
+.cabal-sandbox/
+cabal-dev/
+dist/
+dist-newstyle/
+.stack-work/
+
+# Logs and temp files
+*.log
 *.tmp
-tmp.*
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
