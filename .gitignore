@@ -1,51 +1,72 @@
 ```
-# Build system
-Makefile
+#Temp files
+*.tmp
+tmp.*
 
-# Compiled and build artifacts
+#Compiled and build artifacts
 *.o
 *.obj
 *.out
-*.exe
-*.dll
-*.so
+
+#Go specific
 *.a
+*.so
+*.dylib
+*.dll
+*.exe
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
-
-# Logs and temp files
+#Logs
 *.log
-*.tmp
-*.swp
-*.swo
 
-# Environment
+#Environment
 .env
 .env.local
 *.env.*
 
-# Editors
+#Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# System files
+#System
 .DS_Store
 Thumbs.db
 
-# Coverage
+#Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Compressed files
+#Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+#Node
+node_modules/
+
+#Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+
+#C/C++
+*.a
+*.lib
+*.obj
+*.o
+*.so
+*.dll
+*.exe
+
+#Compression
 *.zip
 *.gz
 *.tar
@@ -64,8 +85,4 @@ htmlcov/
 *.Z
 *.lz
 *.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
 ```
