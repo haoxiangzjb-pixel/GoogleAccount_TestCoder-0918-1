@@ -1,1 +1,31 @@
-(empty)
+```
+# R-specific ignores
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+*.RData
+*.Rds
+*.rds
+*.Rout
+*.Rcheck/
+.Rbuildignore
+vignettes/*.html
+vignettes/*.pdf
+inst/doc/*.html
+inst/doc/*.pdf
+
+# Dependencies
+renv/
+packrat/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# System files
+.DS_Store
+Thumbs.db
+```
