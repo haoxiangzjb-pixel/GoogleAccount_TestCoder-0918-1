@@ -1,7 +1,9 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-sort_array_abc123
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Configuration files with sensitive info
+*config*.ini
 ```
