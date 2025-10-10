@@ -1,4 +1,4 @@
 ```
-# CI/CD
-.gitlab-ci.yml
+# GraphQL schema
+schema.graphql
 ```
