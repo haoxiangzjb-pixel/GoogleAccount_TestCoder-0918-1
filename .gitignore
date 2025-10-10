@@ -1,37 +1,42 @@
 ```
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
+# Compiled and build artifacts
+*.class
+*.jar
+*.war
+*.ear
+*.aar
 *.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
+*.dll
+*.exe
+*.out
+*.o
+*.obj
 
-# Django
+# Dependencies
+.gradle/
+build/
+target/
+dist/
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+.Python/
+.pytest_cache/
+.mypy_cache/
+.tox/
+
+# Logs and temp files
 *.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
+*.tmp
+*.swp
+*.swo
 
 # Environment
 .env
 .env.local
-.env.
-.env.local.
+.env.*
 
 # Editors
 .vscode/
@@ -39,7 +44,7 @@ db.sqlite3-journal
 *.swp
 *.swo
 
-# OS
+# System files
 .DS_Store
 Thumbs.db
 ```
