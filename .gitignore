@@ -1,38 +1,31 @@
 ```
-# Compiled files
-*.plc
-*.plx
-*.pmc
+# Environment files
+.env
+.env.local
+*.env.*
 
-# Perl-specific
-__Perl/
-*.bak
-*.old
-*.orig
-*.rej
-*.tmp
-
-# Dependencies
-lib/
-blib/
-pm_to_blib
+# Configuration backup
+*config*.ini~
 
 # Logs and temp files
 *.log
 *.tmp
-
-# Environment
-.env
-.env.local
-.env.*
+*.swp
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# OS
-.DS_Store
-Thumbs.db
+# Dependencies (if any)
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
 ```
