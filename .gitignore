@@ -1,72 +1,51 @@
 ```
-#Temp files
-*.tmp
-tmp.*
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+*.lock.hcl
 
-#Compiled and build artifacts
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 *.o
 *.obj
+*.exe
+*.dll
+*.so
+*.a
 *.out
 
-#Go specific
-*.a
-*.so
-*.dylib
-*.dll
-*.exe
-
-#Logs
-*.log
-
-#Environment
+# Dependencies
+node_modules/
+venv/
+.venv/
 .env
 .env.local
-*.env.*
+.env.*
 
-#Editors
-.vscode/
-.idea/
+# Logs and temp files
+*.log
+*.tmp
 *.swp
 *.swo
 
-#System
+# Editors
+.vscode/
+.idea/
+
+# System files
 .DS_Store
 Thumbs.db
 
-#Coverage
+# Coverage
 coverage/
 htmlcov/
 .coverage
 
-#Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-
-#Node
-node_modules/
-
-#Java
-*.class
-*.jar
-*.war
-*.ear
-target/
-.gradle/
-
-#C/C++
-*.a
-*.lib
-*.obj
-*.o
-*.so
-*.dll
-*.exe
-
-#Compression
+# Compressed files
 *.zip
 *.gz
 *.tar
@@ -85,4 +64,8 @@ target/
 *.Z
 *.lz
 *.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
