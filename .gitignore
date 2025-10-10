@@ -1,50 +1,65 @@
 ```
-# Compiled and build artifacts
-*.pyc
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Python
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Compiled and binary files
 *.o
 *.obj
-*.class
 *.exe
 *.dll
 *.so
 *.a
 *.out
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-.env.*
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Editors
-.vscode/
-.idea/
-
-# System files
+# OS generated files
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Coverage
-coverage/
-htmlcov/
+# Temp files
+*.tmp
+*.temp
+*.bak
+
+# Testing
 .coverage
+htmlcov/
+.nyc_output/
+coverage/
+junit.xml
 
-# Build directories
-dist/
-build/
-target/
-.gradle/
-
-# Compressed files
+# Compression
 *.zip
 *.gz
 *.tar
