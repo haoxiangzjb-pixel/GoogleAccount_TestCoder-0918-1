@@ -1,33 +1,23 @@
 ```
 # Compiled and build artifacts
-*.beam
-*.exs
-*.eex
-*.leex
-*.heex
+*.o
+*.obj
+*.out
 
 # Dependencies
-deps/
-_build/
-ebin/
-priv/
-
-# Environment
-.env
-.env.local
-.env.*
+vendor/
 
 # Logs and temp files
 *.log
 *.tmp
+*.swp
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# OS
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+*.env.*
 ```
