@@ -1,3 +1,41 @@
-Nothing should be ignored in this case, as the added file `user_recipe_12345.rb` is a source code file (.rb) and not a build artifact, dependency, or temporary file. The change list contains only a source file, so no ignores are needed.
+```
+# Julia specific
+.julia/
+*.ji
+*.jl.cov
+*.jl.info
+.coverage/
 
-Therefore, the output is empty.
+# Dependencies
+deps/
+test/
+
+# Build artifacts
+build/
+dist/
+*.so
+*.dylib
+*.dll
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+```
