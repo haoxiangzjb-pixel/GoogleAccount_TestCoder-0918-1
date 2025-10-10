@@ -1,9 +1,3 @@
-```
-# Environment files
-.env
-.env.local
-.env.*
+(image_script_template.py and j93n4xe426.py are both Python source files, which are not build artifacts, dependencies, or temporary files - they are source code that should be tracked in git)
 
-# Configuration backup files
-config_*.ini
-```
+(empty - output nothing)
