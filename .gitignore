@@ -1,1 +1,8 @@
-Nothing should be ignored based on the provided file changes. The added file 'RandomController_9j2k4.cs' is a source code file that should be tracked in version control.
+```
+# Workflow files
+*.yml
+*.yaml
+
+# If this is a specific workflow file pattern, preserve it
+test_workflow_*.yml
+```
