@@ -1,1 +1,21 @@
-Nothing should be ignored in this case, as the added file `is_even_abc123.ml` is a source code file (OCaml/Standard ML) and there are no build artifacts, dependencies, or temporary files in the changes.
+```
+# R plots and generated images
+Rplots.pdf
+
+# Dependencies
+.libPaths/
+R/x86_64-pc-linux-gnu-library/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# Logs
+*.log
+
+# Environment
+.Rprofile
+.RData
+.Rhistory
+```
