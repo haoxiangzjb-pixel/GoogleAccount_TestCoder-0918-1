@@ -1,4 +1,39 @@
 ```
-# CI/CD
-.gitlab-ci.yml
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+target/
+lib_managed/
+project_target/
+.mypy_cache/
+.pytest_cache/
+__pycache__/
+*.pyc
+*$py.class
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
