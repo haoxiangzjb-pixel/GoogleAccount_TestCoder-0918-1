@@ -1,25 +1,8 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.hi
+# Kubernetes deployment files
+*.yaml
+*.yml
 
-# Dependencies
-dist/
-build/
-.stack-work/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
+# If this is a Kubernetes project, you might want to ignore other common files
+# but based on the changes shown, only ignoring the specific file type
 ```
