@@ -1,36 +1,64 @@
 ```
-# VBA specific
-*.vba
-*.bas
-*.frm
-*.cls
+# SQL files that might be generated
+*.sql
 
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.dll
-*.so
-*.exe
+# Temporary and build files
+*.tmp
+*.temp
+*.log
 
-# Dependencies
-node_modules/
-venv/
-.venv/
+# Environment and configuration
 .env
 .env.local
-*.env.*
+.env.*
 
-# Logs and temp files
-*.log
-*.tmp
+# Editors and IDEs
+.vscode/
+.idea/
 *.swp
 *.swo
 
-# Editors
-.vscode/
-.idea/
+# Dependencies and virtual environments
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build and distribution
+build/
+dist/
+target/
+*.so
+*.dll
+*.exe
+*.out
+
+# Compression and archives
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 
 # System files
 .DS_Store
