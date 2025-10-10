@@ -1,4 +1,33 @@
 ```
-# CI/CD
-.github/workflows/
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+.env.
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+**/tmp/
+**/*.tmp
+todo-app/src/tmp.*
 ```
