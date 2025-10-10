@@ -1,9 +1,42 @@
 ```
-# Environment files
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Configuration files with sensitive data
-*config*.ini
+# Editors
+.vscode/
+.idea/
+
+# Build directories
+build/
+dist/
+target/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
 ```
