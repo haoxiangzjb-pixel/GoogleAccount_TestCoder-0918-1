@@ -1,1 +1,24 @@
-Nothing should be ignored based on the provided file changes. The added file 'network_config.pp' appears to be a source/configuration file that should be tracked in version control.
+```
+# Assembly build artifacts
+*.o
+*.obj
+*.out
+
+# Common build directories
+build/
+dist/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+```
