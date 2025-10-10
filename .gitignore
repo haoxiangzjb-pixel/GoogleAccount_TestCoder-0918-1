@@ -1,77 +1,25 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
+# Julia build artifacts and compiled files
+*.ji
+*.so
+*.cache
 
-# Dependencies
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# Julia installation directory
+julia-1.9.4/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+# Julia package manager files
+Manifest.toml
+*.manifest
 
-# Environment
-.env
-.env.local
-*.env.*
+# Julia temporary and build directories
+.julia/
+.julia_local/
+.julia_scratch/
+.julia_build/
 
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Build directories
-build/
-dist/
-target/
-*.class
-
-# Package managers
-node_modules/
-.npm/
-.yarn/
-.pnpm/
-
-# Virtual environments
-venv/
-.venv/
-env/
-.conda/
-
-# Compression files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# Julia specific temp files
+*.jl.bak
+*.jl~
+jl_*
 ```
+julia-1.9.4-linux-x86_64.tar.gz
