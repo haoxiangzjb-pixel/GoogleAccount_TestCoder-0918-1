@@ -1,38 +1,25 @@
 ```
-# VBA specific
-*.vba
-*.bas
-*.frm
-*.cls
-
 # Compiled and build artifacts
 *.pyc
 __pycache__/
 *.o
 *.obj
-*.dll
-*.so
-*.exe
 
 # Dependencies
-node_modules/
-venv/
 .venv/
-.env
-.env.local
-*.env.*
+venv/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
 .idea/
-
-# System files
-.DS_Store
-Thumbs.db
 ```
