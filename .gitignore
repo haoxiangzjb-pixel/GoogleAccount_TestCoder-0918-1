@@ -1,49 +1,25 @@
 ```
-# Configuration files
-*.yml
-*.yaml
+# PHP compiled files
+*.php~
 
-# Logs and temp files
-*.log
+# Temporary files
 *.tmp
 *.swp
+*.swo
+
+# Logs
+*.log
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Build artifacts
-dist/
-build/
-*.so
-*.o
-*.obj
-*.exe
-*.dll
-*.a
-*.lib
-*.out
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# System files
-.DS_Store
-Thumbs.db
+# Backup files
+*~
+.#*
 ```
