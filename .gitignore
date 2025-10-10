@@ -1,7 +1,24 @@
 ```
 # Compiled and build artifacts
-*.o
-*.obj
-*.out
-sort_array_abc123
+*.plc
+*.plx
+*.pmc
+
+# Dependencies
+cpan/
+local/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+.env.*
 ```
