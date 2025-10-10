@@ -1,35 +1,27 @@
 ```
 # Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
 *.o
-*.a
-*.dylib
-*.so
+*.obj
+*.hi
+*.dyn_o
 
 # Dependencies
-Pods/
-Carthage/
-.build/
-DerivedData/
+.cabal-sandbox/
+dist/
+dist-newstyle/
+cabal/
+stack/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-.env.*
-
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
 ```
