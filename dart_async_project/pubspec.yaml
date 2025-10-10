@@ -1,0 +1,9 @@
+name: dart_async_fetch
+description: A simple Dart project to fetch and save data.
+version: 1.0.0
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  http: ^1.1.0
