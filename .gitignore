@@ -1,12 +1,40 @@
 ```
-# Temporary files
+# Compiled files
+*.class
+
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and temp files
+*.log
 *.tmp
-*.temp
+*.swp
 
-# Memory reports and logs
-*.txt
-memory_report_*.txt
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Shell scripts backup (if needed)
-*.sh.bak
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.Python
+env/
+venv/
+.venv/
 ```
