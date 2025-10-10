@@ -1,34 +1,38 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.class
-*.pyc
-__pycache__/
+# Compiled files
+*.plc
+*.plx
+*.pmc
+
+# Perl-specific
+__Perl/
+*.bak
+*.old
+*.orig
+*.rej
+*.tmp
 
 # Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-*.env.*
+lib/
+blib/
+pm_to_blib
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
+
+# Environment
+.env
+.env.local
+.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# System files
+# OS
 .DS_Store
 Thumbs.db
-
-# Build directories
-dist/
-build/
-target/
 ```
