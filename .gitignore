@@ -1,4 +1,1 @@
-```
-# Configuration files
-config_*.xml
-```
+Nothing should be ignored based on the provided file changes. The added file `user_5b7f2a.ts` is a TypeScript source file that should be tracked in version control.
