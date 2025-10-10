@@ -1,1 +1,48 @@
-Nothing should be ignored based on the provided file changes. The added file 'network_config.pp' appears to be a source/configuration file that should be tracked in version control.
+```
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+
+#Dependencies
+.venv/
+venv/
+node_modules/
+
+#Logs and temp files
+*.log
+*.tmp
+*.swp
+
+#Environment
+.env
+.env.local
+*.env.*
+
+#Editors
+.vscode/
+.idea/
+
+#System files
+.DS_Store
+Thumbs.db
+
+#Coverage
+coverage/
+htmlcov/
+.coverage
+
+#Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
+
+#Build directories
+build/
+dist/
+*.egg-info/
+```
