@@ -1,4 +1,1 @@
-```
-*.tmp
-tmp.*
-```
+Nothing should be ignored based on the provided file changes. The added file 'sort_array_8372.cpp' is a source code file that should be tracked in version control.
