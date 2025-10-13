@@ -1,9 +1,37 @@
 ```
+# Compiled and build artifacts
+*.beam
+*.ez
+*.plt
+*.dump
+
+# Dependencies
+deps/
+_build/
+ebin/
+
 # Logs and temp files
 *.log
-*.tmp
-*.swp
+erl_crash.dump
 
-# Random generated files
-*.pl
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Elixir specific
+*.exs
+*.eex
+*.leex
+*.heex
+
+# Mix
+mix.lock
+*.lock
 ```
