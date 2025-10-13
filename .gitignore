@@ -1,1 +1,32 @@
-Nothing should be ignored based on the provided file changes. The added file 'zDnk0lZXNc.jl' is a Julia source code file, which should not be ignored.
+```
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+
+# Dependencies
+lib/
+libs/
+jars/
+target/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+```
