@@ -1,5 +1,8 @@
-(linear_regression_model_12345.py is a source file, so no .gitignore rules needed)
-
-```python
-
+```
+# VBA project files
+*.frx
+*.ctl
+*.vbw
+*.vba
+*.bas
 ```
