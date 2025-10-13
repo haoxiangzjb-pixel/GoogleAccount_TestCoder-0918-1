@@ -1,0 +1,18 @@
+def factorial(n):
+    """
+    计算非负整数 n 的阶乘。
+    阶乘定义为 n! = n * (n-1) * (n-2) * ... * 1
+    例如: 5! = 5 * 4 * 3 * 2 * 1 = 120
+    """
+    if n < 0:
+        raise ValueError("阶乘不能计算负数")
+    if n == 0 or n == 1:
+        return 1
+    result = 1
+    for i in range(2, n + 1):
+        result *= i
+    return result
+
+# 示例用法
+if __name__ == "__main__":
+    print(factorial(5))  # 输出 120
