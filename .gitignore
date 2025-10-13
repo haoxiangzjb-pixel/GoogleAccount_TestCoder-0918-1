@@ -1,20 +1,18 @@
 ```
-# Jenkins artifacts
-*.jpi
-*.hpi
-*.war
-.jenkins
-target/
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
 
-# Logs
+# Dependencies
+vendor/
+*.mod
+*.sum
+
+# Logs and temp files
 *.log
-**/logs/
-
-# Temporary files
 *.tmp
-*.temp
-.DS_Store
-Thumbs.db
+*.swp
 
 # Environment
 .env
@@ -24,19 +22,9 @@ Thumbs.db
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# Dependencies (if any)
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.egg-info/
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
+# Go-specific
+*.test
+*.prof
+cover.out
 ```
