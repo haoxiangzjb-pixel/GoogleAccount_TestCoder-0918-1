@@ -1,5 +1,5 @@
-```
-#Temp files
-*.tmp
-*.pp
+(reverse_list.ex is a source code file, so no .gitignore rules needed)
+
+```elixir
+
 ```
