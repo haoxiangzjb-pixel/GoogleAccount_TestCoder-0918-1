@@ -1,13 +1,11 @@
-```gitignore
+```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
 *.o
 *.obj
+*.out
 
 # Dependencies
-.venv/
-venv/
+vendor/
 
 # Logs and temp files
 *.log
@@ -23,36 +21,14 @@ venv/
 .vscode/
 .idea/
 
-# Python specific
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-.Python
+# Go-specific
+*.exe
+*.dll
 *.so
-
-# Distribution / packaging
-.Python
+*.a
+*.dylib
+*.dll
 *.so
-.Python
-*.pyc
-*.pyo
-*.pyd
-*.pyc
-*.pyo
-*.pyd
-*.so
-*.egg-info/
-dist/
-build/
-*.egg-info
-
-# Coverage
-.coverage
-htmlcov/
-.coverage.*
-
-# Testing
-.pytest_cache/
-.mypy_cache/
+*.a
+*.dylib
 ```
