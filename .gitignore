@@ -1,6 +1,23 @@
 ```
-# Zig compiler distribution
-zig-linux-x86_64-0.13.0/
-tmp.07NNWrisml.zig
-*.tar.xz
+# Shell script related ignores
+*.sh.swp
+*.sh.swo
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
