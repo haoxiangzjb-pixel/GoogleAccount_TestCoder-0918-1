@@ -1,5 +1,1 @@
-(book_12345.xml is a source file, not a build artifact, dependency, or temp file - so no ignores needed)
-
-```text
-
-```
+Nothing should be ignored since only a source code file (.nim) was added without any build artifacts, dependencies, or temporary files.
