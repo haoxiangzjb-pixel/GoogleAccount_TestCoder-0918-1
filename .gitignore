@@ -1,4 +1,42 @@
 ```
-# Docker
-docker-compose*.yml
+# VBA/Office files
+*.bas
+*.vba
+*.frm
+*.cls
+*.vbp
+*.dsr
+*.dob
+*.ctl
+*.pag
+*.ctx
+*.vbw
+*.vbs
+*.bas~
+*.vba~
+
+# Backup and temporary files
+*~
+*.tmp
+*.bak
+*.old
+*.new
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
 ```
