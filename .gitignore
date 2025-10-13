@@ -1,23 +1,35 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-
-# Dependencies
-.Packages/
-.build/
-DerivedData/
-
-# Logs and temp files
+# Jenkins artifacts
 *.log
-*.tmp
-*.swp
+**/target/
+**/build/
+**/dist/
+**/out/
 
-# Editors
+# Environment and dependency directories
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
+
+# Editor/IDE files
 .vscode/
 .idea/
+*.swp
+*.swo
+*.tmp
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
 
 # System files
 .DS_Store
+Thumbs.db
 ```
