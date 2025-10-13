@@ -1,48 +1,17 @@
 ```
-# Dependencies
-node_modules/
-
-# Build outputs
-dist/
-build/
-coverage/
-htmlcov/
-
-# Environment
-.env
-.env.local
-.env.
+# Temporary files
+*.tmp
+*.temp
 
 # Logs
 *.log
 
-# Temporary files
-*.tmp
-*.swp
-*.swo
+# Environment files
+.env
+.env.local
+*.env.*
 
-# IDE
-.vscode/
-.idea/
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Testing
-.pytest_cache/
-.mypy_cache/
-.coverage
-
-# System
+# System files
 .DS_Store
 Thumbs.db
 

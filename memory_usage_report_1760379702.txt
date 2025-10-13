@@ -1,0 +1,53 @@
+               total        used        free      shared  buff/cache   available
+Mem:           534Mi       285Mi        43Mi        36Ki       215Mi       248Mi
+Swap:             0B          0B          0B
+
+Detailed Memory Information from /proc/meminfo:
+
+MemTotal:         546884 kB
+MemFree:           44420 kB
+MemAvailable:     254184 kB
+Buffers:            1160 kB
+Cached:           197156 kB
+SwapCached:            0 kB
+Active:           265408 kB
+Inactive:         184360 kB
+Active(anon):     251400 kB
+Inactive(anon):       16 kB
+Active(file):      14008 kB
+Inactive(file):   184344 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:               484 kB
+Writeback:             0 kB
+AnonPages:        251408 kB
+Mapped:            81256 kB
+Shmem:                36 kB
+Slab:              33616 kB
+SReclaimable:      23008 kB
+SUnreclaim:        10608 kB
+KernelStack:        1440 kB
+PageTables:         1396 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:      273440 kB
+Committed_AS:     475512 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+Percpu:              400 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:        8192 kB
+DirectMap2M:      950272 kB
+DirectMap1G:           0 kB
