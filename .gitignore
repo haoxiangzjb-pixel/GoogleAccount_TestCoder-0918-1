@@ -1,13 +1,18 @@
 ```
-# Compiled and build artifacts
-*.beam
-*.ez
-ebin/
-_build/
+# TypeScript/JavaScript build artifacts
+*.js
+*.tsbuildinfo
+dist/
+build/
+out/
+lib/
 
 # Dependencies
-deps/
 node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
 
 # Environment
 .env
@@ -20,9 +25,24 @@ node_modules/
 *.swp
 *.swo
 
-# Logs
-*.log
+# Coverage and test reports
+coverage/
+htmlcov/
+.nyc_output/
+test-report/
 
-# Coverage
-cover/
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
 ```
