@@ -1,9 +1,43 @@
 ```
-# Configuration files
-*.yml
-*.yaml
+# Compiled files
+*.class
 
-# Serverless framework
-.serverless/
-.serverless-*
+# Dependencies
+lib/
+libs/
+jars/
+
+# Build directories
+build/
+target/
+out/
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
 ```
