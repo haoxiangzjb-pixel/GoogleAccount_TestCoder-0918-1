@@ -1,16 +1,4 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-
-# Executables
-find_max
-
-# Temporary files
-*.tmp
-*.temp
-
-# Random output files
-random_output_*.txt
+# Generated from file changes
+*.txt
 ```
