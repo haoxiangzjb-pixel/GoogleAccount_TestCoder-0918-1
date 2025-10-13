@@ -1,15 +1,76 @@
 ```
-# R-specific ignores
-.Rproj.user/
-.Rhistory
-.Rdata
-*.RData
-*.rds
-*.Rds
-*.Rout
-*.Rcheck/
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
+
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+*.pyc
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
-
-Wait, let me reconsider. The only file added is `analyze_data.R`, which is a source file. There are no build artifacts, dependencies, or temporary files in the changes. According to rule 6, if the change list contains ONLY source files and NO build artifacts, dependencies, or temp files, I should output an empty .gitignore.
-
-(an empty line - no content to output)
