@@ -1,9 +1,4 @@
 ```
-# R build artifacts and outputs
-Rplots.pdf
-*.RData
-*.rds
-*.Rhistory
-*.Rproj.user/
-.Rproj.user/
+# Compiled and build artifacts
+*.fs
 ```
