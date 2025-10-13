@@ -1,61 +1,18 @@
 ```
-# Assembly build artifacts
-*.o
-*.obj
-*.out
+# Output files
+*.txt
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# System
-.DS_Store
-Thumbs.db
+# Environment
 .env
 .env.local
-*.env.*
-
-# Logs
-*.log
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+.env.*
 ```
