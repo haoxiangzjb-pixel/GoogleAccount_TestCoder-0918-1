@@ -1,11 +1,14 @@
 ```
-# Output files
-*.txt
+# Compiled and build artifacts
+*.rs.bk
+target/
+
+# Dependencies
+Cargo.lock
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
 
 # Editors
 .vscode/
@@ -14,5 +17,5 @@
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 ```
