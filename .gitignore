@@ -1,50 +1,32 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.fsi
-*.fsx~
-*.fsscript~
-*.exe
-*.dll
-*.so
+# Build artifacts
 *.o
 *.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
 *.out
 
-# Dependencies
-.paket/
-.packages/
-lib/
-externals/
-packages/
-node_modules/
-venv/
-.venv/
-.env/
-.env.local
-.env.
-
-# Build directories
-bin/
-obj/
-out/
-target/
-build/
-dist/
-
-# Editors
-.vscode/
-.idea/
-*.swp
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+*.swiftmodule/
 *.swo
+*.swp
 
-# Logs and temp files
+# Dependencies
+Pods/
+Carthage/
+build/
+DerivedData/
+
+# Logs
 *.log
-*.tmp
-*.temp
 
-# System files
+# Temporary files
+*.tmp
 .DS_Store
 Thumbs.db
 
