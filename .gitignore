@@ -1,37 +1,32 @@
 ```
-# Compiled Java class files
+# Scala compiled files
 *.class
+*.jar
+*.scala_bak
+
+# Build artifacts
+target/
 
 # Dependencies
-lib/
-libs/
-jars/
-
-# Build directories
-build/
-dist/
-target/
-out/
+lib_managed/
+project/project/
+*.lock
 
 # IDE files
-.gradle/
 .idea/
-.vscode/
 *.iml
 *.ipr
 *.iws
 
+# Temporary files
+*.tmp
+*.swp
+*~
+
 # Logs
 *.log
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Temp files
-*.tmp
-*.temp
+# System files
 .DS_Store
 Thumbs.db
 ```
