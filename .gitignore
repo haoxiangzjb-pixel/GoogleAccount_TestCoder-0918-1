@@ -1,1 +1,23 @@
-Nothing should be ignored since the added file `even_checker_random.pl` is a Perl source code file, which is a source file that should be tracked in version control. No build artifacts, dependencies, or temporary files are present in the changes.
+```gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.ENV
+.ENV.local
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
