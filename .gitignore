@@ -1,5 +1,12 @@
-(book_12345.xml is a source file, not a build artifact, dependency, or temp file - so no ignores needed)
+```
+# Backup files
+backup_*
 
-```text
+# Temporary and test files
+*.tmp
+*.temp
+test_file.txt
 
+# Shell scripts (if they are temporary)
+*.sh
 ```
