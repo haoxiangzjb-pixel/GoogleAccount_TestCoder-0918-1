@@ -1,22 +1,4 @@
 ```
-# VBA specific ignores
-*.frx
-*.bas
-*.cls
-*.frm
-
-# Office/Windows files
-Thumbs.db
-~$*
-*.tmp
-*.log
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
+# Configuration files
+*.toml
 ```
