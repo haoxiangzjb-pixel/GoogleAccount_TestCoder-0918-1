@@ -1,34 +1,38 @@
 ```
-# Configuration and playbook files
-*.yml
-*.yaml
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Logs and temporary files
+# Jenkins artifacts
 *.log
 *.tmp
 *.swp
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# Dependencies and build artifacts
+# Dependencies
 node_modules/
+venv/
+.venv/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# Build artifacts
 dist/
 build/
 target/
-.venv/
-venv/
-.env
-.env.local
-*.env.*
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+
+# System files
+.DS_Store
+Thumbs.db
 ```
