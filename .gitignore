@@ -1,28 +1,23 @@
 ```
-# Compiled and build artifacts
-*.beam
-*.ez
-ebin/
-_build/
+# Julia build artifacts and compiled files
+*.ji
+*.so
+*.cache
 
-# Dependencies
-deps/
-node_modules/
+# Julia installation directories
+julia-*/
+julia.tar.gz
 
-# Environment
-.env
-.env.local
-.env.*
+# Compressed files
+*.tar.gz
+*.gz
 
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
+# Test and build related
+test/
+build/
+*.tmp
 
-# Logs
-*.log
-
-# Coverage
-cover/
+# System files
+.DS_Store
+Thumbs.db
 ```
