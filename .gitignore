@@ -1,24 +1,5 @@
-```
-# Compiled and build artifacts
-*.class
-*.o
-*.obj
+(index.html is a source file, so no .gitignore rules needed)
 
-# Dependencies
-lib/
-target/
+```html
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
 ```
