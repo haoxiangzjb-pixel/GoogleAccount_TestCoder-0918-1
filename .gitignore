@@ -1,29 +1,3 @@
-```
-# Configuration and deployment files
-*.yml
-*.yaml
+(config_3f8a.toml is a config file, so no ignores needed)
 
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-venv/
-.venv/
-.env
-.env.local
-```
+(empty output)
