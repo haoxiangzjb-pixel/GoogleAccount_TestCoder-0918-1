@@ -1,1 +1,8 @@
-(empty)
+```
+# Database files
+*.db
+*.sql
+
+# Temp files
+*query_result_*.sql
+```
