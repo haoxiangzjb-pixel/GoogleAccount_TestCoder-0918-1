@@ -1,3 +1,43 @@
-(restart_service_playbook_9847.yml is a source/config file, and there are no build artifacts, dependencies, or temp files in the changes)
+```
+# Generated files
+*.json
 
-(empty — output nothing)
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+
+# Build and distribution
+dist/
+build/
+*.egg
+*.whl
+coverage/
+htmlcov/
+.coverage
+.pytest_cache/
+.mypy_cache/
+```
