@@ -1,51 +1,16 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
 *.o
 *.obj
+*.out
 
-# Dependencies
-.venv/
-venv/
-node_modules/
+# Executables
+find_max
 
-# Logs and temp files
-*.log
+# Temporary files
 *.tmp
-*.swp
+*.temp
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Python specific
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Ruby specific
-*.gem
-*.rbc
-.bundle/
-.coverage/
-.rspec
-Guardfile
-.rake
+# Random output files
+random_output_*.txt
 ```
