@@ -1,1 +1,9 @@
-(empty)
+```
+# Configuration files
+*.yml
+*.yaml
+
+# Serverless framework
+.serverless/
+.serverless-*
+```
