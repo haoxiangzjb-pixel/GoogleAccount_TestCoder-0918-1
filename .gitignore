@@ -1,8 +1,1 @@
-```
-# VBA project files
-*.frx
-*.ctl
-*.vbw
-*.vba
-*.bas
-```
+(graphql_mutation_12345.graphql is a source file, so nothing should be ignored)
