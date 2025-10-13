@@ -1,24 +1,32 @@
 ```
 # Compiled and build artifacts
+*.class
 *.o
 *.obj
-*.mod
-*.exe
+*.out
 
 # Dependencies
-build/
-dist/
+lib_managed/
+project/
+target/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
+# Environment
+.env
+.env.local
+*.env.*
+
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Environment
-.env
-.env.
+# System files
+.DS_Store
+Thumbs.db
 ```
