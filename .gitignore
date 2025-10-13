@@ -1,1 +1,27 @@
-Nothing should be ignored based on the provided file changes. The added file `focus_input_directive_6789.vue` is a source code file that should be tracked in version control.
+```
+# Compiled files
+*.class
+*.o
+*.obj
+*.out
+
+# Dependencies
+.gradle/
+build/
+dist/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+```
