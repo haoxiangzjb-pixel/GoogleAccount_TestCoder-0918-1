@@ -1,16 +1,16 @@
 ```
-# Jenkins artifacts
-Jenkinsfile~
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Configuration files
+*.ini
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-
-# Environment
-.env
-.env.local
-*.env.*
 
 # Editors
 .vscode/
@@ -23,23 +23,18 @@ venv/
 __pycache__/
 .mypy_cache/
 .pytest_cache/
-target/
-.gradle/
 
 # Build artifacts
 dist/
 build/
+target/
 *.pyc
-*.class
 *.o
 *.obj
+*.class
 *.exe
 *.dll
 *.so
 *.a
 *.out
-
-# System files
-.DS_Store
-Thumbs.db
 ```
