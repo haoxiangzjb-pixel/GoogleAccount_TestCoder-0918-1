@@ -1,38 +1,37 @@
 ```
-# Compiled files
+# Compiled and build artifacts
 *.class
+*.jar
+*.war
+*.ear
+*.scala
+target/
 
 # Dependencies
-__pycache__/
-*.pyc
+lib_managed/
+project/project/
+project/target/
 
 # Logs and temp files
 *.log
 *.tmp
+
+# Editors
+.idea/
 *.swp
+*.swo
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Coverage reports
+# Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Build directories
-dist/
-build/
-target/
+# System files
+.DS_Store
+Thumbs.db
 ```
