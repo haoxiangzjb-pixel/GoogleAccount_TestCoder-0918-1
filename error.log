@@ -1,0 +1,7 @@
+[INFO] 2023-10-26 10:00:01: Application started.
+[ERROR] 2023-10-26 10:01:22: Database connection failed.
+[INFO] 2023-10-26 10:02:05: User login attempt from 192.168.1.10.
+[ERROR] 2023-10-26 10:03:11: Invalid user credentials.
+[ERROR] 2023-10-26 10:04:05: Database connection failed.
+[WARNING] 2023-10-26 10:05:33: High memory usage detected.
+[INFO] 2023-10-26 10:06:00: Application shutdown.
