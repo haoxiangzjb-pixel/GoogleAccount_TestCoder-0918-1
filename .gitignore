@@ -1,23 +1,49 @@
-```gitignore
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-.ENV
-.ENV.local
-
-# Logs and temp files
+```
+# Compiled and build artifacts
+*.vcd
+*.vvp
+*.fst
+*.ghw
+*.vcd~
 *.log
 *.tmp
+
+# Dependencies
+*.out
+*.bin
+*.obj
+*.o
+
+# Editors
+.vim/
 *.swp
 *.swo
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Simulation and synthesis tools
+*.pb
+*.jou
+*.str
+*.sdf
+*.sdb
+*.dsn
+*.bgn
+*.drc
+*.lck
+*.prj
+*.gise
+*.xise
+*.ise
+*.bit
+*.bin
+*.mcs
+*.elf
+*.hex
+*.map
+*.lst
+*.sym
+*.mem
+*.raw
+*.dat
+*.txt~
+*~
 ```
