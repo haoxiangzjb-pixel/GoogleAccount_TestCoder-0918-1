@@ -1,3 +1,55 @@
-(todo_list_5a7b2c.md is just a markdown file, which is source content that should not be ignored)
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.fsi
+*.fsx~
+*.fsscript~
+*.exe
+*.dll
+*.so
+*.o
+*.obj
+*.out
 
-(empty - no output)
+# Dependencies
+.paket/
+.packages/
+lib/
+externals/
+packages/
+node_modules/
+venv/
+.venv/
+.env/
+.env.local
+.env.
+
+# Build directories
+bin/
+obj/
+out/
+target/
+build/
+dist/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env.*
+```
