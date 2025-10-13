@@ -1,21 +1,18 @@
 ```
-# Terraform
-.terraform/
-*.tfstate
-*.tfstate.*
-*.tfvars
-*.tfplan
-*.lock.hcl
+# Compiled and build artifacts
+*.beam
+*.ez
+ebin/
+_build/
+
+# Dependencies
+deps/
+node_modules/
 
 # Environment
 .env
 .env.local
-*.env.*
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+.env.*
 
 # Editors
 .vscode/
@@ -23,7 +20,9 @@
 *.swp
 *.swo
 
-# OS
-.DS_Store
-Thumbs.db
+# Logs
+*.log
+
+# Coverage
+cover/
 ```
