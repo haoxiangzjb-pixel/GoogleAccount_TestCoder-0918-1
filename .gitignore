@@ -1,4 +1,24 @@
 ```
-# Compiled and build artifacts
-*.cr
+# Dependencies
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Package lock
+package-lock.json
+
+# Test files
+*test_*.js
 ```
