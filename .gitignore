@@ -1,20 +1,4 @@
 ```
-# Ruby-related ignores
-*.rb~
-
-# Temp files
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Logs
-*.log
+# XML files
+*.xml
 ```
