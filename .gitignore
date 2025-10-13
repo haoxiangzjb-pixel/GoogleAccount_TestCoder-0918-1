@@ -1,1 +1,35 @@
-(empty)
+```
+# Compiled and build artifacts
+*.vcd
+*.fst
+*.log
+*.tmp
+*.out
+*.bin
+*.hex
+
+# Simulation and synthesis outputs
+sim/
+syn/
+work/
+*.pb
+*.jou
+*.str
+*.dcp
+*.bit
+*.bin
+*.mcs
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+```
