@@ -1,37 +1,5 @@
-```
-# Compiled Java class files
-*.class
+(check_memory.sh is a shell script file, which is source code, so no .gitignore rules needed)
 
-# Dependencies
-lib/
-libs/
-jars/
+```bash
 
-# Build directories
-build/
-dist/
-target/
-out/
-
-# IDE files
-.gradle/
-.idea/
-.vscode/
-*.iml
-*.ipr
-*.iws
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Temp files
-*.tmp
-*.temp
-.DS_Store
-Thumbs.db
 ```
