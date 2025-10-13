@@ -1,49 +1,46 @@
 ```
 # Compiled and build artifacts
-*.vcd
-*.vvp
-*.fst
-*.ghw
-*.vcd~
-*.log
-*.tmp
+*.pyc
+__pycache__/
+*.o
+*.obj
 
 # Dependencies
-*.out
-*.bin
-*.obj
-*.o
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
 
 # Editors
-.vim/
-*.swp
-*.swo
+.vscode/
+.idea/
 
-# Simulation and synthesis tools
-*.pb
-*.jou
-*.str
-*.sdf
-*.sdb
-*.dsn
-*.bgn
-*.drc
-*.lck
-*.prj
-*.gise
-*.xise
-*.ise
-*.bit
-*.bin
-*.mcs
-*.elf
-*.hex
-*.map
-*.lst
-*.sym
-*.mem
-*.raw
-*.dat
-*.txt~
-*~
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# System files
+.DS_Store
+Thumbs.db
 ```
