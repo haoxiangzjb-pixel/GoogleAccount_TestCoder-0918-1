@@ -1,1 +1,44 @@
-Nothing should be ignored based on the provided file changes. The added files (`backup_script.sh` and `test_file.txt`) are regular source/config files that should be tracked in version control.
+```
+# Build artifacts and compiled files
+*.dll
+*.exe
+*.pdb
+*.unity3d
+*.asset
+*.prefab
+*.meta
+
+# Unity specific
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+*.sln
+*.csproj
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.unityproj
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Dependencies
+node_modules/
+Packages/
+```
