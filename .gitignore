@@ -1,34 +1,31 @@
-```
-# Configuration and playbook files
-*.yml
-*.yaml
+```matlab
+# Compiled MATLAB files
+*.mex*
+*.mat
+*.fig
+*.p
 
-# Environment files
-.env
-.env.local
-*.env.*
+# Dependencies
++*
+@*
 
-# Logs and temporary files
+# Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Editors
-.vscode/
-.idea/
-
-# Dependencies and build artifacts
-node_modules/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-dist/
-build/
-target/
-.venv/
-venv/
+# Environment
 .env
 .env.local
 *.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swo
+*.swp
+
+# OS specific
+.DS_Store
+Thumbs.db
 ```
