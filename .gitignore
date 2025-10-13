@@ -1,23 +1,40 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
+# Dart tooling
+.dart_tool/
 
-# Dependencies
-.Packages/
-.build/
-DerivedData/
+# Dart packages
+.dart_tool/package_config.json
+.dart_tool/package_graph.json
 
-# Logs and temp files
+# Pub dependencies
+pubspec.lock
+
+# Generated files
+*.g.dart
+*.freezed.dart
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs
 *.log
-*.tmp
-*.swp
+**/logs
 
-# Editors
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# IDE
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# System files
-.DS_Store
+# Build outputs
+build/
+dist/
 ```
