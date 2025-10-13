@@ -1,5 +1,1 @@
-(button_style_5237.css is a source file, so no ignores needed)
-
-```css
-
-```
+Nothing should be ignored based on the provided file changes. The only added file is `factorial_method.rb`, which is a source code file and should not be ignored.
