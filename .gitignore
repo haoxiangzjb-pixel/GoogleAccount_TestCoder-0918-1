@@ -1,1 +1,37 @@
-Nothing should be ignored based on the provided file changes. The added file `check_disk_usage.sh` is a shell script source file, which should be tracked in version control.
+```
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+build/
+target/
+
+# Package lock files
+package-lock.json
+.yarn/
+.pnp.*
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Environment files
+.env
+.env.local
+.env.
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Output files
+output_*.txt
+```
