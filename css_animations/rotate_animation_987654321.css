@@ -1,0 +1,24 @@
+/* CSS for a simple rotation animation */
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animated-rotator {
+  animation: rotate 2s linear infinite;
+  /* Add some basic styling to make the animation visible */
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
