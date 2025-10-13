@@ -1,1 +1,65 @@
-Nothing should be ignored based on the provided file changes. The added file 'MyController.cs' is a source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.mod
+*.smod
+*.pyc
+*.class
+
+# Dependencies
+__pycache__/
+*.egg-info/
+build/
+dist/
+node_modules/
+.venv/
+venv/
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Compression files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+```
