@@ -1,25 +1,24 @@
 ```
-# Thrift generated files
-*.thrift.g
-*.thrift.c
-*.thrift.h
-*.thrift.js
-*.thrift.py
-*.thrift.java
-*.thrift.rb
-*.thrift.php
-*.thrift.go
-*.thrift.perl
-*.thrift.cpp
-*.thrift.st
-*.thrift.csharp
-*.thrift.d
-*.thrift.dart
-*.thrift.js
-*.thrift.lua
-*.thrift.ocaml
-*.thrift.swift
-*.thrift.ts
-*.thrift.erl
-*.thrift.rs
+# Node.js/JavaScript build artifacts
+*.js.map
+*.min.js
+dist/
+build/
+
+# Dependencies
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
 ```
