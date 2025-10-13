@@ -1,21 +1,38 @@
 ```
-# Temporary files
-*.tmp
-*.csv
+# Dart-specific ignores
+.dart/
+.dart_tool/
+.packages
+*.dart.js
+*.dart.js.map
+*.part.js
+*.part.js.map
+build/
+*.pem
+*.key
+
+# Dependencies
+pubspec.lock
+
+# Generated files
+*.g.dart
+*.freezed.dart
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Editors
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# Logs
-*.log
 
 # OS generated files
 .DS_Store
