@@ -1,76 +1,61 @@
 ```
-# Configuration files
-*.yaml
-*.yml
-
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
 *.obj
-*.class
 *.exe
 *.dll
 *.so
 *.a
-*.out
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.pch
+*.sdf
+*.opensdf
+*.vcxproj.filters
+*.vcproj.filters
+*.sln.docstates
+*.user
+*.userosscache
+*.suo
+*.tmp
+*.log
 
 # Dependencies
-.venv/
-venv/
 node_modules/
-dist/
+vendor/
 build/
+dist/
 target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
+.DS_Store
+Thumbs.db
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.
+*.env
 
 # Editors
 .vscode/
 .idea/
-
-# System files
-.DS_Store
-Thumbs.db
+*.swp
+*.swo
 
 # Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 ```
