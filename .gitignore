@@ -1,52 +1,74 @@
 ```
-# LaTeX build artifacts
-*.aux
+# Jenkins artifacts
+Jenkinsfile.*
+
+# Logs and temp files
 *.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.pdf
-
-# Dependencies
-texmf-var/
-_build/
-build/
-
-# Editors
-.vscode/
-.idea/
+*.tmp
 *.swp
-*.swo
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Logs and temp files
-*.log
-*.tmp
+# Editors
+.vscode/
+.idea/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
 
 # System files
 .DS_Store
 Thumbs.db
 
-# Coverage reports
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Python cache (if Python files exist)
-__pycache__/
+# Compiled files
 *.pyc
-*.pyo
-.Python
+*.class
+*.o
+*.exe
+*.dll
 *.so
-*.egg-info/
+*.a
+*.obj
+*.out
 ```
