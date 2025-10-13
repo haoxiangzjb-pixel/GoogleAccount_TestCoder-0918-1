@@ -1,29 +1,6 @@
 ```
-# Configuration and deployment files
-*.yml
-*.yaml
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-venv/
-.venv/
-.env
-.env.local
+# Zig compiler distribution
+zig-linux-x86_64-0.13.0/
+tmp.07NNWrisml.zig
+*.tar.xz
 ```
