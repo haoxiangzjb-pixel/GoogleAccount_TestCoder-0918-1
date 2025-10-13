@@ -45,8 +45,16 @@ target/
 .gradle/
 
 # Python specific
+*.pyc
+__pycache__/
 .mypy_cache/
 .pytest_cache/
+
+# Dart/Flutter specific (since we see .dart file)
+.dart_tool/
+.packages
+*.g.dart
+*.freezed.dart
 
 # Compressed files
 *.zip
