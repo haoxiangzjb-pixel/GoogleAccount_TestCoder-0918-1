@@ -1,32 +1,29 @@
 ```
 # Compiled and build artifacts
-*.class
-*.o
-*.obj
+*.nimble
+*.nims
 *.out
+*.exe
+*.dll
+*.so
+*.a
+*.obj
 
 # Dependencies
-lib_managed/
-project/
-target/
+.nimble/
+nimcache/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
+# Editors
+.vscode/
+.idea/
+
 # Environment
 .env
 .env.local
 *.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
 ```
