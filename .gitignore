@@ -1,13 +1,12 @@
 ```
 # Compiled and build artifacts
-*.class
-*.o
-*.obj
+*.pyc
+__pycache__/
 
 # Dependencies
-*.jar
-lib/
-target/
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -22,19 +21,29 @@ target/
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
 # System files
 .DS_Store
 Thumbs.db
 
 # Coverage
+.coverage
 coverage/
 htmlcov/
-.coverage
 
-# Build directories
-build/
+# Python specific
+*.pyo
+*.pyd
+*.so
+*.egg-info/
 dist/
+build/
+*.egg
+*.whl
+.Python
+*.pyc
+*.pyo
+*~
+.pytest_cache/
+.mypy_cache/
 ```
