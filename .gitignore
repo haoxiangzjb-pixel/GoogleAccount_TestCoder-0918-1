@@ -1,24 +1,27 @@
 ```
 # Compiled and build artifacts
+*.pyc
+__pycache__/
 *.o
 *.obj
-*.out
+dist/
+build/
 *.exe
 *.dll
 *.so
 *.a
+*.out
 
 # Dependencies
-node_modules/
-venv/
 .venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
+venv/
+node_modules/
 target/
 .gradle/
+.mypy_cache/
+.pytest_cache/
+julia-*/
+zig*/
 
 # Logs and temp files
 *.log
@@ -38,6 +41,11 @@ target/
 # System files
 .DS_Store
 Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
 # Compressed files
 *.zip
@@ -62,13 +70,4 @@ Thumbs.db
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# Temp files
-temp_*
-*temp*
-*.tmp
-
-# Swap files
-swap_template*
-temp_swap_*.cpp
 ```
