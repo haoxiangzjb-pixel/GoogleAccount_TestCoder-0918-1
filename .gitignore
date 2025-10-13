@@ -1,18 +1,16 @@
 ```
-# Compiled and build artifacts
-*.beam
-*.ez
-ebin/
-_build/
+# Temp files
+*.tmp
+tmp.*/
+*.m
 
-# Dependencies
-deps/
-node_modules/
+# Logs
+*.log
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
@@ -20,9 +18,34 @@ node_modules/
 *.swp
 *.swo
 
-# Logs
-*.log
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+
+# Build artifacts
+dist/
+build/
+target/
+*.pyc
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Coverage
-cover/
+coverage/
+htmlcov/
+.coverage
+
+# System
+.DS_Store
+Thumbs.db
 ```
