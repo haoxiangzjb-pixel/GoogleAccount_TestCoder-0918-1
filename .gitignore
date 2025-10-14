@@ -1,11 +1,14 @@
 ```
-# PowerShell session files
-*.ps1
+# Rust project
+target/
+Cargo.lock
 
-# Logs and temp files
-*.log
+# Temporary files
 *.tmp
 *.swp
+
+# Logs
+*.log
 
 # Environment
 .env
