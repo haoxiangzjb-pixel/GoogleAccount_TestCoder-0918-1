@@ -1,3 +1,38 @@
-(groovy_filter_closure_1728950400.groovy is a source code file, so it should not be added to .gitignore)
+```
+# Dependencies
+node_modules/
 
-(empty — output nothing)
+# Build outputs
+dist/
+build/
+coverage/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Coverage
+htmlcov/
+.coverage
+
+# System
+.DS_Store
+Thumbs.db
+```
