@@ -1,16 +1,1 @@
-```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-
-# Executables
-find_max
-
-# Temporary files
-*.tmp
-*.temp
-
-# Random output files
-random_output_*.txt
-```
+Nothing should be ignored based on the provided file changes. The added file `hs_merge_kM15U6.hs` is a source code file that should be tracked in version control.
