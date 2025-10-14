@@ -1,29 +1,26 @@
 ```
-# Terraform
-.terraform/
-*.tfstate
-*.tfstate.*
-*.tfvars
-*.tfplan
-*.lock.hcl
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Logs and temp files
+# LaTeX build artifacts
+*.aux
 *.log
-*.tmp
-*.swp
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# OS
-.DS_Store
-Thumbs.db
+# Temp files
+*.tmp
+*.swp
+
+# Logs
+*.log
 ```
