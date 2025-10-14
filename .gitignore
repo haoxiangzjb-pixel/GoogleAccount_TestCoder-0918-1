@@ -1,8 +1,23 @@
 ```
-# Compiled Python files
-*.pyc
-__pycache__/
+# Dependencies
+node_modules/
 
-# Temporary/filtered data files
-*filtered_data_*.py
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# Build artifacts
+build/
+dist/
 ```
