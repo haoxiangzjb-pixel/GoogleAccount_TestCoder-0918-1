@@ -1,12 +1,1 @@
-```
-# Temp files
-*.tmp
-*.swp
-*.swo
-
-# Shell scripts (if they are temporary)
-*.sh
-
-# Logs
-*.log
-```
+(ts is a source code file, so it should not be ignored)
