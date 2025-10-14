@@ -1,44 +1,8 @@
 ```
-# Ruby specific
-*.gem
-*.rbc
-coverage/
-InstalledFiles
-pkg/
-*.lock
-Gemfile.lock
-.rspec
-spec/reports/
-test/tmp/
-test/version_tmp/
-tmp/
-
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-
-# Dependencies
-vendor/bundle/
-.bundle/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.lock.hcl
 ```
