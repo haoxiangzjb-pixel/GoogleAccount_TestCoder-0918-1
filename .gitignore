@@ -1,181 +1,39 @@
 ```
-# Build system
-Makefile
+# Compiled files
+*.cmi
+*.cmo
+*.cmx
+*.cma
+*.cmxa
+*.exe
+*.out
+
+# Build artifacts
+_build/
+_dbuild/
+*.native
+*.byte
 
 # Dependencies
-node_modules/
-.venv/
-venv/
-__pycache__/
-*.egg-info/
-dist/
-build/
-target/
-.gradle/
-.cargo/
-.pip/
+.opam/
+.dune/
+esy.lock/
 
-# Compiled files
-*.pyc
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-*.pyd
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
+# Editor/IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# OS
+# System
 .DS_Store
 Thumbs.db
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Python specific
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
+# Logs
 *.log
-.git/
-.mypy_cache/
-.pytest_cache/
-.hypothesis/
 
-# Node.js specific
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-node_modules/
-dist/
-build/
-*.min.js
-*.min.css
-
-# Java specific
-*.class
-*.jar
-*.war
-*.ear
-target/
-.gradle/
-build/
-
-# C/C++ specific
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# Go specific
-*.o
-*.a
-*.swp
-*~
-.DS_Store
-._*
-.git/
-bin/
-pkg/
-vendor/
-
-# Rust specific
-target/
-Cargo.lock
-*.so
-*.dylib
-*.dll
-
-# Ruby specific
-*.gem
-*.rbc
-.bundle/
-.coverage
- InstalledFiles
-_yardoc
-{.document}
-.rspec
-Gemfile.lock
-spec/reports/
-test/tmp/
-test/version_tmp/
-tmp/
-
-# .NET specific
-*.user
-*.suo
-*.vspscc
-*.vssscc
-obj/
-bin/
-_Desktop.ini
-elevlog.txt
-*~
-.DS_Store
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-[C-c]ache/
-[Tt]humbs.db
-*.tmp
-*.log
-*.bak
-*.swp
-*.swo
-*~
-.DS_Store
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-[C-c]ache/
-[Tt]humbs.db
-*.tmp
-*.log
-*.bak
-*.swp
-*.swo
-*~
+# Environment
+.env
+.env.local
+*.env.*
 ```
