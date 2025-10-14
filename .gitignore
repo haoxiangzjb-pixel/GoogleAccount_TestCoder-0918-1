@@ -1,8 +1,9 @@
 ```
-# R plots and generated images
-*.pdf
-*.png
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
-# R build artifacts
-Rplots.pdf
+# Random generated files
+*.pl
 ```
