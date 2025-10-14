@@ -1,1 +1,51 @@
-Nothing should be ignored since only a single Lua source file was added without any build artifacts, dependencies, or temporary files.
+```
+# Build artifacts and compiled files
+*.dll
+*.exe
+*.obj
+*.pdb
+*.unity3d
+*.asset
+*.prefab
+*.meta
+
+# Unity specific
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+MemoryCaptures/
+*.unityproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.cache
+*.force
+*.pidb.meta
+*.prefab.meta
+*.unity.meta
+
+# Dependencies
+Packages/
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+```
