@@ -1,3 +1,9 @@
-(image_script.py is a source file, beag3usd.jpg is an image file - both should not be ignored)
+```
+# Environment files
+.env
+.env.local
+*.env.*
 
-# No files to ignore based on the change list
+# Configuration files with sensitive data
+*config*.ini
+```
