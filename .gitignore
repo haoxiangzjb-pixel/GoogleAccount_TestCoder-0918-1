@@ -1,1 +1,5 @@
-Nothing should be ignored since the added file `even_checker_random.pl` is a Perl source code file, which is a source file that should be tracked in version control. No build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Configuration files
+*.toml
+config.toml
+```
