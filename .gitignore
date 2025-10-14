@@ -1,1 +1,25 @@
-(graphql_mutation_12345.graphql is a source file, so nothing should be ignored)
+```
+# Compiled Java files
+*.class
+
+# Dependencies
+lib/
+libs/
+target/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+```
