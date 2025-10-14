@@ -1,4 +1,1 @@
-```
-# Compiled and build artifacts
-*.cr
-```
+Nothing to output - the change list contains only a single source file (PuppetNetworkSetup.rb) which is a Ruby source file and should not be ignored.
