@@ -1,16 +1,5 @@
-```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
+(student_info.xml is a source/config file, not a build artifact or temp file, so no ignores needed)
 
-# Executables
-find_max
+```gitignore
 
-# Temporary files
-*.tmp
-*.temp
-
-# Random output files
-random_output_*.txt
 ```
