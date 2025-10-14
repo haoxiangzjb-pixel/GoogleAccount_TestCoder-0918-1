@@ -1,1 +1,106 @@
-Nothing to output - the change list contains only a source code file (.hs) and no build artifacts, dependencies, or temp files that need to be ignored.
+```
+# Dependencies
+.dart_tool/
+.pub/
+build/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+*.coverage
+
+# Distribution / packaging
+*.tar
+*.tar.gz
+*.zip
+
+# Compiled files
+*.class
+*.o
+*.a
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+
+# Python specific (if Python files detected)
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.py[co]
+*$py.class
+*.sqlite3
+
+# Node.js specific (if Node.js files detected)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Java specific (if Java files detected)
+target/
+.gradle/
+*.class
+*.jar
+*.war
+*.ear
+
+# Ruby specific (if Ruby files detected)
+*.gem
+*.rbc
+.bundle/
+vendor/bundle/
+
+# Go specific (if Go files detected)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Rust specific (if Rust files detected)
+*.so
+*.dylib
+*.dSYM/
+
+# C/C++ specific (if C/C++ files detected)
+*.o
+*.a
+*.obj
+*.exe
+*.out
+*.dll
+*.so
+
+# MyPy cache
+.mypy_cache/
+.pytest_cache/
+
+# Dart specific
+.dart_tool/
+.pub/
+build/
+*.nib
+*.log
+```
