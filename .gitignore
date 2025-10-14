@@ -1,82 +1,100 @@
 ```
-# Compiled and build artifacts
-*.pyc
+# Python
 __pycache__/
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-*.env.*
-
-# Build directories
-dist/
-build/
-target/
-.gradle/
-
-# Python specific
 *.pyc
-__pycache__/
 *.pyo
 *.pyd
 .Python
-*.so
-*.egg-info/
-.eggs/
-.mypy_cache/
-.pytest_cache/
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
 .coverage
-coverage/
-htmlcov/
-
-# Logs and temp files
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
 *.log
-*.tmp
-*.swp
-*.swo
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
 
-# Editors
+# Generated files
+*.py[cod]
+*$py.class
+*$pyc.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# System files
+*~
 .DS_Store
 Thumbs.db
 
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Thumbs.db:encryptable
+
+# Logs
+*.log
+*.out
+*.tmp
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Local configuration
+.local/
+config/
+!config.json
+
+# Scraping specific
+scraping_script_*.py
 ```
