@@ -1,0 +1,11 @@
+---
+# Задача Ansible для копирования файла
+- name: Скопировать файл на удаленный хост
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Копирование файла
+      copy:
+        src: /tmp/source_file.txt
+        dest: /tmp/destination_file.txt
+        mode: '0644'
