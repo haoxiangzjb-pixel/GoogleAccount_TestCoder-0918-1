@@ -1,24 +1,37 @@
 ```
-# Compiled and build artifacts
+# Scala compiled files
 *.class
-*.o
-*.obj
+*.scala_bak
+*.sc_bak
 
 # Dependencies
-lib/
+lib_managed/
+project/project/
 target/
 
-# Logs and temp files
+# IDE
+.idea/
+.vscode/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Logs
 *.log
-*.tmp
-*.swp
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Editors
-.vscode/
-.idea/
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
 ```
