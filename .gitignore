@@ -1,1 +1,5 @@
-Nothing should be ignored in this case, as the added file `backup_script.sh` is a source script file that should be tracked in version control. The change list contains only a source file without any build artifacts, dependencies, or temporary files that would require ignoring.
+```
+# Logs and temp files
+*.log
+*.pl
+```
