@@ -1,13 +1,25 @@
 ```
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# Compiled files
+*.o
+*.obj
+*.hi
 
-# Tests
-.pytest_cache/
-.coverage
-coverage/
-htmlcov/
+# Dependencies
+.cabal-sandbox/
+dist/
+dist-newstyle/
+*.cabal/packages/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
