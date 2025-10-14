@@ -1,1 +1,77 @@
-Nothing should be ignored in this case, as only a Python source file (.py) was added and no build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Julia-specific compiled files
+*.ji
+*.so
+
+# Julia installation directory
+julia-*/
+
+# Compressed Julia distribution
+*.tar.gz
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editors and IDEs
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
+
+# MyPy cache
+.mypy_cache/
+
+# Pytest cache
+.pytest_cache/
+
+# Gradle
+.gradle/
+
+# Build directories
+build/
+target/
+
+# Dependency directories
+node_modules/
+venv/
+.venv/
+__pycache__/
+
+# Distributed compilation
+*.pyc
+*.class
+*.o
+*.exe
+*.dll
+*.a
+*.out
+
+# Julia-specific cache and build artifacts
+*.ji
+*.so
+*.cache
+
+# Julia stdlib compiled files (from the path structure)
+**/compiled/**
+**/base.cache
+
+# Julia appdata
+**/appdata/**
+```
