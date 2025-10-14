@@ -1,48 +1,32 @@
 ```
-# CI/CD
-.github/
+# TypeScript/JavaScript build artifacts
+*.js
+*.tsbuildinfo
+dist/
+build/
+out/
+lib/
+
+# Dependencies
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Environment
 .env
 .env.local
 .env.*
 
-# Logs
-*.log
-
-# Temp files
-*.tmp
+# Editors
+.vscode/
+.idea/
 *.swp
 *.swo
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
-
-# Compiled files
-*.pyc
-*.class
-*.o
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
-
-# Editor/IDE
-.vscode/
-.idea/
-
-# System
+# System files
 .DS_Store
 Thumbs.db
 
@@ -51,7 +35,44 @@ coverage/
 htmlcov/
 .coverage
 
-# Compressed files
+# Python (if present)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.nox/
+.pytest_cache/
+.mypy_cache/
+
+# Java (if present)
+*.class
+*.jar
+*.war
+*.ear
+*.tar.gz
+target/
+.gradle/
+build/
+
+# C/C++ (if present)
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.exe
+*.out
+*.dSYM/
+
+# Compression files
 *.zip
 *.gz
 *.tar
