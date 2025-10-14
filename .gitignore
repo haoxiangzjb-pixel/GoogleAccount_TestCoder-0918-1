@@ -1,23 +1,62 @@
-```gitignore
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-.ENV
-.ENV.local
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Dependencies
+vendor/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
-# OS generated files
+# Environment
+.env
+.env.local
+.env.
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Distribution
+dist/
+build/
+target/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.so
+*.egg-info/
+
+# Node.js
+node_modules/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.war
+*.zip
+*.tar
+*.gz
+
+# Go build artifacts (if any)
+*.a
+*.exe
+
+# System files
 .DS_Store
 Thumbs.db
 ```
