@@ -1,1 +1,7 @@
-Nothing should be ignored based on the provided file changes. The only added file is `max_finder_9999.cpp`, which is a source code file and should not be ignored.
+```
+# Executables and binaries
+swap_template
+
+# Build outputs
+output/
+```
