@@ -1,1 +1,26 @@
-Nothing to output - the change list contains only a source code file (.ml) and no build artifacts, dependencies, or temp files that need to be ignored.
+```gitignore
+# PowerShell related
+*.ps1~
+*.psc1~
+*.psd1~
+*.psm1~
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+```
+
+Wait, let me reconsider. The only file added is `get_user_info.ps1`, which is a PowerShell script source file, not a build artifact or temporary file. Since this is a source code file and there are no build artifacts, dependencies, or temp files in the changes, no ignores are needed.
+
+(empty — output nothing)
