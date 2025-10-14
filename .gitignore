@@ -1,18 +1,26 @@
 ```
+# GraphQL files
+*.graphql
+
 # Compiled and build artifacts
 *.pyc
 __pycache__/
 *.o
 *.obj
+*.class
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
-.venv/
-venv/
 node_modules/
-dist/
-build/
-target/
-.gradle/
+venv/
+.venv/
+.env
+.env.local
+.env.*
 
 # Logs and temp files
 *.log
@@ -20,16 +28,9 @@ target/
 *.swp
 *.swo
 
-# Environment
-.env
-.env.local
-.env.*
-
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
 # System files
 .DS_Store
@@ -39,6 +40,12 @@ Thumbs.db
 coverage/
 htmlcov/
 .coverage
+
+# Build directories
+dist/
+build/
+target/
+.gradle/
 
 # Python specific
 *.pyc
