@@ -1,4 +1,35 @@
 ```
-# Backup files
-*backup*.sh
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+
+# Dependencies
+lib/
+libs/
+target/
+build/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Java specific
+*.jar
+*.war
+*.ear
+META-INF/
 ```
