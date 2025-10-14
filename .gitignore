@@ -1,33 +1,33 @@
 ```
-# Docker build artifacts
-Dockerfile.*
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.class
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Temporary and build files
-*.tmp
-*.log
-
-# Environment files
+# Dependencies
+node_modules/
+venv/
+.venv/
 .env
 .env.local
 *.env.*
 
-# Editor/IDE files
-.vscode/
-.idea/
+# Logs and temp files
+*.log
+*.tmp
 *.swp
 *.swo
 
-# Dependencies and build directories
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
+# Editors
+.vscode/
+.idea/
 
 # System files
 .DS_Store
@@ -37,6 +37,12 @@ Thumbs.db
 coverage/
 htmlcov/
 .coverage
+
+# Build directories
+dist/
+build/
+target/
+.gradle/
 
 # Compressed files
 *.zip
