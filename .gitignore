@@ -1,1 +1,1 @@
-(empty)
+Nothing should be ignored since the added file is a source code file (.vba) and there are no build artifacts, dependencies, or temporary files in the changes.
