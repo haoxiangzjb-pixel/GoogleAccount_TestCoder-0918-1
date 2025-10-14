@@ -1,8 +1,52 @@
 ```
-# Compiled Python files
+# Compiled and build artifacts
 *.pyc
 __pycache__/
 
-# Temporary/filtered data files
-*filtered_data_*.py
+# Dependencies
+.venv/
+venv/
+pip-log.txt
+pipenv/
+.Python
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.sqlite3
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+.tox/
+.coverage*
+coverage.xml
 ```
