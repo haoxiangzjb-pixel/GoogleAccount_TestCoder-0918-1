@@ -1,3 +1,1 @@
-```
-*.sh
-```
+Nothing should be ignored based on the provided file changes. The added file 'RandomController_12345.cs' is a source code file that should be tracked in version control.
