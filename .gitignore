@@ -1,37 +1,12 @@
 ```
-# Compiled and build artifacts
-*.beam
-*.ez
-*.plt
-*.dump
+# R plots and generated images
+Rplots.pdf
+*.png
 
-# Dependencies
-deps/
-_build/
-ebin/
+# Temporary files
+*.tmp
+*.temp
 
-# Logs and temp files
+# Logs
 *.log
-erl_crash.dump
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Elixir specific
-*.exs
-*.eex
-*.leex
-*.heex
-
-# Mix
-mix.lock
-*.lock
 ```
