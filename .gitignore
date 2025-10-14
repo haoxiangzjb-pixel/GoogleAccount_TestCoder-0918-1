@@ -1,37 +1,23 @@
 ```
-# Build artifacts
-*.o
-*.obj
-*.a
-*.so
-*.dylib
-*.dll
-*.exe
-*.out
-
-# Xcode
-*.xcodeproj/
-*.xcworkspace/
-*.swiftmodule/
-*.swo
-*.swp
-
-# Dependencies
-Pods/
-Carthage/
-build/
-DerivedData/
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-.DS_Store
-Thumbs.db
-
-# Environment
+# Environment files
 .env
 .env.local
 *.env.*
+
+# Configuration backup/temp files
+*.ini.bak
+*.ini~
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
