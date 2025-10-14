@@ -1,10 +1,27 @@
 ```
-# File system metadata
-.fs
-*.fs
+# Compressed files
+*.tar.gz
 
-# Logs and temp files
-*.log
+# Scala build artifacts
+*.class
+*.jar
+*.scala_bak
+
+# Dependencies and build directories
+lib_managed/
+project/
+target/
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Temporary files
 *.tmp
-*.swp
+*.log
+.DS_Store
+Thumbs.db
 ```
