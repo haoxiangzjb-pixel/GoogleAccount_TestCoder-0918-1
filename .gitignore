@@ -1,38 +1,22 @@
 ```
-# Docker-related
-Dockerfile_flask_app
+# JSON response files
+*.json
+
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
 
 # Environment
 .env
 .env.local
 .env.*
 
-# Dependencies
-node_modules/
-.venv/
-venv/
-__pycache__/
-*.egg-info/
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
-
-# Compiled files
-*.pyc
-*.class
-*.o
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
-
-# Logs and temp files
+# Logs
 *.log
+
+# Temporary files
 *.tmp
 *.swp
 *.swo
@@ -40,8 +24,10 @@ target/
 # Editors
 .vscode/
 .idea/
+*.sublime-project
+*.sublime-workspace
 
-# System files
+# OS
 .DS_Store
 Thumbs.db
 
@@ -49,6 +35,30 @@ Thumbs.db
 coverage/
 htmlcov/
 .coverage
+
+# Build directories
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.ENV
+
+# Node
+node_modules/
+
+# Gradle
+.gradle/
+build/
+
+# MyPy
+.mypy_cache/
+
+# PyTest
+.pytest_cache/
 
 # Compressed files
 *.zip
