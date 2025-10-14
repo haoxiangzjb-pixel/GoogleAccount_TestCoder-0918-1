@@ -1,1 +1,5 @@
-(script_663556.lua is a source code file, and there are no build artifacts, dependencies, or temp files in the changes)
+```
+# CI/CD
+.gitlab-ci.yml
+*.yml
+```
