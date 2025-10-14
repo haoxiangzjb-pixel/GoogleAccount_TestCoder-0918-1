@@ -1,37 +1,5 @@
-```
-# Compiled and build artifacts
-*.class
-*.jar
-*.war
-*.ear
-*.scala
-target/
+(car_model_20251014120743.dart is a source code file, so no .gitignore rules needed)
 
-# Dependencies
-lib_managed/
-project/project/
-project/target/
+```dart
 
-# Logs and temp files
-*.log
-*.tmp
-
-# Editors
-.idea/
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# System files
-.DS_Store
-Thumbs.db
 ```
