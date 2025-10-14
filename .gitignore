@@ -1,6 +1,11 @@
 ```
-# Docker-related
-Dockerfile*
+# TypeScript/JavaScript build artifacts
+*.js
+*.js.map
+*.tsbuildinfo
+
+# Dependencies
+node_modules/
 
 # Logs and temp files
 *.log
@@ -10,45 +15,34 @@ Dockerfile*
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# Dependencies
-node_modules/
-.venv/
-venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Compiled files
-*.pyc
-*.class
-*.o
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
-
 # Coverage
 coverage/
 htmlcov/
-.coverage
+*.coverage
 
-# Compressed files
+# Build directories
+dist/
+build/
+target/
+
+# Python artifacts (if any Python files exist)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Compression files
 *.zip
 *.gz
 *.tar
