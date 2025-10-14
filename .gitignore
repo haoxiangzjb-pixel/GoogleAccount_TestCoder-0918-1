@@ -1,4 +1,29 @@
 ```
-# Docker
-docker-compose*.yml
+# Configuration files
+*.yml
+*.yaml
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Backup and swap files
+*~
+*.bak
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
