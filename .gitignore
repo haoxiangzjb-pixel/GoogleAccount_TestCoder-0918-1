@@ -1,1 +1,21 @@
-Nothing should be ignored since the added file `check_disk_usage.sh` is a shell script source file, which is a legitimate source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.pl~
+
+# Logs and temp files
+*.tmp
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
