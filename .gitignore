@@ -1,3 +1,5 @@
 ```
-test_string_utils_12345.py
+# Logs and temp files
+*.log
+server.log
 ```
