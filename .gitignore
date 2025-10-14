@@ -1,5 +1,24 @@
-(car_model_20251014120743.dart is a source code file, so no .gitignore rules needed)
+```
+# Compiled and build artifacts
+*.ji
+*.o
+*.obj
 
-```dart
+# Dependencies
+.julia/
+.julia-*/
 
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
 ```
