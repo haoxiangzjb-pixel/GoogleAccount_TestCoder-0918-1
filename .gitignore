@@ -1,1 +1,4 @@
-Nothing should be ignored based on the provided file changes. The added file `check_memory.sh` is a shell script that appears to be source code, and there are no build artifacts, dependencies, or temporary files in the change list that require ignoring.
+```
+# Generated from detected file changes
+*.json
+```
