@@ -1,20 +1,13 @@
 ```
-# Compiled files
-*.class
+# Compiled and build artifacts
+*.beam
+*.ez
+ebin/
+_build/
 
 # Dependencies
-__pycache__/
-*.pyc
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
+deps/
+node_modules/
 
 # Editors
 .vscode/
@@ -22,17 +15,21 @@ __pycache__/
 *.swp
 *.swo
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Logs and temp files
+*.log
+*.tmp
 
-# Coverage reports
-coverage/
-htmlcov/
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+cover/
 .coverage
 
-# Build directories
-dist/
-build/
-target/
+# Mix artifacts
+*.ez
+erl_crash.dump
+mix/
 ```
