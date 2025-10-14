@@ -1,9 +1,3 @@
-```
-# R build artifacts and outputs
-Rplots.pdf
-*.RData
-*.rds
-*.Rhistory
-*.Rproj.user/
-.Rproj.user/
-```
+(binary_classifier_4567.py is a source file, not a build artifact or dependency, so no ignores are needed)
+
+Nothing to output - empty .gitignore is appropriate.
