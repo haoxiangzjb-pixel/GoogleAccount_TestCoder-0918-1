@@ -1,1 +1,39 @@
-Nothing to output - the change list contains only a source code file (.dart) which should not be ignored.
+```
+# OCaml build artifacts
+*.cmi
+*.cmo
+*.cmx
+*.cma
+*.cmxa
+*.cmxs
+*.o
+*.a
+*.so
+*.exe
+*.out
+
+# OCaml dependency directories
+_dbuild/
+.opam/
+esy.lock/
+
+# General build directories
+build/
+dist/
+target/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+```
