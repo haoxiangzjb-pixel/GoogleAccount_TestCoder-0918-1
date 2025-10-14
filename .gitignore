@@ -1,86 +1,48 @@
 ```
-# Temporary and generated files
-*.tmp
-*.temp
+# Compiled and build artifacts
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+*.class
+*.pyc
+__pycache__/
+*.o
 
-# Environment files
+# Dependencies
+node_modules/
+venv/
+.venv/
 .env
 .env.local
 *.env.*
-
-# Logs
-*.log
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Backup files
-*~
-*.bak
-*.backup
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Virtual environments
-venv/
-.venv/
-env/
-.ENV
-
-# Testing
-.coverage
-htmlcov/
-.coverage.*
-.nosetests
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
+.mypy_cache/
+.pytest_cache/
 dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Dependency directories
-node_modules/
-julia-*/
-zig*/
+build/
 target/
 .gradle/
 
-# MyPy
-.mypy_cache/
-.dmypy.json
-dmypy.json
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
 
-# Pytest
-.pytest_cache/
+# Editors
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
 
 # Coverage
 coverage/
+htmlcov/
+.coverage
 
 # Compressed files
 *.zip
@@ -105,11 +67,4 @@ coverage/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# System files
-.DS_Store
-Thumbs.db
-ehthumbs.db
-Icon?
-apidoc/
 ```
