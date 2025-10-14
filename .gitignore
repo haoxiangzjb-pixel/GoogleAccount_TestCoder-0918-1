@@ -1,44 +1,43 @@
 ```
-# Ruby specific
-*.gem
-*.rbc
-coverage/
-InstalledFiles
-pkg/
-*.lock
-Gemfile.lock
-.rspec
-spec/reports/
-test/tmp/
-test/version_tmp/
-tmp/
-
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-
-# Dependencies
-vendor/bundle/
-.bundle/
-
-# Logs and temp files
+# LaTeX build artifacts
+*.aux
 *.log
-*.tmp
-*.swp
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.idx
+*.ind
+*.ilg
+*.pdf
+*.dvi
+*.ps
+*.synctex.gz
 
-# Environment
-.env
-.env.local
-*.env.*
+# LaTeX temporary files
+*.fls
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
 
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
+*.tmp
 
 # System files
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
 ```
