@@ -1,23 +1,15 @@
 ```
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Configuration backup/temp files
-*.ini.bak
-*.ini~
-
-# Logs and temp files
+# LaTeX build artifacts
+*.aux
 *.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
 ```
