@@ -1,1 +1,4 @@
-(test_workflow_42.yml is a workflow configuration file, which is a source/config file - no build artifacts, dependencies, or temp files in the changes, so output nothing)
+```
+# Configuration files
+config_*.xml
+```
