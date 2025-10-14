@@ -2,8 +2,55 @@
 # Dependencies
 node_modules/
 
-# Package lock file
-package-lock.json
+# Build outputs
+dist/
+build/
+coverage/
+
+# Environment
+.env
+.env.local
+.env.
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+ENV/
+
+# Compiled/Binary
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# System
+.DS_Store
+Thumbs.db
+
+# Testing
+.mypy_cache/
+.pytest_cache/
+htmlcov/
+.coverage
 
 # Compressed files
 *.zip
@@ -28,5 +75,4 @@ package-lock.json
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
 ```
