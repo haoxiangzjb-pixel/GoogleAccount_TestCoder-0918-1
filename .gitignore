@@ -1,4 +1,1 @@
-```
-# Configuration files
-serverless_*.yml
-```
+Nothing should be ignored based on the provided file changes. The added file `multiplication_table_9876.nim` is a source code file that should be tracked in version control.
