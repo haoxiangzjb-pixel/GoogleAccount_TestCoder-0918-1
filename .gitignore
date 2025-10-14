@@ -1,24 +1,24 @@
 ```
-# Node.js/JavaScript build artifacts
-*.js.map
-*.min.js
-dist/
-build/
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
 
 # Dependencies
-node_modules/
+.Packages/
+.build/
+DerivedData/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-*.env.*
-
 # Editors
 .vscode/
 .idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
