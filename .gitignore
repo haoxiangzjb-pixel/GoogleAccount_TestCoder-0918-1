@@ -1,37 +1,63 @@
 ```
+# Zig build artifacts
+zig-cache/
+zig-out/
+
+# Compiled binaries
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
 # Dependencies
-node_modules/
+.zig/
+zig-*/
 
-# Build artifacts
-dist/
-build/
-target/
-
-# Package lock files
-package-lock.json
-.yarn/
-.pnp.*
-
-# Temporary files
-*.tmp
-*.temp
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
-# Environment files
+# Environment
 .env
 .env.local
-.env.
+*.env.*
 
-# IDE files
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
-# Output files
-output_*.txt
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
