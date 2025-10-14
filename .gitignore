@@ -1,66 +1,21 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
+# R-specific files
+*.Rhistory
+*.RData
+*.Rproj.user/
+.Rproj.user/
+.Rhistory
+.RData
 
-# Dependencies
-.venv/
-venv/
-node_modules/
+# Dependencies and build artifacts
+lib/
+library/
+```
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+Wait, let me reconsider the input. The added files are `README.txt` and `pm75vrl3v0td.R`. The `.R` file extension suggests this might be an R project, but I should only add ignores for build artifacts, dependencies, etc. - not source files. The `.R` file appears to be a source code file, not a build artifact.
 
-# Environment
-.env
-.env.local
-*.env.*
+Since the added files are just a README and an R source file (no build artifacts, dependencies, or temp files), the output should be empty.
 
-# Editors
-.vscode/
-.idea/
+```
 
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# Distribution / packaging
-dist/
-build/
-*.egg
-*.egg-info/
-*.so
-*.pyd
-*.dylib
-
-# Python
-*.pyc
-__pycache__/
-.Python
-*.pyo
-*.pyd
-*$py.class
-*$pyc.class
-
-# MyPy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pytest
-.pytest_cache/
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
 ```
