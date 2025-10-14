@@ -1,4 +1,38 @@
 ```
-# CI/CD
-.gitlab-ci.yml
+# LaTeX build artifacts
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.idx
+*.ind
+*.ilg
+*.pdf
+*.dvi
+*.ps
+*.synctex.gz
+
+# Dependencies
+texmf-var/
+*.run.xml
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
 ```
