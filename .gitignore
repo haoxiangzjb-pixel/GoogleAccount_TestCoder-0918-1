@@ -1,1 +1,3 @@
-Nothing should be ignored based on the provided file changes. The added file 'person_12345.rb' is a source code file that should be tracked in version control.
+(get_processes.ps1 is a PowerShell script file, which is a source code file, so no .gitignore rules needed)
+
+(No output)
