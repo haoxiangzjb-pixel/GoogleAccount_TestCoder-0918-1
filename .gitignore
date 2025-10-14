@@ -1,39 +1,13 @@
 ```
-# Compiled and build artifacts
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
-*.class
-*.pyc
-__pycache__/
+# Temporary shell scripts
+*.sh
 
-# Dependencies
-node_modules/
-venv/
-.venv/
+# Logs and temp files
+*.tmp
+*.log
+
+# Environment
 .env
 .env.local
 *.env.*
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Build directories
-dist/
-build/
-target/
 ```
