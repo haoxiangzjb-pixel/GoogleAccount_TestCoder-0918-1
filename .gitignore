@@ -1,21 +1,48 @@
 ```
-# Compiled and build artifacts
-*.rs.bk
-target/
-
-# Dependencies
-Cargo.lock
-
-# Logs and temp files
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
 *.log
-*.tmp
+.DS_Store
+Thumbs.db
 
-# Editors
-.vscode/
-.idea/
-
-# Environment
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
 .env
 .env.local
-*.env.*
+
+# Temporary files
+*.tmp
+*.temp
+temp_*.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
 ```
