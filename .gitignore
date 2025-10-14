@@ -1,5 +1,30 @@
-(student_info.xml is a source/config file, not a build artifact, dependency, or temp file - so no ignores needed)
+```
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+*.lock.hcl
 
-```gitignore
+# Dependencies
+.terraform.lock.hcl
 
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
 ```
