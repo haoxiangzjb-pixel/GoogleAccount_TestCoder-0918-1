@@ -8,19 +8,101 @@
 *.out
 *.bbl
 *.blg
+*.idx
+*.ind
+*.ilg
+*.dvi
+*.ps
+*.pdf
+*.synctex.gz
 *.fls
 *.fdb_latexmk
-*.synctex.gz
-*.pdf
+*.synctex
+*.synctex(busy)
+*.bcf
+*.run.xml
+*.ist
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.xdy
+*.nav
+*.snm
+*.vrb
+*.pdfsync
+*.bmt
+*.ent-x
+*.tmp
+*.ltx
+*.maf
+*.mtc
+*.mtc0
+*.ptc
+*.upa
+*.upb
+*.glstex
+*.glso
+*.glss
+*.glsc
+*.glsh
+*.glsl
+*.glsm
+*.glst
+*.glstexs
+*.glstexi
+*.ist
+*.acronyms
+*.changes
+*.counters
+*.mp
+*.mpx
+*.bak
+*.backup
+*.swp
+*.swo
+*~
 
-# Editors
+# LaTeX temp files
+latex_doc_*.aux
+latex_doc_*.log
+latex_doc_*.toc
+latex_doc_*.out
+
+# General temp files
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+.swp
+.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
 .vscode/
 .idea/
-
-# Temp files
-*.tmp
 *.swp
+*.swo
 
 # Logs
 *.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Coverage reports
+coverage/
+htmlcov/
+*.coverage
+.pytest_cache/
+.mypy_cache/
 ```
