@@ -1,16 +1,21 @@
 ```
-# Terraform
-.terraform/
-*.tfstate
-*.tfstate.*
-*.tfvars
-*.tfplan
-*.lock.hcl
+# Dependencies
+node_modules/
+temp-app/node_modules/
+temp-app/temp-app/node_modules/
+
+# Build artifacts
+dist/
+build/
+temp-app/dist/
+temp-app/build/
+temp-app/temp-app/dist/
+temp-app/temp-app/build/
 
 # Environment
 .env
 .env.local
-.env.
+.env.*
 
 # Logs
 *.log
@@ -18,12 +23,58 @@
 # Temporary files
 *.tmp
 *.swp
+*.swo
 
-# Editors
+# IDE
 .vscode/
 .idea/
 
-# OS
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+ENV/
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Compression
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# System
 .DS_Store
 Thumbs.db
+
+# Package lock files (if not needed in nested directories)
+!package-lock.json
+!temp-app/package-lock.json
+!temp-app/temp-app/package-lock.json
 ```
