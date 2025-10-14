@@ -1,12 +1,26 @@
 ```
-# Terraform
-*.tfstate
-*.tfstate.*
-*.tfvars
-*.tfplan
-.terraform/
-.terraform.lock.hcl
+# Compiled and build artifacts
+*.o
+*.obj
+*.hi
 
-# Variables file specific ignores (if needed)
-# variable.tf is a source file, so we don't ignore it
+# Dependencies
+.stack-work/
+.cabal-sandbox/
+dist/
+dist-newstyle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
