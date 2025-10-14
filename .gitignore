@@ -1,8 +1,1 @@
-```
-# Database files
-*.db
-*.sql
-
-# Temp files
-*query_result_*.sql
-```
+Nothing to output - the change list contains only a source file (.py) and no build artifacts, dependencies, or temp files that need to be ignored.
