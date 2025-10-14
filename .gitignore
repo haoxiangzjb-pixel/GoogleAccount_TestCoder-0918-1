@@ -1,26 +1,18 @@
 ```
-# Ruby specific
-*.gem
-*.rbc
-coverage/
-InstalledFiles
-pkg/
-*.lock
-Gemfile.lock
-.rspec
-spec/reports/
-test/tmp/
-test/version_tmp/
-tmp/
-
 # Compiled and build artifacts
-*.o
-*.obj
-*.out
+*.fsi
+*.dll
+*.exe
+*.pdb
+*.optdata
+*.generated
+*.cache
 
 # Dependencies
-vendor/bundle/
-.bundle/
+.paket/
+.packages/
+bin/
+obj/
 
 # Logs and temp files
 *.log
@@ -35,10 +27,15 @@ vendor/bundle/
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
+*.userprefs
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
-# System files
+# OS generated files
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Icon?
 ```
