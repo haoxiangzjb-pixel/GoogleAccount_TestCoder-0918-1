@@ -1,15 +1,23 @@
 ```
-# LaTeX build artifacts
-*.aux
+# Database files
+*.db
+*.sql
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs and temp files
 *.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.pdf
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
