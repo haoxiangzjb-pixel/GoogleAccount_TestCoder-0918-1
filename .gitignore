@@ -1,4 +1,22 @@
 ```
-tmp/
-*.tex
+# Dependencies
+.dart_tool/
+.build/
+.packages
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
 ```
