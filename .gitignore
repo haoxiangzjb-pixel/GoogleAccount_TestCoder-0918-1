@@ -1,1 +1,70 @@
-Nothing should be ignored since only a Kotlin source file (.kt) was added and no build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Compiled and build artifacts
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar
+*.gz
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Dependencies
+lib/
+libs/
+target/
+build/
+dist/
+out/
+bin/
+obj/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Java specific
+*.class
+*.jar
+*.war
+*.ear
+target/
+```
