@@ -1,15 +1,31 @@
 ```
+# Unity specific ignores
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+*.sln
+*.csproj
+*.user
+*.userprefs
+*.unityproj
+*.pidb
+*.booproj
+*.svd
+*.meta
+*.prefab
+*.a
+*.so
+*.dll
+
 # Compiled and build artifacts
-*.o
+*.exe
+*.dll
+*.so
+*.a
 *.obj
 *.out
-*.adb
-
-# Dependencies
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
 
 # Logs and temp files
 *.log
@@ -24,25 +40,4 @@ __pycache__/
 # Editors
 .vscode/
 .idea/
-
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# Build directories
-build/
-dist/
-target/
-bin/
-obj/
-
-# Package managers
-node_modules/
-vendor/
-packages/
-
-# OS generated files
-.DS_Store
-Thumbs.db
 ```
