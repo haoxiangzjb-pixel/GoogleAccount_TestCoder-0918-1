@@ -1,42 +1,64 @@
 ```
-# VBA/Office files
-*.bas
-*.vba
-*.frm
-*.cls
-*.vbp
-*.dsr
-*.dob
-*.ctl
-*.pag
-*.ctx
-*.vbw
-*.vbs
-*.bas~
-*.vba~
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.class
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Backup and temporary files
-*~
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
+
+# Logs and temp files
+*.log
 *.tmp
-*.bak
-*.old
-*.new
-
-# Editor/IDE files
-.vscode/
-.idea/
 *.swp
 *.swo
 
-# Logs
-*.log
+# Editors
+.vscode/
+.idea/
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# OS files
+# System files
 .DS_Store
 Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
