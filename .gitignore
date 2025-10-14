@@ -1,11 +1,39 @@
 ```
-# Shell script backup/swap files
-*.sh.swp
-*.sh.swo
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 
-# Temporary files
-*.tmp
-
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# MyPy
+.mypy_cache/
+
+# PyTest
+.pytest_cache/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
 ```
