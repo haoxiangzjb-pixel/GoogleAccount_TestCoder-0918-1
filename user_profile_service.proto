@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+package profile;
+
+// Сообщение, представляющее профиль пользователя
+message Profile {
+  string id = 1;
+  string username = 2;
+  string email = 3;
+  string first_name = 4;
+  string last_name = 5;
+  string avatar_url = 6;
+  int64 created_at = 7;
+  int64 updated_at = 8;
+}
+
+// Запрос на получение профиля
+message GetProfileRequest {
+  string profile_id = 1;
+}
+
+// Ответ с профилем
+message GetProfileResponse {
+  Profile profile = 1;
+  bool success = 2;
+  string message = 3;
+}
+
+// Сервис для работы с профилями
+service ProfileService {
+  // Метод для получения профиля по ID
+  rpc GetProfile (GetProfileRequest) returns (GetProfileResponse);
+}
