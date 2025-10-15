@@ -1,0 +1,23 @@
+/* 旋转动画 */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-element {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  margin: 50px auto;
+  animation: rotate 2s linear infinite;
+}
+
+/* 可选：添加一些样式使效果更明显 */
+.rotate-element:hover {
+  background-color: #e74c3c;
+  cursor: pointer;
+}
