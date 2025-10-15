@@ -1,25 +1,25 @@
 ```
-# Ada build artifacts
-*.ali
-*.o
-*.obj
-*.so
-*.dll
-*.exe
+# Crystal build artifacts
+*.cr
 
-# Dependencies and build directories
+# Dependencies
 lib/
-obj/
+deps/
+.crystal/
+
+# Build directories
 build/
 dist/
 
-# Environment and temp files
+# Environment
 .env
 .env.local
-*.tmp
+.env.*
+
+# Logs
 *.log
 
-# Editors and IDEs
+# Editor/IDE
 .vscode/
 .idea/
 *.swp
@@ -28,18 +28,4 @@ dist/
 # System files
 .DS_Store
 Thumbs.db
-
-# Coverage and testing
-coverage/
-htmlcov/
-.coverage
-*.coverage
-
-# Package managers
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.egg-info/
-.Python
 ```
