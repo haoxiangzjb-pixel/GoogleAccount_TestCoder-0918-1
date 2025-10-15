@@ -1,1 +1,12 @@
-Nothing should be ignored since the added files are source code files (.py) and no build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Temporary and backup scripts
+*.sh.bak
+*.sh~
+backup_*.sh
+iFK5kwVeaX.sh
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+```
