@@ -23,20 +23,10 @@ venv/
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Editors
 .vscode/
 .idea/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
 
 # Build directories
 dist/
@@ -50,9 +40,17 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
-*.so
+env/
+venv/
+.venv/
+ENV/
 
-# Compressed files
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Compression files
 *.zip
 *.gz
 *.tar
