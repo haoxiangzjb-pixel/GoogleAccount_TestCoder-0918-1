@@ -1,4 +1,37 @@
 ```
-# Configuration files
-*.xml
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+target/
+lib_managed/
+project_target/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Other common ignores
+*.log
+coverage/
+htmlcov/
+.coverage
+.mypy_cache/
+.pytest_cache/
 ```
