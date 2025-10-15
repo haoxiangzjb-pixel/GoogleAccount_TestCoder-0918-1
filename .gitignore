@@ -1,5 +1,64 @@
 ```
-#Temp files
+# Compiled and build artifacts
+*.o
+*.obj
+*.mod
+*.smod
+*.exe
+
+# Dependencies
+build/
+
+# Logs and temp files
+*.log
 *.tmp
-tmp.*
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage*
+.nosetests*
+
+# Julia
+julia-*/
+
+# Zig
+zig*/
+
+# Gradle
+.gradle/
+
+# MyPy
+.mypy_cache/
+
+# PyTest
+.pytest_cache/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
