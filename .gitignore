@@ -1,32 +1,12 @@
 ```
-# Puppet-related ignores
-*.pp.bak
-*.rb.bak
-.r10k-*
-.kitchen/
-.bundle/
+# Compiled files
+*.cr
 
-# Dependencies
-.rubocop.yml
-vendor/bundle/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
+# Editor/IDE files
 *.swp
 *.swo
+*.tmp
 
-# OS
-.DS_Store
-Thumbs.db
+# Logs
+*.log
 ```
