@@ -1,29 +1,73 @@
 ```
-# Compiled and build artifacts
-*.mex*
-*.o
-*.obj
-*.dll
-*.so
-*.a
-*.lib
-*.dylib
-*.exe
+# Compiled Python files
+*.pyc
+__pycache__/
 
-# Dependencies
-matlab/
-octave/
+# Virtual environments
+venv/
+.venv/
+env/
 
-# Logs and temp files
+# Logs
 *.log
+
+# Temporary files
 *.tmp
 *.swp
 
-# Editors
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editor/IDE files
 .vscode/
 .idea/
 
-# System files
+# Coverage reports
+.coverage
+coverage/
+htmlcov/
+
+# Python cache
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Distribution / packaging
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+develop-eggs/
+.installed.cfg
+*.egg-info/
+.svn/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg-link
+*.manifest
+*.spec
+
+# Pytest
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 ```
