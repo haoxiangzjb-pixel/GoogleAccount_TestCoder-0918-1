@@ -1,64 +1,28 @@
 ```
-# Compiled files
-*.class
+# Compiled and build artifacts
+*.fsproj.binlog
+*.fsi
+*.fsx
+*.fsscript
 
 # Dependencies
-lib/
-libs/
-jars/
+.paket/
+.packages/
+bin/
+obj/
 
-# Build artifacts
-target/
-build/
-dist/
-out/
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
-# IDE files
+# Editors
 .vscode/
 .idea/
-*.iml
-*.ipr
-*.iws
+*.userprefs
+*.user
 
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# OS files
+# OS generated files
 .DS_Store
 Thumbs.db
-
-# Temp files
-*.tmp
-*.temp
-*.swp
-*.swo
-
-# Archives
-*.zip
-*.tar
-*.gz
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
 ```
