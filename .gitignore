@@ -1,49 +1,41 @@
 ```
-# LaTeX build artifacts
-*.aux
-*.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.idx
-*.ind
-*.ilg
-*.pdf
-*.dvi
-*.ps
-*.synctex.gz
-*.fdb_latexmk
-*.fls
-*.xdv
-*.pdfsync
-*.nav
-*.snm
-*.vrb
-*.run.xml
-*.bcf
-*.ist
-*.glg
-*.glo
-*.gls
-*.acn
-*.acr
-*.alg
-*.glstex
-*.glstex.latex
-*.glstex.xml
-*.synctex
-*.synctex(busy)
-*.synctex.gz(busy)
+# Rust build artifacts
+target/
+**/*.rs.bk
+Cargo.lock
+
+# Python build artifacts
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Environment files
+.env
+.env.local
+*.env.*
 
 # Temporary files
 *.tmp
-*.temp
-*~
+*.swp
+*.swo
 
-# System files
+# Logs
+*.log
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+htmlcov/
+*.coverage
+
+# JSON data files (if they are temporary/generated)
+*.json
+
+# OS generated files
 .DS_Store
 Thumbs.db
 ```
