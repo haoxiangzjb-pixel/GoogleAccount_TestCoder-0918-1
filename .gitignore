@@ -1,3 +1,46 @@
-(database_config.ini is a config file, not a build artifact, dependency, or temp file - so no ignores needed)
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 
-(empty - output nothing)
+# Dependencies
+.venv/
+venv/
+pip-wheel-metadata/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Python specific
+*.py[co]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+```
