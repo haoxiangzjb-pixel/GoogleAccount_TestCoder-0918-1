@@ -1,47 +1,24 @@
-```
-# Compiled and build artifacts
-*.vcd
-*.fst
-*.vvp
-*.bin
-*.out
-*.obj
-*.o
-*.a
-*.so
-*.dll
-*.exe
+```bash
+# Temporary shell scripts
+*.sh.swp
+*.sh~
 
-# Dependencies and build directories
-build/
-dist/
-lib/
-obj/
-
-# Logs and temp files
+# Log files
 *.log
-*.tmp
-*.swp
-*.bak
 
-# Simulation and synthesis tools
-*.pb
-*.jou
-*.str
-*.log
-*.wdb
-*.vcd
-*.fst
-*.ghw
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Environment
+# Environment files
 .env
 .env.local
 *.env.*
+
+# Backup and temp files
+*.tmp
+*~
+*.bak
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
