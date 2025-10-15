@@ -1,28 +1,44 @@
 ```
-# Compiled and build artifacts
-*.fsproj.binlog
-*.fsi
-*.fsx
-*.fsscript
+# Configuration files
+*.yml
+*.yaml
 
-# Dependencies
-.paket/
-.packages/
-bin/
-obj/
+# Serverless framework
+.serverless/
+.sls/
+serverless-*
 
-# Logs and temp files
-*.log
+# Environment and temporary files
+.env
+.env.local
 *.tmp
-*.swp
+*.log
 
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
-*.userprefs
-*.user
+*.swp
+*.swo
 
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
+
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
+*.coverage
+
+# Build artifacts (if any)
+build/
+dist/
+target/
+
+# Dependencies (if any)
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
 ```
