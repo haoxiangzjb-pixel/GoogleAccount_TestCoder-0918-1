@@ -1,47 +1,4 @@
 ```
-# Compiled and build artifacts
-*.vcd
-*.fst
-*.vvp
-*.bin
-*.out
-*.obj
-*.o
-*.a
-*.so
-*.dll
-*.exe
-
-# Dependencies and build directories
-build/
-dist/
-lib/
-obj/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.bak
-
-# Simulation and synthesis tools
-*.pb
-*.jou
-*.str
-*.log
-*.wdb
-*.vcd
-*.fst
-*.ghw
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-*.env.*
+# GraphQL schema
+schema.graphql
 ```
