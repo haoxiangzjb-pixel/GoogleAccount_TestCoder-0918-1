@@ -45,8 +45,12 @@ target/
 .gradle/
 
 # Python specific
-.mypy_cache/
-.pytest_cache/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
 
 # Compressed files
 *.zip
