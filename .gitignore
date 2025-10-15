@@ -1,1 +1,7 @@
-(empty)
+```
+# SQL query files (if they are generated/temporary)
+*.sql
+
+# If the SQL file is build-related or temporary
+query_*.sql
+```
