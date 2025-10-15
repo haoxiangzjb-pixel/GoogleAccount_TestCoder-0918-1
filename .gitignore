@@ -1,4 +1,1 @@
-```xml
-# XML files that appear to be data/config files
-*.xml
-```
+Nothing needs to be added to .gitignore for this change list, as it only contains a single Lua source file being added.
