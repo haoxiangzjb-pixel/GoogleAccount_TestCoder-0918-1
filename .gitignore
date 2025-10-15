@@ -1,18 +1,22 @@
 ```
-# Configuration files
-*.yml
-*.yaml
+# OCaml compiled files
+*.cmi
+*.cmo
+*.cmx
+*.cma
+*.cmxa
+*.exe
+*.out
 
-# Serverless framework
-.serverless/
-.sls/
-serverless-*
+# OCaml build artifacts
+_build/
+_dbuild/
+*.native
+*.byte
 
-# Environment and temporary files
-.env
-.env.local
-*.tmp
-*.log
+# Dependencies
+.opam/
+esy.lock/
 
 # Editor/IDE files
 .vscode/
@@ -24,21 +28,15 @@ serverless-*
 .DS_Store
 Thumbs.db
 
-# Coverage and testing
-coverage/
-htmlcov/
-.coverage
-*.coverage
+# Logs
+*.log
 
-# Build artifacts (if any)
-build/
-dist/
-target/
+# Coverage
+_coverage/
+```
 
-# Dependencies (if any)
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.pyc
+Wait, let me reconsider. The added files are just `.ml` files (OCaml source files), and there are no build artifacts, dependency directories, or temporary files in the changes. The file changes contain only source code files.
+
+```
+
 ```
