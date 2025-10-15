@@ -1,8 +1,18 @@
-```
+```rust
 # Compiled and build artifacts
-*.css.map
-*.min.css
-*.bundle.css
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+target/
+vendor/
+.cargo/
+.cargo-lock
 
 # Logs and temp files
 *.log
@@ -12,28 +22,19 @@
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Distribution
-dist/
-build/
-target/
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-.gradle/
+# Rust-specific
+Cargo.lock
 ```
