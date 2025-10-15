@@ -1,64 +1,163 @@
 ```
-# Compiled files
-*.class
+# Compiled and build artifacts
+*.rs.bk
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
-lib/
-libs/
-jars/
-
-# Build artifacts
 target/
-build/
-dist/
-out/
+Cargo.lock
 
-# IDE files
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
 .vscode/
 .idea/
-*.iml
-*.ipr
-*.iws
-
-# Logs
-*.log
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# OS files
-.DS_Store
-Thumbs.db
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
-# Temp files
+# Python (if present)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage*
+.nox/
+.pytest_cache/
+.mypy_cache/
+
+# Node.js (if present)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+dist/
+build/
+
+# Java (if present)
+*.class
+*.jar
+*.war
+*.ear
+*.war
+*.ear
+*.har
+*.hpi
+*.jpi
+*.hpl
+*.jpl
+*.har
+*.hpi
+*.jpi
+*.hpl
+*.jpl
+target/
+.gradle/
+build/
+out/
+
+# C/C++ (if present)
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.out
+*.obj
+*.ilk
+*.pdb
+*.sdf
+*.suo
+*.tlog
+*.vspscc
+*.vssscc
+*.dep
+*.cache
+*.objdump
+*.gdb_history
+*.stackdump
+*.d
+*.i
+*.ii
+*.s
+*.S
+*.mod
+*.sym
+*.def
+*.exp
+*.lib
+*.map
+*.lst
 *.tmp
-*.temp
+*.log
+*.bak
+*.old
+*.orig
+*.rej
+*.diff
+*.patch
 *.swp
 *.swo
-
-# Archives
-*.zip
-*.tar
-*.gz
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+*~
+\#
+\#*#
+%*%
+/_bak/
+/backup/
+.bak/
+.bak2/
+.backup/
+.old/
+.orig/
+.rej/
+.swp/
+.swo/
+~/
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+.directory
+*.nib
+*~
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.crdownload
+*~
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.crdownload
 ```
