@@ -1,31 +1,26 @@
 ```
-# GraphQL files
-*.graphql
-
-# Cache directories
-__pycache__/
+# Compiled and build artifacts
+*.o
+*.obj
+*.mod
+*.smod
+*.exe
 
 # Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-*.env.*
-
-# Build artifacts
-dist/
 build/
-target/
+dist/
 
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
 # Editors
 .vscode/
 .idea/
 
-# System
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+*.env.*
 ```
