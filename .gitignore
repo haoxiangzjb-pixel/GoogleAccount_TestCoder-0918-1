@@ -1,11 +1,36 @@
 ```
-# Script files
-*.sh
+# Compiled Python files
+*.pyc
+__pycache__/
 
-# Temp files
-*.tmp
-*.swp
+# Virtual environments
+venv/
+.venv/
+env/
 
 # Logs
 *.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage reports
+.coverage
+coverage/
+htmlcov/
+
+# Python cache
+.mypy_cache/
+.pytest_cache/
 ```
