@@ -1,115 +1,24 @@
 ```
-# Terraform
-*.tfstate
-*.tfstate.*
-*.tfvars
-*.tfplan
-.terraform/
-.terraform.lock.hcl
+# Compiled and build artifacts
+*.beam
+*.o
+*.obj
 
 # Dependencies
-.venv/
-venv/
-node_modules/
-
-# Compiled and build artifacts
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-dist/
-build/
-target/
-*.so
-*.dylib
-*.dll
+.erlang.cookie
+.rebar3/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
+
+# Editors
+.vscode/
+.idea/
 
 # Environment
 .env
 .env.local
 .env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Node.js
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnp
-.pnp.js
-
-# Java
-*.class
-*.jar
-*.war
-*.ear
-*.zip
-target/
-.gradle/
-build/
-
-# C/C++
-*.o
-*.a
-*.obj
-*.out
-
-# Go
-*.exe
-*.dll
-*.so
-
-# Ruby
-*.gem
-*.rbc
-.bundle/
-.coverage/
-InstalledFiles
-lib/bundler/man/
-pkg/
-rdoc/
-*.gemspec
-Gemfile.lock
 ```
