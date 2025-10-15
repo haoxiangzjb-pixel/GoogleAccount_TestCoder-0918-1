@@ -1,1 +1,45 @@
-Nothing should be ignored based on the provided file changes. The added file `square_func_90123.fs` appears to be a source code file that should be tracked in version control.
+```
+# Ada build artifacts
+*.ali
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+
+# Dependencies and build directories
+lib/
+obj/
+build/
+dist/
+
+# Environment and temp files
+.env
+.env.local
+*.tmp
+*.log
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
+*.coverage
+
+# Package managers
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+.Python
+```
