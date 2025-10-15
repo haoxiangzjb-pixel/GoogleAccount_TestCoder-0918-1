@@ -1,12 +1,1 @@
-```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-
-# Temporary swap files
-*swap_data_*.txt
-
-# Executables
-swap_and_save
-```
+Nothing should be ignored since the added files (useCounter.jsx, useInput.jsx) are source code files and there are no build artifacts, dependencies, or temporary files in the changes.
