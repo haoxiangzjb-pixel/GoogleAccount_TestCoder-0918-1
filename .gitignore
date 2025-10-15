@@ -1,3 +1,24 @@
-(flask_json_route_2847.py is a source code file, and there are no build artifacts, dependencies, or temporary files in the changes, so no .gitignore rules are needed)
+```
+#Temp files
+*.tmp
+*.temp
+tmp.*.sql
 
-(empty - output nothing)
+#Logs
+*.log
+
+#Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+#System files
+.DS_Store
+Thumbs.db
+
+#Environment
+.env
+.env.local
+*.env.*
+```
