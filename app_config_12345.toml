@@ -1,0 +1,25 @@
+# Application Configuration
+title = "My Application Config"
+
+[server]
+host = "localhost"
+port = 8080
+debug = true
+
+[database]
+url = "postgresql://localhost/myapp"
+username = "admin"
+password = "secret123"
+pool_size = 10
+
+[logging]
+level = "info"
+file = "app.log"
+
+[features]
+enable_cache = true
+max_connections = 100
+
+[api]
+version = "v1"
+timeout = 30
