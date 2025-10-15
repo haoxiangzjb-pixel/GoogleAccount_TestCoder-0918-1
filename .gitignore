@@ -1,1 +1,11 @@
-(empty)
+```
+# Script files
+*.sh
+
+# Temp files
+*.tmp
+*.swp
+
+# Logs
+*.log
+```
