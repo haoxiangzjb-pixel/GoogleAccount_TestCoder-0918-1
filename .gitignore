@@ -1,28 +1,32 @@
 ```
-# Compiled and build artifacts
-*.fsproj.binlog
-*.fsi
-*.fsx
-*.fsscript
+# Compiled files
+*.hs-boot
+*.hi
+*.o
+*.p_o
 
 # Dependencies
-.paket/
-.packages/
-bin/
-obj/
+.cabal-sandbox/
+cabal-dev/
+dist/
+dist-*
+.cabal/
+.hie/
+.hlint/
+.stack-work/
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
+*~
 
-# Editors
+# Editor/IDE
 .vscode/
 .idea/
-*.userprefs
-*.user
+*.swp
+*.swo
 
-# OS generated files
+# System
 .DS_Store
 Thumbs.db
 ```
