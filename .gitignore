@@ -1,15 +1,13 @@
 ```
 # Compiled and build artifacts
-*.fsproj.binlog
-*.fsi
-*.fsx
-*.fsscript
+*.o
+*.obj
+*.out
 
 # Dependencies
-.paket/
-.packages/
-bin/
-obj/
+vendor/
+*.mod
+*.sum
 
 # Logs and temp files
 *.log
@@ -19,8 +17,16 @@ obj/
 # Editors
 .vscode/
 .idea/
-*.userprefs
-*.user
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
 # OS generated files
 .DS_Store
