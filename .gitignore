@@ -1,26 +1,26 @@
 ```
-# Compiled and build artifacts
-*.vcd
-*.vvp
-*.bin
-*.out
-*.obj
-*.o
-
-# Simulation and synthesis outputs
-sim/
-sim_build/
-build/
-target/
+# Lua build artifacts and dependencies
+*.luac
+.luac
+lua_modules/
+?.lua.bak
+*~
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
+# Environment
+.env
+.env.local
+.env.*
+
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # System files
 .DS_Store
