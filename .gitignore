@@ -1,1 +1,46 @@
-Nothing needs to be added to .gitignore for this change list, as it only contains a single Lua source file being added.
+```
+# Compiled and build artifacts
+*.vcd
+*.vvp
+*.bin
+*.out
+*.obj
+*.o
+
+# Dependencies and build directories
+build/
+dist/
+*.so
+*.dll
+*.exe
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.so
+
+# System files
+.DS_Store
+Thumbs.db
+```
