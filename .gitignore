@@ -1,1 +1,24 @@
-Nothing should be ignored based on the provided file changes. The added file `user_def_kj392.ts` is a TypeScript source file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.beam
+*.o
+*.obj
+
+# Dependencies
+ebin/
+deps/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+```
