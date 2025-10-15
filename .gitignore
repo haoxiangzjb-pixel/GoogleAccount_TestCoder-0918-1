@@ -1,12 +1,4 @@
 ```
-# Compiled files
-*.cr
-
-# Editor/IDE files
-*.swp
-*.swo
-*.tmp
-
-# Logs
-*.log
+# SQL dump/query files
+*.sql
 ```
