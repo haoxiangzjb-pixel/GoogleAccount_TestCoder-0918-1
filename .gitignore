@@ -1,37 +1,42 @@
 ```
-# Elixir specific ignores
-*.beam
-*.ez
-ebin/
-_build/
-cover/
-erl_crash.dump
+# Compiled and build artifacts
+*.class
+*.jar
+*.war
+*.aar
+*.apk
+*.dex
 
 # Dependencies
-deps/
-.hex/
-.rebar3/
-
-# Environment
-.env
-.env.local
-.env.*
+.libs/
+lib/
+target/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
+# Environment
+.env
+.env.local
+.env.*
+
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
+*.iml
+*.iws
+*.ipr
 
 # System files
 .DS_Store
 Thumbs.db
 
-# Coverage
-cover/
+# Build outputs
+build/
+dist/
+out/
+bin/
+obj/
 ```
