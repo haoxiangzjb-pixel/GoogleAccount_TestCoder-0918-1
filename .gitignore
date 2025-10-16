@@ -1,18 +1,14 @@
 ```
 # Compiled and build artifacts
-*.class
-*.o
-*.obj
+*.rs.bk
+target/
 
 # Dependencies
-*.jar
-lib/
-target/
+Cargo.lock
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
 
 # Editors
 .vscode/
@@ -21,14 +17,5 @@ target/
 # Environment
 .env
 .env.local
-.env.*
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# System files
-.DS_Store
-Thumbs.db
+*.env.*
 ```
