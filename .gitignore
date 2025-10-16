@@ -1,1 +1,4 @@
-Nothing should be ignored since the added file `form_abc123.html` is a source code file (HTML) and no build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Duplicate/multiple PHP files - likely auto-generated or backup files
+mysql_connect_*.php
+```
