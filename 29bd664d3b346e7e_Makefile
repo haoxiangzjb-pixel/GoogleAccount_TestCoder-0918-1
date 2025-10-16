@@ -1,0 +1,37 @@
+# C++ Project Makefile
+
+CXX = g++
+CXXFLAGS = -Wall -Wextra -std=c++11
+
+# Define source directory and build directory
+SRCDIR = src
+BUILDDIR = build
+
+# Find all source files
+SOURCES = $(wildcard $(SRCDIR)/*.cpp)
+OBJECTS = $(SOURCES:$(SRCDIR)/%.cpp=$(BUILDDIR)/%.o)
+TARGET = $(BUILDDIR)/myapp
+
+# Build target
+build: $(TARGET)
+
+$(TARGET): $(OBJECTS)
+	$(CXX) $(OBJECTS) -o $@
+
+$(BUILDDIR)/%.o: $(SRCDIR)/%.cpp
+	mkdir -p $(BUILDDIR)
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# Test target (assumes test files exist)
+test: build
+	@echo "Running tests..."
+	# Add your test commands here
+	# For example: ./$(BUILDDIR)/test_app
+	@echo "Tests completed."
+
+# Clean target
+clean:
+	rm -rf $(BUILDDIR)
+	@echo "Build directory cleaned."
+
+.PHONY: build test clean
