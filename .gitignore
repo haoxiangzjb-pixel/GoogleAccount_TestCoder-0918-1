@@ -1,30 +1,30 @@
 ```
-# Compiled and build artifacts
-*.fsi
-*.fsx
-*.exe
-*.dll
-*.so
-*.o
-*.obj
-*.out
+# Compiled Python files
+*.pyc
+__pycache__/
 
-# Dependencies
-.paket/
-packages/
-bin/
-obj/
-
-# Logs and temp files
+# Logs
 *.log
-*.tmp
-*.swp
 
-# Editors
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editor/IDE files
 .vscode/
 .idea/
+*.swp
+*.swo
+*.tmp
 
-# OS
-.DS_Store
-Thumbs.db
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Build artifacts
+dist/
+build/
+target/
 ```
