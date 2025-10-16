@@ -1,4 +1,11 @@
 ```
-# Duplicate/multiple PHP files - likely auto-generated or backup files
-mysql_connect_*.php
+# Zig build artifacts
+.zig-cache/
+zig-*/
+
+# Compressed Zig distribution
+*.tar.xz
+
+# Build output
+build/
 ```
