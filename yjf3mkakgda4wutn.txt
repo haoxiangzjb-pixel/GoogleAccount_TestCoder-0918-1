@@ -1,0 +1,3 @@
+Point coordinates:
+x: 3.5
+y: 7.2
