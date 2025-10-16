@@ -1,49 +1,33 @@
 ```
-# LaTeX build artifacts
-*.aux
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
 *.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.idx
-*.ind
-*.ilg
-*.pdf
-*.dvi
-*.ps
-*.synctex.gz
-*.fdb_latexmk
-*.fls
-*.xdv
-*.pdfsync
-*.nav
-*.snm
-*.vrb
-*.run.xml
-*.bcf
-*.ist
-*.glg
-*.glo
-*.gls
-*.acn
-*.acr
-*.alg
-*.glstex
-*.glstex.latex
-*.glstex.xml
-*.synctex
-*.synctex(busy)
-*.synctex.gz(busy)
-
-# Temporary files
 *.tmp
-*.temp
-*~
+*.swp
 
-# System files
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Python cache
+.mypy_cache/
+.pytest_cache/
 ```
