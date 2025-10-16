@@ -1,27 +1,3 @@
-```
-# Compiled files
-*.pl~
+(restart_service_playbook.yml is a source/config file, no build artifacts, dependencies, or temp files in the changes)
 
-# Logs and temp files
-*.tmp
-*.log
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Dependencies
-node_modules/
-.venv/
-venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-```
+(empty - output nothing)
