@@ -1,5 +1,1 @@
-(load_and_summary.R is a source file, so no .gitignore content needed)
-
-```r
-
-```
+Nothing should be ignored based on the provided file changes. The added file `double_number_abc123.erl` is a source code file that should be tracked in version control.
