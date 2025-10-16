@@ -1,146 +1,51 @@
 ```
-# Zig compiler distribution
-zig-linux-x86_64-0.13.0/
+# VBA/Office files
+*.vba
+*.bas
+*.cls
+*.frm
+*.vbp
+*.ds_store
 
-# Compressed archives
-*.tar.xz
+# Python build artifacts
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
 
-# Data files
-*.dat
-
-# Temporary files
+# Logs and temp files
+*.log
 *.tmp
+*.temp
+*.bak
 *.swp
 *.swo
 
-# Logs
-*.log
-
-# Environment files
+# Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# OS-specific files
+# OS generated files
 .DS_Store
 Thumbs.db
+desktop.ini
 
 # Coverage reports
 coverage/
 htmlcov/
 .coverage
 
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-.Python
-
-# Virtual environments
-venv/
-.venv/
-env/
-.venv.bak/
-env.bak/
-
-# Build directories
-build/
+# Distribution / packaging
 dist/
-target/
-
-# Dependency directories
-node_modules/
-vendor/
-
-# MyPy cache
-.mypy_cache/
-
-# Pytest cache
-.pytest_cache/
-
-# Git
-.git/
-
-# Temporary system files
-*~
-*.bak
-*.old
-*.orig
-
-# Compiled binaries
-*.exe
-*.dll
-*.so
-*.dylib
-*.a
-*.lib
-*.out
-
-# Compression formats
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.Z
-*.lz
-*.lzo
-*.arj
-*.rpm
-*.deb
-
-# Configuration backup files
-*.bak
-*.backup
-*.old
-
-# IDE-specific files
-*.swp
-*.swo
-*~
-.DS_Store
-Thumbs.db
-
-# Local configuration
-local.properties
-.settings/
-
-# Coverage
-coverage.xml
-.coverage.*
-
-# Python-specific
-*.pyc
-*.pyo
-__pycache__/
-.pytest_cache/
-.mypy_cache/
-.tox/
-.coverage
-htmlcov/
-
-# Virtual environment
-venv/
-env/
-.venv/
-.ENV/
-
-# Logs
-*.log
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+build/
+*.egg
+*.egg-info/
+*.whl
 ```
