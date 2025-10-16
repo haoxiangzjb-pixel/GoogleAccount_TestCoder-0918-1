@@ -1,42 +1,51 @@
 ```
-# Temporary files
-*.tmp
-tmp.*
-
-# Makefile artifacts
-*.o
-*.obj
-*.a
-*.so
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.fsxproj.user
+*.fsproj.user
 *.dll
 *.exe
+*.so
+*.dylib
+*.class
+*.o
+*.obj
 *.out
-
-# Build directories
-build/
-dist/
-target/
-
-# Logs
 *.log
-
-# Editor/IDE files
-.vscode/
-.idea/
+*.tmp
 *.swp
-*.swo
-
-# Environment
-.env
-.env.local
-*.env.*
 
 # Dependencies
 node_modules/
 venv/
 .venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-.gradle/
+.env
+.env.local
+.env.*
+
+# Build directories
+dist/
+build/
+target/
+bin/
+obj/
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Temporary files
+*.tmp
+*.temp
+*.log
 ```
