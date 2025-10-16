@@ -1,14 +1,1 @@
-```
-#Temp files
-*.tmp
-*.temp
-tmp.*
-
-#Environment
-.env
-.env.local
-.env.*
-
-#Logs
-*.log
-```
+Nothing to output - the change list contains only a single source code file (.kt) which should not be ignored.
