@@ -1,1 +1,38 @@
-(user_interface_va75gjig.ts)
+```
+# Compiled and build artifacts
+*.nimble
+*.nims
+*.so
+*.dll
+*.exe
+*.out
+
+# Dependencies
+.nimble/
+nimcache/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
+
+# OS files
+.DS_Store
+Thumbs.db
+```
