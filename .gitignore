@@ -1,32 +1,20 @@
 ```
-# Compiled and build artifacts
-*.cmi
-*.cmo
-*.cma
-*.cmx
-*.cmxa
-*.cmxs
-*.exe
-*.out
+# Assembly files - build artifacts
+*.asm.o
 *.o
 *.obj
 
-# Dependencies
-_dbuild/
-.opam/
+# Build directories
+build/
+dist/
 
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# Logs and temp files
-*.log
 *.tmp
 
-# Environment
-.env
-.env.local
-*.env.*
+# Logs
+*.log
 ```
