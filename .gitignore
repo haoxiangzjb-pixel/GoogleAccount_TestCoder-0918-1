@@ -1,17 +1,8 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.mod
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# Dependencies
-build/
-dist/
+# Environment files
+.env
+.env.local
+*.env.*
 
 # Logs and temp files
 *.log
@@ -21,38 +12,6 @@ dist/
 # Editors
 .vscode/
 .idea/
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Python specific
-__pycache__/
-*.pyc
-*.pyo
-.Python
-*.so
-
-# MyPy
-.mypy_cache/
-
-# PyTest
-.pytest_cache/
-
-# Distribution / packaging
-.Python
-*.so
-.Python
-*.egg-info/
-.eggs/
-.installed.cfg
-*.egg
 
 # System files
 .DS_Store
