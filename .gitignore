@@ -1,45 +1,59 @@
 ```
+# Julia build artifacts and dependencies
+*.ji
+*.jl.c
+*.jl.o
+*.jl.so
+*.jl.dll
+*.jl.dylib
+build/
+dist/
+lib/
+deps/build.log
+
+# Julia environment
+.julia/
+*.julia_project
+*.julia_environment
+
+# General build artifacts
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+*.a
+
 # Dependencies
 node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
 
-# Package manager
-package-lock.json
-
-# Environment
-.env
-.env.local
-.env.
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
+# Editor/IDE files
+.vscode/
+.idea/
 *.swp
+*.swo
+*.tmp
 
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
+.env
+.env.local
+*.env.*
 
-# Coverage reports
+# Logs and coverage
+*.log
 coverage/
 htmlcov/
 .coverage
-
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Build outputs
-dist/
-build/
-*.out
-
-# IDE
-.vscode/
-.idea/
 
 # Compressed files
 *.zip
