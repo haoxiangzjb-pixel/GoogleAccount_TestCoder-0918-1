@@ -1,5 +1,39 @@
-(button-style-8743.css is a source file, so no ignores needed)
+```
+# Puppet-related ignores
+*.pp~
 
-```css
+# System files
+.DS_Store
+Thumbs.db
 
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build artifacts and dependencies (if any Puppet-specific ones exist)
+.r10k/
+.bundle/
+vendor/
+
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
+*.gcov
+*.lcov
 ```
