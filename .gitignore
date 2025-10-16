@@ -1,26 +1,4 @@
 ```
-# Temporary Haskell files
-*.hi
-*.o
-*.dyn_o
-
-# Build artifacts
-dist/
-dist-newstyle/
-cabal-dist/
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment files
-.env
-.env.local
-*.env.*
+# CI/CD
+.github/workflows/
 ```
