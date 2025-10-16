@@ -1,1 +1,43 @@
-Nothing should be ignored in this case, as the added file `mysql_select_cx9ffzlw.py` is a Python source code file, which should be tracked in version control. The change list contains only a source file and no build artifacts, dependencies, or temporary files.
+```
+# Build system
+Makefile_cpp_project_12345
+
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
+
+# Dependencies
+build/
+dist/
+target/
+node_modules/
+.venv/
+venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
