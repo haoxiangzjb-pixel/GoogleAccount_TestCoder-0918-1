@@ -1,18 +1,16 @@
 ```
-# Compiled files
-*.o
-*.obj
-*.out
+# PowerShell and shell script related
+*.ps1~
+*.sh~
+*.tmp
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
@@ -23,19 +21,4 @@ target/
 # System files
 .DS_Store
 Thumbs.db
-.env
-.env.local
-*.env.*
-
-# Logs
-*.log
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Build artifacts
-dist/
-build/
 ```
