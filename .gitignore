@@ -21,4 +21,13 @@ node_modules/
 # Editors
 .vscode/
 .idea/
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Python cache
+.mypy_cache/
+.pytest_cache/
 ```
