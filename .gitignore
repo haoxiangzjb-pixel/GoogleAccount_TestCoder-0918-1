@@ -1,4 +1,1 @@
-```
-# Compiled and build artifacts
-*.ex
-```
+(todo_list_1234.md is a source file, not a build artifact or dependency, so no .gitignore rules needed)
