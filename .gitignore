@@ -1,5 +1,27 @@
-(users_query.sql is a source code file, so no .gitignore rules needed)
+```
+# Dependencies
+node_modules/
 
-```sql
+# Environment
+.env
+.env.local
+.env.*
 
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Package manager
+package-lock.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
 ```
