@@ -1,4 +1,4 @@
 ```
-# SQL dump/query files
-*.sql
+# Generated from file changes
+api_response_*.json
 ```
