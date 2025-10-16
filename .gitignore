@@ -1,23 +1,17 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.hi
+# Dart/Flutter build artifacts
+.dart_tool/
+.packages
+build/
+*.dart.js
+*.js
+*.js.map
 
 # Dependencies
-.cabal-sandbox/
-dist/
-dist-newstyle/
-.stack-work/
+pubspec.lock
 
-# Logs and temp files
+# Logs
 *.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
 
 # Environment
 .env
