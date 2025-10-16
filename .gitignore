@@ -1,4 +1,13 @@
 ```
-# JSON response files
-*.json
+# Shell script related
+*.sh.swp
+*.sh.swo
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Logs
+*.log
 ```
