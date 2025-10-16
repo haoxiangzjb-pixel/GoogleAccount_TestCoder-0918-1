@@ -1,32 +1,47 @@
 ```
-# Temporary files
-*.tmp
-*.temp
+# GraphQL files
+*.graphql
 
-# Log files
-*.log
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.class
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Environment files
+# Dependencies
+node_modules/
+venv/
+.venv/
 .env
 .env.local
-*.env.*
+.env.*
 
-# Editor/IDE files
-.vscode/
-.idea/
+# Logs and temp files
+*.log
+*.tmp
 *.swp
 *.swo
+
+# Editors
+.vscode/
+.idea/
 
 # System files
 .DS_Store
 Thumbs.db
 
-# Backup files
-*~
-*.bak
-*.backup
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
-# Compression files
+# Compressed files
 *.zip
 *.gz
 *.tar
