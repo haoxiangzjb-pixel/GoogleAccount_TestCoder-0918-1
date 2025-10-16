@@ -1,44 +1,39 @@
 ```
-# Configuration files
-*.yml
-*.yaml
+# Compiled files
+*.class
 
-# Serverless framework
-.serverless/
-.sls/
-serverless-*
+# Dependencies
+lib/
+libs/
+jars/
 
-# Environment and temporary files
-.env
-.env.local
-*.tmp
-*.log
-
-# Editor/IDE files
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# System files
-.DS_Store
-Thumbs.db
+# Logs
+*.log
 
-# Coverage and testing
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
 coverage/
 htmlcov/
-.coverage
 *.coverage
 
-# Build artifacts (if any)
+# Build directories
+target/
 build/
 dist/
-target/
 
-# Dependencies (if any)
+# Package manager
 node_modules/
-venv/
-.venv/
-__pycache__/
-*.pyc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 ```
