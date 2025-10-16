@@ -1,14 +1,50 @@
-```
-#Temp files
+```julia
+# Julia-specific ignores
+*.ji
+*.jl.cov
+*.jl.info
+*.so
+*.dll
+*.dylib
+
+# Build artifacts
+build/
+dist/
+lib/
+deps/
+
+# Environment
+.julia/
+.JuliaFormatter.cfg
+
+# Temporary files
 *.tmp
 *.temp
-tmp.*
+*~
+.DS_Store
+Thumbs.db
 
-#Environment
-.env
-.env.local
-.env.*
-
-#Logs
+# Logs
 *.log
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+.Python
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage/
+htmlcov/
+target/
+.gradle/
 ```
