@@ -1,1 +1,32 @@
-(circle_area_1760526209.lua)
+```
+# Compiled and build artifacts
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.exe
+*.out
+*.o
+*.obj
+
+# Dependencies
+_opam/
+.dune/
+esy.lock/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+```
