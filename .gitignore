@@ -1,16 +1,18 @@
 ```
 # Compiled and build artifacts
-*.class
 *.o
 *.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
+node_modules/
 venv/
 .venv/
 __pycache__/
-.mypy_cache/
-.pytest_cache/
-node_modules/
 dist/
 build/
 target/
@@ -39,6 +41,12 @@ Thumbs.db
 coverage/
 htmlcov/
 .coverage
+
+# MyPy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
 
 # Compressed files
 *.zip
