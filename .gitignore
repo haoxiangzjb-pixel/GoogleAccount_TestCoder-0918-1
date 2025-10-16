@@ -1,1 +1,5 @@
-Nothing should be ignored since the added files (useCounter.jsx, useInput.jsx) are source code files and there are no build artifacts, dependencies, or temporary files in the changes.
+```
+# VBA files are source code - don't ignore them
+# format_excel_macro.vba
+# qDMbAIT0xCoM.vba
+```
