@@ -1,14 +1,11 @@
 ```
-# VBA/Excel related build artifacts
-*.bas
-*.vba
+# Environment files
+.env
+.env.local
+*.env.*
 
-# Compiled VBA files
-*.frx
+# Configuration files that might contain sensitive data
+*config*.toml
+*.toml
 
-# Excel temporary files
-*.tmp
-*~.tmp
-*.xlsm
-*.xlsb
 ```
