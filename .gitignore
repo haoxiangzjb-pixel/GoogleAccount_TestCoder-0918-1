@@ -1,4 +1,1 @@
-```javascript
-// No build artifacts, dependencies, or temporary files detected
-// Only JavaScript source files present
-```
+Nothing should be ignored since the only added file is `hello.adb` which is a source code file.
