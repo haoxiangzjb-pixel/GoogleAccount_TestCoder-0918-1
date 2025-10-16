@@ -1,7 +1,21 @@
 ```
-# SQL query files (if they are generated/temporary)
-*.sql
+# PowerShell files
+*.ps1
 
-# If the SQL file is build-related or temporary
-query_*.sql
+#Temp files
+*.tmp
+*.temp
+
+#Logs
+*.log
+
+#Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+#System files
+.DS_Store
+Thumbs.db
 ```
