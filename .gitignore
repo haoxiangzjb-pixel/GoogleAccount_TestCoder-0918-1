@@ -1,21 +1,19 @@
 ```
-# Build system
-Makefile
-
 # Compiled and build artifacts
+*.asm
 *.o
 *.obj
 *.out
-build/
-dist/
 
 # Dependencies
 node_modules/
-venv/
 .venv/
+venv/
 __pycache__/
 .mypy_cache/
 .pytest_cache/
+dist/
+build/
 target/
 .gradle/
 
@@ -23,6 +21,7 @@ target/
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
@@ -36,6 +35,11 @@ target/
 # System files
 .DS_Store
 Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
 # Compressed files
 *.zip
