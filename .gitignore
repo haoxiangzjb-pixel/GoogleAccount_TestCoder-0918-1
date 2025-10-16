@@ -1,4 +1,8 @@
 ```
-# GraphQL schema
-schema.graphql
+# Temp files
+*.tmp
+
+# Simulation output files
+*_simulation.py
+point_*.txt
 ```
