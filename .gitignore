@@ -1,12 +1,27 @@
 ```
-# Temporary and backup scripts
-*.sh.bak
-*.sh~
-backup_*.sh
-iFK5kwVeaX.sh
+# PowerShell/Windows specific
+*.ps1~
+*.psm1~
+*.psd1~
+Thumbs.db
+Desktop.ini
 
 # Logs and temp files
 *.log
 *.tmp
+*.temp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
 *.swp
+*.swo
+
+# OS generated files
+.DS_Store
 ```
