@@ -1,4 +1,23 @@
 ```
-# Generated from file changes
-*.json
+# Compiled and build artifacts
+*.rds
+*.RData
+*.o
+*.so
+*.dll
+
+# Dependencies
+.Rprofile
+.Renviron
+.packrat/
+renv/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.Rhistory
+.Rapp.history
 ```
