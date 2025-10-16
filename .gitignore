@@ -1,1 +1,48 @@
-Nothing to output - the change list contains only a single source code file (.kt) which should not be ignored.
+```
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.out
+*.jar
+*.war
+*.ear
+target/
+
+# Dependencies
+lib/
+project/target/
+*.iml
+*.ipr
+*.iws
+
+# Scala specific
+*.tasty
+*.scala_dependencies
+metals.sbt
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# System
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+```
