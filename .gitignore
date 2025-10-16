@@ -1,9 +1,10 @@
 ```
-# Environment files
-.env
-.env.local
-.env.*
+# R plots and generated images
+Rplots.pdf
+*.png
 
-# Logs
-*.log
+# R build artifacts
+*.Rproj.user/
+.Rhistory
+.RData
 ```
