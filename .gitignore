@@ -1,26 +1,32 @@
 ```
-# Puppet related
-**/*.pp.bak
-**/*.pp~
-**/*.rb.bak
-**/*.rb~
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+*.lock.hcl
 
-# Common system files
-.DS_Store
-Thumbs.db
+# Dependencies
+.terraform.lock.hcl
 
-# Logs
+# Logs and temp files
 *.log
-
-# Temporary files
 *.tmp
-*.temp
-*~
-.swp
-.swo
+*.swp
 
-# Environment files
+# Environment
 .env
 .env.local
 .env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
 ```
