@@ -1,4 +1,25 @@
-```javascript
-// No build artifacts, dependencies, or temporary files detected
-// Only JavaScript source files present
+```
+# Dependencies
+*.pyc
+__pycache__/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Build artifacts
+dist/
+build/
+*.out
 ```
