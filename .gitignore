@@ -1,1 +1,14 @@
-Nothing should be ignored based on the provided file changes. The added file `hello_golang.go` is a source code file that should be tracked in version control.
+```
+#Temp files
+*.tmp
+*.html.tmp
+*.temp
+
+#Editor/IDE files
+*.swp
+*.swo
+
+#System files
+.DS_Store
+Thumbs.db
+```
