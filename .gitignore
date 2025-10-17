@@ -1,5 +1,4 @@
 ```
-# Test files with random naming patterns
-src/test/java/RandomTest_*.java
-src/test/java/Test_*.java
+# Build system
+Makefile
 ```
