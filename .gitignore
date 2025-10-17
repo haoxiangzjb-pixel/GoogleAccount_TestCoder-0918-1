@@ -1,19 +1,9 @@
 ```
-# PowerShell related
-*.ps1
-*.psm1
-*.psd1
+# Environment files
+.env
+.env.local
+*.env.*
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
+# Configuration files with sensitive data
+*config*.ini
 ```
