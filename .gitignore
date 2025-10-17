@@ -1,20 +1,19 @@
 ```
 # Compiled and build artifacts
-*.cmi
-*.cmo
-*.cma
-*.cmx
-*.cmxa
-*.cmxs
+*.fsi
+*.fsx
 *.exe
-*.out
+*.dll
+*.so
 *.o
 *.obj
+*.out
 
 # Dependencies
-.opam/
-.dune/
-_build/
+.paket/
+packages/
+bin/
+obj/
 
 # Logs and temp files
 *.log
@@ -25,7 +24,7 @@ _build/
 .vscode/
 .idea/
 
-# System files
+# OS
 .DS_Store
 Thumbs.db
 ```
