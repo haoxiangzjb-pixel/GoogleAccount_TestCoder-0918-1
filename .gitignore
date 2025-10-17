@@ -1,14 +1,28 @@
 ```
-#Temp files
-*.tmp
-*.temp
-tmp.*
+# Compiled and build artifacts
+*.plc
+*.plx
+*.pmc
 
-#Environment
+# Dependencies
+cpanfile/
+local/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
 .env.*
 
-#Logs
-*.log
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
