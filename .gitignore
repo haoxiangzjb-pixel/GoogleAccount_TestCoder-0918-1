@@ -1,8 +1,42 @@
 ```
-# Temp files
-*.tmp
+# R-specific ignores
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+*.RData
+*.Rds
+*.Rda
+*.rds
+*.rda
 
-# Simulation output files
-*_simulation.py
-point_*.txt
+# Compiled files
+*.o
+*.so
+*.dll
+*.dylib
+
+# Dependencies
+renv/
+packrat/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
 ```
