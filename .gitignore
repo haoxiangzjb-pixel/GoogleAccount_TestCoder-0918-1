@@ -1,1 +1,5 @@
-Nothing should be ignored based on the provided file changes. The added file 'RandomViewController.swift' is a source code file that should be tracked in version control.
+(book.xml is a source/config file, so no ignores needed)
+
+```gitignore
+
+```
