@@ -1,15 +1,13 @@
 ```
 # Compiled and build artifacts
-*.fsproj.binlog
-*.fsi
-*.fsx
-*.fsscript
+*.ji
+*.o
+*.obj
 
 # Dependencies
-.paket/
-.packages/
-bin/
-obj/
+.julia/
+*.jl.cov
+*.jl.mem
 
 # Logs and temp files
 *.log
@@ -17,12 +15,5 @@ obj/
 *.swp
 
 # Editors
-.vscode/
-.idea/
-*.userprefs
-*.user
-
-# OS generated files
-.DS_Store
-Thumbs.db
+.julia_scratch/
 ```
