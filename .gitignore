@@ -1,44 +1,38 @@
 ```
-# Compiled Python files
-*.pyc
-__pycache__/
+#Perl
+*.pl~
+*.plx~
+*.pm~
+*.pod~
 
-# Environment files
-.env
-.env.local
-*.env.*
+#Compiled and build artifacts
+*.o
+*.obj
+*.out
+*.so
+*.a
+*.dll
+*.exe
 
-# Logs
+#Dependencies
+lib/
+blib/
+pm_to_blib
+*.tar.gz
+
+#Logs and temp files
 *.log
-
-# Temporary files
 *.tmp
 *.swp
+*.swo
 
-# Editors
+#Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Build artifacts
-dist/
-build/
-target/
-
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# Python cache
-.mypy_cache/
-.pytest_cache/
-
-# System files
+#System
 .DS_Store
 Thumbs.db
 ```
