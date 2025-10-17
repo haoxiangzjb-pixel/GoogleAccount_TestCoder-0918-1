@@ -1,13 +1,17 @@
 ```
 # Compiled and build artifacts
-*.class
 *.o
 *.obj
+*.mod
+*.out
 
 # Dependencies
-target/
-lib/
-project/target/
+build/
+dist/
+*.so
+*.a
+*.dll
+*.exe
 
 # Logs and temp files
 *.log
@@ -18,22 +22,8 @@ project/target/
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Scala specific
-*.tasty
-*.jar
-*.war
-*.ear
-
-# Build tool specific
-.mypy_cache/
-.pytest_cache/
+# Environment
+.env
+.env.local
+*.env.*
 ```
