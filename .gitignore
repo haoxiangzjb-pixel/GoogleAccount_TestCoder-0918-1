@@ -1,27 +1,33 @@
 ```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
 # Dependencies
-node_modules/
+Pods/
+Carthage/
+build/
+DerivedData/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Environment
 .env
 .env.local
 .env.*
 
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
-
-# Package manager
-package-lock.json
-
-# IDE
+# Editors
 .vscode/
 .idea/
 
-# OS
+# macOS
 .DS_Store
-Thumbs.db
+
+# iOS
+*.ipa
+*.app
 ```
