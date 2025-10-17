@@ -1,10 +1,4 @@
 ```
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Configuration files with random suffixes
-app_config_*.toml
-config_*.toml
+# Configuration files
+*.xml
 ```
