@@ -1,34 +1,13 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-
-# Dependencies
-vendor/
-*.mod
-*.sum
-
-# Logs and temp files
-*.log
-*.tmp
+# Shell script backup/swap files
+*~
 *.swp
+*.swo
 
-# Editors
-.vscode/
-.idea/
+# Logs
+*.log
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# OS generated files
-.DS_Store
-Thumbs.db
+# Temporary files
+*.tmp
+*.temp
 ```
