@@ -1,1 +1,30 @@
-Nothing should be ignored in this case. The added file 'bZ7nZ3qqXnDC.erl' is a source code file (.erl extension indicates Erlang source code), and there are no build artifacts, dependencies, or temporary files in the changes list that would warrant adding ignore rules.
+```
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Tests
+.pytest_cache/
+.coverage
+coverage/
+htmlcov/
+
+# Environment
+.venv/
+venv/
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+```
