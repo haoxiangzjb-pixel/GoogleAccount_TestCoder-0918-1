@@ -4,11 +4,10 @@
 __pycache__/
 *.o
 *.obj
-*.class
-*.exe
 *.dll
 *.so
-*.a
+*.exe
+*.class
 *.out
 
 # Dependencies
