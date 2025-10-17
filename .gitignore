@@ -1,26 +1,22 @@
 ```
-# Zig build artifacts and dependencies
-zig-linux-x86_64-0.13.0/
-zig-linux-x86_64-0.13.0/**
-temp/
-*.zig
+# Compiled files
+*.mex*
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment files
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# OS specific
-.DS_Store
-Thumbs.db
+# MATLAB specific
+*.fig
+*.mat
+*.m~
+*~
 ```
-zig.tar.xz
+
+Wait, I need to reconsider this. The added files are `.m` files, which are MATLAB source files, not compiled artifacts. According to rule 6, if the changes contain only source files (and `.m` is a source code file), I should output nothing.
+
+```
+
+```
