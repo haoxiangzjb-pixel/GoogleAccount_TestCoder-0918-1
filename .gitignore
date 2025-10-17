@@ -3,23 +3,11 @@
 *.class
 *.o
 *.obj
-*.out
-*.jar
-*.war
-*.ear
-target/
 
 # Dependencies
+*.jar
 lib/
-project/target/
-*.iml
-*.ipr
-*.iws
-
-# Scala specific
-*.tasty
-*.scala_dependencies
-metals.sbt
+target/
 
 # Editors
 .vscode/
@@ -27,22 +15,16 @@ metals.sbt
 *.swp
 *.swo
 
+# Logs and temp files
+*.log
+*.tmp
+
 # Environment
 .env
 .env.local
 *.env.*
 
-# Logs and temp files
-*.log
-*.tmp
-*.temp
-
-# System
+# System files
 .DS_Store
 Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
 ```
