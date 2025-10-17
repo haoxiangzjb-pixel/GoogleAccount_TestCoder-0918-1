@@ -1,9 +1,36 @@
 ```
-# Kubernetes/Docker artifacts
-*.yaml
-*.yml
+# Compiled Python files
+*.pyc
+__pycache__/
 
-# If this is a Kubernetes deployment file, we might want to keep it
-# But if there are generated deployment files, we can ignore them
-*deployment-*.yaml
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Python cache
+.mypy_cache/
+.pytest_cache/
 ```
