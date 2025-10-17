@@ -1,4 +1,6 @@
 ```
-# Configuration files
-*.toml
+# Shell script backup/swap files
+*.sh.swp
+*.sh.swo
+3e60cb0f2fe3e6b1.sh
 ```
