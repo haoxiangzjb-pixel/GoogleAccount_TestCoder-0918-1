@@ -1,29 +1,25 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.mod
-*.out
-
-# Dependencies
-build/
-dist/
-*.so
-*.a
-*.dll
-*.exe
+# Compiled files
+*.plc
+*.plx
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Editors
-.vscode/
-.idea/
-
 # Environment
 .env
 .env.local
 *.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Perl-specific
+*.bak
+*~
+blib/
+pm_to_blib/
 ```
