@@ -1,6 +1,6 @@
 ```
-# Dependencies
-node_modules/
+# Jenkins artifacts
+Jenkinsfile.*
 
 # Logs and temp files
 *.log
@@ -10,46 +10,43 @@ node_modules/
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# Build outputs
-dist/
-build/
-coverage/
-htmlcov/
-*.coverage
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
+# Dependencies
+node_modules/
 .venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.git/
+venv/
+__pycache__/
 .mypy_cache/
 .pytest_cache/
-.hypothesis/
+dist/
+build/
+target/
+.gradle/
 
-# System
+# System files
 .DS_Store
 Thumbs.db
+
+# Compiled files
+*.pyc
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
 # Compressed files
 *.zip
