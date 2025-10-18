@@ -1,82 +1,31 @@
 ```
-# Configuration files
-*.env
-*.env.local
-*.env.*
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
 
-# Docker
-docker-compose*.yml
-!docker-compose.yml
+# Dependencies
+vendor/
 
-# Temporary files
+# Logs and temp files
+*.log
 *.tmp
 *.swp
-*.swo
 
-# Logs
-*.log
+# Environment
+.env
+.env.local
+*.env.*
 
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# Dependencies and build artifacts
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-.venv/
-venv.bak/
-env.bak/
-dist/
-build/
-*.egg-info/
-.tox/
-.coverage
-htmlcov/
-.coverage.*
-.nyc_output/
-coverage/
-.mypy_cache/
-.pytest_cache/
-.hypothesis/
-target/
-.gradle/
-.cargo/
-zig-cache/
-zig-out/
-julia-*/
-*.tar.gz
-*.tar.xz
-*.tar.bz2
-*.tar.zst
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
+# Go-specific
+*.exe
+*.dll
+*.so
+*.a
+*.dylib
+*.plist
 ```
