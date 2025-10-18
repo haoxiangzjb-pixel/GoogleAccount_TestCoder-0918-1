@@ -1,51 +1,17 @@
 ```
-# VBA/Office files
-*.vba
-*.bas
-*.cls
-*.frm
-*.vbp
-*.ds_store
-
-# Python build artifacts
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
+# Compiled and build artifacts
+*.pl~
 
 # Logs and temp files
-*.log
 *.tmp
-*.temp
-*.bak
 *.swp
-*.swo
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# OS generated files
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Distribution / packaging
-dist/
-build/
-*.egg
-*.egg-info/
-*.whl
 ```

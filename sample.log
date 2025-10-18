@@ -1,0 +1,10 @@
+2023-10-01 10:00:01 INFO Application started
+2023-10-01 10:00:02 ERROR Database connection failed
+2023-10-01 10:00:03 WARNING Configuration file missing
+2023-10-01 10:00:04 INFO User login successful
+2023-10-01 10:00:05 ERROR Invalid credentials
+2023-10-01 10:00:06 CRITICAL Server shutdown
+2023-10-01 10:00:07 FATAL Memory allocation failed
+2023-10-01 10:00:08 WARNING Low disk space
+2023-10-01 10:00:09 ERROR File not found
+2023-10-01 10:00:10 INFO Application terminated

@@ -1,0 +1,10 @@
+[2023-10-01 12:00:00] INFO: System initialized
+[2023-10-01 12:00:01] ERROR: Failed to connect to database
+[2023-10-01 12:00:02] WARNING: High memory usage detected
+[2023-10-01 12:00:03] INFO: User authentication successful
+[2023-10-01 12:00:04] CRITICAL: Security breach detected
+[2023-10-01 12:00:05] ERROR: Unable to process request
+[2023-10-01 12:00:06] FATAL: System crash imminent
+[2023-10-01 12:00:07] WARNING: Low disk space
+[2023-10-01 12:00:08] ERROR: Invalid input received
+[2023-10-01 12:00:09] INFO: Shutdown initiated
