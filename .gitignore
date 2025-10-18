@@ -1,1 +1,36 @@
-Nothing should be ignored based on the provided file changes, as they only contain Python source files (.py) which are legitimate source code files that should be tracked in version control.
+```
+# Compiled Java/Scala classes
+*.class
+
+# Dependencies
+target/
+lib/
+project/target/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python (if applicable)
+__pycache__/
+*.pyc
+*.pyo
+.Python
+venv/
+.venv/
+```
