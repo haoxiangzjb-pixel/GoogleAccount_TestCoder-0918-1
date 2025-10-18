@@ -1,5 +1,14 @@
-(pytorch_binary_classifier_5k2m8n9p.py is a source code file, so no .gitignore rules needed)
+```
+#Temp files
+*.tmp
+*.temp
+.temp_*
 
-```python
+#Editor/IDE files
+*.swp
+*.swo
 
+#System files
+.DS_Store
+Thumbs.db
 ```
