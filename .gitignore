@@ -1,23 +1,444 @@
 ```
-# Compiled Java files
-*.class
+# Compiled and build artifacts
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.out
 
 # Dependencies
-lib/
-libs/
-target/
+vendor/
+Godeps/
 
 # Logs and temp files
 *.log
 *.tmp
-
-# Editors
-.vscode/
-.idea/
 *.swp
 
 # Environment
 .env
 .env.local
 .env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Build artifacts
+dist/
+build/
+target/
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.so
+*.egg-info/
+.eggs/
+
+# Node.js specific
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Java specific
+*.class
+*.jar
+*.war
+*.ear
+*.tar
+*.tar.*
+*.gz
+*.rar
+*.zip
+
+# Go specific
+*.a
+*.o
+*.so
+*.out
+coverage.out
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+
+# Environment files
+.env*
+!.env.example
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+.directory
+*.nib
+*~
+.DS_Store?
+._*
+
+# Compressed files
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.tar.bz2
+*.tbz2
+*.tar.xz
+*.txz
+*.gz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.Z
+*.lz
+*.lzo
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.dmg
+*.iso
+*.img
+*.zst
+
+# Cache directories
+.cache/
+.cargo/
+.go/
+.gopath/
+.node-gyp/
+.npm/
+.yarn/
+.pip/
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+.tox/
+.coverage/
+.coverage.*
+
+# Build directories
+bin/
+obj/
+out/
+dist/
+build/
+target/
+release/
+debug/
+_deps/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.venv.bak/
+env.bak/
+
+# Configuration
+config/
+secrets/
+credentials/
+*.key
+*.pem
+*.crt
+*.cert
+*.p12
+*.jks
+*.keystore
+
+# Database
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Testing
+*.log
+coverage/
+htmlcov/
+.coverage
+.nyc_output/
+istanbul/
+.jest/
+
+# Documentation
+docs/_build/
+docs/build/
+
+# Web
+*.css.map
+*.js.map
+staticfiles/
+media/
+
+# Mobile
+*.ipa
+*.apk
+*.aab
+*.aar
+
+# Docker
+.dockerenv
+.dockerinit
+
+# Git
+.git/
+!.gitignore
+
+# Temporary and backup files
+*~
+*.bak
+*.backup
+*.old
+*.orig
+*.tmp
+*.temp
+*.swp
+*.swo
+*#
+
+# Logs
+*.log
+*.out
+*.pid
+*.seed
+
+# OS X
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Linux
+*~
+*.swp
+*.swo
+*#
+.\#
+
+# Windows
+Thumbs.db
+ehthumbs.db
+*.tmp
+*~
+*.bak
+*.old
+*.orig
+*.backup
+*.log
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*~
+*#
+.\#
+
+# Environment variables
+.env
+.env.local
+.env.*
+!.env.example
+
+# Dependencies and build artifacts
+node_modules/
+vendor/
+dist/
+build/
+target/
+bin/
+obj/
+out/
+release/
+debug/
+_deps/
+coverage/
+htmlcov/
+.nyc_output/
+istanbul/
+.jest/
+.cargo/
+.go/
+.gopath/
+.node-gyp/
+.npm/
+.yarn/
+.pip/
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+.tox/
+.coverage/
+.coverage.*
+
+# Virtual environments
+venv/
+.venv/
+env/
+.venv.bak/
+env.bak/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*#
+.\#
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Compressed and archive files
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.tar.bz2
+*.tbz2
+*.tar.xz
+*.txz
+*.gz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.Z
+*.lz
+*.lzo
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.dmg
+*.iso
+*.img
+*.zst
+
+# Compiled files
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.out
+*.pyc
+*.pyo
+*.class
+*.jar
+*.war
+*.ear
+*.a
+*.so
+*.dll
+*.exe
+*.out
+*.out
+*.bin
+*.obj
+*.o
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.tar.bz2
+*.tbz2
+*.tar.xz
+*.txz
+*.gz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.Z
+*.lz
+*.lzo
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.dmg
+*.iso
+*.img
+*.zst
+
+# Temp files
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*~
+*#
+.\#
+
+# Go specific
+*.a
+*.o
+*.so
+*.out
+coverage.out
 ```
