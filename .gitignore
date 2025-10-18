@@ -1,16 +1,1 @@
-```
-# Compiled and build artifacts
-*.asm
-*.o
-*.obj
-*.out
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-```
+Nothing should be ignored in this case, as the added file is a source code file (.swift) and there are no build artifacts, dependencies, or temporary files in the changes.
