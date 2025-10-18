@@ -1,36 +1,28 @@
 ```
-# Compiled Java/Scala classes
-*.class
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.rs.bk
+target/
 
 # Dependencies
-target/
-lib/
-project/target/
+Cargo.lock
+vendor/
 
-# Editor/IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# Editors
+.vscode/
+.idea/
 
-# Python (if applicable)
-__pycache__/
-*.pyc
-*.pyo
-.Python
-venv/
-.venv/
+# Generated files
+user_data_*.json
 ```
