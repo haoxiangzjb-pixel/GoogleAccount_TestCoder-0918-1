@@ -1,15 +1,1 @@
-```
-# Dependencies
-node_modules/
-
-# Logs and temp files
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Package manager
-package-lock.json
-```
+Nothing should be ignored based on the provided file changes. The added file `find_emails.pl` is a source code file (Perl script) that should be tracked in version control.
