@@ -1,31 +1,50 @@
 ```
-# Docker-related
-Dockerfile_*
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Logs and temp files
+# Dependencies
+requirements.txt.bak
+
+# Logs
 *.log
-*.tmp
-*.swp
 
 # Environment
 .env
 .env.local
-.env.*
+*.env
 
-# Editors
+# Coverage
+.coverage
+coverage/
+htmlcov/
+.coverage.*
+.nyc_output/
+
+# IDE
 .vscode/
 .idea/
+*.swp
+*.swo
+*.tmp
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
+# OS
+.DS_Store
+Thumbs.db
 
 # Build artifacts
 dist/
 build/
-target/
+*.egg-info/
+.tox/
+.pytest_cache/
+.mypy_cache/
 ```
