@@ -4,25 +4,10 @@
 *.obj
 *.out
 
-# Dependencies
-target/
-Cargo.lock
+# Executables
+max_array_finder
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# OS generated files
-.DS_Store
-Thumbs.db
+# Generated result files
+*.txt
+!max_array_finder.cpp
 ```
