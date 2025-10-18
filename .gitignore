@@ -1,14 +1,1 @@
-```
-# VBA/Excel related build artifacts
-*.bas
-*.vba
-
-# Compiled VBA files
-*.frx
-
-# Excel temporary files
-*.tmp
-*~.tmp
-*.xlsm
-*.xlsb
-```
+(empty)
