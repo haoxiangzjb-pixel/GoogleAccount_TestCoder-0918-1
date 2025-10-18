@@ -1,1 +1,4 @@
-Nothing to ignore - only a Scala source file was added, which should be tracked in version control.
+```
+# Compiled and build artifacts
+*.ex
+```
