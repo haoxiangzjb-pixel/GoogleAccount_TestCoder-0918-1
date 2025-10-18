@@ -1,23 +1,18 @@
 ```
-# Temporary PHP files
-*.tmp
-*.bak
+# Compiled files
+*.pl~
 
-# Environment and config files
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
-.env.*
+*.env.*
 
-# Logs
-*.log
-
-# Editor files
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# OS files
-.DS_Store
-Thumbs.db
 ```
