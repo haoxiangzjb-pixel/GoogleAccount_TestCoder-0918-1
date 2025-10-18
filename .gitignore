@@ -1,23 +1,15 @@
 ```
-# Temporary PHP files
-*.tmp
-*.bak
-
-# Environment and config files
-.env
-.env.local
-.env.*
-
-# Logs
-*.log
-
-# Editor files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS files
-.DS_Store
-Thumbs.db
+# JSON files that appear to be temporary/generated
+*.json
+!README.json
+!package.json
+!composer.json
+!config.json
+!settings.json
+!manifest.json
+!metadata.json
+!schema.json
+!data.json
+!test.json
+!example.json
 ```
