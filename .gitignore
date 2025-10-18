@@ -1,1 +1,1 @@
-Nothing should be ignored based on the provided file changes. The added file `hello_asm_12345.asm` is a source code file that should be tracked in version control.
+Nothing should be ignored based on the provided file changes. The added file `user_interface_12345.ts` is a TypeScript source file that should be tracked in version control.
