@@ -1,1 +1,39 @@
-Nothing should be ignored based on the provided file changes. The added file `lambda_function_a7b2c9.py` is a source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+target/
+**/target/
+Cargo.lock
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+__pycache__/
+*.swp
+*.swo
+
+# Rust-specific
+**/*.rs.bk
+**/*.rlib
+**/*.dylib
+**/*.so
+**/*.dll
+```
