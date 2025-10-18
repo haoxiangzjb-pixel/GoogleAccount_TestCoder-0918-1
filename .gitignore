@@ -1,30 +1,16 @@
 ```
-# Compiled files
+# Compiled and build artifacts
+*.asm
 *.o
 *.obj
 *.out
-
-# Dependencies
-lib/
-deps/
-.crystal/
-.sass-cache/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-.env.*
-
 # Editors
 .vscode/
 .idea/
-
-# Crystal specific
-.crystal_cache/
-.crystal/
 ```
