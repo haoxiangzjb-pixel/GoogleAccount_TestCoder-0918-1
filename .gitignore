@@ -1,1 +1,9 @@
-Nothing should be ignored since the added file 'dkdkyqmups.dart' is a source code file and there are no build artifacts, dependencies, or temporary files in the changes.
+```
+# Configuration files
+.chef/
+chef/
+Berksfile.lock
+Policyfile.lock
+.kitchen/
+.delivery/
+```
