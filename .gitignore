@@ -1,9 +1,3 @@
-```
-# Configuration files
-.chef/
-chef/
-Berksfile.lock
-Policyfile.lock
-.kitchen/
-.delivery/
-```
+(todo-list-component-12345.jsx is a source code file, so no .gitignore rules needed)
+
+(empty)
