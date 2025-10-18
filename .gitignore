@@ -1,4 +1,4 @@
 ```
-# Configuration files
-*.toml
+# Compiled and build artifacts
+*.ex
 ```
