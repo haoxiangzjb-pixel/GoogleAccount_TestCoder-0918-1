@@ -1,4 +1,33 @@
-(fs is a source code file extension used by F# and other functional languages, so it should not be ignored as it's source code)
-
 ```
+# Compiled files
+*.o
+*.obj
+*.hi
+*.chi
+*.chs
+
+# Dependencies
+.cabal-sandbox/
+.dist-newstyle/
+cabal-dev/
+*.cabal/packages/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+dist-newstyle/
+cabal.project.local
+cabal.project.local~
 ```
