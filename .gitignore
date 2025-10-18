@@ -1,1 +1,12 @@
-Nothing should be ignored based on the provided file changes. The added file `find_emails.pl` is a source code file (Perl script) that should be tracked in version control.
+```toml
+# Configuration files that might contain sensitive data
+*.toml
+```
+
+Wait, I need to reconsider this. The files `7jnt7mib5u.toml` and `app_config.toml` appear to be configuration files that might be intentionally tracked. Since they are `.toml` files which are typically source/config files, I should not ignore them unless they contain sensitive data. Based on the rule that if the change list contains ONLY source or config files and NO build artifacts, dependencies, or temp files, then output nothing.
+
+Since only `.toml` files are added (which are config files), and no build artifacts, dependencies, or temp files are present:
+
+```toml
+
+```
