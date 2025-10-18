@@ -1,68 +1,86 @@
 ```
+# Prolog related
+*.pl~
+
 # Compiled and build artifacts
 *.o
 *.obj
-*.exe
-*.dll
-*.so
-*.a
 *.out
 
 # Dependencies
-node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+env/
 venv/
 .venv/
-__pycache__/
-dist/
-build/
-target/
-.gradle/
+.conda/
+conda-env/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 *.swo
+*~
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# System files
+# OS generated files
 .DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+.directory
+*.nib
+*~
+.DS_Store?
+ehthumbs.db
 Thumbs.db
 
 # Coverage
+.coverage
 coverage/
 htmlcov/
-.coverage
 
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# Testing
+.pytest_cache/
+.mypy_cache/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# System
+.DS_Store
+Thumbs.db
 ```
