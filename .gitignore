@@ -1,24 +1,4 @@
 ```
-#Temp files
-*.tmp
-*.temp
-tmp.*.sql
-
-#Logs
-*.log
-
-#Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-#System files
-.DS_Store
-Thumbs.db
-
-#Environment
-.env
-.env.local
-*.env.*
+# Compiled and binary files
+*.ex
 ```
