@@ -1,5 +1,8 @@
-(dot_product_subroutine.f is a source code file, so no .gitignore rules needed)
+```
+# Temporary files
+*.tmp
+*.temp
 
-```gitignore
-
+# Generated HTML files (if these follow a pattern)
+*_*.html
 ```
