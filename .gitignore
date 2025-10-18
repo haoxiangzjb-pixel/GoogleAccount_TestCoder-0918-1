@@ -1,11 +1,10 @@
 ```
 # Compiled and build artifacts
-*.class
-*.groovy.class
+*.cr
 
 # Dependencies
-.gradle/
-build/
+.julia/
+.julia-*/
 
 # Logs and temp files
 *.log
@@ -15,30 +14,9 @@ build/
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# Coverage and testing
-.coverage
-coverage/
-htmlcov/
-
-# Python specific (if applicable)
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-
-# System files
-.DS_Store
-Thumbs.db
 ```
