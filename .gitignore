@@ -1,31 +1,22 @@
 ```
-# R-specific ignores
-*.RData
-*.Rhistory
-.Rproj.user/
-*.rds
-*.rda
-*.Rproj
-
 # Compiled and build artifacts
-*.o
-*.obj
-*.so
-*.dll
-*.exe
+*.beam
+*.exs~
 
-# Dependencies and packages
-library/
-lib/
-libs/
+# Dependencies
+.deps/
+ebin/
+_include/
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
 
 # Editors
-.Rhistory
-.RData
-.Rproj.user/
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
