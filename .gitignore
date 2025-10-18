@@ -1,22 +1,8 @@
 ```
-# Temporary memory usage files
-*.txt
-!README.md
-!*.py
-!*.sh
+# Temporary files
+*.tmp
+*.temp
 
-# Backup shell scripts
-*.sh
-!check_memory.sh
-!memory_checker_random.sh
-```
-
-Wait, let me reconsider this. The files being added are shell scripts (.sh) and text files (.txt) that appear to be memory check outputs. Since .sh files could be source code, I shouldn't blanket ignore them, and the .txt files seem to be output files from the scripts.
-
-Actually, looking more carefully - these appear to be generated output files (memory usage logs with timestamps in filenames), so they should be ignored:
-
-```
-# Memory usage output files
-memory_check_*.txt
-memory_usage_*.txt
+# Generated HTML files
+*.html
 ```
