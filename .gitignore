@@ -1,3 +1,6 @@
-```rust
+```
+# Generated rules based on file changes
+order_status_*.ts
 
+# Preserve any existing rules
 ```
