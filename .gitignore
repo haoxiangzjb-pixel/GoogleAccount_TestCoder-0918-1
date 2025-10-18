@@ -1,6 +1,12 @@
 ```
-# Compiled files
-*.pl~
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+
+# Dependencies
+.venv/
+venv/
+pip-wheel-metadata/
 
 # Logs and temp files
 *.log
@@ -15,4 +21,9 @@
 # Editors
 .vscode/
 .idea/
+
+# Database connection files
+*.db
+*.sqlite
+*.sqlite3
 ```
