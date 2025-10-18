@@ -1,8 +1,11 @@
 ```
 # Compiled and build artifacts
-*.js.map
-*.js.gz
-*.js.br
+*.pyc
+__pycache__/
+
+# Dependencies
+.venv/
+venv/
 
 # Logs and temp files
 *.log
@@ -12,20 +15,9 @@
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Distribution
-dist/
-build/
-*.tar.gz
-*.zip
 ```
