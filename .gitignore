@@ -1,4 +1,1 @@
-```
-# Compiled and build artifacts
-*.fs
-```
+(load_and_summarize.r is a source file, so no ignores needed)
