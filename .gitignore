@@ -1,28 +1,31 @@
 ```
-# Ruby specific
-*.rbx
-*.rbc
-*.so
-*.o
-*.pyc
-*.pyo
-*.pyd
+# Docker-related
+*.dockerignore
+.dockerenv
+
+# Dependencies
+node_modules/
+.venv/
+venv/
 __pycache__/
-*.gem
-*.rdoc
-*.lock
-.bundle/
-vendor/bundle/
+*.egg-info/
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
 .env.local
-.env.
+*.env.*
 
 # Editors
 .vscode/
@@ -30,35 +33,25 @@ vendor/bundle/
 *.swp
 *.swo
 
-# OS generated files
+# OS
 .DS_Store
 Thumbs.db
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Build artifacts
-dist/
-build/
-target/
-*.out
+# Compiled files
+*.pyc
+*.class
+*.o
 *.exe
 *.dll
 *.so
 *.a
 *.obj
+*.out
 
-# Dependencies
-node_modules/
-.venv/
-venv/
-.mypy_cache/
-.pytest_cache/
-.gradle/
-julia-*/
-zig*/
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
 # Compressed files
 *.zip
