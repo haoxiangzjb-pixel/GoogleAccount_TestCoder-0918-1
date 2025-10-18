@@ -1,32 +1,17 @@
 ```
-# Build system
-Makefile_cpp_project_12345
-
 # Compiled and build artifacts
 *.o
 *.obj
 *.out
-*.exe
-*.dll
-*.so
-*.a
 
 # Dependencies
-build/
-dist/
 target/
-node_modules/
-.venv/
-venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
+Cargo.lock
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Environment
 .env
@@ -37,7 +22,7 @@ __pycache__/
 .vscode/
 .idea/
 
-# System files
+# OS generated files
 .DS_Store
 Thumbs.db
 ```
