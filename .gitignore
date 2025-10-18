@@ -1,32 +1,36 @@
 ```
-# Compiled and build artifacts
-*.cmi
-*.cmo
-*.cmx
-*.cma
-*.cmxa
-*.cmi.depends
-*.cmo.depends
-*.cmx.depends
-*.o
-*.obj
-*.out
+# Compiled Python files
+*.pyc
+__pycache__/
 
-# Dependencies
-.opam/
-_dbuild/
-_build/
+# Virtual environments
+venv/
+.venv/
+env/
 
-# Logs and temp files
+# Logs
 *.log
+
+# Temporary files
 *.tmp
 *.swp
+*.swo
+
+# Environment files
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
+# Coverage reports
+.coverage
+coverage/
+htmlcov/
+
+# Python cache
+.mypy_cache/
+.pytest_cache/
 ```
