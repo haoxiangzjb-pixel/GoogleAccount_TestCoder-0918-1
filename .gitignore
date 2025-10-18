@@ -1,14 +1,13 @@
 ```
 # Compiled and build artifacts
+*.class
 *.o
 *.obj
-*.mod
-*.smod
-*.out
 
 # Dependencies
-build/
-dist/
+*.jar
+*.war
+*.ear
 
 # Logs and temp files
 *.log
@@ -22,16 +21,27 @@ dist/
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
-# Coverage and testing
+# Coverage
 coverage/
 htmlcov/
 .coverage
-*.gcda
-*.gcno
 
-# System files
-.DS_Store
-Thumbs.db
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
+
+# Python (in case of mixed project)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+.env
 ```
