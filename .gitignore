@@ -1,4 +1,4 @@
 ```
-# Ansible
-ansible_copy_random_name_task.yml
+# Temporary files
+tmp.*.md
 ```
