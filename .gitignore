@@ -1,15 +1,8 @@
 ```
-# JSON files that appear to be temporary/generated
-*.json
-!README.json
-!package.json
-!composer.json
-!config.json
-!settings.json
-!manifest.json
-!metadata.json
-!schema.json
-!data.json
-!test.json
-!example.json
+# XML configuration files
+*.xml
+
+# App configuration
+app-config.xml
+bzR34FfgcNq2.xml
 ```
