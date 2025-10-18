@@ -1,5 +1,42 @@
-(red_div_style.css is a source file, so no .gitignore rules needed)
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 
-```gitignore
+# Dependencies
+.venv/
+venv/
+node_modules/
 
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Distribution / packaging
+dist/
+build/
+*.egg
+*.egg-info/
+MANIFEST
+.coverage
+htmlcov/
+.coverage.*
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
