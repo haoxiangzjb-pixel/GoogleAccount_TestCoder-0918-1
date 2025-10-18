@@ -1,3 +1,41 @@
-```zig
+```scala
+# Compiled and build artifacts
+*.class
+*.jar
+*.war
+*.ear
+*.scala_bak
+*.sc_bak
 
+# Dependencies
+lib_managed/
+project/project/
+target/
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+*~
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# System files
+.DS_Store
+Thumbs.db
 ```
