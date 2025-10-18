@@ -1,1 +1,25 @@
-Nothing should be ignored in this case. The added file `matrix_transpose_1586788309.jl` is a Julia source code file, which should be tracked in version control. There are no build artifacts, dependencies, or temporary files in the changes that would warrant adding ignore rules.
+```
+# Compiled and build artifacts
+*.plc
+*.plx
+*.pmc
+
+# Dependencies
+cpan/
+lib/
+blib/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
