@@ -1,1 +1,23 @@
-(load_and_summarize.r is a source file, so no ignores needed)
+```
+#Temp files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+#System files
+.DS_Store
+Thumbs.db
+
+#Logs
+*.log
+
+#Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+#Temp file from changes
+tmp.mANRj9v5qZ.md
+```
