@@ -1,66 +1,81 @@
 ```
-# Configuration files
-*.env
-*.env.local
-*.env.*
+# Compiled and build artifacts
+*.css
+*.js
+*.min.css
+*.min.js
+*.bundle.js
+dist/
+build/
+out/
+target/
 
-# Docker
-docker-compose*.yml
-!docker-compose.yml
+# Dependencies
+node_modules/
+vendor/
+.pip/
+.venv/
+venv/
+env/
 
-# Temporary files
+# Logs and temp files
+*.log
 *.tmp
+*.temp
 *.swp
 *.swo
 
-# Logs
-*.log
+# Environment
+.env
+.env.local
+.env.
+.envrc
 
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Dependencies and build artifacts
-node_modules/
-venv/
-.venv/
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+*.coverage
+
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .Python
-env/
-.venv/
-venv.bak/
-env.bak/
-dist/
-build/
+*.so
 *.egg-info/
-.tox/
-.coverage
-htmlcov/
-.coverage.*
-.nyc_output/
-coverage/
-.mypy_cache/
-.pytest_cache/
-.hypothesis/
+.eggs/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
 target/
 .gradle/
-.cargo/
-zig-cache/
-zig-out/
-julia-*/
-*.tar.gz
-*.tar.xz
-*.tar.bz2
-*.tar.zst
+build/
+
+# C/C++
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Archives
 *.zip
 *.gz
 *.tar
@@ -79,4 +94,8 @@ julia-*/
 *.Z
 *.lz
 *.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
