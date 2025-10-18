@@ -1,14 +1,11 @@
 ```
 # Compiled and build artifacts
-*.o
-*.obj
-*.hi
+*.class
+*.groovy.class
 
 # Dependencies
-.cabal-sandbox/
-dist/
-dist-newstyle/
-.stack-work/
+.gradle/
+build/
 
 # Logs and temp files
 *.log
@@ -19,7 +16,8 @@ dist-newstyle/
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+*.env.*
 ```
