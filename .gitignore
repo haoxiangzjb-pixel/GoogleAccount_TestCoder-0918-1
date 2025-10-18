@@ -1,68 +1,45 @@
 ```
 # Compiled and build artifacts
-*.exe
-*.dll
-*.pdb
-*.so
-*.dylib
-*.class
-*.o
-*.obj
-*.a
-*.lib
-*.out
-
-# .NET specific
-bin/
-obj/
-*.runtimeconfig.json
-*.deps.json
-*.AssemblyAttributes.fs
-*.AssemblyInfo.fs
-*.AssemblyInfoInputs.cache
-*.assets.cache
-*.fsproj.AssemblyReference.cache
-*.fsproj.CoreCompileInputs.cache
-*.fsproj.FileListAbsolute.txt
-*.genruntimeconfig.cache
-*.nupkg
-*.nuspec
-*.nuge*
+*.pyc
+__pycache__/
 
 # Dependencies
-packages/
+.venv/
+venv/
 node_modules/
-vendor/
 
 # Logs and temp files
 *.log
 *.tmp
-*.temp
-*.cache
+*.swp
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# OS generated files
-.DS_Store
-Thumbs.db
-desktop.ini
 
 # Coverage reports
 coverage/
 htmlcov/
-*.coverage
+.coverage
 
-# Build outputs
+# Python specific
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
 dist/
 build/
-target/
+*.egg
+
+# MyPy cache
+.mypy_cache/
+
+# Pytest cache
+.pytest_cache/
 ```
