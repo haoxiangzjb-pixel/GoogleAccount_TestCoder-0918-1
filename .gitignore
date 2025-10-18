@@ -1,26 +1,33 @@
 ```
-# Zig build artifacts
-zig-cache/
-*.zig.cache
-*.o
-*.obj
-*.exe
-*.out
+# Erlang/OTP specific ignores
+*.beam
+*.app
+ebin/
+deps/
+_build/
+.erlang.cookie
 
 # Dependencies
-deps/
+rebar3/
+rebar.lock
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Editors
-.vscode/
-.idea/
-
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
 ```
