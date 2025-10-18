@@ -1,7 +1,15 @@
 ```
-# Executable files
-find_max
-
-# Temporary result files
-*.txt
+# LaTeX build artifacts
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
 ```
