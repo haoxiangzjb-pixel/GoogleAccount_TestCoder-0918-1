@@ -1,16 +1,17 @@
 ```
-# Compiled and build artifacts
-*.class
+# Zig build artifacts
+zig-cache/
+zig-out/
 *.o
 *.obj
-*.out
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
 
 # Dependencies
-venv/
-.venv/
-__pycache__/
-*.pyc
-*.pyo
+deps/
 
 # Logs and temp files
 *.log
@@ -25,9 +26,4 @@ __pycache__/
 .env
 .env.local
 *.env.*
-
-# Build directories
-build/
-dist/
-target/
 ```
