@@ -1,60 +1,46 @@
 ```
-# Generated .gitignore for TypeScript project
-
-# TypeScript build output
-*.js
-*.js.map
-*.ts.buildinfo
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
+.venv/
+venv/
 node_modules/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
 
-# Environment variables
-.env
-.env.local
-*.env.*
-
-# IDE files
-.vscode/
-.idea/
+# Logs and temp files
+*.log
+*.tmp
 *.swp
 *.swo
 
-# Logs
-*.log
+# Environment
+.env
+.env.local
+.env.*
 
-# Coverage
-coverage/
-htmlcov/
-*.coverage
+# Editors
+.vscode/
+.idea/
 
-# Temporary files
-*.tmp
-*.temp
-
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
 
-# Build directories
-dist/
-build/
-target/
-out/
-lib/
-
-# Package manager caches
-.npm/
-.yarn/
-.pnpm/
-.bazel/
-.nyc_output/
-
-# Testing
-*.spec.ts
-*.test.ts
-
-# Compression files
+# Compressed files
 *.zip
 *.gz
 *.tar
