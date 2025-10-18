@@ -1,31 +1,23 @@
 ```
 # Compiled and build artifacts
-*.js.map
-*.js.gz
-*.js.br
+*.o
+*.obj
+*.out
+
+# Assembly related
+*.asm~
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-.env.*
-
 # Editors
 .vscode/
 .idea/
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Distribution
-dist/
-build/
-*.tar.gz
-*.zip
+# Environment
+.env
+.env.local
+*.env.*
 ```
