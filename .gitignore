@@ -1,15 +1,5 @@
-```
-# JSON files that appear to be temporary/generated
-*.json
-!README.json
-!package.json
-!composer.json
-!config.json
-!settings.json
-!manifest.json
-!metadata.json
-!schema.json
-!data.json
-!test.json
-!example.json
+(button-style-4582.css is a source file, not a build artifact or temporary file, so no .gitignore rules are needed)
+
+```css
+
 ```
