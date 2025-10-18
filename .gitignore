@@ -1,4 +1,3 @@
 ```
-# Generated from file changes
-*.thrift
+*.cr
 ```
