@@ -1,29 +1,4 @@
 ```
-# Dart/Flutter
-.dart_tool/
-.packages
-*.dart.js
-*.dart.js.map
-*.part.js
-*.part.js.map
-build/
-*.swo
-*.swp
-*~
-
-# Dependencies
-pubspec.lock
-
-# Environment
-.env
-.env.local
-.env.
-*.env
-
-# Logs
-*.log
-
-# OS generated files
-.DS_Store
-Thumbs.db
+# Compiled files
+*.f
 ```
