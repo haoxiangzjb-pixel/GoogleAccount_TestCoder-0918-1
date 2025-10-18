@@ -1,54 +1,37 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-.env.*
+# Temporary shell scripts
+*.sh~
 
 # Logs and temp files
-*.log
 *.tmp
-*.swp
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Build directories
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
 dist/
 build/
 target/
 .gradle/
 
-# Python specific
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-.Python
-*.so
+# System files
+.DS_Store
+Thumbs.db
 
 # Compressed files
 *.zip
@@ -74,23 +57,19 @@ __pycache__/
 *.tar.xz
 *.tar.zst
 
-# MyPy
-.mypy_cache/
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
-# Pytest
-.pytest_cache/
-
-# TypeScript/JavaScript
-*.js.map
-*.ts.map
-*.jsx.map
-*.tsx.map
-
-# Compiled TypeScript
-*.tsbuildinfo
-
-# IDE specific
-*.swp
-*.swo
-*~
+# Compiled files
+*.pyc
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
 ```
