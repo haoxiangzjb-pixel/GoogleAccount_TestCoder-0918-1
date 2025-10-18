@@ -1,32 +1,44 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-dist/
-build/
-*.class
 *.exe
 *.dll
+*.pdb
 *.so
+*.dylib
+*.class
+*.o
+*.obj
 *.a
+*.lib
 *.out
 
+# .NET specific
+bin/
+obj/
+*.runtimeconfig.json
+*.deps.json
+*.AssemblyAttributes.fs
+*.AssemblyInfo.fs
+*.AssemblyInfoInputs.cache
+*.assets.cache
+*.fsproj.AssemblyReference.cache
+*.fsproj.CoreCompileInputs.cache
+*.fsproj.FileListAbsolute.txt
+*.genruntimeconfig.cache
+*.nupkg
+*.nuspec
+*.nuge*
+
 # Dependencies
-.venv/
-venv/
+packages/
 node_modules/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
+vendor/
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
-*.swo
+*.temp
+*.cache
 
 # Environment
 .env
@@ -36,37 +48,21 @@ target/
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# System files
+# OS generated files
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Coverage
+# Coverage reports
 coverage/
 htmlcov/
-.coverage
+*.coverage
 
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# Build outputs
+dist/
+build/
+target/
 ```
