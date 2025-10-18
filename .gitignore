@@ -1,1 +1,24 @@
-Nothing should be ignored based on the provided file changes. The added files (`generate_hello_function.py` and `vFDB99iAnI.py`) are Python source files, which should not be ignored according to the rules.
+```
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+
+# Dependencies
+lib/
+target/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+```
