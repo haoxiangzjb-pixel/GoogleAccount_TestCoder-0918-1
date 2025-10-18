@@ -1,15 +1,28 @@
 ```
-# Temporary shell scripts
-*.sh~
+# Compiled files
+*.exe
+*.dll
+*.so
+*.o
+*.obj
+*.out
+*.class
+*.pyc
+__pycache__/
 
-# Logs and temp files
-*.tmp
-*.log
-
-# Environment
+# Dependencies
+node_modules/
+venv/
+.venv/
 .env
 .env.local
 *.env.*
+
+# Build directories
+dist/
+build/
+target/
+.gradle/
 
 # Editors
 .vscode/
@@ -17,21 +30,21 @@
 *.swp
 *.swo
 
-# Dependencies
-node_modules/
-.venv/
-venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
-
 # System files
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+.mypy_cache/
+.pytest_cache/
 
 # Compressed files
 *.zip
@@ -56,20 +69,4 @@ Thumbs.db
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Compiled files
-*.pyc
-*.class
-*.o
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
 ```
