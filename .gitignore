@@ -1,44 +1,33 @@
 ```
-# Docker
-Dockerfile*
+# Temporary files
+*.tmp
+*.temp
 
-# Dependencies
-node_modules/
-.venv/
-venv/
-__pycache__/
-*.egg-info/
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
+# Random generated files
+random_filename.txt
 
-# Environment
+# Backup files
+*~
+*.bak
+*.backup
+
+# Logs
+*.log
+
+# Environment files
 .env
 .env.local
 .env.*
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Editors
+# Editor files
 .vscode/
 .idea/
 *.swp
+*.swo
 
-# OS
+# System files
 .DS_Store
 Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
 
 # Compressed files
 *.zip
