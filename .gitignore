@@ -1,48 +1,78 @@
 ```
-# XML files that might be generated/config files
-*.xml
+# Compiled files
+*.pyc
+__pycache__/
 
-# Environment files
+# Dependencies
+.venv/
+venv/
+pip-log.txt
+pip-selfcheck.json
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.temp
-
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# OS files
+# OS generated files
 .DS_Store
 Thumbs.db
 
-# Build artifacts
-*.o
-*.obj
-*.out
-*.exe
-*.dll
-*.so
-*.a
+# Coverage reports
+.coverage
+coverage/
+htmlcov/
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.pyc
-dist/
+# Python specific
+*.py[cod]
+*$py.class
+*.so
+.Python
 build/
-target/
-.gradle/
-.mypy_cache/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing
 .pytest_cache/
+.mypy_cache/
+.tox/
+.coverage*
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
 ```
