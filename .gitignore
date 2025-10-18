@@ -1,12 +1,8 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-
-# Dependencies
-.venv/
-venv/
-node_modules/
+*.css.map
+*.css.gz
+*.css.br
 
 # Logs and temp files
 *.log
@@ -16,29 +12,21 @@ node_modules/
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Coverage reports
+# Coverage and testing
 coverage/
 htmlcov/
 .coverage
+*.coverage
 
-# Python specific
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Backup files
-*~
-*.bak
-*.swp
-
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
 ```
