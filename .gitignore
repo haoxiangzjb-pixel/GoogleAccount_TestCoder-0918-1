@@ -1,4 +1,12 @@
 ```
-# Compiled files
-*.fs
+# Executables
+max_finder
+
+# Output files
+*.txt
+
+# Compiled artifacts
+*.o
+*.obj
+*.out
 ```
