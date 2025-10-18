@@ -1,17 +1,24 @@
 ```
+# Zig build artifacts
+*.zig
+zig-cache/
+zig-out/
+
 # Compiled and build artifacts
 *.o
 *.obj
-*.exe
-*.dll
-*.so
-*.a
 *.out
+build/
 
 # Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
 target/
-**/target/
-Cargo.lock
+.gradle/
 
 # Logs and temp files
 *.log
@@ -26,14 +33,8 @@ Cargo.lock
 # Editors
 .vscode/
 .idea/
-__pycache__/
-*.swp
-*.swo
 
-# Rust-specific
-**/*.rs.bk
-**/*.rlib
-**/*.dylib
-**/*.so
-**/*.dll
+# System files
+.DS_Store
+Thumbs.db
 ```
