@@ -1,5 +1,1 @@
-(pytorch_binary_classifier_5k2m8n9p.py is a source code file, so no .gitignore rules needed)
-
-```python
-
-```
+Nothing should be ignored based on the provided file changes. The added file `get-user-info.ps1` is a PowerShell script file, which is source code and should be tracked in version control. No build artifacts, dependencies, or temporary files are present in the changes.
