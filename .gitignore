@@ -1,37 +1,39 @@
 ```
+# Docker-related
+Dockerfile*
+
 # Compiled and build artifacts
-*.cr
 *.pyc
-*.class
+__pycache__/
 *.o
+*.obj
 *.exe
 *.dll
 *.so
 *.a
-*.obj
 *.out
 
 # Dependencies
-node_modules/
-venv/
 .venv/
-__pycache__/
+venv/
+node_modules/
 dist/
 build/
-.mypy_cache/
-.pytest_cache/
 target/
 .gradle/
+.mypy_cache/
+.pytest_cache/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
