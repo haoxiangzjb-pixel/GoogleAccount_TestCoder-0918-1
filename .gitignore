@@ -1,1 +1,42 @@
-Nothing should be ignored based on the provided file changes, as they are only Lua source files (.lua) which are legitimate source code files that should be tracked in version control.
+```
+# Configuration and deployment files
+*.yml
+*.yaml
+
+# Serverless framework
+.serverless/
+.sls/
+.serverless_plugins/
+
+# Environment and local config
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Build artifacts (if any)
+dist/
+build/
+target/
+```
