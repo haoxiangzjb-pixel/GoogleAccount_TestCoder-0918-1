@@ -1,1 +1,15 @@
-Nothing should be ignored since the added file 'jjlxhdvy7l.cpp' is a source code file (.cpp extension) and no build artifacts, dependencies, or temporary files are present in the changes.
+```
+# LaTeX auxiliary files
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
+```
