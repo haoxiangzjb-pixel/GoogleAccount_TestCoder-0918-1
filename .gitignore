@@ -1,46 +1,11 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-
-# Dependencies
-.venv/
-venv/
-pip-wheel-metadata/
-
-# Logs and temp files
-*.log
+# Temporary files
 *.tmp
-*.swp
+tmp.*
 
-# Environment
-.env
-.env.local
-*.env.*
+# HTML temp files
+*.html
 
-# Editors
-.vscode/
-.idea/
-
-# Python specific
-*.py[co]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+# Logs
+*.log
 ```
