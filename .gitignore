@@ -1,5 +1,31 @@
-(ts is a source code file, no build artifacts or dependencies detected in the changes)
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
 
-```typescript
+# Dependencies
+.venv/
+venv/
+node_modules/
 
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Distribution and build directories
+dist/
+build/
+target/
 ```
