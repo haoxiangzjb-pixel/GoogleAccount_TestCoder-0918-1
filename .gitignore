@@ -1,4 +1,4 @@
 ```
-# Configuration files
-serverless-*.yml
+# Generated from file changes
+*.thrift
 ```
