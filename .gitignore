@@ -1,4 +1,38 @@
 ```
+# OCaml build artifacts
+*.cmi
+*.cmo
+*.cmx
+*.cma
+*.cmxa
+*.cmxs
+*.o
+*.a
+*.so
+*.exe
+
+# Dune build directory
+_build/
+
+# OPAM local switch
+.opam/
+
+# Merlin configuration
+.merlin
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
 # Temporary files
-tmp.*.md
+*.tmp
 ```
