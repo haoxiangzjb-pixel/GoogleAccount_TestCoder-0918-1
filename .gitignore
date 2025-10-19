@@ -1,4 +1,20 @@
 ```
-# Compiled and build artifacts
-*.ex
+# Log files
+*.log
+
+# Perl temporary files
+*.pl~
+*.plx~
+*.pm~
+*.t~
+
+# Backup files
+*~
+*.bak
+*.old
+*.orig
+
+# Temporary files
+*.tmp
+*.temp
 ```
