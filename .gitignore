@@ -1,15 +1,8 @@
 ```
-# JSON files that appear to be temporary/generated
-*.json
-!README.json
-!package.json
-!composer.json
-!config.json
-!settings.json
-!manifest.json
-!metadata.json
-!schema.json
-!data.json
-!test.json
-!example.json
+# Compiled Haskell files
+*.o
+*.hi
+
+# Executables
+listLength
 ```
