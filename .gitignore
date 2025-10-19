@@ -4,8 +4,11 @@
 *.obj
 *.out
 
-# Assembly related
-*.asm~
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
 # Logs and temp files
 *.log
@@ -20,4 +23,9 @@
 .env
 .env.local
 *.env.*
+
+# Build directories
+build/
+dist/
+target/
 ```
