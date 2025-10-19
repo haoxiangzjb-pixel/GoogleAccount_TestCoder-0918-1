@@ -1,69 +1,54 @@
 ```
-# Generated .gitignore for Go project
-
-# Compiled binaries
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.class
 *.exe
 *.dll
 *.so
 *.a
-*.o
 *.out
-*.obj
 
-# Go build artifacts
-*.test
-*.prof
-*.syso
-
-# Dependency management
-vendor/
-go.mod
-go.sum
-
-# Environment files
+# Dependencies
+node_modules/
+venv/
+.venv/
 .env
 .env.local
-*.env.*
+.env.*
 
-# Logs
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
+# Logs and temp files
 *.log
-
-# Editor/IDE files
-.vscode/
-.idea/
+*.tmp
 *.swp
 *.swo
-*~
+
+# Editors
+.vscode/
+.idea/
+
+# System files
 .DS_Store
 Thumbs.db
 
 # Coverage
 coverage/
 htmlcov/
-*.coverage
+.coverage
 
-# Build directories
-build/
-dist/
-target/
-
-# Python artifacts (if any mixed)
-__pycache__/
+# Python specific
 *.pyc
-*.pyo
-*.pyd
-
-# Node artifacts (if any mixed)
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Temporary files
-*.tmp
-*.temp
-*.bak
-*.backup
+__pycache__/
+.mypy_cache/
+.pytest_cache/
 
 # Compressed files
 *.zip
@@ -88,13 +73,4 @@ yarn-error.log*
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# Cache directories
-.cache/
-.cargo/
-.go/
-.gopath/
-.mypy_cache/
-.pytest_cache/
-.gradle/
 ```
