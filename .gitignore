@@ -1,1 +1,45 @@
-Nothing to output - the change list contains only a source code file (.cs) and no build artifacts, dependencies, or temp files that need to be ignored.
+```gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# Generated files
+*.py[cod]
+*$py.class
+*$pyc.class
+*~
+.DS_Store
+Thumbs.db
+
+# Local configuration
+.local/
+.config/
+.settings/
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.local
+.env.*
+!.env.example
+```
