@@ -1,1 +1,1 @@
-Nothing should be ignored in this case, as the only added file is a source code file (.cpp) and there are no build artifacts, dependencies, or temporary files in the changes.
+Nothing should be ignored in this case, as the added file 'waMj19g0.f90' is a source code file (.f90 is a Fortran source file extension) and there are no build artifacts, dependencies, or temporary files in the changes list.
