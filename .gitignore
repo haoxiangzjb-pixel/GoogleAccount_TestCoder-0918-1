@@ -1,14 +1,14 @@
 ```
-# Zig build artifacts
-zig-cache/
-*.zig.cache
+# Compiled and build artifacts
 *.o
 *.obj
-*.exe
 *.out
 
 # Dependencies
-deps/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
 # Logs and temp files
 *.log
@@ -23,4 +23,9 @@ deps/
 .env
 .env.local
 *.env.*
+
+# Build directories
+dist/
+build/
+target/
 ```
