@@ -1,51 +1,32 @@
-```julia
-# Julia-specific ignores
-*.jl.cov
-*.jl.mem
-*.jl.info
-*.jl.prof
-*.jl.trace
-*.jl.lcov
-*.jl.out
-*.jl.err
-
-# Build artifacts
-build/
-dist/
-*.so
-*.dylib
-*.dll
+```
+# Compiled and build artifacts
+*.class
+*.groovy.class
 
 # Dependencies
-.julia/
-Pkg.add/
-Pkg.rm/
-Pkg.update/
-Manifest.toml
-Project.toml.bak
+.gradle/
+target/
 
-# Temporary files
-*.tmp
-*.temp
+# Logs and temp files
 *.log
-
-# Environment
-.env
-.env.local
-.env.*
+*.tmp
 
 # Editors
 .vscode/
 .idea/
 *.swp
-*.swo
 
-# Coverage
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage and testing
+.coverage
 coverage/
 htmlcov/
-.coverage
 
-# System
+# System files
 .DS_Store
 Thumbs.db
 ```
