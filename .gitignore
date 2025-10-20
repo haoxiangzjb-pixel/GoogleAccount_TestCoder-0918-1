@@ -1,4 +1,7 @@
 ```
 # Compiled and build artifacts
-*.f
+*.asm
+*.o
+*.obj
+*.out
 ```
