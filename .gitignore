@@ -1,3 +1,10 @@
-(todo-list-component-12345.jsx is a source code file, so no .gitignore rules needed)
+```
+# Backup files
+*.bak
 
-(empty)
+# Temporary test files
+test_file*.txt.bak
+
+# Generated backup scripts
+backup_script_*.sh
+```
