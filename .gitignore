@@ -1,32 +1,31 @@
 ```
 # Compiled and build artifacts
-*.cmi
-*.cmo
-*.cmx
-*.cma
-*.cmxa
-*.cmi.depends
-*.cmo.depends
-*.cmx.depends
+*.pyc
+__pycache__/
 *.o
 *.obj
-*.out
 
 # Dependencies
-.opam/
-_dbuild/
-_build/
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
+# Environment
+.env
+.env.local
+*.env.*
+
 # Editors
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
+# Distribution and build directories
+dist/
+build/
+target/
 ```
