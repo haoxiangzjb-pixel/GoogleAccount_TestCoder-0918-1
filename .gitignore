@@ -1,4 +1,39 @@
 ```
 # Compiled and build artifacts
-*.ex
+*.class
+*.jar
+*.war
+*.ear
+*.scala_class
+*.sbt
+target/
+
+# Dependencies
+lib_managed/
+project/project/
+project/target/
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# System files
+.DS_Store
+Thumbs.db
 ```
