@@ -1,34 +1,53 @@
 ```
+# PHP-specific ignores
+*.php~
+*.php.bak
+*.php.swp
+
 # Compiled and build artifacts
-*.plc
+*.pyc
+__pycache__/
 *.o
 *.obj
-*.out
+*.exe
+*.dll
+*.so
+*.class
 
 # Dependencies
-cpan/
-local/
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Editors
 .vscode/
 .idea/
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Coverage and testing
-.coverage
-coverage/
-htmlcov/
-
 # System files
 .DS_Store
 Thumbs.db
+
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Cache directories
+.mypy_cache/
+.pytest_cache/
 ```
