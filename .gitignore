@@ -1,15 +1,20 @@
-```
-# Erlang/OTP specific ignores
-*.beam
-*.app
-ebin/
-deps/
-_build/
-.erlang.cookie
+```r
+# R-specific ignores
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata/
+*.Rproj
 
 # Dependencies
-rebar3/
-rebar.lock
+renv/
+packrat/
+
+# Compiled artifacts
+*.so
+*.o
+*.dll
+*.dylib
 
 # Logs and temp files
 *.log
@@ -19,7 +24,7 @@ rebar.lock
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
@@ -27,7 +32,7 @@ rebar.lock
 *.swp
 *.swo
 
-# System files
+# OS files
 .DS_Store
 Thumbs.db
 ```
