@@ -1,1 +1,11 @@
-Nothing should be ignored based on the provided file changes. The added file 'Sdwd2d7dm4.R' appears to be a source code file that should be tracked in version control.
+```
+# JSON files that might be temporary or generated
+*.json
+
+# Temp files
+*.tmp
+*.temp
+
+# Logs
+*.log
+```
