@@ -1,0 +1,30 @@
+/* CSS styles for a button with shadow effect */
+
+.shadow-button {
+  /* Basic button styling */
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #4a7bff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+  /* Shadow effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Hover effect to enhance the shadow */
+.shadow-button:hover {
+  background-color: #3a6bff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25), 0 8px 24px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+/* Active effect when button is pressed */
+.shadow-button:active {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 3px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(0);
+}
