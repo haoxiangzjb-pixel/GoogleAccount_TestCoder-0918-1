@@ -1,24 +1,6 @@
 ```
-# Generated .gitignore for Go project
-
-# Compiled binaries
-*.exe
-*.dll
-*.so
-*.a
-*.o
-*.out
-*.obj
-
-# Go build artifacts
-*.test
-*.prof
-*.syso
-
-# Dependency management
-vendor/
-go.mod
-go.sum
+# SQL query files
+*.sql
 
 # Environment files
 .env
@@ -28,42 +10,45 @@ go.sum
 # Logs
 *.log
 
+# Temporary files
+*.tmp
+*.temp
+
 # Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
-.DS_Store
-Thumbs.db
 
-# Coverage
-coverage/
-htmlcov/
-*.coverage
-
-# Build directories
-build/
-dist/
-target/
-
-# Python artifacts (if any mixed)
+# Dependencies
+node_modules/
+venv/
+.venv/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Node artifacts (if any mixed)
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Build artifacts
+dist/
+build/
+target/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Temporary files
-*.tmp
-*.temp
-*.bak
-*.backup
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
 
 # Compressed files
 *.zip
@@ -88,13 +73,4 @@ yarn-error.log*
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# Cache directories
-.cache/
-.cargo/
-.go/
-.gopath/
-.mypy_cache/
-.pytest_cache/
-.gradle/
 ```
