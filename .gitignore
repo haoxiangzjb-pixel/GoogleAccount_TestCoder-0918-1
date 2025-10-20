@@ -1,12 +1,32 @@
 ```
-# Compiled and build artifacts
-*.pro~
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+terraform.tfplan
+terraform.tfstate.backup
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.
 
 # Editors
+.vscode/
+.idea/
 *.swp
 *.swo
 
-# Logs and temp files
-*.tmp
-*.log
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
