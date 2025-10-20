@@ -1,33 +1,22 @@
 ```
-# Compiled files
-*.o
-*.obj
-*.hi
-*.chi
-*.chs
+# Build artifacts
+dist/
+build/
+*.js
 
 # Dependencies
-.cabal-sandbox/
-.dist-newstyle/
-cabal-dev/
-*.cabal/packages/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
 .idea/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Build artifacts
-dist/
-dist-newstyle/
-cabal.project.local
-cabal.project.local~
 ```
