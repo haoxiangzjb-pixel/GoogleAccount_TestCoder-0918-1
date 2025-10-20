@@ -1,7 +1,9 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-sort_array
+# Temporary files
+*.tmp
+
+# Process output files
+*.txt
+processes_*.txt
+example_processes_*.txt
 ```
