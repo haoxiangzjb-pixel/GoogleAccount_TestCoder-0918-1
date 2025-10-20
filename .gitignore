@@ -1,3 +1,28 @@
-(book_Yw2G8K.json is a data file, not a build artifact, dependency, or temporary file - it appears to be source content that should be tracked in git)
+```
+# Compiled and binary files
+*.plc
+*.plx
 
-(empty - output nothing)
+# Perl-specific
+perl-*/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Backup files
+*~
+*.bak
+*.orig
+*.rej
+```
