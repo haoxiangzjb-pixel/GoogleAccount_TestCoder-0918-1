@@ -1,11 +1,22 @@
 ```
-# Compiled and build artifacts
+# R-specific ignores
+*.RData
+*.Rhistory
+*.Rproj.user/
+.Rproj.user/
+.Rprofile
+.Renviron
+.Rbuildignore
+
+# Compiled files
 *.o
-*.obj
-*.out
+*.so
+*.dll
+*.dylib
 
 # Dependencies
-vendor/
+renv/
+packrat/
 
 # Logs and temp files
 *.log
@@ -20,12 +31,10 @@ vendor/
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Go-specific
-*.exe
-*.dll
-*.so
-*.a
-*.dylib
-*.plist
+# OS
+.DS_Store
+Thumbs.db
 ```
