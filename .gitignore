@@ -1,44 +1,31 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-
-# Dependencies
-.venv/
-venv/
-node_modules/
-
 # Logs and temp files
+*.txt
 *.log
 *.tmp
-*.swp
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Python specific
+# Python
 *.pyc
 __pycache__/
 *.pyo
 *.pyd
 .Python
-*.so
+env/
+venv/
+.venv/
+.venv*/
+.ENV/
+.env
+.env.*
+.venv.bak/
+venv.bak/
 
-# Backup files
-*~
-*.bak
-*.swp
-*.swo
+# PowerShell
+*.ps1xml
+*.psc1
+*.psd1
+*.psm1
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Generated files
+processes_*.txt
 ```
