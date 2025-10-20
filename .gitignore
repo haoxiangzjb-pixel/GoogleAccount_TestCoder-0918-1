@@ -1,1 +1,28 @@
-(load_and_summary.R is a source file, so no .gitignore rules needed)
+```
+# Build artifacts
+*.o
+*.obj
+*.out
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+```
