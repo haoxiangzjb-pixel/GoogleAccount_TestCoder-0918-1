@@ -1,23 +1,27 @@
 ```
-# Compiled and build artifacts
-*.beam
-*.o
-*.obj
-
-# Dependencies
-.erlang.cookie
-.rebar3/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
 
 # Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# Configuration
 .env
 .env.local
 .env.*
