@@ -1,34 +1,3 @@
-```
-# Dependencies
-node_modules/
+(dot_product_subroutine.f is a source file, so no ignores needed)
 
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Build artifacts
-dist/
-build/
-*.js.map
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# System files
-.DS_Store
-Thumbs.db
-```
+(empty — output nothing)
