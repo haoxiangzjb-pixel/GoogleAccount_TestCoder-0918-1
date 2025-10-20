@@ -1,39 +1,74 @@
 ```
-# R-specific files
-*.RData
-*.Rhistory
-*.Rproj.user/
-.Rproj.user/
-.Rapp.history
-.Rbuildignore
+# Configuration files
+*.yaml
+*.yml
 
-# Compiled files
-*.o
-*.so
-*.dll
-*.dylib
-
-# Temporary files
-*.tmp
-*.temp
-*~
-
-# Logs
-*.log
-
-# Environment files
+# Environment and temporary files
 .env
 .env.local
-*.env.*
+*.tmp
+*.log
 
-# Editor/IDE files
+# Editors and IDEs
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Build/distribution files
+# Dependencies and build artifacts
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.class
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
 dist/
 build/
+target/
+.venv/
+venv/
+.env
+.env.local
+.env.*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage and testing
+.coverage
+coverage/
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
 *.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
