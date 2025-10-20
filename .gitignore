@@ -1,19 +1,5 @@
-```
-# Compiled and build artifacts
-*.class
-*.o
-*.obj
+(matrix_mult_script.py is a source file, and there are no build artifacts, dependencies, or temp files in the changes)
 
-# Dependencies
-target/
-build/
+```python
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
 ```
