@@ -1,4 +1,12 @@
 ```
-# Compiled and build artifacts
-*.ex
+# Compiled files
+*.m~
+
+# Logs and temp files
+*.tmp
+*.log
+
+# Editor/IDE files
+*.swp
+*.swo
 ```
