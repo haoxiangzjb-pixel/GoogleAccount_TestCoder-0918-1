@@ -1,1 +1,12 @@
-Nothing should be ignored based on the provided file changes. The added file 'MIQd7vuEzI.py' is a source code file that should be tracked in version control.
+```
+# Temporary shell scripts
+*.sh~
+
+# Logs and temp files
+*.tmp
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+```
