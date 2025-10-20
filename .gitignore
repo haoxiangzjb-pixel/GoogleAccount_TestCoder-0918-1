@@ -1,35 +1,27 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
+*.nimble
+*.nims
+*.out
+*.exe
 
 # Dependencies
-.venv/
-venv/
-pip-tools/
+.nimble/
+nimcache/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
 # Environment
 .env
 .env.local
 *.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Testing
-.pytest_cache/
-.coverage
-coverage/
-htmlcov/
-
-# Distribution artifacts
-dist/
-build/
-*.egg-info/
 ```
