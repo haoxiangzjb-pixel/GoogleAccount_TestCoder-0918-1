@@ -1,15 +1,1 @@
-```
-# Compiled files
-*.class
-
-# Scala specific
-*.scala~
-
-# Temporary files
-*.tmp
-*.swp
-*.swo
-
-# Logs
-*.log
-```
+(recipe_install_package_7382.rb is a source code file, not a build artifact or temporary file, so no .gitignore rules are needed)
