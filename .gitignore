@@ -1,14 +1,6 @@
 ```
-# PowerShell script backup/swap files
-*.ps1~
-*~
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# System files
-.DS_Store
-Thumbs.db
+# Swap files and temporary data
+*swap_output_*.txt
+*swap_output_*.dat
+swap_template
 ```
