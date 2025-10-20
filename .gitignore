@@ -1,23 +1,31 @@
 ```
-# Temporary PHP files
-*.tmp
-*.bak
+# Docker-related
+Dockerfile_*
 
-# Environment and config files
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
 .env.*
 
-# Logs
-*.log
-
-# Editor files
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# OS files
-.DS_Store
-Thumbs.db
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+
+# Build artifacts
+dist/
+build/
+target/
 ```
