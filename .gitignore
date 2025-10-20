@@ -1,40 +1,29 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
+# LaTeX build artifacts
+*.aux
 *.log
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.idx
+*.ind
+*.ilg
+*.pdf
+*.dvi
+*.ps
+*.synctex.gz
+
+# TeXstudio and other LaTeX editors
+*.fls
+*.fdb_latexmk
+*.synctex(busy)
+*.cb
+
+# Temporary files
 *.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# Python specific
-*.pyo
-*.pyd
-.Python
-*.so
-*.egg-info/
-
-# System files
-.DS_Store
-Thumbs.db
+*.bak
+*.backup
 ```
