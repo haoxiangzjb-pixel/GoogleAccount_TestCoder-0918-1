@@ -2,9 +2,9 @@
 # Compiled and build artifacts
 *.pyc
 __pycache__/
-*.class
 *.o
 *.obj
+*.class
 *.exe
 *.dll
 *.so
@@ -21,6 +21,7 @@ target/
 .gradle/
 .mypy_cache/
 .pytest_cache/
+.julia/
 
 # Logs and temp files
 *.log
@@ -31,7 +32,7 @@ target/
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
