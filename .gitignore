@@ -1,3 +1,23 @@
-(date-formatter-pipe-x9uufpds.ts is a TypeScript source file, which should not be ignored)
+```
+# Compiled files
+*.plc
+*.plx
 
-(empty — output nothing)
+# Dependencies
+cpanfile/
+local/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+```
