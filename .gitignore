@@ -1,4 +1,15 @@
 ```
-# Compiled and build artifacts
-*.ex
+# Temporary files
+*.tmp
+*.sh.swp
+*.sh.swo
+
+# Backup files
+*~
+
+# Original added files that appear to be temporary
+tmp.*.sh
+
+# Logs
+*.log
 ```
