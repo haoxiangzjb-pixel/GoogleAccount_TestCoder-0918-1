@@ -1,32 +1,72 @@
 ```
-# Elixir/Erlang specific ignores
-*.beam
-*.ez
-ebin/
-_build/
-cover/
-.erlang.cookie
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
 
 # Dependencies
-deps/
-lib/
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Environment
 .env
 .env.local
 .env.*
 
-# Logs and temp files
-*.log
-*.tmp
-
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# System files
+# Build directories
+build/
+dist/
+target/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.so
+*.egg
+*.egg-info/
+.eggs/
+
+# Java
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Testing
+.mypy_cache/
+.pytest_cache/
+.nyc_output/
+coverage/
+
+# OS generated files
 .DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+.directory
+*.nib
+*~
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 ```
