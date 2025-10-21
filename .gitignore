@@ -1,46 +1,62 @@
-```
-# Compiled and build artifacts
+#Compiled and build artifacts
+*.pyc
 *.class
-*.jar
-*.war
-*.ear
-*.scala~
-
-# Dependencies
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+#Dependencies
+.venv/
+venv/
+node_modules/
 target/
-lib_managed/
-project/target/
-
-# Logs and temp files
+.gradle/
+.julia/
+julia-*/
+zig*/
+#Logs and temp files
 *.log
 *.tmp
 *.swp
-
-# Environment
+*.swo
+#Environment files
 .env
 .env.local
 .env.*
-
-# Editors
+#Editors and IDEs
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# OS
+#System files
 .DS_Store
 Thumbs.db
-
-# Coverage
+#Coverage and test artifacts
 coverage/
 htmlcov/
 .coverage
-
-# Scala specific
-*.tasty
-*.jar
-*.class
-*.log
-.DS_Store
-!scala_sum_function_12345.scala
-```
+.mypy_cache/
+.pytest_cache/
