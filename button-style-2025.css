@@ -1,0 +1,47 @@
+/* CSS стили для кнопки с тенью */
+
+.button-with-shadow {
+  /* Основные стили кнопки */
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  
+  /* Тень */
+  box-shadow: 
+    0 4px 8px rgba(0, 0, 0, 0.2),
+    0 6px 20px rgba(0, 0, 0, 0.19);
+  
+  /* Плавный переход для эффектов при наведении */
+  transition: all 0.3s ease;
+}
+
+/* Эффект при наведении */
+.button-with-shadow:hover {
+  background-color: #357ae8;
+  box-shadow: 
+    0 6px 12px rgba(0, 0, 0, 0.25),
+    0 8px 24px rgba(0, 0, 0, 0.22);
+  transform: translateY(-2px);
+}
+
+/* Эффект при нажатии */
+.button-with-shadow:active {
+  box-shadow: 
+    0 2px 4px rgba(0, 0, 0, 0.2),
+    0 3px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(0);
+}
+
+/* Фокус для доступности */
+.button-with-shadow:focus {
+  outline: none;
+  box-shadow: 
+    0 0 0 3px rgba(74, 144, 226, 0.4),
+    0 4px 8px rgba(0, 0, 0, 0.2),
+    0 6px 20px rgba(0, 0, 0, 0.19);
+}
