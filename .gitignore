@@ -1,1 +1,9 @@
-(date-format.pipe.ts is a source file, so no .gitignore rules needed)
+# Temporary and log files
+tmp.*
+*.ini
+*.log
+*.tmp
+*.swp
+*.swo
+*.log
+*.tmp
