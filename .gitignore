@@ -1,52 +1,79 @@
-```
-# Configuration and deployment files
-*.yaml
-*.yml
-
-# Environment and sensitive files
-.env
-.env.local
-*.env.*
-
-# Logs and temporary files
-*.log
-*.tmp
-*.swp
-
-# Editors and IDE
-.vscode/
-.idea/
-
-# Python
-__pycache__/
+# Compiled and build artifacts
 *.pyc
-*.pyo
-*.pyd
-.Python
-venv/
-.venv/
-env/
-ENV/
-
-# Node.js
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Build artifacts
-dist/
-build/
-coverage/
-htmlcov/
-*.out
+__pycache__/
+*.o
+*.obj
 *.exe
 *.dll
 *.so
 *.a
-*.obj
+*.out
+*.class
+*.jar
+dist/
+build/
+target/
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 
-# OS generated files
+# Dependencies
+node_modules/
+venv/
+.venv/
+.julia/
+.julia-*/
+.julia/
+julia-*/
+zig*/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+*.tmp
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# System files
 .DS_Store
 Thumbs.db
-```
+
+# Coverage and test artifacts
+coverage/
+htmlcov/
+.coverage
+.coverage.*
+.coverage*
+
+# Docker-related files (if not needed in repo)
+Dockerfile.*
+.dockerignore
