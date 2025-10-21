@@ -1,5 +1,39 @@
-(flask_app_7294.py is a source file, so no .gitignore content needed)
+# Compiled and build artifacts
+*.ji
+*.so
+*.cache
+compiled/
 
-```python
+# Julia-specific directories and files
+julia-*/
+share/julia/compiled/
+share/julia/base.cache
+share/julia/julia-config.jl
 
-```
+# Dependency directories
+share/julia/stdlib/
+share/julia/test/
+share/julia/Artifacts/
+share/julia/Manifest.toml
+share/julia/Project.toml
+share/julia/registry/
+share/julia/registries/
+
+# Compressed files
+*.tar.gz
+*.tgz
+*.zip
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
