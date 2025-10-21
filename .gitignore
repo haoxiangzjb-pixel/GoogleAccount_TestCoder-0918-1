@@ -1,48 +1,68 @@
-```
-# XML files that might be generated/config files
-*.xml
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.temp
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Build artifacts
+# Compiled and build artifacts
+*.pyc
+*.class
 *.o
 *.obj
-*.out
 *.exe
 *.dll
 *.so
 *.a
+*.out
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 
 # Dependencies
 node_modules/
 venv/
 .venv/
 __pycache__/
-*.pyc
 dist/
 build/
-target/
-.gradle/
 .mypy_cache/
 .pytest_cache/
-```
+target/
+.gradle/
+julia-*/
+zig*/
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+*.tmp
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage and test reports
+coverage/
+htmlcov/
+.coverage
