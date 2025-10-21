@@ -1,5 +1,68 @@
-(pytorch_binary_classifier_5k2m8n9p.py is a source code file, so no .gitignore rules needed)
+#Compiled and build artifacts
+*.pyc
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 
-```python
+#Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
 
-```
+#Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+#Environment files
+.env
+.env.local
+.env.*
+
+#Editors and IDEs
+.vscode/
+.idea/
+
+#System files
+.DS_Store
+Thumbs.db
+
+#Coverage and test artifacts
+coverage/
+htmlcov/
+.coverage
