@@ -1,29 +1,19 @@
-```
-# Zig build artifacts
-zig-cache/
-zig-out/
-*.o
-*.obj
-*.a
-*.so
-*.dll
-*.exe
+# Generated from file changes
 
+# Compiled and build artifacts
+*.js.map
+*.min.js
+*.bundle.js
 # Dependencies
-.zig/
-zig-*/
-
+node_modules/
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-
 # Editors
 .vscode/
 .idea/
-
 # Environment
 .env
 .env.local
-*.env.*
-```
+.env.*
