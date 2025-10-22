@@ -1,32 +1,52 @@
-```
-# Compiled and build artifacts
+find_max
+result_huvyt07kdT.txt
+*.o
+*.out
+*.exe
+*.dll
+*.so
+*.a
+*.obj
 *.class
-*.groovy.class
-
-# Dependencies
-.gradle/
+*.pyc
+__pycache__/
+dist/
+build/
+node_modules/
+venv/
+.venv/
 target/
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Editors
-.vscode/
-.idea/
-*.swp
-
-# Environment
+.gradle/
 .env
 .env.local
-*.env.*
-
-# Coverage and testing
-.coverage
-coverage/
-htmlcov/
-
-# System files
+.env.*
+*.log
+*.tmp
+*.swp
+*.swo
+.vscode/
+.idea/
 .DS_Store
 Thumbs.db
-```
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
