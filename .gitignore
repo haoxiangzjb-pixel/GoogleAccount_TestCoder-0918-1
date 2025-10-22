@@ -1,49 +1,51 @@
-```
 # Configuration files
+*.cfg
+*.ini
 *.toml
-
-# Environment files
-.env
-.env.local
-*.env.*
+*.yaml
+*.yml
+*.json
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
-# Editors
+# Environment files
+.env
+.env.local
+.env.*
+
+# IDE and editor
 .vscode/
 .idea/
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Dependencies
-node_modules/
-.venv/
-venv/
-.env
+*.DS_Store
+Thumbs.db
 
 # Build artifacts
 dist/
 build/
 target/
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
 *.out
 
-# System files
-.DS_Store
-Thumbs.db
+# Dependencies
+node_modules/
+venv/
+.venv/
+.mypy_cache/
+.pytest_cache/
+.gradle/
+__pycache__/
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Compression
+# Compressed files
 *.zip
 *.gz
 *.tar
@@ -66,4 +68,3 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-```
