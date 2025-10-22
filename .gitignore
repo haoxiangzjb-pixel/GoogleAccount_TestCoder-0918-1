@@ -1,37 +1,24 @@
-```
-# Dart/Flutter build artifacts
-.dart_tool/
-.build/
+# Generated Dart file
+Car_1760784523.dart
+# Compiled and build artifacts
+*.pyc
+pycache/
+*.o
+*.obj
 dist/
-
+build/
 # Dependencies
-.pub/
 .venv/
 venv/
 node_modules/
-
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-
 # Environment
 .env
 .env.local
-*.env.*
-
+.env.
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# OS generated files
-.DS_Store
-Thumbs.db
-```
