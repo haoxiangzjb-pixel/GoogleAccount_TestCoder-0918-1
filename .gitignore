@@ -1,51 +1,12 @@
-```julia
-# Julia-specific ignores
-*.jl.cov
-*.jl.mem
-*.jl.info
-*.jl.prof
-*.jl.trace
-*.jl.lcov
-*.jl.out
-*.jl.err
+# TypeScript files
+*.ts
+*.tsx
 
-# Build artifacts
-build/
-dist/
-*.so
-*.dylib
-*.dll
-
-# Dependencies
-.julia/
-Pkg.add/
-Pkg.rm/
-Pkg.update/
-Manifest.toml
-Project.toml.bak
-
-# Temporary files
-*.tmp
-*.temp
+# Logs and temp files
 *.log
-
-# Environment
-.env
-.env.local
-.env.*
+*.tmp
+*.swp
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# System
-.DS_Store
-Thumbs.db
-```
