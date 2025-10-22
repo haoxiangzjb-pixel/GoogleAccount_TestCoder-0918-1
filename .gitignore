@@ -1,3 +1,16 @@
-```go
+# PHP database connection files
+*.php
 
-```
+# Environment files
+.env
+.env.local
+.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
