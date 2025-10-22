@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Form for PHP Handler</title>
+</head>
+<body>
+    <h2>Test Form for PHP Handler</h2>
+    <p>This form will submit data to the PHP script which will save it to a file with a random name.</p>
+    <form method="post" action="form_handler.php">
+        <p>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required>
+        </p>
+        <p>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required>
+        </p>
+        <p>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+    </form>
+</body>
+</html>
