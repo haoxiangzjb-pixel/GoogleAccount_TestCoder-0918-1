@@ -1,0 +1,41 @@
+/* CSS Rotation Animation */
+
+.rotate-element {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  margin: 50px auto;
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Additional styling for better visual effect */
+.rotate-element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Alternative animation with different timing */
+.rotate-fast {
+  animation: rotate 0.5s linear infinite;
+}
+
+.rotate-slow {
+  animation: rotate 4s linear infinite;
+}
+
+/* Reverse rotation */
+.rotate-reverse {
+  animation: rotate 2s linear infinite reverse;
+}
