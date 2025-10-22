@@ -1,0 +1,58 @@
+<?php
+
+class Car {
+    private $brand;
+    private $model;
+    private $year;
+    private $isRunning = false;
+    
+    public function __construct($brand, $model, $year) {
+        $this->brand = $brand;
+        $this->model = $model;
+        $this->year = $year;
+    }
+    
+    public function start() {
+        if (!$this->isRunning) {
+            $this->isRunning = true;
+            echo "The {$this->year} {$this->brand} {$this->model} has started successfully!\n";
+        } else {
+            echo "The car is already running.\n";
+        }
+        return $this->isRunning;
+    }
+    
+    public function stop() {
+        if ($this->isRunning) {
+            $this->isRunning = false;
+            echo "The {$this->year} {$this->brand} {$this->model} has stopped.\n";
+        } else {
+            echo "The car is already stopped.\n";
+        }
+        return !$this->isRunning;
+    }
+    
+    public function getBrand() {
+        return $this->brand;
+    }
+    
+    public function getModel() {
+        return $this->model;
+    }
+    
+    public function getYear() {
+        return $this->year;
+    }
+    
+    public function isRunning() {
+        return $this->isRunning;
+    }
+    
+    public function __toString() {
+        return "{$this->year} {$this->brand} {$this->model}";
+    }
+}
+
+// Example usage:
+// $myCar = new Car("Toyota", "Camry", 2022);
+// $myCar->start();
