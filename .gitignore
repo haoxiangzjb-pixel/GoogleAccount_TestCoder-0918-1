@@ -1,1 +1,64 @@
-Nothing to ignore - only a Ruby source file was added.
+# Build artifacts and compiled files
+*.class
+*.jar
+*.war
+*.ear
+*.dll
+*.exe
+*.so
+*.dylib
+*.o
+*.obj
+*.out
+*.a
+*.lib
+# Build directories
+build/
+dist/
+target/
+# Dependency directories
+node_modules/
+venv/
+.venv/
+lib/
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+*.tmp
+# System files
+.DS_Store
+Thumbs.db
+# Environment files
+.env
+.env.local
+.env.*
+# Logs
+coverage/
+htmlcov/
+*.coverage
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
