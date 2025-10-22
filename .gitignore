@@ -1,1 +1,12 @@
-(empty)
+# PowerShell scripts
+*.ps1
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
