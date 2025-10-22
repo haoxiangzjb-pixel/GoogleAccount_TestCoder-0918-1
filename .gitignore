@@ -1,22 +1,39 @@
-```
-# Compiled and build artifacts
-*.cr
-
-# Dependencies
-.julia/
-.julia-*/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
+node_modules/
+dist/
+build/
 .env
 .env.local
 .env.*
-
-# Editors
 .vscode/
 .idea/
-```
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+coverage/
+htmlcov/
+.nycrc
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
