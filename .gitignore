@@ -1,5 +1,5 @@
-# Thrift files
-*.thrift
+# PowerShell scripts
+*.ps1
 
 # Logs and temp files
 *.log
