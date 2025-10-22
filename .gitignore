@@ -1,5 +1,16 @@
-Nothing should be ignored in this case, as the added file `vba_sum_1760820420950322297.bas` appears to be a source code file that should be tracked in version control. The file is a VBA (Visual Basic for Applications) source file, which is legitimate source code that should not be ignored.
+# MATLAB files
+*.m~
 
-Therefore, the output is empty:
+# System files
+.DS_Store
+Thumbs.db
 
-(No content)
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
