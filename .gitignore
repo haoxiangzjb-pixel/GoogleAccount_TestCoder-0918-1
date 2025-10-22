@@ -1,26 +1,2 @@
 ```
-# Compiled Elixir files
-*.beam
-
-# Dependencies
-deps/
-_build/
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# OS
-.DS_Store
-Thumbs.db
 ```
