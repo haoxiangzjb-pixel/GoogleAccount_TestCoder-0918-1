@@ -1,0 +1,26 @@
+# Application Configuration
+title = "My Application Configuration"
+
+[database]
+host = "localhost"
+port = 5432
+username = "app_user"
+password = "secure_password"
+database_name = "myapp_db"
+ssl_enabled = false
+
+[server]
+host = "0.0.0.0"
+port = 8080
+debug = true
+log_level = "info"
+
+[authentication]
+jwt_secret = "your-jwt-secret-key"
+token_expiry = 3600
+refresh_token_expiry = 86400
+
+[features]
+enable_caching = true
+max_cache_size = 100
+rate_limit = 1000
