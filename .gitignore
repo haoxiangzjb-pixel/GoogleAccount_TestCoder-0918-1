@@ -1,1 +1,64 @@
-(book_5a37356a.json is a data file, not a build artifact, dependency, or temp file - it appears to be source content that should be tracked)
+# Compiled and build artifacts
+*.pyc
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+*.log
+*.tmp
+*.swp
+*.swo
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+# Editors and IDE
+.vscode/
+.idea/
+*.log
+*.tmp
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# Coverage and test artifacts
+coverage/
+htmlcov/
+.coverage
