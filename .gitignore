@@ -34,6 +34,7 @@
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
 #Dependencies
 node_modules/
 venv/
@@ -45,17 +46,17 @@ build/
 .pytest_cache/
 target/
 .gradle/
+
 #Editors and IDEs
 .vscode/
 .idea/
+
 #Environment files
 .env
 .env.local
 .env.*
-#System files
-.DS_Store
-Thumbs.db
-#Coverage and test output
+
+#Coverage and test artifacts
 coverage/
 htmlcov/
 .coverage
