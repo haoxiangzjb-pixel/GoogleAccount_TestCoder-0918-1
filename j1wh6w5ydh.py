@@ -1,0 +1,6 @@
+def lambda_handler(event, context):
+    # AWS Lambda function that returns a success message
+    return {
+        'statusCode': 200,
+        'body': 'Success: Lambda function executed successfully!'
+    }
