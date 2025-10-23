@@ -1,0 +1,18 @@
+test:
+  stage: test
+  script:
+    - echo "Running tests..."
+    - # Add your test commands here, for example:
+    - # npm test
+    - # pytest
+    - # make test
+  artifacts:
+    when: always
+    paths:
+      - test-results.xml  # Example test results file
+    expire_in: 1 week
+  coverage: '/\d+\.\d+%/'
+
+# Optional: Add other stages like build, deploy, etc.
+stages:
+  - test
