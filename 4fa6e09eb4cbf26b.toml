@@ -1,0 +1,30 @@
+# Application Configuration
+title = "My Application Settings"
+
+[app]
+name = "SampleApp"
+version = "1.0.0"
+debug = true
+
+[server]
+host = "localhost"
+port = 8080
+ssl = false
+
+[database]
+host = "localhost"
+port = 5432
+name = "myapp_db"
+username = "db_user"
+password = "db_password"
+ssl_mode = "disable"
+
+[logging]
+level = "info"
+format = "json"
+output = "stdout"
+
+[features]
+enable_caching = true
+max_connections = 100
+timeout_seconds = 30
