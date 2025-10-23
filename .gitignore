@@ -30,6 +30,15 @@
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+*.log
+*.tmp
+*.swp
+*.swo
+*.env
+*.env.*
+.env.local
+.DS_Store
+Thumbs.db
 
 #Dependencies
 node_modules/
@@ -43,22 +52,6 @@ build/
 target/
 .gradle/
 
-#Editors and IDEs
+#Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-*.log
-*.tmp
-
-#System and environment files
-.DS_Store
-Thumbs.db
-.env
-.env.local
-.env.*
-
-#Coverage and test reports
-coverage/
-htmlcov/
-.coverage
