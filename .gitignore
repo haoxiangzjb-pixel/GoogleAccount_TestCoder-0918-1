@@ -1,50 +1,62 @@
-```
-# Python
-__pycache__/
+#Compiled and build artifacts
 *.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Dependencies
-requirements.txt.bak
-
-# Logs
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 *.log
-
-# Environment
-.env
-.env.local
-*.env
-
-# Coverage
-.coverage
-coverage/
-htmlcov/
-.coverage.*
-.nyc_output/
-
-# IDE
-.vscode/
-.idea/
+*.tmp
 *.swp
 *.swo
-*.tmp
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Build artifacts
+#Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
 dist/
 build/
-*.egg-info/
-.tox/
-.pytest_cache/
 .mypy_cache/
-```
+.pytest_cache/
+target/
+.gradle/
+
+#Editors and IDEs
+.vscode/
+.idea/
+
+#Environment files
+.env
+.env.local
+.env.*
+
+#Coverage and test artifacts
+coverage/
+htmlcov/
+.coverage
