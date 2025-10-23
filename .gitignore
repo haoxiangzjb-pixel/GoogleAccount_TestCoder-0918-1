@@ -1,42 +1,17 @@
-# LaTeX files
-*.aux
-*.log
+#Compiled and build artifacts
+*.pyc
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
 *.out
-*.toc
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.bbl
-*.blg
-*.idx
-*.ind
-*.ilg
-*.lof
-*.lot
-*.dvi
-*.ps
-*.pdf
-*.nav
-*.snm
-*.run.xml
-*.synctex(busy)
-*.bcf
-*.xml
+*.log
 *.tmp
-*.bak
-*.backup
-*.log.*
-*.aux.*
-
-# Editor and system files
 *.swp
 *.swo
-*.tmp
-*.DS_Store
-Thumbs.db
-*.log
-
-# Build artifacts
 *.zip
 *.gz
 *.tar
@@ -59,3 +34,28 @@ Thumbs.db
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+#Dependencies
+.venv/
+venv/
+node_modules/
+__pycache__/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+#Editors and IDEs
+.vscode/
+.idea/
+#Environment files
+.env
+.env.local
+.env.*
+#System files
+.DS_Store
+Thumbs.db
+#Coverage and test artifacts
+coverage/
+htmlcov/
+.coverage
