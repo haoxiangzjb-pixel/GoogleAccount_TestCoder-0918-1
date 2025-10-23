@@ -1,55 +1,50 @@
-```
-# Machine learning model files
-*.ml
-
 # Compiled and build artifacts
 *.pyc
 __pycache__/
 *.o
 *.obj
-*.class
 *.exe
 *.dll
 *.so
 *.a
 *.out
-
-# Dependencies
-.venv/
-venv/
-node_modules/
+*.class
 dist/
 build/
 target/
-.gradle/
 .mypy_cache/
 .pytest_cache/
+coverage/
+htmlcov/
+.coverage
 
-# Logs and temp files
-*.log
-*.tmp
+# Dependencies
+node_modules/
+venv/
+.venv/
+julia-*/
+zig*/
+.gradle/
+
+# Editors and IDEs
+.vscode/
+.idea/
 *.swp
 *.swo
+*.log
+*.tmp
 
-# Environment
+# Environment files
 .env
 .env.local
 *.env.*
-
-# Editors
-.vscode/
-.idea/
+.env.backup
 
 # System files
 .DS_Store
 Thumbs.db
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Compressed files
+# Common compressed files
 *.zip
 *.gz
 *.tar
@@ -72,4 +67,3 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-```
