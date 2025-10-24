@@ -1,11 +1,9 @@
 ```
-# Temporary files
-*.tmp
-tmp.*
+# Compressed files
+*.zip
 
-# HTML temp files
-*.html
-
-# Logs
-*.log
+# Environment files
+.env
+.env.local
+*.env.*
 ```
