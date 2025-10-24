@@ -1,4 +1,14 @@
 ```
-# Compiled and build artifacts
-*.r
+# VBA specific
+*.vba~
+
+# Backup files
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
 ```
