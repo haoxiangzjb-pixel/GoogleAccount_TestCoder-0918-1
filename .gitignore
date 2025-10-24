@@ -1,5 +1,4 @@
-(button-style-9274.css is a source file, so no .gitignore content needed)
-
-```css
-
+```
+# GraphQL files are source code - no need to ignore them
+# createUserMutation.graphql and userCreationMutation_xyz789.graphql are source files
 ```
