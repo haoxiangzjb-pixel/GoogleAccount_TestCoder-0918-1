@@ -1,18 +1,4 @@
-# Examples
-Input:
-### Added files:
-['query_users_adults_98765.sql', 'users_query_12345.sql']
-
-### Deleted files:
-[]
-
-### Modified files:
-[]
-
-###current .gitignore Content
-
-Your output: Only the optimized .gitignore content (or empty if no ignores needed).
-
-# SQL query files are source code - don't ignore them
-# No build artifacts, dependencies, or temp files detected
-# Output nothing since only source files are present
+```
+# Database dump files
+*.sql
+```
