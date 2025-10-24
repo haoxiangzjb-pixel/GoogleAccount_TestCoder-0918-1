@@ -1,4 +1,7 @@
 ```
-# Build system
-Makefile_349631
+# R-specific ignores
+*.RData
+*.Rhistory
+*.Rproj.user/
+.Rproj.user/
 ```
