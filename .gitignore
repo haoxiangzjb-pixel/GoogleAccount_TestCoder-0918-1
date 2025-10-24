@@ -1,5 +1,25 @@
-(service-config.yaml is a source/config file, so no ignores needed)
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
 
-```yaml
+# Dependencies
+.venv/
+venv/
 
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
 ```
