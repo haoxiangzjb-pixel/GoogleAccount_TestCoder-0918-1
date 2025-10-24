@@ -1,11 +1,35 @@
-```
-# Terraform files
-*.tfstate
-*.tfstate.*
-*.tfvars
-.terraform/
-terraform.tfstate
-terraform.tfstate.backup
-*.backup
-*.lock.hcl
+```crystal
+# Crystal build artifacts
+*.so
+*.o
+*.out
+
+# Dependencies
+lib/
+deps/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# System files
+.DS_Store
+Thumbs.db
 ```
