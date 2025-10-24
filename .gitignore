@@ -1,1 +1,1 @@
-(empty)
+Nothing should be ignored in this case, as the only added file is a source code file (.bas) without any build artifacts, dependencies, or temporary files in the changes.
