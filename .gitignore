@@ -1,39 +1,26 @@
 ```
-# R-specific files
-*.RData
-*.Rhistory
-*.Rproj.user/
-.Rproj.user/
-.Rapp.history
-.Rbuildignore
-
-# Compiled files
+# Compiled and build artifacts
 *.o
-*.so
-*.dll
-*.dylib
+*.obj
+*.mod
+*.smod
+*.exe
 
-# Temporary files
-*.tmp
-*.temp
-*~
+# Dependencies
+build/
+dist/
 
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
-# Environment files
+# Editors
+.vscode/
+.idea/
+
+# Environment
 .env
 .env.local
 *.env.*
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Build/distribution files
-dist/
-build/
-*.tar.gz
 ```
