@@ -1,5 +1,11 @@
-(matrix_mult_script.py is a source file, and there are no build artifacts, dependencies, or temp files in the changes)
+```
+# Output files
+*.txt
+*.out
 
-```python
+# Package files
+*.deb
 
+# Dependencies
+packages/
 ```
