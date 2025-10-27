@@ -1,5 +1,1 @@
-```
-# SQL query files - assuming these are source files, not ignoring them
-# join_users_orders.sql
-# query_AjcN15.sql
-```
+Nothing should be ignored since the added files are all Python source files (.py) which are source code files and not build artifacts, dependencies, or temporary files.
