@@ -1,4 +1,7 @@
 ```
-# CI/CD
-.github/workflows/
+# SQL query files - assuming these might be generated
+*.sql
+
+# If this is a database project, you might want to keep this line commented out
+# and only uncomment if query files are indeed generated/temporary
 ```
