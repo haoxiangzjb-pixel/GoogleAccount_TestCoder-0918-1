@@ -1,31 +1,56 @@
-# Generated from file changes
-
+```
 # Compiled and build artifacts
 *.pyc
 __pycache__/
 *.o
 *.obj
-*.so
-*.dll
+dist/
+build/
+target/
+*.class
 *.exe
+*.dll
+*.so
 *.a
 *.out
+
 # Dependencies
+.venv/
 venv/
+node_modules/
+.julia/
+zig*/
 .env
 .env.local
-.env.*
+*.env.*
+
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 *.swo
+*.bak
+*.~
+*~
+
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
 # System files
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+*.gcov
+*.lcov
+
 # Compressed files
 *.zip
 *.gz
@@ -49,3 +74,36 @@ Thumbs.db
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+
+# Gradle
+.gradle/
+
+# Build directories
+bin/
+obj/
+out/
+tmp/
+temp/
+
+# Configuration
+config/
+*.config
+
+# Documentation
+docs/_build/
+*.rst~
+
+# OS generated files
+*.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+```
