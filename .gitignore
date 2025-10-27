@@ -1,5 +1,14 @@
 ```
-# Thrift generated files
-*.thrift.gen-*
-gen-*/
+# Zig build artifacts and dependencies
+temp_zig/
+zig-linux-x86_64-0.13.0/
+*.tar.xz
+
+# Temporary data files
+*.dat
+
+# Zig-specific
+zig-cache/
+zig-out/
+
 ```
