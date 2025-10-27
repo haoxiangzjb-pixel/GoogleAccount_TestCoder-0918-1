@@ -1,13 +1,43 @@
 # Compiled and build artifacts
 *.pyc
-*.class
+__pycache__/
 *.o
 *.obj
+*.class
 *.exe
 *.dll
 *.so
 *.a
 *.out
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+*.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Compressed files
 *.zip
 *.gz
 *.tar
@@ -31,34 +61,68 @@
 *.tar.xz
 *.tar.zst
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-dist/
+# Dart-specific
+.dart_tool/
+.pub/
 build/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
+*.dart.js
+*.dart.js.map
+*.pem
+*.key
+*.crt
+*.der
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.lock
+*.tmp
 
-# Editors and IDEs
+# Flutter-specific (if Flutter project)
+*.flx
+*.folding
+*.gradle
+local.properties
+*.iml
+*.iws
+*.ipr
+out/
+.gradle/
+build/
+
+# Test coverage
+coverage/
+.dart_tool/
+.dart_tool/test-results/
+.dart_tool/package_config_subset
+
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*:*
 *.log
 *.tmp
-
-# System and environment files
+*.temp
+*.swp
+*.swo
+*~
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
-.env
-.env.local
-.env.*
-
-# Coverage and test reports
-coverage/
-htmlcov/
-.coverage
+*:*
