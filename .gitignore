@@ -1,40 +1,5 @@
 ```
-# Compiled and build artifacts
-*.pp
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Dependency directories
-node_modules/
-venv/
-.venv/
-.env/
-target/
-build/
-dist/
+# SQL query files - assuming these are source files, not ignoring them
+# join_users_orders.sql
+# query_AjcN15.sql
 ```
