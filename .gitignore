@@ -1,7 +1,1 @@
-```
-# GraphQL files
-*.graphql
-
-# Schema files
-schema.graphql
-```
+Nothing should be ignored based on the provided file changes. The added file `mysql_select_05elrukz.py` is a source code file that should be tracked in version control.
