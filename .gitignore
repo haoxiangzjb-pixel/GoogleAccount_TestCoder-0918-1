@@ -1,3 +1,41 @@
 ```
-factorial_a64636c13535a37c.hs
+# Rust build artifacts
+target/
+**/*.rs.bk
+**/*.rs~
+
+# Dependencies
+Cargo.lock
+
+# Generated files
+**/user_data_*.json
+
+# Python artifacts (if any Python components)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.python-version
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*
+!Cargo.toml
+!user.rs
+!user_data_generator.py
 ```
