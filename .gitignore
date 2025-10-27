@@ -1,7 +1,3 @@
-```
-# GraphQL files
-*.graphql
+(multiplication_table_rnd42.nim is a source file, no build artifacts or dependencies detected)
 
-# Schema files
-schema.graphql
-```
+(empty - output nothing)
