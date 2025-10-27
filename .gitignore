@@ -1,13 +1,13 @@
 ```
-# Temporary files
-*.tmp
-*.swp
-*.swo
+# TypeScript build artifacts
+*.js
+*.js.map
+*.d.ts
 
-# Logs
-*.log
+# Dependencies
+node_modules/
 
-# Environment files
+# Environment variables
 .env
 .env.local
 *.env.*
@@ -17,8 +17,44 @@
 .idea/
 *.swp
 *.swo
+*.tmp
 
-# System files
+# Logs
+*.log
+
+# Coverage
+coverage/
+htmlcov/
+*.coverage
+
+# Python (if present)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+
+# Build directories
+dist/
+build/
+target/
 .DS_Store
 Thumbs.db
 
