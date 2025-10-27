@@ -1,0 +1,50 @@
+/* CSS Animation for Rotation */
+
+.rotating-element {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+  border-radius: 10px;
+  animation: rotateAnimation 2s linear infinite;
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Additional styling for demo purposes */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background: #f0f0f0;
+}
+
+/* Alternative animation variations */
+.rotate-slow {
+  animation: rotateAnimation 4s linear infinite;
+}
+
+.rotate-fast {
+  animation: rotateAnimation 0.5s linear infinite;
+}
+
+.rotate-pulse {
+  animation: rotateAnimation 2s linear infinite, pulse 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  100% {
+    transform: rotate(360deg) scale(1.2);
+  }
+}
