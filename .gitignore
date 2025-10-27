@@ -1,1 +1,10 @@
-(empty)
+```
+# Compiled Java class files
+*.class
+
+# JAR files
+*.jar
+
+# Dependencies directory
+lib/
+```
