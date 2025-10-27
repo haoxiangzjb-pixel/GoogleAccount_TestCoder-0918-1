@@ -1,5 +1,28 @@
-(restart_service.yml is a source/config file, no build artifacts, dependencies, or temp files in the changes - output empty)
+```
+# Compiled and build artifacts
+*.jl.c
+*.jl.so
+*.o
+*.obj
+*.out
 
-```yaml
+# Dependencies
+julia-*/
+.julia/
 
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage and testing
+.coverage
+coverage/
+htmlcov/
+.pytest_cache/
+.mypy_cache/
 ```
