@@ -2,12 +2,10 @@
 # Compiled and build artifacts
 *.pyc
 __pycache__/
-*.rs.bk
-target/
 
 # Dependencies
-Cargo.lock
-vendor/
+.venv/
+venv/
 
 # Logs and temp files
 *.log
@@ -23,6 +21,21 @@ vendor/
 .vscode/
 .idea/
 
-# Generated files
-user_data_*.json
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+.eggs/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
