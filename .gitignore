@@ -1,1 +1,1 @@
-(index.js is a source file, so no .gitignore rules needed)
+Nothing to output - the change list contains only a source file (.jl) and no build artifacts, dependencies, or temp files that need to be ignored.
