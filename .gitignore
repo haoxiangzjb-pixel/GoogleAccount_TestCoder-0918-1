@@ -1,5 +1,9 @@
-(button-style-9274.css is a source file, so no .gitignore content needed)
+```
+# Configuration files
+*.ini
 
-```css
-
+# Environment files
+.env
+.env.local
+*.env.*
 ```
