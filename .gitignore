@@ -1,5 +1,7 @@
 ```
 # Compiled and build artifacts
+*.class
+*.pyc
 *.o
 *.obj
 *.exe
@@ -13,12 +15,12 @@ node_modules/
 venv/
 .venv/
 __pycache__/
-.mypy_cache/
-.pytest_cache/
 dist/
 build/
 target/
 .gradle/
+.mypy_cache/
+.pytest_cache/
 
 # Logs and temp files
 *.log
