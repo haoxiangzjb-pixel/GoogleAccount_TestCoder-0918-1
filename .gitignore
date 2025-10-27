@@ -1,4 +1,10 @@
 ```
-# Compiled files
-*.f
+# VBA/Office files
+*.bas
+*.vba
+*.vbs
+*.vbe
+*.bas~
+*.vba~
+Thumbs.db
 ```
