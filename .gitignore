@@ -1,3 +1,40 @@
-(get_processes.ps1 is a PowerShell script file, which is a source code file and should not be ignored)
+```
+# Environment files
+.env
+.env.local
+*.env.*
 
-(empty — output nothing)
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+pip-log.txt
+pipenv.lock
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+.coverage
+htmlcov/
+.coverage.*
+
+# System files
+.DS_Store
+Thumbs.db
+```
