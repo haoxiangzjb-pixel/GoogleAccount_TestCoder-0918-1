@@ -1,5 +1,24 @@
-(service-config.yaml is a source/config file, so no ignores needed)
-
-```yaml
-
+```
+# Compiled and build artifacts
+*.ex
+*.beam
+*.app
+*.ez
+_ebuild/
+ebin/
+# Dependencies
+deps/
+_build/
+# Logs and temp files
+*.log
+erl_crash.dump
+# Environment
+.env
+.env.local
+.env.*
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
 ```
