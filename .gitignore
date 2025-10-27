@@ -1,4 +1,36 @@
 ```
-# Docker
-docker-compose-webapp-*.yml
+# Configuration and deployment files
+*.yaml
+*.yml
+
+# Environment and temporary files
+.env
+.env.local
+*.tmp
+*.log
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies and build artifacts
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+dist/
+build/
+target/
+.venv/
+venv/
+.env
+.env.local
+.env.*
+
+# System files
+.DS_Store
+Thumbs.db
 ```
