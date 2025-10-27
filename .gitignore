@@ -1,7 +1,1 @@
-```
-# Markdown files (if they are temporary TODO files)
-*.md
-
-# If these are temporary/intermediate files
-todo_*.md
-```
+Nothing should be ignored based on the provided file changes, as they only contain source code files (.js files) without any build artifacts, dependencies, or temporary files.
