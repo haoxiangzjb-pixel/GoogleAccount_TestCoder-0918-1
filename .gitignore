@@ -1,36 +1,50 @@
 ```
-# Elixir specific ignores
-*.beam
-*.ez
-ebin/
-_build/
-cover/
-.erlang.cookie
-.rebar3/
-.deps/
-lib/
-tmp/
-
 # Dependencies
-deps/
-
-# Environment
-.env
-.env.local
-.env.*
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
+# Environment
+.env
+.env.local
+*.env.*
+
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# OS specific
+# Build artifacts
+dist/
+build/
+*.js.map
+coverage/
+htmlcov/
+*.coverage
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/
+!.gitignore
 .DS_Store
 Thumbs.db
 ```
