@@ -1,28 +1,4 @@
 ```
-# Python
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-
-# Environment
-.venv/
-venv/
-env/
-ENV/
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.temp
-*~
-.DS_Store
-Thumbs.db
-
-# Configuration
-.env
-.env.local
-.env.*
+# Compiled and build artifacts
+*.m
 ```
