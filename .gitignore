@@ -1,1 +1,4 @@
-Nothing should be ignored in this case, as the added file 'gkFn9EnP.nim' is a source code file (.nim extension) and no build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Configuration files
+serverless_*.yml
+```
