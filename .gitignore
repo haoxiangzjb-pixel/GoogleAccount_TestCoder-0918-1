@@ -1,1 +1,1 @@
-Nothing needs to be added to .gitignore for this change list. The added file `find_email.pl` is a Perl source code file and should not be ignored.
+Nothing should be ignored since the added files are Python source files (.py) and there are no build artifacts, dependencies, or temporary files in the changes.
