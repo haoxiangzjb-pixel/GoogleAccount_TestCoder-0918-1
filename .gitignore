@@ -1,14 +1,50 @@
-# VBA Macros
-*.vba
+# R-specific ignores
+.Rhistory
+.RData
+.Rproj.user/
+.Rprofile.swp
+*.Rproj
+*.Rhistory
+*.RData
+*.Rds
+*.rds
+*.Rout
+*.Rout.save
+*.o
+*.so
+*.dll
+*.dylib
+*.tar.gz
+*.zip
 
-# Python scripts
-generate_random_vba.py
+# Dependencies
+renv/
+packrat/
+lib/
+library/
+.Rpackages
 
-# Logs and temp files
-*.log
-*.tmp
+# System files
+.DS_Store
+Thumbs.db
 *.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+.env.
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
 # Editors
 .vscode/
 .idea/
+*.tmp
