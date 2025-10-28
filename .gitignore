@@ -1,4 +1,7 @@
 ```
-# Jenkins files
-Jenkinsfile_*
+# JSON files that might be temporary or generated
+*.json
+
+# If these are API response files, they might be temporary
+api_response.json
 ```
