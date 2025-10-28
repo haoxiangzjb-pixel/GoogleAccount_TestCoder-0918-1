@@ -1,22 +1,3 @@
-```
-# Compiled files
-*.pl~
+(config_app_12345.toml is a config file, so it should not be ignored)
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Backup files
-*~
-.#*
-```
+(empty — output nothing)
