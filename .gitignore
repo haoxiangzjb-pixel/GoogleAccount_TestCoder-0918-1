@@ -1,17 +1,14 @@
 ```
 # Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
-*.sib
-*.sib~
-*.bc
+*.pyc
+__pycache__/
 *.o
 *.obj
 
 # Dependencies
-Packages/
-.build/
-.swift-version
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -21,23 +18,20 @@ Packages/
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
 # Coverage
 .coverage
 coverage/
 htmlcov/
 
-# macOS
-.DS_Store
-
-# Linux
-*~
-\#*\#
+# Distribution / packaging
+dist/
+build/
+*.egg
+*.egg-info/
 ```
