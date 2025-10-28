@@ -1,45 +1,53 @@
-```gitignore
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.pytest_cache/
-.mypy_cache/
-.hypothesis/
+```
+# Compiled and build artifacts
+*.mex*
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+*.dylib
+*.class
 
-# Generated files
-*.py[cod]
-*$py.class
-*$pyc.class
-*~
+# Dependencies
+octave-workspace
+*.mat
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
 .DS_Store
 Thumbs.db
 
-# Local configuration
-.local/
-.config/
-.settings/
-.vscode/
-.idea/
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
+*.coverage
 
-# Environment files
+# Distribution / packaging
+dist/
+build/
+*.tar.gz
+*.zip
+*.tar
+*.tgz
+*.whl
+
+# Environment
 .env
 .env.local
 .env.*
-!.env.example
+venv/
+.venv/
 ```
