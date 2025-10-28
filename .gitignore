@@ -1,1 +1,21 @@
-Nothing to output - the added file 'uu0snp4j8k.py' is a source code file and should not be ignored.
+```
+# System files
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# PowerShell
+d720daf1176449b3.ps1
+```
