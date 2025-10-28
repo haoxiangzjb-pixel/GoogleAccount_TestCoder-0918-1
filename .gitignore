@@ -1,62 +1,46 @@
-#Compiled and build artifacts
-*.pyc
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+```
+# Ruby specific
+*.gem
+*.rbc
+coverage/
+InstalledFiles
+pkg/
+spec/reports/
+test/tmp/
+test/version_tmp/
+tmp/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Logs
 *.log
+
+# Temporary files
 *.tmp
 *.swp
-*.swo
-*.env
-*.env.*
-.env.local
+*~
 .DS_Store
 Thumbs.db
 
-#Dependencies
+# IDE
+.vscode/
+.idea/
+
+# Build and dependency directories
 node_modules/
 venv/
 .venv/
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
 dist/
 build/
-.mypy_cache/
-.pytest_cache/
 target/
 .gradle/
-
-#Editors and IDEs
-.vscode/
-.idea/
-
-#Coverage and test artifacts
-coverage/
-htmlcov/
-.coverage
+.mypy_cache/
+.pytest_cache/
+```
