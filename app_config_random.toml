@@ -1,0 +1,27 @@
+# Application Configuration
+title = "My Application Configuration"
+
+[server]
+host = "localhost"
+port = 8080
+debug = true
+timeout = 30
+
+[database]
+host = "localhost"
+port = 5432
+name = "myapp_db"
+username = "db_user"
+password = "secure_password"
+pool_size = 10
+
+[logging]
+level = "info"
+file = "app.log"
+max_size = "10MB"
+max_backups = 5
+
+[features]
+enable_cache = true
+cache_ttl = 3600
+rate_limit = 100
