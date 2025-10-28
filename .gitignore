@@ -1,17 +1,69 @@
+```
 # Compiled and build artifacts
 *.pyc
-*.class
+__pycache__/
 *.o
 *.obj
-*.exe
+*.mex
+*.class
+*.jar
+*.war
+*.ear
 *.dll
 *.so
-*.a
+*.dylib
+*.exe
 *.out
+
+# Dependencies
+.venv/
+venv/
+env/
+node_modules/
+julia-*/
+zig*/
+target/
+.gradle/
+.cargo/
+.pip/
+.mypy_cache/
+.pytest_cache/
+.nyc_output/
+coverage/
+htmlcov/
+.coverage
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+.env.*
+.envrc
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Build and distribution
+dist/
+build/
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tar.xz
 *.zip
 *.gz
-*.tar
-*.tgz
 *.bz2
 *.xz
 *.7z
@@ -26,37 +78,4 @@
 *.Z
 *.lz
 *.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-dist/
-build/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
-
-# Editors and IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
-*.log
-*.tmp
-
-# Environment files
-.env
-.env.local
-.env.*
-
-# Coverage and test output
-coverage/
-htmlcov/
-.coverage
+```
