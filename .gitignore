@@ -1,10 +1,35 @@
-```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
+```gitignore
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
 
-# Executables
-max_finder
-max_result_*.txt
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
 ```
