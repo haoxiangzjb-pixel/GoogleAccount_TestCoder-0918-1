@@ -1,91 +1,18 @@
 ```
 # Compiled and build artifacts
-*.jar
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+*.pl~
 
-# Dependencies
-.libs/
-lib/
-libs/
-
-# Build directories
-build/
-dist/
-target/
-out/
-
-# Gradle
-.gradle/
-.gradle/
-!gradle/
-gradle/
-
-# Temp files
+# Logs and temp files
+*.log
 *.tmp
 *.swp
-*.swo
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-.env.*
 
 # Editors
 .vscode/
 .idea/
-*.iml
-*.iws
-*.ipr
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-
-# MyPy
-.mypy_cache/
-
-# PyTest
-.pytest_cache/
-
-# Virtual environments
-venv/
-.venv/
-env/
-.venv.bak/
-env.bak/
-
-# Node
-node_modules/
-
-# Kotlin/Java
-*.class
-*.jar
-*.war
-*.ear
-*.hprof
-*.dump
-!*.gradle.kts
+# Environment
+.env
+.env.local
+*.env.*
 ```
