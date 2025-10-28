@@ -1,1 +1,23 @@
-(createUserMutation.graphql)
+```
+# Environment and config
+.env
+.env.local
+.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Backup and random files
+$RANDOM_NAME
+backup_script_*.sh
+```
