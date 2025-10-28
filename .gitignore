@@ -1,1 +1,1 @@
-Nothing to ignore - the change list contains only a source code file (.f90) which should not be ignored.
+*.proto
