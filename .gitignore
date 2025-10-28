@@ -1,13 +1,46 @@
-#Compiled and build artifacts
+```
+# Database files
+*.db
+example.db
+
+# Python compiled files
 *.pyc
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+__pycache__/
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Dependency directories
+node_modules/
+venv/
+.venv/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Compressed files
 *.zip
 *.gz
 *.tar
@@ -30,37 +63,4 @@
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-#Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-dist/
-build/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
-
-#Editors and IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
-*.log
-*.tmp
-
-#Environment files
-.env
-.env.local
-.env.*
-
-#Coverage and test artifacts
-coverage/
-htmlcov/
-.coverage
-
-#System files
-.DS_Store
-Thumbs.db
+```
