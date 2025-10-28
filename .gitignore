@@ -1,65 +1,19 @@
-#Compiled and build artifacts
-*.pyc
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+```
+# Process output files
+*.txt
+!README.txt
+!LICENSE.txt
+!CHANGELOG.txt
 
-#Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-dist/
-build/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
-
-#Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-*.log
-
-#Environment files
+# Environment
 .env
 .env.local
 .env.*
 
-#Editors and IDEs
-.vscode/
-.idea/
+# Logs
+*.log
 
-#Coverage and test artifacts
-coverage/
-htmlcov/
-.coverage
+# Temp files
+*.tmp
+*.temp
+```
