@@ -1,1 +1,39 @@
-Nothing to output - the change list contains only a source code file (.rb) with no build artifacts, dependencies, or temp files that need to be ignored.
+```
+# OCaml compiled files
+*.cmi
+*.cmo
+*.cmx
+*.cma
+*.cmxa
+*.exe
+*.out
+
+# OCaml build artifacts
+_dbuild/
+*.native
+*.byte
+
+# Dependencies and build tools
+.opam/
+esy.lock/
+node_modules/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+*.env.*
+```
