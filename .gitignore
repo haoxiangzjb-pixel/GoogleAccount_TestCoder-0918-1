@@ -1,34 +1,18 @@
-# Swift files
-*.swiftdoc
-*.swiftmodule
+```
+# Web artifacts
+*.html
 
-# Xcode
-.DS_Store
-*.xcodeproj
-*.xcworkspace
-build/
-DerivedData/
-
-# Logs
+# Logs and temp files
 *.log
-
-# Generated files
-*.generated.swift
+*.tmp
+*.swp
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-*.tmp
 
 # Environment
 .env
 .env.local
 .env.*
-
-# Dependencies
-Pods/
-Carthage/
-.swiftlint.yml
-Package.resolved
+```
