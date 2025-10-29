@@ -1,42 +1,28 @@
 ```
-# Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
-*.sib
-*.sil
-*.bc
-*.o
-*.obj
+# Compiled files
+*.class
 
 # Dependencies
-Package/
-Pods/
-Carthage/
-DerivedData/
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-.env.*
-
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Build directories
-build/
-dist/
-target/
+# Environment
+.env
+.env.local
+*.env.*
 ```
