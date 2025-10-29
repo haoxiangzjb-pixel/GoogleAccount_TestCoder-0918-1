@@ -1,49 +1,27 @@
 ```
-# Configuration files
-*.toml
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Logs
+*.log
 
 # Environment files
 .env
 .env.local
 *.env.*
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Dependencies
-node_modules/
-.venv/
-venv/
-.env
-
-# Build artifacts
-dist/
-build/
-target/
-*.out
+# Backup files
+*~
+*.bak
+*.backup
 
 # System files
 .DS_Store
 Thumbs.db
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Compression
+# Compressed files
 *.zip
 *.gz
 *.tar
