@@ -1,1 +1,4 @@
-Nothing should be ignored based on the provided file changes. The added files are source code (.py files) and image files (.png), which should not be added to .gitignore according to the rules.
+```
+# Compiled and build artifacts
+*.fs
+```
