@@ -1,9 +1,15 @@
 ```
-# Configuration files
-.chef/
-chef/
-Berksfile.lock
-Policyfile.lock
-.kitchen/
-.delivery/
+# LaTeX build artifacts
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
 ```
