@@ -1,1 +1,4 @@
-(lambda_function_bv16qv48.py is a source code file, so it should not be added to .gitignore)
+```
+# Compiled and build artifacts
+*.cr
+```
