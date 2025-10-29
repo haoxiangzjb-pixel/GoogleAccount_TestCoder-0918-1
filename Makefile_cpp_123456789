@@ -1,0 +1,35 @@
+# Makefile for C++ project
+CXX = g++
+CXXFLAGS = -Wall -Wextra -std=c++17 -g
+TARGET = main
+SOURCES = $(wildcard *.cpp)
+OBJECTS = $(SOURCES:.cpp=.o)
+
+# Default target
+all: $(TARGET)
+
+# Build target
+$(TARGET): $(OBJECTS)
+	$(CXX) $(OBJECTS) -o $(TARGET)
+
+# Compile .cpp files to .o files
+%.o: %.cpp
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# Test target (example - customize based on your testing framework)
+test:
+	@echo "Running tests..."
+	# Add your test commands here, for example:
+	# ./unit_tests
+	# Or use a testing framework like Google Test, Catch2, etc.
+	@echo "Tests completed."
+
+# Clean target
+clean:
+	rm -f $(OBJECTS) $(TARGET)
+
+# Additional clean target to remove test executables if needed
+distclean: clean
+	rm -f *.out *.log
+
+.PHONY: all clean test distclean
