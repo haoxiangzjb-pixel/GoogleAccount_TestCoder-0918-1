@@ -1,22 +1,70 @@
 ```
 # Compiled and build artifacts
-*.cr
+*.class
+*.o
+*.obj
+*.out
 
 # Dependencies
-.julia/
-.julia-*/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.a
+*.lib
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+*.env.*
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-
-# Environment
-.env
-.env.local
-.env.*
+*.swo
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+.eggs/
+
+# Java specific
+*.class
+*.jar
+*.war
+*.ear
+META-INF/
+
+# Test files
+*Test_*.java
 ```
