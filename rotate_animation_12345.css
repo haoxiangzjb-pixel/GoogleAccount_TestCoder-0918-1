@@ -1,0 +1,29 @@
+/* 旋转动画CSS代码 */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-element {
+  animation: rotate 2s linear infinite;
+  display: inline-block;
+}
+
+/* 示例：应用到一个正方形元素使其旋转 */
+.rotate-box {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  margin: 50px auto;
+  animation: rotate 2s linear infinite;
+}
+
+/* 可以调整的参数：
+   - 动画时长：2s (可以改为其他值如 1s, 3s 等)
+   - 动画效果：linear (匀速) 或 ease, ease-in, ease-out 等
+   - 重复次数：infinite (无限重复) 或指定次数如 3
+*/
