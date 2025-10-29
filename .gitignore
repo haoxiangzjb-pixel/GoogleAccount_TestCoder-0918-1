@@ -1,5 +1,20 @@
 ```
-# Configuration files
-*.yml
-*.yaml
+# Compiled and build artifacts
+*.nimble
+*.out
+*.o
+*.obj
+
+# Dependencies
+.nimble/
+nimcache/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
 ```
