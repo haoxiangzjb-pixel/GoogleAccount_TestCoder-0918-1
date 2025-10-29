@@ -1,4 +1,1 @@
-```
-# JSON response files
-*.json
-```
+Nothing to output - the change list contains only a source code file (.swift) which should not be ignored.
