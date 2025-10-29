@@ -1,1 +1,13 @@
-Nothing should be ignored based on the provided file changes, as only a single source code file (`.f90`) was added without any build artifacts, dependencies, or temporary files.
+```bash
+# Temporary shell scripts
+*.sh~
+
+# Logs and temp files
+*.tmp
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+```
