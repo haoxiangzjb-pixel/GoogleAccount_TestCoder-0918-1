@@ -1,5 +1,5 @@
 ```
-# Configuration files
-*.yml
-*.yaml
+# PowerShell script backup/swap files
+*.ps1~
+*~
 ```
