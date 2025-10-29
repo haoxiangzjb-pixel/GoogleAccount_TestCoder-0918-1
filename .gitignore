@@ -1,7 +1,1 @@
-```
-# PowerShell script backups and temp files
-*.ps1~
-*~
-.DS_Store
-Thumbs.db
-```
+Nothing needs to be added to .gitignore as the changes only include Haskell source files (.hs) which are source code files and should not be ignored.
