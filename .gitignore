@@ -1,5 +1,22 @@
-(data-fetch.service.ts is a source file, so no ignores needed)
+```
+# Web files
+*.html
 
-```ts
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
