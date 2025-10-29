@@ -1,5 +1,52 @@
-```
-# Compiled and build artifacts
+```hcl
+# Terraform and HCL related
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.hcl.json
+*.backup
+.terragrunt-cache/
+
+# Variables and state files
+*.auto.tfvars
+*.lock.hcl
+terraform.tfvars
+terraform.tfstate
+
+# Environment and local files
+.env
+.env.local
+*.env.*
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build and dependency directories
+node_modules/
+build/
+dist/
+target/
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.class
 *.o
 *.obj
 *.exe
@@ -8,57 +55,11 @@
 *.a
 *.out
 
-# Dependencies
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-.env
-.env.local
-.env.
-
-# Build directories
-build/
-dist/
-*.egg-info/
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs and temp files
-*.log
-*.tmp
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-.coverage
+# Coverage and testing
 coverage/
 htmlcov/
-
-# MyPy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pytest
-.pytest_cache/
-
-# Gradle
-.gradle/
-build/
-
-# Target (Rust, etc.)
-target/
+.coverage
+*.coverage
 
 # Compressed files
 *.zip
