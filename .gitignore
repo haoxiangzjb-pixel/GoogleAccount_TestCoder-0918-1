@@ -1,1 +1,77 @@
-(load_and_summarize.r is a source file, so no ignores needed)
+```bash
+# Temporary shell script files
+*.sh~
+
+# Backup files
+*~
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts
+dist/
+build/
+target/
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Compression files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# System files
+.DS_Store
+Thumbs.db
+```
+
+Wait, looking at the added files again: `disk_check.sh` and `disk_usage_check_039127f9.sh` - these are shell script files, which are source code files. No build artifacts, dependencies, or temp files are present in the changes.
+
+(empty)
