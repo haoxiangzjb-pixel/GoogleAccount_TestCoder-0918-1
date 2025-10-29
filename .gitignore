@@ -1,25 +1,6 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-
-# Dependencies
-lib/
-*.so
-*.a
-*.dll
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Crystal-specific
-.crystal/
-.libs/
+# Generated from file changes
+# Thrift generated files
+*.thrift.gen
+gen-*/
 ```
