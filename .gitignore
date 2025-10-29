@@ -1,25 +1,23 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
+# Docker
+.dockerenv
+.dockerinit
+*.dockerignore
 
-# Dependencies
-lib/
-*.so
-*.a
-*.dll
+# Environment
+.env
+.env.local
+.env.*
 
-# Logs and temp files
+# Logs
 *.log
+
+# Temporary files
 *.tmp
 *.swp
+*~
 
-# Editors
-.vscode/
-.idea/
-
-# Crystal-specific
-.crystal/
-.libs/
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
