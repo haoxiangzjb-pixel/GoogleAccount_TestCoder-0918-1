@@ -1,7 +1,22 @@
-# React component file - no need to ignore
-# No build artifacts, dependencies, or temp files detected
-# Source code files like .jsx are not ignored unless they are generated or sensitive
+```
+# PowerShell session files
+*.ps1
 
-# Final .gitignore content is empty because only source/config files are present
-# and no build artifacts, dependencies, or temp files are included in the changes
-# Therefore, no .gitignore rules are needed.
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
