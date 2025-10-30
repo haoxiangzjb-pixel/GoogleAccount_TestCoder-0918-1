@@ -1,5 +1,4 @@
 ```
-# LaTeX build artifacts
 *.aux
 *.log
 *.toc
@@ -8,19 +7,8 @@
 *.out
 *.bbl
 *.blg
-*.idx
-*.ind
-*.ilg
-*.dvi
-*.ps
-*.pdf
-*.synctex.gz
 *.fls
 *.fdb_latexmk
-*.bcf
-*.run.xml
-*.xwm
-*.synctex
-*.synctex(busy)
-*.synctex.gz(busy)
+*.synctex.gz
+*.pdf
 ```
