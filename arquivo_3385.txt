@@ -1,0 +1,10 @@
+Mensagem 1 produzida pela goroutine
+Mensagem 2 produzida pela goroutine
+Mensagem 3 produzida pela goroutine
+Mensagem 4 produzida pela goroutine
+Mensagem 5 produzida pela goroutine
+Mensagem 6 produzida pela goroutine
+Mensagem 7 produzida pela goroutine
+Mensagem 8 produzida pela goroutine
+Mensagem 9 produzida pela goroutine
+Mensagem 10 produzida pela goroutine
