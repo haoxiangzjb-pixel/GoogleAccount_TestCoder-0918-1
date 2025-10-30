@@ -1,1 +1,30 @@
-Nothing needs to be added to .gitignore as the changes only include Haskell source files (.hs) which are source code files and should not be ignored.
+```
+# Dependency packages
+*.deb
+
+# Processed data files
+processed_data_*.txt
+
+# F# build artifacts
+*.fsx~
+*.fsi
+*.dll
+*.exe
+*.pdb
+*.opt
+*.obj
+
+# Editor/IDE files
+.vscode/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment files
+.env
+.env.local
+*.env.*
+```
