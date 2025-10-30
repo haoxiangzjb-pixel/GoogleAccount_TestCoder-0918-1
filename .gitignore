@@ -1,14 +1,1 @@
-```
-# VBA specific
-*.vba~
-
-# Backup files
-*~
-
-# Temporary files
-*.tmp
-*.temp
-
-# Logs
-*.log
-```
+Nothing to output - the change list contains only a source code file (.adb) and no build artifacts, dependencies, or temp files that need to be ignored.
