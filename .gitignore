@@ -1,30 +1,30 @@
-```
-# Julia dependencies and build artifacts
-julia-*/
-!julia-*/bin/
-!julia-*/etc/
-!julia-*/share/julia/**/src/
-!julia-*/share/julia/**/test/
+```crystal
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
 
-# Julia package compilation cache
-*.ji
-*.ji.debug
+# Dependencies
+lib/
+deps/
+.crystal/
+.sass-cache/
 
-# Julia system image
-sys.so
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
-# Compressed Julia distribution
-julia.tar.gz
+# Editors
+.vscode/
+.idea/
 
-# Julia-specific compiled libraries
-libjulia.so*
-libLLVM-*.so*
-lib*.so*
-lib*.so.*.*
+# System files
+.DS_Store
+Thumbs.db
 
-# Julia documentation build artifacts
-share/doc/julia/html/
-
-# Julia base cache
-share/julia/base.cache
+# Crystal-specific
+.crystal/
+.sass-cache/
+coverage/
 ```
