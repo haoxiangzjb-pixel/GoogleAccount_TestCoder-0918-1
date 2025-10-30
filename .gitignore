@@ -1,4 +1,1 @@
-```
-# Compiled files
-*.fs
-```
+Nothing should be ignored since only a Haskell source file (.hs) was added and no build artifacts, dependencies, or temporary files are present in the changes.
