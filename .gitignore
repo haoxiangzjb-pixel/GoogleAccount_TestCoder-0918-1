@@ -1,8 +1,12 @@
 ```
 # Compiled and build artifacts
-*.css.map
-*.css.gz
-*.css.br
+*.pyc
+__pycache__/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -17,16 +21,4 @@
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# Coverage and testing
-coverage/
-htmlcov/
-.coverage
-*.coverage
-
-# System files
-.DS_Store
-Thumbs.db
 ```
