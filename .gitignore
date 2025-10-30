@@ -1,4 +1,24 @@
 ```
 # Compiled and build artifacts
-*.ex
+*.beam
+*.o
+*.obj
+*.out
+
+# Dependencies
+.eunit/
+_rebar/
+_rebar3/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Erlang-specific
+erl_crash.dump
 ```
