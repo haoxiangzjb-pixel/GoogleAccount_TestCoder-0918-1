@@ -1,8 +1,1 @@
-```
-# SQL files that might be generated or temporary
-*.sql
-
-# If these are build artifacts or generated files, ignore them
-d4c5eec87e150b47.sql
-delete_old_records.sql
-```
+Nothing needs to be ignored in this case. The added file `hello_asm_12345.asm` is a source code file (.asm) which should be tracked in version control. No build artifacts, dependencies, or temporary files are present in the changes.
