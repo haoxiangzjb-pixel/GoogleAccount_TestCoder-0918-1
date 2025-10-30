@@ -1,1 +1,12 @@
-(empty)
+```
+# Scala build system
+.bsp/
+.scala-build/
+
+# Logs
+*.log
+
+# Temporary Scala files
+*.scala~
+*.sc~
+```
