@@ -1,1 +1,27 @@
-(empty)
+```
+# Compiled and build artifacts
+*.swiftmodule
+*.swiftdoc
+*.sib
+*.sib~
+*.d
+# Dependencies
+Pods/
+Carthage/
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+# Environment
+.env
+.env.local
+.env.*
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+# Build directories
+build/
+DerivedData/
+```
