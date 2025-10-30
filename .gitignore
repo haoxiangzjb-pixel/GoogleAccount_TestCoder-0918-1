@@ -1,22 +1,10 @@
 ```
-# PowerShell session files
-*.ps1
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
+# Environment files
 .env
 .env.local
 *.env.*
 
-# Editors
-.vscode/
-.idea/
-
-# OS generated files
-.DS_Store
-Thumbs.db
+# Configuration files that might contain sensitive data
+*.ini
+!db_settings_*.ini
 ```
