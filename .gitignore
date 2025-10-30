@@ -1,4 +1,25 @@
 ```
-# Test files
-*.test.*.js
+# Compiled and build artifacts
+*.ex
+*.beam
+*.o
+*.obj
+
+# Dependencies
+deps/
+_build/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
 ```
