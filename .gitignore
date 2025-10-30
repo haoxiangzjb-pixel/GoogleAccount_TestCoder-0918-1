@@ -1,24 +1,37 @@
-# Generated Dart file
-Car_1760784523.dart
+```
+# Perl
+*.pl~
+*.plx~
+*.pm~
+*.pod~
+
 # Compiled and build artifacts
-*.pyc
-pycache/
 *.o
 *.obj
-dist/
-build/
+*.out
+
 # Dependencies
-.venv/
-venv/
-node_modules/
+lib/
+blib/
+pm_to_blib/
+
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-# Environment
-.env
-.env.local
-.env.
+
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env.*
+```
