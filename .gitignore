@@ -1,12 +1,1 @@
-```
-# Temporary shell scripts
-*.sh~
-
-# Logs and temp files
-*.tmp
-*.log
-
-# System files
-.DS_Store
-Thumbs.db
-```
+Nothing should be ignored based on the provided file changes. The added file `ViewController_12345.swift` is a source code file that should be tracked in version control.
