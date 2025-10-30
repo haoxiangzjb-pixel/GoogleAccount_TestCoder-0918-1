@@ -1,42 +1,26 @@
 ```
-# Configuration and deployment files
-*.yml
-*.yaml
+# Compiled and build artifacts
+*.beam
+*.o
+*.obj
+*.out
 
-# Serverless framework
-.serverless/
-.sls/
-.serverless_plugins/
+# Dependencies
+ebin/
+deps/
+_build/
 
-# Environment and local config
-.env
-.env.local
-.env.*
-
-# Logs
+# Logs and temp files
 *.log
-
-# Temporary files
 *.tmp
-*.temp
+*.swp
 
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# OS files
-.DS_Store
-Thumbs.db
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Build artifacts (if any)
-dist/
-build/
-target/
+# Environment
+.env
+.env.local
+*.env.*
 ```
