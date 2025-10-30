@@ -1,62 +1,35 @@
+```
 # Compiled and build artifacts
-*.pyc
-*.class
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.cmxs
 *.o
 *.obj
-*.exe
-*.dll
-*.so
-*.a
 *.out
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+
+# Dependencies
+.dune/
+.opam/
+_jbuild/
+_build/
+
+# Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
-*.env
-*.env.local
-*.env.*
-.DS_Store
-Thumbs.db
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-dist/
-build/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
-
-# Editors and IDEs
+# Editors
 .vscode/
 .idea/
 
-# Coverage and test artifacts
-coverage/
-htmlcov/
-.coverage
+# OCaml-specific
+*.annot
+*.spot
+*.spit
+*.cmt
+*.cmti
+*.merlin
+```
