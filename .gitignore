@@ -1,55 +1,47 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-dist/
-build/
-target/
-*.class
-*.exe
-*.dll
-*.so
-*.a
-*.out
+# Configuration files
+*.yaml
+*.yml
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-.julia/
-zig*/
+# Environment and temporary files
 .env
 .env.local
-*.env.*
-
-# Logs and temp files
-*.log
 *.tmp
-*.swp
-*.swo
-*.bak
-*.~
-*~
+*.log
 
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# System files
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Coverage
+# Dependencies and build artifacts
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
 coverage/
 htmlcov/
 .coverage
-*.gcov
-*.lcov
+
+# System files
+.DS_Store
+Thumbs.db
 
 # Compressed files
 *.zip
@@ -74,36 +66,4 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# MyPy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pytest
-.pytest_cache/
-
-# Gradle
-.gradle/
-
-# Build directories
-bin/
-obj/
-out/
-tmp/
-temp/
-
-# Configuration
-config/
-*.config
-
-# Documentation
-docs/_build/
-*.rst~
-
-# OS generated files
-*.DS_Store
-ehthumbs.db
-Icon?
-Thumbs.db
 ```
