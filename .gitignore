@@ -1,16 +1,26 @@
 ```
-# TypeScript build artifacts
-*.js
-*.js.map
-*.d.ts
-
 # Dependencies
 node_modules/
+.venv/
+venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
 
-# Environment variables
-.env
-.env.local
-*.env.*
+# Compiled files
+*.pyc
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
 
 # Editor/IDE files
 .vscode/
@@ -19,44 +29,20 @@ node_modules/
 *.swo
 *.tmp
 
+# System files
+.DS_Store
+Thumbs.db
+.env
+.env.local
+*.env.*
+
 # Logs
 *.log
 
 # Coverage
 coverage/
 htmlcov/
-*.coverage
-
-# Python (if present)
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
 .coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.git/
-.mypy_cache/
-.pytest_cache/
-.hypothesis/
-
-# Build directories
-dist/
-build/
-target/
-.DS_Store
-Thumbs.db
 
 # Compressed files
 *.zip
