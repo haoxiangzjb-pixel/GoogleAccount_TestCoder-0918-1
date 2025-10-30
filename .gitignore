@@ -1,4 +1,4 @@
 ```
-# JSON response files
-*.json
+# Compiled and build artifacts
+*.r
 ```
