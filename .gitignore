@@ -1,35 +1,33 @@
-```rust
+```
 # Compiled and build artifacts
 *.o
 *.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-target/
+*.hi
+*.dyn_o
+*.dyn_hi
 
 # Dependencies
-Cargo.lock
-vendor/
+.cabal-sandbox/
+dist/
+dist-newstyle/
+*.cabal/packages/
+cabal-dev/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
 # Environment
 .env
 .env.local
 *.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Rust-specific
-**/target/
-Cargo.lock
 ```
