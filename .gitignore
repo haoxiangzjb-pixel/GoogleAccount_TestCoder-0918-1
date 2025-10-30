@@ -1,17 +1,24 @@
-#Compiled and build artifacts
-*.pyc
+```
+# Compiled and build artifacts
 *.class
 *.o
 *.obj
-*.exe
-*.dll
-*.so
-*.a
 *.out
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.so
+*.dll
+*.exe
+*.jar
+*.war
+*.ear
 *.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
 *.gz
-*.tar
-*.tgz
 *.bz2
 *.xz
 *.7z
@@ -26,38 +33,50 @@
 *.Z
 *.lz
 *.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
-#Dependencies
+
+# Dependencies
 node_modules/
 venv/
 .venv/
-__pycache__/
-dist/
-build/
-.mypy_cache/
-.pytest_cache/
+.env
+.env.local
+.env.*
 target/
 .gradle/
-julia-*/
-zig*/
-#Editors and IDEs
+.mypy_cache/
+.pytest_cache/
+coverage/
+htmlcov/
+.coverage
+
+# Build directories
+dist/
+build/
+out/
+bin/
+obj/
+tmp/
+temp/
+
+# IDE and editor files
 .vscode/
 .idea/
 *.swp
 *.swo
-*.log
 *.tmp
-#Environment files
-.env
-.env.local
-.env.*
-#System files
+*.log
+
+# System files
 .DS_Store
 Thumbs.db
-#Coverage and test artifacts
-coverage/
-htmlcov/
-.coverage
+
+# Scala specific
+*.class
+*.jar
+*.war
+*.ear
+lib_managed/
+project_target/
+target/
+*.lock
+```
