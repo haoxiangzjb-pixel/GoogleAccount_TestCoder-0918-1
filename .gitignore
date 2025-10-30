@@ -1,1 +1,15 @@
-Nothing should be ignored based on the provided file changes. The only added file is `HelloWorld.java`, which is a source code file and should not be ignored.
+```
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.lock.hcl
+
+# Archives
+*.zip
+
+# Environment
+.env
+.env.local
+*.env.*
+```
