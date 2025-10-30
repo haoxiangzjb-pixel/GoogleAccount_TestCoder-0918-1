@@ -1,1 +1,8 @@
-Nothing to output - the added file 'ViewController_12345.swift' is a source code file and should not be ignored.
+```
+# Configuration files
+*.yaml
+*.yml
+
+# Temporary and generated config files
+configmap-*.yaml
+```
