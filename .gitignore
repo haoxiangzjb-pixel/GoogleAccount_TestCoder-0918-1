@@ -1,2 +1,7 @@
 ```
+# PowerShell script files (if generated/intermediate)
+*.ps1
+
+# Test output files
+test_date_output.txt
 ```
