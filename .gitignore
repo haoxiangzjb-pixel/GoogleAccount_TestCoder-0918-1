@@ -1,1 +1,24 @@
-Nothing needs to be added to .gitignore for this change list, as it only contains a single source code file (.f90) without any build artifacts, dependencies, or temporary files.
+```
+# Environment
+.env
+.env.local
+.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.jenkins/
+```
