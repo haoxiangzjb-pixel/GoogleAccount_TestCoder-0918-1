@@ -1,29 +1,6 @@
 ```
-# Zig build artifacts
-zig-cache/
-zig-out/
-*.o
-*.obj
-*.a
-*.lib
-*.so
-*.dylib
-*.dll
-
-# Dependencies
-deps/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
+# Temp files and generated configmaps
+*.yaml
+!*.yaml
+configmap-*.yaml
 ```
