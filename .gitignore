@@ -1,1 +1,31 @@
-Nothing should be ignored in this case, as the added file 'gkFn9EnP.nim' is a source code file (.nim extension) and no build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Thrift generated files
+*.thrift.g
+*.thrift.c
+*.thrift.h
+*.thrift.js
+*.thrift.py
+*.thrift.java
+*.thrift.rb
+*.thrift.php
+*.thrift.go
+*.thrift.perl
+*.thrift.csharp
+*.thrift.swift
+*.thrift.scala
+*.thrift.st
+*.thrift.erl
+*.thrift.d
+*.thrift.lua
+*.thrift.c
+*.thrift.cc
+*.thrift.cpp
+*.thrift.cs
+*.thrift.php
+*.thrift.phtml
+*.thrift.pl
+*.thrift.py
+*.thrift.rb
+*.thrift.sh
+*.thrift
+```
