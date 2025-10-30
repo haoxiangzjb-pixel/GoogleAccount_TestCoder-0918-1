@@ -1,1 +1,1 @@
-(empty)
+(product_table_*.md should not be added to .gitignore as they appear to be source/markdown files that should be tracked in version control)
