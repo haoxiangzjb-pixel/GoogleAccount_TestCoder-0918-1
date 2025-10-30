@@ -1,34 +1,4 @@
 ```
-# Compiled and build artifacts
-*.plc
-*.o
-*.obj
-*.out
-
-# Dependencies
-cpan/
-local/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Coverage and testing
-.coverage
-coverage/
-htmlcov/
-
-# System files
-.DS_Store
-Thumbs.db
+# PowerShell/Windows specific
+*.ps1
 ```
