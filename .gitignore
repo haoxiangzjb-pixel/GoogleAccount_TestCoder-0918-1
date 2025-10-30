@@ -1,39 +1,38 @@
 ```
-# Compiled and build artifacts
-*.class
-*.o
-*.obj
-*.out
+# Dart/Flutter build artifacts
+.dart_tool/
+.packages
+*.dart.js
+*.js
+*.js.map
+build/
+*.a
+*.so
+*.dylib
 
 # Dependencies
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+pubspec.lock
 
-# Logs and temp files
+# Logs
 *.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
 
-# Build directories
-build/
-dist/
-target/
+# Coverage
+coverage/
+*.coverage
+
+# OS
+.DS_Store
+Thumbs.db
 ```
