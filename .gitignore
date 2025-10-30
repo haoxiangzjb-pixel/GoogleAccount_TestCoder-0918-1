@@ -1,13 +1,29 @@
 ```
-# VBA/Excel specific ignores
-*.tmp
-*.log
-*.bak
-*.~*
-Thumbs.db
-.DS_Store
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
 
-# If this is a VBA project, we might want to ignore generated files
-*.vba.bak
-*.vba~
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Generated files
+*.proto
 ```
