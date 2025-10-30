@@ -1,0 +1,11 @@
+// Определение структуры User в Rust
+struct User {
+    name: String,
+    age: u32,
+}
+
+// Пример создания экземпляра структуры
+let user = User {
+    name: String::from("John Doe"),
+    age: 30,
+};
