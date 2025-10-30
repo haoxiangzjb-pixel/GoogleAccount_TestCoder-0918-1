@@ -1,55 +1,9 @@
 ```
-# HTML files (if generated)
-*.html
-
-# Temp files
-*.tmp
-*.temp
-
-# Logs
-*.log
-
-# Editor files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Build artifacts
-dist/
-build/
-target/
-*.out
-*.exe
-*.dll
-*.so
-*.a
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Cache
-.mypy_cache/
-.pytest_cache/
-.gradle/
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfbackup
+.terraform/
+.terraform.lock.hcl
 ```
