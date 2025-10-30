@@ -1,14 +1,21 @@
 ```
 # Compiled and build artifacts
-*.asm
+*.mex*
 *.o
 *.obj
-*.out
-*.exe
-*.dll
-*.so
 *.a
+*.so
+*.dll
+*.exe
+*.out
 
+# Dependencies
+*.m~
+*.mat
+*.fig
+*.p
+*.m~
+*~
 # Logs and temp files
 *.log
 *.tmp
@@ -18,8 +25,11 @@
 .vscode/
 .idea/
 
-# Environment
-.env
-.env.local
-*.env.*
+# MATLAB specific
+simulink/
+*.slx
+*.mdl
+*.sfx
+*.mat
+*.fig
 ```
