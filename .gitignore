@@ -1,15 +1,52 @@
-```julia
-# Julia-specific ignores
-*.jl.cov
-*.jl.mem
-*.out
-*.so
-*.dll
-*.dylib
-*.tar.gz
-*.tar
+```
+# Build artifacts
+*.html
+
+# Temp files
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+dist/
+build/
+target/
+.venv/
+venv/
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Compression files
 *.zip
 *.gz
+*.tar
+*.tgz
 *.bz2
 *.xz
 *.7z
@@ -24,42 +61,8 @@
 *.Z
 *.lz
 *.lzo
+*.tar.gz
+*.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# Build artifacts
-build/
-dist/
-target/
-*.exe
-*.a
-*.obj
-
-# Dependencies
-.julia/
-julia-*/
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Logs
-*.log
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Editor/IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
-
-# System
-.DS_Store
-Thumbs.db
 ```
