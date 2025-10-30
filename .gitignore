@@ -1,76 +1,8 @@
 ```
-# Compiled and build artifacts
-*.csproj.user
-*.userprefs
-*.suo
-*.user
-*.aps
-*.ncb
-*.obj
-*.exe
-*.dll
-*.pdb
-*.ilk
-*.plg
-*.tlb
-*.tlh
-*.tmp
-*.rsp
-*.pgc
-*.pgd
-*.metaproj
-*.userosscache
-*.sln.docstates
+# SQL files that might be generated or temporary
+*.sql
 
-# Dependencies
-packages/
-bin/
-obj/
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vs/
-.vscode/
-*.userprefs
-*~
-._*
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-desktop.ini
-
-# Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-build/
-bld/
-[Bb]in/
-[Oo]bj/
-
-# Visual Studio Code
-.vscode/
-
-# Visual Studio
-*.user
-*.aps
-*.userosscache
-*.sln.docstates
+# If these are build artifacts or generated files, ignore them
+d4c5eec87e150b47.sql
+delete_old_records.sql
 ```
