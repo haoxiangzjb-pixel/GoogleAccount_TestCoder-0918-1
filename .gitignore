@@ -1,45 +1,55 @@
 ```
-# Configuration and deployment files
-*.yaml
-*.yml
-
-# Environment and temporary files
-.env
-.env.local
-*.tmp
-*.log
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Dependencies and build artifacts
-node_modules/
-__pycache__/
+# Compiled and build artifacts
 *.pyc
-*.class
+__pycache__/
 *.o
 *.obj
+*.class
 *.exe
 *.dll
 *.so
 *.a
 *.out
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
+
+# Build directories
 dist/
 build/
 target/
-.venv/
-venv/
-.mypy_cache/
+.gradle/
+
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
+.PyInstaller/
 .pytest_cache/
+.mypy_cache/
 .coverage
 coverage/
 htmlcov/
-.julia/
-zig*/
-julia-*/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # System files
 .DS_Store
