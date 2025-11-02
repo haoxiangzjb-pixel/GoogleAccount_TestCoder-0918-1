@@ -1,1 +1,22 @@
-Nothing should be ignored based on the provided file changes, as they are only Python source files (.py) which are legitimate source code files that should be tracked in version control.
+```
+# Build artifacts
+*.groovy
+build/
+target/
+
+# Dependencies
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+```
