@@ -1,87 +1,16 @@
-```hcl
-# Terraform and HCL related
-.terraform/
-*.tfstate
-*.tfstate.*
-*.tfvars
-*.hcl.json
-*.backup
-.terragrunt-cache/
-
-# Variables and state files
-*.auto.tfvars
-*.lock.hcl
-terraform.tfvars
-terraform.tfstate
-
-# Environment and local files
-.env
-.env.local
-*.env.*
-
-# Logs and temporary files
+```
+# LaTeX auxiliary files
+*.aux
 *.log
-*.tmp
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Build and dependency directories
-node_modules/
-build/
-dist/
-target/
-.venv/
-venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
+*.toc
+*.lof
+*.lot
 *.out
-
-# Coverage and testing
-coverage/
-htmlcov/
-.coverage
-*.coverage
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.pdf
 ```
