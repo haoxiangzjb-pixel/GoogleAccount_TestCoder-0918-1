@@ -1,4 +1,39 @@
-```
-# Database dump files
-*.sql
+```zig
+# Zig build artifacts
+zig-cache/
+zig-out/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+
+# Dependencies
+deps/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# System files
+.DS_Store
+Thumbs.db
 ```
