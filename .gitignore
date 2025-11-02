@@ -1,55 +1,35 @@
 ```
-# XML files
-*.xml
+# Dart SDK
+dart-sdk/
+
+# Compressed files
+*.zip
+
+# Binary/executable files
+*.sym
+*.wasm
+*.aot
+*.snapshot
+*.dill
 
 # Temporary files
 *.tmp
-*.temp
+*.swp
+*.swo
 
 # Logs
 *.log
 
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Editor/IDE files
+# IDE files
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# Dependencies
-node_modules/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Build artifacts
-dist/
-build/
-target/
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
 
 # System files
 .DS_Store
 Thumbs.db
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Cache directories
-.mypy_cache/
-.pytest_cache/
-.gradle/
+# Environment
+.env
+.env.local
+*.env.*
 ```
