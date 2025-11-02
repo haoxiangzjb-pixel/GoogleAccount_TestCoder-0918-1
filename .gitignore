@@ -1,4 +1,1 @@
-```
-# Compiled and build artifacts
-*.cr
-```
+Nothing should be ignored based on the provided file changes. The added file '4yi25imt.py' is a source code file and should not be added to .gitignore.
