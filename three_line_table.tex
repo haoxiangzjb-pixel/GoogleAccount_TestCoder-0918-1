@@ -1,0 +1,43 @@
+\documentclass{article}
+\usepackage{booktabs} % For professional-quality tables with \toprule, \midrule, \bottomrule
+\usepackage{array}
+
+\begin{document}
+
+\title{Three-Line Table Example (三线表)}
+\maketitle
+
+% Creating a three-line table (三线表)
+\begin{table}[h]
+\centering
+\begin{tabular}{ccc}
+\toprule
+Column 1 & Column 2 & Column 3 \\
+\midrule
+Data A & Data B & Data C \\
+Data D & Data E & Data F \\
+Data G & Data H & Data I \\
+\bottomrule
+\end{tabular}
+\caption{Example of a three-line table (三线表) in LaTeX}
+\label{tab:example}
+\end{table}
+
+% Another example with more content
+\begin{table}[h]
+\centering
+\begin{tabular}{lcc}
+\toprule
+Name & Age & Score \\
+\midrule
+Alice & 25 & 95 \\
+Bob & 30 & 87 \\
+Charlie & 22 & 92 \\
+Diana & 28 & 89 \\
+\bottomrule
+\end{tabular}
+\caption{Another example of a three-line table}
+\label{tab:example2}
+\end{table}
+
+\end{document}

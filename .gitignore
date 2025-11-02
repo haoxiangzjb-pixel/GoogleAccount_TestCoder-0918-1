@@ -1,5 +1,15 @@
-(book.xml is a source/config file, not a build artifact or dependency, so no .gitignore rules needed)
-
-```gitignore
-
+```
+# LaTeX build artifacts
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
 ```
