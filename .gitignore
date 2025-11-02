@@ -1,26 +1,16 @@
 ```
 # Compiled and build artifacts
-*.o
-*.obj
-*.out
-
-# Dependencies
-__pycache__/
-*.pyc
-*.pyo
+*.pl~
 
 # Logs and temp files
-*.log
 *.tmp
-*.swp
+*.log
 
 # Editors
 .vscode/
 .idea/
-
-# System files
-.DS_Store
-Thumbs.db
+*.swp
+*.swo
 
 # Environment
 .env
