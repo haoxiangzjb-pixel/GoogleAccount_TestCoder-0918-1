@@ -1,0 +1,10 @@
+```
+# Backup files
+backup_*.txt
+*.bak
+*.backup
+
+# Shell script backups
+*.sh.bak
+backup_*.sh
+```
