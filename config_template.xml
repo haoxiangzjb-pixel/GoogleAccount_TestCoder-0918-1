@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <application>
+        <name>MyApplication</name>
+        <version>1.0.0</version>
+        <debug>true</debug>
+    </application>
+    
+    <database>
+        <host>localhost</host>
+        <port>5432</port>
+        <name>myapp_db</name>
+        <username>admin</username>
+        <password>secret123</password>
+    </database>
+    
+    <server>
+        <host>0.0.0.0</host>
+        <port>8080</port>
+        <maxConnections>100</maxConnections>
+        <timeout>30</timeout>
+    </server>
+    
+    <logging>
+        <level>INFO</level>
+        <file>/var/log/myapp.log</file>
+        <maxSize>10MB</maxSize>
+    </logging>
+</configuration>
