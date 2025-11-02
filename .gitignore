@@ -1,3 +1,11 @@
-```go
+```
+# Web build artifacts
+*.html
 
+# Temp files
+*.tmp
+*.swp
+
+# Logs
+*.log
 ```
