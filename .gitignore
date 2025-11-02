@@ -1,25 +1,11 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-
-# Dependencies
-vendor/
-*.mod
-*.sum
-
-# Logs and temp files
-*.log
+# Temporary files
 *.tmp
-*.swp
+tmp.*
 
-# Editors
-.vscode/
-.idea/
+# XML backup/temp files
+*.xml~
 
-# Environment
-.env
-.env.local
-*.env.*
+# Logs
+*.log
 ```
