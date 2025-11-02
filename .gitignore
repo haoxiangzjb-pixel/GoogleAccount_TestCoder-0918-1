@@ -1,4 +1,4 @@
 ```
-# XML files
-*.xml
+# Compiled and build artifacts
+*.asm
 ```
