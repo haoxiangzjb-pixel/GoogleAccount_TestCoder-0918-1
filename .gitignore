@@ -1,1 +1,31 @@
-Nothing to output - the added file 'invertir_lista.py' is a source code file and no build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Compiled files
+*.class
+
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build directories
+build/
+dist/
+target/
+```
