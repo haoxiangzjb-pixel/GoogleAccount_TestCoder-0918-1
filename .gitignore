@@ -1,7 +1,11 @@
 ```
-# Markdown files (if they are temporary TODO files)
-*.md
+# Temporary files
+*.tmp
+*.temp
+tmp.*
 
-# If these are temporary/intermediate files
-todo_*.md
+# Environment files
+.env
+.env.local
+.env.*
 ```
