@@ -1,11 +1,4 @@
-# PowerShell scripts
-*.ps1
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
+```
+# Generated from file changes
+*.proto
+```
