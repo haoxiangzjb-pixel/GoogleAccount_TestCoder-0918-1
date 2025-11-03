@@ -1,0 +1,33 @@
+---
+- name: Define variables and save to file with random name
+  hosts: localhost
+  gather_facts: yes
+  vars:
+    my_variable1: "Hello World"
+    my_variable2: 42
+    my_variable3: 
+      - item1
+      - item2
+      - item3
+    my_variable4: 
+      key1: value1
+      key2: value2
+
+  tasks:
+    - name: Generate random filename
+      set_fact:
+        random_filename: "/tmp/ansible_output_{{ 10000 | random }}_{{ ansible_date_time.iso8601_basic_short | replace(':', '') }}.txt"
+
+    - name: Save variables to file with random name
+      copy:
+        content: |
+          Variable 1: {{ my_variable1 }}
+          Variable 2: {{ my_variable2 }}
+          Variable 3: {{ my_variable3 | to_nice_yaml }}
+          Variable 4: {{ my_variable4 | to_nice_yaml }}
+        dest: "{{ random_filename }}"
+      register: file_result
+
+    - name: Display the random filename
+      debug:
+        msg: "Variables saved to file: {{ random_filename }}"
