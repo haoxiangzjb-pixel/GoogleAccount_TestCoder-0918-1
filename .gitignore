@@ -2,10 +2,13 @@
 # Compiled and build artifacts
 *.o
 *.obj
-*.out
+*.mod
+*.smod
+*.exe
 
-# Assembly related
-*.asm~
+# Dependencies
+build/
+dist/
 
 # Logs and temp files
 *.log
