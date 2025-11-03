@@ -1,44 +1,27 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
+*.nimble
+*.nims
+*.so
+*.dll
+*.exe
+*.out
 
 # Dependencies
-.venv/
-venv/
-node_modules/
+.nimble/
+nimcache/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-*.env.*
-
 # Editors
 .vscode/
 .idea/
 
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Python specific
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Backup files
-*~
-*.bak
-*.swp
-
-# OS generated files
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+*.env.*
 ```
