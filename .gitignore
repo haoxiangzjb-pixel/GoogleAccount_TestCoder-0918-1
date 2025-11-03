@@ -1,22 +1,59 @@
 ```
-# Compiled and build artifacts
-*.beam
-*.exs~
+# PowerShell/Shell artifacts
+*.ps1
+*.sh
 
-# Dependencies
-.deps/
-ebin/
-_include/
-
-# Logs and temp files
-*.log
+# Temp files
 *.tmp
+*.temp
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# System files
+# OS
 .DS_Store
 Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage*
+nosetests.xml
+*.cover
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.egg-info/
+dist/
+build/
+*.egg
 ```
