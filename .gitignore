@@ -1,5 +1,18 @@
 ```
-# Configuration files
-*.yml
-*.yaml
+# Compiled Haskell files
+*.o
+*.hi
+
+# Executable files
+*.exe
+*.out
+
+# Temporary/randomly generated files
+generate_random_file.hs
+generate_simple_random_file
+generate_simple_random_file.hi
+generate_simple_random_file.o
+listFunc_789456123
+listFunc_789456123.hi
+listFunc_789456123.o
 ```
