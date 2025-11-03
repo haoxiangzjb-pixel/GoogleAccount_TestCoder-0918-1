@@ -1,24 +1,41 @@
 ```
 # Compiled and build artifacts
-*.ex
-*.beam
-*.app
-*.ez
-_ebuild/
-ebin/
+*.dart.js
+*.js
+*.map
+*.dill
+*.packages
+*.flutter-plugins
+*.flutter-plugins-dependencies
+
 # Dependencies
-deps/
-_build/
+.pub/
+.build/
+.dart_tool/
+
 # Logs and temp files
 *.log
-erl_crash.dump
+*.tmp
+*.swp
+
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
+
 # Editors
 .vscode/
 .idea/
 *.swp
 *.swo
+
+# Build outputs
+build/
+dist/
+out/
+target/
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
