@@ -1,1 +1,36 @@
-Nothing should be ignored based on the provided file changes. The added file `form_handler_947283.php` is a source code file that should be tracked in version control.
+```
+# Configuration files
+*.yml
+*.yaml
+
+# Ansible specific
+*.retry
+*.log
+
+# Backup files
+*~
+*.bak
+*.backup
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+```
