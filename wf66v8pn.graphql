@@ -1,0 +1,16 @@
+mutation UpdateUser($id: ID!, $data: UserDataInput!) {
+  updateUser(id: $id, data: $data) {
+    id
+    name
+    email
+    isActive
+    createdAt
+    updatedAt
+  }
+}
+
+input UserDataInput {
+  name: String
+  email: String
+  isActive: Boolean
+}

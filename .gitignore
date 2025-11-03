@@ -1,1 +1,4 @@
-Nothing to output - the change list contains only a Solidity source file (.sol) which should not be ignored.
+```
+# GraphQL files - source code, should not be ignored
+# The added .graphql files are source files and should be version controlled
+```

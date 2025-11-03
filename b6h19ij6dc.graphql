@@ -1,0 +1,69 @@
+mutation UpdateUser($id: ID!, $input: UpdateUserDetailsInput!) {
+  updateUser(id: $id, input: $input) {
+    id
+    username
+    email
+    firstName
+    lastName
+    dateOfBirth
+    gender
+    phone
+    address {
+      street
+      city
+      state
+      zipCode
+      country
+    }
+    company {
+      id
+      name
+      position
+      department
+    }
+    preferences {
+      newsletter
+      theme
+      language
+    }
+    status
+    lastSeen
+    createdAt
+    updatedAt
+  }
+}
+
+input UpdateUserDetailsInput {
+  username: String
+  email: String
+  firstName: String
+  lastName: String
+  dateOfBirth: String
+  gender: String
+  phone: String
+  address: AddressInput
+  company: CompanyInput
+  preferences: UserPreferencesInput
+  status: String
+}
+
+input AddressInput {
+  street: String
+  city: String
+  state: String
+  zipCode: String
+  country: String
+}
+
+input CompanyInput {
+  id: ID
+  name: String
+  position: String
+  department: String
+}
+
+input UserPreferencesInput {
+  newsletter: Boolean
+  theme: String
+  language: String
+}

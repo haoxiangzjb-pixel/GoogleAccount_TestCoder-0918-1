@@ -1,0 +1,23 @@
+mutation UpdateUser($id: ID!, $userInput: UserInput!) {
+  updateUser(id: $id, userInput: $userInput) {
+    id
+    name
+    email
+    age
+    isActive
+    createdAt
+    updatedAt
+    lastLogin
+    role
+    permissions
+  }
+}
+
+input UserInput {
+  name: String
+  email: String
+  age: Int
+  isActive: Boolean
+  role: String
+  permissions: [String!]
+}

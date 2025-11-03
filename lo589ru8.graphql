@@ -1,0 +1,49 @@
+mutation UpdateUser($id: ID!, $data: UpdateUserData!) {
+  updateUser(id: $id, data: $data) {
+    id
+    name
+    email
+    phone
+    isActive
+    profilePicture
+    bio
+    location
+    website
+    socialMedia {
+      twitter
+      linkedin
+      github
+    }
+    preferences {
+      emailNotifications
+      pushNotifications
+      privacyLevel
+    }
+    updatedAt
+  }
+}
+
+input UpdateUserData {
+  name: String
+  email: String
+  phone: String
+  isActive: Boolean
+  profilePicture: String
+  bio: String
+  location: String
+  website: String
+  socialMedia: SocialMediaInput
+  preferences: UserPreferencesInput
+}
+
+input SocialMediaInput {
+  twitter: String
+  linkedin: String
+  github: String
+}
+
+input UserPreferencesInput {
+  emailNotifications: Boolean
+  pushNotifications: Boolean
+  privacyLevel: String
+}
