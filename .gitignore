@@ -19,6 +19,15 @@ venv/
 .env.local
 .env.*
 
+# Build directories
+dist/
+build/
+target/
+*.jar
+*.war
+*.zip
+*.tar.gz
+
 # Logs and temp files
 *.log
 *.tmp
@@ -28,8 +37,10 @@ venv/
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# System files
+# OS specific
 .DS_Store
 Thumbs.db
 
@@ -37,6 +48,29 @@ Thumbs.db
 coverage/
 htmlcov/
 .coverage
+
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing
+.mypy_cache/
+.pytest_cache/
+.tox/
+
+# Gradle
+.gradle/
+build/
 
 # Compressed files
 *.zip
