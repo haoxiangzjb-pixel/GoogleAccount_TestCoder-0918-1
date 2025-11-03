@@ -1,35 +1,7 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.ali
+# XML files (if generated/compressed)
+*.xml
 
-# Dependencies
-*.lib
-*.a
-*.so
-*.dll
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Coverage and testing
-coverage/
-htmlcov/
-.coverage
-
-# System files
-.DS_Store
-Thumbs.db
+# If this is a generated/temporary file
+purchase_order_*.xml
 ```
