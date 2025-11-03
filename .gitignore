@@ -1,5 +1,4 @@
-(data-fetch.service.ts is a source file, so no ignores needed)
-
-```ts
-
+```
+# Protocol buffer files
+*.proto
 ```
