@@ -1,9 +1,3 @@
-```
-# Configuration files
-*.ini
-
-# Environment files
-.env
-.env.local
-*.env.*
-```
+# Puppet files
+*.pp.bak
+*.pp~
