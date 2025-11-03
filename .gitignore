@@ -1,1 +1,7 @@
-(empty)
+```
+# Temporary/Generated files
+*.tmp
+
+# Docker
+docker-compose-*.yml
+```
