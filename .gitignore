@@ -1,13 +1,45 @@
 ```
-# Environment and temporary files
+# Compiled and build artifacts
+*.o
+*.obj
+*.mod
+*.smod
+*.out
+
+# Dependencies
+build/
+dist/
+*.so
+*.dylib
+*.dll
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
 .env
 .env.local
 *.env.*
 
-# Logs and temporary files
-*.log
-*.tmp
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
-# User data files
-user_data_*.txt
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.pyd
+
+# System files
+.DS_Store
+Thumbs.db
 ```
