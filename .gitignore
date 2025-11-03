@@ -1,9 +1,13 @@
 ```
 # Compiled and build artifacts
-*.class
 *.pyc
+__pycache__/
 *.o
 *.obj
+dist/
+build/
+target/
+*.class
 *.exe
 *.dll
 *.so
@@ -11,42 +15,45 @@
 *.out
 
 # Dependencies
-node_modules/
-venv/
 .venv/
-__pycache__/
-dist/
-build/
-target/
-.gradle/
+venv/
+node_modules/
 .mypy_cache/
 .pytest_cache/
+.coverage
+coverage/
+htmlcov/
 .julia/
 zig*/
+.jupyter/
+.ipython/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 *.swo
+*.bak
+*.cache
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
+*.env
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
 
 # System files
 .DS_Store
 Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
+.git/
+!.gitignore
 
 # Compressed files
 *.zip
@@ -67,8 +74,6 @@ htmlcov/
 *.Z
 *.lz
 *.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+
+# Original rules preserved
 ```
