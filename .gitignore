@@ -1,11 +1,1 @@
-```
-# Temporary files
-*.tmp
-tmp.*
-
-# XML backup/temp files
-*.xml~
-
-# Logs
-*.log
-```
+Nothing to ignore - the added file `hello_12345.asm` is a source code file that should be tracked in version control.
