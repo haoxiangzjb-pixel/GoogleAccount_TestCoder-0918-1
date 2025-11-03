@@ -1,1 +1,19 @@
-Nothing should be ignored in this case, as the added file 'waMj19g0.f90' is a source code file (.f90 is a Fortran source file extension) and there are no build artifacts, dependencies, or temporary files in the changes list.
+```
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Docker-related (if Docker-specific temp files appear)
+*.dockerignore
+.dockerenv
+```
