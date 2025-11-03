@@ -1,4 +1,5 @@
 ```
-# Compiled and build artifacts
-*.ex
+# Log files
+*.log
+*.log_stats.txt
 ```
