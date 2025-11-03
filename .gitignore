@@ -1,12 +1,1 @@
-```
-# Temporary shell scripts
-*.sh~
-
-# Logs and temp files
-*.tmp
-*.log
-
-# System files
-.DS_Store
-Thumbs.db
-```
+Nothing should be ignored based on the provided file changes. The added file `get-system-info.ps1` is a PowerShell script file, which is source code and should not be ignored. There are no build artifacts, dependencies, or temporary files in the changes that would warrant adding ignore rules.
