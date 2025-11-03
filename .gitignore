@@ -1,56 +1,51 @@
 ```
-# Script files
-*.sh
+# TypeScript/JavaScript build artifacts
+*.tsbuildinfo
+*.js.map
+*.ts.map
 
-# Temporary and generated files
-*.tmp
-*.swp
-*.swo
-
-# Logs
-*.log
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.pyc
-__pycache__/
-
-# Build artifacts
-dist/
-build/
-target/
+# Compiled and build artifacts
 *.o
 *.obj
+*.out
 *.exe
 *.dll
 *.so
 *.a
-*.out
 
-# Dependency directories
+# Dependencies
 node_modules/
-venv/
-.venv/
-.mypy_cache/
-.pytest_cache/
-.gradle/
 julia-*/
 zig*/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
+__pycache__/
 
-# System files
-.DS_Store
-Thumbs.db
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
 
 # Coverage
 coverage/
 htmlcov/
 .coverage
+
+# System
+.DS_Store
+Thumbs.db
 
 # Compressed files
 *.zip
