@@ -1,44 +1,4 @@
-```julia
-# Julia-specific ignores
-*.ji
-*.jl.cov
-*.jl.mem
-*.so
-*.dylib
-*.dll
-
-# Build artifacts
-build/
-dist/
-lib/
-deps/
-
-# Package manager
-.julia/
-Pkg.add/
-Pkg.develop/
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs and temp files
-*.log
-*.tmp
-
-# System
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
+```
+# Compiled and build artifacts
+*.cr
 ```
