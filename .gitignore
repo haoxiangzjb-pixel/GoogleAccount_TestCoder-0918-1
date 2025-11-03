@@ -1,3 +1,5 @@
 ```
-# Configuration and source files only - no build artifacts, dependencies, or temp files to ignore
+# Configuration files
+*.toml
+!config_example.toml
 ```
