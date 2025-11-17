@@ -1,51 +1,51 @@
 ```
+# Generated/Temporary files
+*_xrquukaq.ts
+*.tmp
+*.swp
+
+# Logs
+*.log
+
 # Environment
 .env
 .env.local
 *.env.*
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # Dependencies
 node_modules/
-.venv/
-venv/
 __pycache__/
-.mypy_cache/
-.pytest_cache/
-pip-log.txt
-pipenv.lock
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+.env
 
 # Build artifacts
-build/
 dist/
-*.egg-info/
-.coverage
-coverage/
-htmlcov/
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Compiled files
-*.pyc
-*.class
+build/
+*.out
+*.exe
+*.dll
+*.so
+*.a
 *.o
 *.obj
-*.so
-*.dll
-*.exe
-*.out
 
-# Compressed files
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Compression
 *.zip
 *.gz
 *.tar
