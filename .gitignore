@@ -1,16 +1,26 @@
 ```
-# Compiled and build artifacts
-*.asm
-*.o
-*.obj
-*.out
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
+# Compiled files
+*.csproj.user
+*.userosscache
+*.sln.docstates
+*.user
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+[Bb]in/
+[Dd]ebug*/
+[Dd]ebugPublic/
+[Rr]elease*/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]uild/
+[Bb]inaries/
 ```
