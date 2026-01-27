@@ -1,76 +1,72 @@
-```
 # Compiled and build artifacts
-*.csproj.user
-*.userprefs
-*.suo
-*.user
-*.aps
-*.ncb
+*.pyc
+__pycache__/
+*.o
 *.obj
+*.class
 *.exe
 *.dll
-*.pdb
-*.ilk
-*.plg
-*.tlb
-*.tlh
-*.tmp
-*.rsp
-*.pgc
-*.pgd
-*.metaproj
-*.userosscache
-*.sln.docstates
+*.so
+*.a
+*.out
+dist/
+build/
+target/
 
 # Dependencies
-packages/
-bin/
-obj/
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment
+.venv/
+venv/
 .env
 .env.local
 *.env.*
+node_modules/
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage/
+htmlcov/
 
-# Editors
-.vs/
+# Editors and IDEs
 .vscode/
-*.userprefs
-*~
-._*
+.idea/
+*.swp
+*.swo
+*.tmp
 
-# OS generated files
+# System files
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
-desktop.ini
+*.log
 
-# Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-build/
-bld/
-[Bb]in/
-[Oo]bj/
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 
-# Visual Studio Code
-.vscode/
+# Gradle
+.gradle/
 
-# Visual Studio
-*.user
-*.aps
-*.userosscache
-*.sln.docstates
-```
+# Julia
+julia-*/
+
+# Zig
+zig*/
