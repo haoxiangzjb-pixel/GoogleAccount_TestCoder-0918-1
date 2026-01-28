@@ -1,8 +1,12 @@
-```
 # Compiled and build artifacts
-*.css.map
-*.css.gz
-*.css.br
+*.ji
+*.o
+*.obj
+*.out
+
+# Dependencies
+julia-*/
+*.julia/
 
 # Logs and temp files
 *.log
@@ -12,7 +16,7 @@
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
@@ -21,12 +25,22 @@
 *.swo
 
 # Coverage and testing
+.coverage
 coverage/
 htmlcov/
-.coverage
-*.coverage
 
 # System files
 .DS_Store
 Thumbs.db
-```
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build directories
+build/
+dist/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
