@@ -1,1 +1,13 @@
-Nothing should be ignored in this case. The added file 'hello_asm_98732.asm' is a source code file (.asm) which should be tracked in version control. No build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Compiled and build artifacts
+*.pl
+
+# Logs and temp files
+*.tmp
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+```
