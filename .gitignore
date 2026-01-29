@@ -1,46 +1,100 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+# Compiled and binary files
+*.o
+*.obj
+*.out
+*.a
+*.so
+*.dll
+*.exe
 
 # Dependencies
-.venv/
-venv/
-pip-wheel-metadata/
+vendor/
+Godeps/
 
 # Logs and temp files
 *.log
 *.tmp
+
+# Editors
+.vscode/
+.idea/
 *.swp
+*.swo
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Distribution
+dist/
+build/
+target/
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Editors
-.vscode/
-.idea/
-
-# Python specific
-*.py[co]
-*$py.class
-*.so
+# Python specific (if applicable)
+__pycache__/
+*.pyc
+*.pyo
 .Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
+*.so
 *.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+.eggs/
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+
+# Node.js specific (if applicable)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Java specific (if applicable)
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# C/C++ specific (if applicable)
+*.a
+*.lib
+*.obj
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Compression files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
