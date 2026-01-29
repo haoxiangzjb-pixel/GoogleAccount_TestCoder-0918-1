@@ -1,33 +1,18 @@
 ```
-# Compiled files
-*.hi
-*.o
-*.obj
-
-# Dependencies
-.stack-work/
-.cabal-sandbox/
-dist/
-dist-newstyle/
+# Compiled and build artifacts
+*.pl~
 
 # Logs and temp files
-*.log
 *.tmp
 *.swp
+*.log
+
+# Editors
+.vscode/
+.idea/
 
 # Environment
 .env
 .env.local
 *.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Build artifacts
-build/
-target/
-out/
 ```
