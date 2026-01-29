@@ -1,5 +1,4 @@
-(date-format.pipe.ts is a source file, so no .gitignore rules needed)
-
-```ts
-
+```
+# Compiled and binary files
+*.ex
 ```
