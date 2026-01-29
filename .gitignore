@@ -1,1 +1,4 @@
-Nothing should be ignored based on the provided file changes. The only added file is `MyApi.cs`, which appears to be a source code file that should not be ignored.
+```
+# Configuration files
+config_*.json
+```
