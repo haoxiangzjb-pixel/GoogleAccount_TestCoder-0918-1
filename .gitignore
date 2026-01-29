@@ -1,15 +1,56 @@
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+```julia
+# Julia-specific ignores
+*.ji
+*.jl.cov
+*.jl.mem
+*.so
+*.dylib
+*.dll
 *.o
 *.obj
+
+# General compiled/binary files
 *.exe
-*.dll
-*.so
-*.a
 *.out
-*.class
-*.jar
+*.a
+*.lib
+
+# Dependencies and build directories
+.julia/
+build/
+dist/
+target/
+_deps/
+
+# Environment and cache
+.env
+.env.local
+.env.*
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Compressed files
 *.zip
 *.gz
 *.tar
@@ -32,37 +73,4 @@ __pycache__/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-.env/
-.env.local
-.env.*
-target/
-.gradle/
-.julia/
-.julia-*/
-.julia-*/build/
-.julia-*/cache/
-.julia-*/deps/
-.julia-*/src/
-.julia-*/test/
-
-# Editors and IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
-*.log
-*.tmp
-
-# Build and distribution directories
-dist/
-build/
-coverage/
-htmlcov/
-.coverage
-.mypy_cache/
-.pytest_cache/
+```
