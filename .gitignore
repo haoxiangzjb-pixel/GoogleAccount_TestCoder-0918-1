@@ -1,34 +1,4 @@
 ```
-# Dependencies
-node_modules/
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Build artifacts
-dist/
-build/
-*.js.map
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# System files
-.DS_Store
-Thumbs.db
+# GraphQL files
+*.graphql
 ```
