@@ -1,10 +1,6 @@
 ```
-# R plots and generated images
-Rplots.pdf
-*.png
-
-# R build artifacts
-.Rhistory
-.RData
-*.Rproj.user/
+# Backup files
+*.backup_*
+*.bak
+*.orig
 ```
