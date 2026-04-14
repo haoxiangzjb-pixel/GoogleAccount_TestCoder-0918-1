@@ -1,4 +1,1 @@
-```
-# Compiled and build artifacts
-*.cr
-```
+Nothing needs to be added to the .gitignore file since only a single MATLAB source file (.m) was added, which is a source code file that should be tracked in version control. No build artifacts, dependencies, or temporary files were detected in the changes.
