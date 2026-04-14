@@ -1,1 +1,3 @@
-Nothing needs to be added to .gitignore since the only change is adding a source file (welcome_component.jsx) without any build artifacts, dependencies, or temporary files.
+```
+*.class
+```
