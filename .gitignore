@@ -1,5 +1,4 @@
-(restart_service_playbook.yml is a source/config file, no build artifacts, dependencies, or temp files in the changes - output empty)
-
-```yaml
-
+```
+# Compiled and build artifacts
+*.css
 ```
