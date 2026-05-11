@@ -1,34 +1,23 @@
 ```
 # Compiled and build artifacts
-*.plc
-*.o
-*.obj
-*.out
+*.pyc
+__pycache__/
 
 # Dependencies
-cpan/
-local/
+venv/
+.venv/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Editors
-.vscode/
-.idea/
-
 # Environment
 .env
 .env.local
 *.env.*
 
-# Coverage and testing
-.coverage
-coverage/
-htmlcov/
-
-# System files
-.DS_Store
-Thumbs.db
+# Editors
+.vscode/
+.idea/
 ```
