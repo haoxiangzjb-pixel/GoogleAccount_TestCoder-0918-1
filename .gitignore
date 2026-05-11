@@ -1,12 +1,23 @@
-# TypeScript files
-*.ts
-*.tsx
+```powershell
+# PowerShell cache files
+*.ps1xml
+*.psc1
+*.psd1
+*.psm1
 
-# Logs and temp files
-*.log
+# Process-related temporary files
 *.tmp
-*.swp
+*.temp
 
-# Editors
-.vscode/
-.idea/
+# Logs
+*.log
+
+# Environment variables (if any)
+.env
+.env.local
+*.env.*
+
+# Backup files
+*.bak
+*.backup
+```
