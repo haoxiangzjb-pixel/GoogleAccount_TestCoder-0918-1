@@ -1,32 +1,28 @@
 ```
 # Compiled and build artifacts
-*.class
-*.groovy.class
+*.nimble
+*.nims
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
 
 # Dependencies
-.gradle/
-target/
+.nimble/
+nimcache/
 
 # Logs and temp files
 *.log
 *.tmp
+*.swp
 
 # Editors
 .vscode/
 .idea/
-*.swp
 
 # Environment
 .env
 .env.local
 *.env.*
-
-# Coverage and testing
-.coverage
-coverage/
-htmlcov/
-
-# System files
-.DS_Store
-Thumbs.db
 ```
