@@ -1,24 +1,7 @@
 ```
-# Compiled and build artifacts
-*.beam
-*.o
-*.obj
+# Temporary shell scripts
+*.sh
 
-# Dependencies
-.erlang.cookie
-.rebar3/
-
-# Logs and temp files
+# Keep original rule
 *.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-.env.*
 ```
