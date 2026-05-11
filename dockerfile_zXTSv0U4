@@ -1,0 +1,10 @@
+FROM alpine:latest
+
+# Crear directorio para el volumen
+RUN mkdir -p /app/data
+
+# Configurar el volumen
+VOLUME ["/app/data"]
+
+# Comando por defecto
+CMD ["sh"]
