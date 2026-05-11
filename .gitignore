@@ -1,1 +1,19 @@
-Nothing should be ignored based on the provided file changes, as they are all Python source files (.py) which are legitimate source code files that should be tracked in version control.
+```
+# PowerShell cache and temporary files
+*.ps1xml
+*.psc1
+*.psd1
+*.psm1
+*.pssc
+*.psrc
+*.clixml
+
+# Windows PowerShell specific
+PowerShell/
+AppData/Roaming/Microsoft/Windows/PowerShell/
+
+# General temp files
+*.tmp
+*.temp
+Thumbs.db
+```
