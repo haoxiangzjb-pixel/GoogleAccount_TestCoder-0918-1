@@ -1,0 +1,13 @@
+---
+- name: Copy file with random name
+  hosts: localhost
+  gather_facts: false
+  tasks:
+    - name: Generate random filename and copy file
+      copy:
+        src: "{{ source_file }}"
+        dest: "{{ dest_dir }}/{{ lookup('password', '/dev/null length=12 chars=ascii_letters,digits') }}"
+        mode: '0644'
+      vars:
+        source_file: "/path/to/source/file.txt"
+        dest_dir: "/path/to/destination"
