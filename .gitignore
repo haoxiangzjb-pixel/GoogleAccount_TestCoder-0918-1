@@ -1,21 +1,23 @@
 ```
-# Terraform specific ignores
-.terraform/
-*.tfstate
-*.tfstate.*
-*.tfvars
-*.tfplan
-*.lock.hcl
+# Compiled and binary files
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+lib/
+deps/
+target/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-
-# Environment
-.env
-.env.local
-*.env.*
 
 # Editors
 .vscode/
@@ -23,7 +25,20 @@
 *.swp
 *.swo
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Build artifacts
+dist/
+build/
+*.jar
+*.war
+*.ear
 ```
