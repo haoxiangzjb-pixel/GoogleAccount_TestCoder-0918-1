@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  web:
+    image: nginx:alpine
+    container_name: web_container
+    networks:
+      - minha_rede_personalizada
+    ports:
+      - "80:80"
+
+  app:
+    image: node:alpine
+    container_name: app_container
+    networks:
+      - minha_rede_personalizada
+    command: ["sleep", "infinity"]
+
+networks:
+  minha_rede_personalizada:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.28.0.0/16
+          gateway: 172.28.0.1
