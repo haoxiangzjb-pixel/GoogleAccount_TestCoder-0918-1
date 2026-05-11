@@ -1,26 +1,32 @@
 ```
-# Compiled files
-*.csproj.user
-*.userosscache
-*.sln.docstates
-*.user
-*.aps
-*.ncb
-*.opendb
-*.opensdf
-*.sdf
-*.cachefile
-*.VC.db
-*.VC.VC.opendb
-[Bb]in/
-[Dd]ebug*/
-[Dd]ebugPublic/
-[Rr]elease*/
-[Rr]eleases/
-x64/
-x86/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+.venv/
+venv/
+.env
+.env.local
+*.env.*
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Dependencies and build artifacts
+node_modules/
+dist/
 build/
-bld/
-[Bb]uild/
-[Bb]inaries/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
 ```
