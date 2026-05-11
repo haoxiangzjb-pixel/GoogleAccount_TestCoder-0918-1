@@ -1,2 +1,35 @@
 ```
+# Generated/compiled Dart files
+*.dart.js
+*.part.js
+*.map
+*.dill
+*.incremental.dill
+*.sound_toolkit_structure
+*.info.json
+
+# Build outputs
+build/
+.dart_tool/
+.pub-cache/
+pubspec.lock
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Temp files
+*.tmp
+.DS_Store
+Thumbs.db
 ```
