@@ -1,11 +1,16 @@
 ```
-# Docker-related
-Dockerfile.*
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Dependencies
+.julia/
+zig*/
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
 
 # Environment
 .env
@@ -16,23 +21,16 @@ Dockerfile.*
 .vscode/
 .idea/
 
-# Dependencies
-node_modules/
-.venv/
-venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
 
-# System files
+# OS generated files
 .DS_Store
 Thumbs.db
 
-# Compressed files
+# Archives
 *.zip
 *.gz
 *.tar
