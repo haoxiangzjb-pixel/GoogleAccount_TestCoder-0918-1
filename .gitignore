@@ -1,1 +1,236 @@
-Nothing should be ignored based on the provided file changes, as they only include Python source files (.py) which are legitimate source code files that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+
+# Dependencies
+.venv/
+venv/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# IDE specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+.venv
+venv.bak
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pytest
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Temporary folders
+tmp/
+temp/
+
+# Build results
+build/
+dist/
+*.egg-info/
+
+# Git related
+.git/
+!.gitignore
+
+# OS X
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Directory for instrumented libs coverage
+coverage/
+
+# Environment settings
+.env
+.venv
+env
+venv
+ENV
+.env.bak
+.env.dev
+.env.prod
+.env.test
+.env.local
+
+# Local configuration file (sdkman)
+.local
+
+# Configuration file
+.sfdx/
+.sfdx/
+
+# Authentication files
+.clasp.json
+.clasp-test.json
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Bower
+bower_components/
+
+# Jspm
+jspm_packages/
+
+# Grunt
+.Grunfile.coffee
+.Grunfile.js
+
+# Gulp
+.Gulpfile.coffee
+.Gulpfile.js
+
+# Webpack
+.webpack.?
+
+# Code coverage
+coverage/
+lib-cov
+*.lcov
+
+# Database
+*.sqlite
+*.sqlite3
+
+# Testing
+.ruby-version
+.bundle
+vendor/bundle
+*.gem
+*.rbc
+public/system
+.capistrano
+config/database.yml
+db/schema.rb
+doc/api/cache
+public/assets
+public/system
+tmp/restart.txt
+tmp/caching-dev.txt
+tmp/.rspec
+spec/examples.txt
+spec/spec.log
+spec/tmp
+*.d.ts
+*.js.map
+*.tsbuildinfo
+.next/
+out/
+.nuxt/
+dist/
+.build/
+.nyc_output/
+coverage/
+*.lcov
+*.profdata
+*.gcda
+*.gcno
+*.info
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+.Python
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+ENV/
+.venv
+venv.bak
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+tmp/
+temp/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+```
