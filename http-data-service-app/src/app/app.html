@@ -1,0 +1,30 @@
+<div class="container">
+  <h1>{{ title }}</h1>
+  
+  <div class="actions">
+    <button (click)="fetchData()" [disabled]="isLoading">
+      {{ isLoading ? 'Loading...' : 'Fetch Data from API' }}
+    </button>
+    
+    <button (click)="saveDataToFile()" [disabled]="!data || data.length === 0">
+      Save to File with Random Name
+    </button>
+    
+    <button (click)="generateRandomName()">
+      Generate Random File Name
+    </button>
+  </div>
+
+  <div *ngIf="error" class="error">
+    {{ error }}
+  </div>
+
+  <div *ngIf="savedFileName" class="success">
+    Data saved to file: <strong>{{ savedFileName }}</strong>
+  </div>
+
+  <div *ngIf="data" class="data-display">
+    <h2>Fetched Data (first 10 items):</h2>
+    <pre>{{ data | json }}</pre>
+  </div>
+</div>
