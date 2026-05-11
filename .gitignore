@@ -1,5 +1,17 @@
-(nodejs-deployment.yaml is a source/config file, so no ignores needed)
+```
+# Compiled and binary files
+*.pl~
 
-```yaml
+# Logs and temp files
+*.tmp
+*.log
 
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
