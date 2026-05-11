@@ -1,24 +1,26 @@
 ```
-#Temp files
+# VBA/Office files
+*.bas
+*.frm
+*.cls
+*.vba
+*.vbs
+*.bas~
+*.frm~
+*.cls~
+
+# Backup and temporary files
+*~
 *.tmp
 *.temp
-tmp.*.sql
+*.bak
+*.backup
 
-#Logs
+# Logs
 *.log
 
-#Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-#System files
-.DS_Store
-Thumbs.db
-
-#Environment
+# Environment specific
 .env
 .env.local
-*.env.*
+.env.*
 ```
