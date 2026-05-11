@@ -1,1 +1,63 @@
-Nothing should be ignored based on the provided file changes. The only added file is `WelcomeMessage.jsx`, which is a source code file and should not be ignored.
+```
+# Compiled and binary files
+*.o
+*.obj
+*.mod
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+
+# Dependencies and build directories
+build/
+dist/
+*.egg-info/
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.pyd
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editors and IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+.coverage
+coverage/
+htmlcov/
+
+# MyPy cache
+.mypy_cache/
+
+# Pytest cache
+.pytest_cache/
+
+# Distribution / packaging
+*.tar.gz
+*.whl
+*.egg
+
+# Fortran specific build files
+*.f90~
+*.for~
+```
