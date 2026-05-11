@@ -1,23 +1,32 @@
 ```
-# Compiled/Cache files
-*.npy
-*.pyc
-__pycache__/
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
 
 # Dependencies
-.julia/
-julia-*/
+vendor/
 
 # Logs and temp files
 *.log
 *.tmp
 
-# Environment
-.env
-.env.local
-*.env.*
-
 # Editors
 .vscode/
 .idea/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Build artifacts
+dist/
+build/
+target/
 ```
