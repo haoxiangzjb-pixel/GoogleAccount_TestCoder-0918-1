@@ -1,2 +1,28 @@
 ```
+# Zig build artifacts
+zig-cache/
+zig-out/
+
+# Dependencies
+zig-*/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
